@@ -24,7 +24,7 @@ const { title } = Astro.props;
     />
   </head>
   <body class="bg-gray-100 text-gray-700 antialiased">
-    <div class="max-w-xl mx-auto px-4 pt-20 pb-6 relative">
+    <div class="max-w-xl mx-auto px-4 pt-20 pb-8 relative">
       <div class="flex items-center justify-between">
         <a
           href="/"
@@ -48,7 +48,9 @@ const { title } = Astro.props;
               </svg>
             </a>
 
-            <div class="absolute top-0 -right-1 hidden group-hover:block pt-[1.3rem]">
+            <div
+              class="absolute top-0 -right-1 hidden group-hover:block pt-[1.3rem]"
+            >
               <div class="bg-gray-800 px-2 py-0.5 rounded-lg">
                 <p class="text-white text-sm font-medium">benborgers@hey.com</p>
               </div>
@@ -71,10 +73,31 @@ const { title } = Astro.props;
 
       <slot />
 
-      <footer class="mt-20 border-t-2 border-gray-200 pt-4">
+      <footer
+        class="mt-20 border-t-2 border-gray-200 pt-6 flex justify-between"
+      >
         <p class="text-sm text-gray-400">
-          email: <a href="mailto:benborgers@hey.com" target="_blank" class="underline">benborgers@hey.com</a>
+          email: <a
+            href="mailto:benborgers@hey.com"
+            target="_blank"
+            class="underline">benborgers@hey.com</a
+          >
         </p>
+        <a
+          href={`https://github.com/benborgers/ben.page/commit/${
+            // @ts-ignore
+            process.env.VERCEL_GIT_COMMIT_SHA
+          }`}
+          target="_blank"
+          class="block text-sm text-gray-400 underline"
+        >
+          last updated {
+            new Date().toLocaleString("en-US", {
+              month: "short",
+              day: "numeric",
+            })
+          }
+        </a>
       </footer>
     </div>
   </body>
