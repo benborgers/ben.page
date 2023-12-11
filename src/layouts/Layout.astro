@@ -93,6 +93,7 @@ const { title } = Astro.props;
         >
           last updated {
             new Date().toLocaleString("en-US", {
+              timeZone: "America/New_York",
               month: "short",
               day: "numeric",
             })
