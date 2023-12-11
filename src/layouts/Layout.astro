@@ -13,9 +13,16 @@ const { title } = Astro.props;
 
     <meta name="viewport" content="width=device-width" />
     <title>{title ? title + " - " : ""}Ben Borgers</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-gray-100 text-gray-700 antialiased">
-    <div class="max-w-screen-sm mx-auto px-4 pt-20 pb-20">
+    <div class="max-w-xl mx-auto px-4 pt-20 pb-20">
       <a
         href="/"
         class="block w-max font-serif text-gray-900 text-lg font-medium -mb-1 hover:text-rose-500 transition-colors duration-100"

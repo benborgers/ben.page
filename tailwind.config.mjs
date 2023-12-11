@@ -9,6 +9,10 @@ export default {
       colors: {
         gray: colors.stone,
       },
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        handwriting: ["Caveat"],
+      },
     },
   },
   plugins: [],
