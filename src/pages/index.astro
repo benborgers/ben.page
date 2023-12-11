@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Prose from "../components/Prose.astro";
 ---
 
 <Layout>
@@ -11,23 +12,22 @@ import Layout from "../layouts/Layout.astro";
       <p class="mt-1 font-handwriting text-lg text-center">spring 2023</p>
     </div>
 
-    <div class="text-sm space-y-3">
+    <Prose>
       <p>
-        Hello! I’m <span class="font-medium tracking-tight text-gray-900"
+        Hello! I’m <span class="font-medium tracking-tight text-gray-800"
           >Ben Borgers</span
         >, a junior at Tufts University studying Computer Science.
       </p>
       <p>
         I’m currently an intern at <a
           href="https://locketcamera.com"
-          class="text-amber-500 underline font-medium tracking-tight">Locket</a
+          class="!text-amber-500">Locket</a
         > working on the Android app, and a support engineer at <a
           href="https://buttondown.email"
           target="_blank"
-          class="text-blue-600 underline font-medium tracking-tight"
-          >Buttondown</a
+          class="!text-blue-600">Buttondown</a
         >.
       </p>
-    </div>
+    </Prose>
   </div>
 </Layout>
