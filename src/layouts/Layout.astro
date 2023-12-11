@@ -1,0 +1,28 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/🐙" />
+
+    <meta name="viewport" content="width=device-width" />
+    <title>{title ? title + " - " : ""}Ben Borgers</title>
+  </head>
+  <body class="bg-gray-100 text-gray-700 antialiased">
+    <div class="max-w-screen-sm mx-auto px-4 pt-20 pb-20">
+      <a
+        href="/"
+        class="block w-max font-serif text-gray-900 text-lg font-medium -mb-1 hover:text-rose-500 transition-colors duration-100"
+      >
+        Ben Borgers
+      </a>
+      <slot />
+    </div>
+  </body>
+</html>
