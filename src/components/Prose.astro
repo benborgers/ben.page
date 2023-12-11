@@ -1,3 +1,8 @@
-<div class:list={['prose prose-sm', 'prose-a:font-medium prose-a:text-gray-800']}>
+<div class:list={[
+  'prose prose-sm',
+  'prose-a:font-medium prose-a:text-gray-800',
+  'prose-headings:font-serif prose-headings:font-normal',
+  Astro.props.class
+]}>
   <slot />
 </div>
