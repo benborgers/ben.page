@@ -83,6 +83,7 @@ const { title } = Astro.props;
             class="underline">benborgers@hey.com</a
           >
         </p>
+
         <a
           href={`https://github.com/benborgers/ben.page/commit/${
             // @ts-ignore
@@ -91,14 +92,40 @@ const { title } = Astro.props;
           target="_blank"
           class="block text-sm text-gray-400 underline"
         >
-          last updated {
-            new Date().toLocaleString("en-US", {
-              timeZone: "America/New_York",
-              month: "short",
-              day: "numeric",
-            })
-          }
+          last updated <time id="last-updated" datetime={Date.now().toString()}>
+            {
+              new Date().toLocaleString("en-US", {
+                timeZone: "America/New_York",
+                month: "short",
+                day: "numeric",
+              })
+            }
+          </time>
         </a>
+
+        <script>
+          const time = document.querySelector("#last-updated")!;
+          const date = new Date(parseInt(time.getAttribute("datetime")!));
+
+          const isSameDay = (date1: Date, date2: Date) => {
+            return (
+              date1.getFullYear() === date2.getFullYear() &&
+              date1.getMonth() === date2.getMonth() &&
+              date1.getDate() === date2.getDate()
+            );
+          };
+
+          if (isSameDay(date, new Date())) {
+            time.textContent = "today";
+          } else if (
+            isSameDay(
+              date,
+              new Date(new Date().setDate(new Date().getDate() - 1))
+            )
+          ) {
+            time.textContent = "yesterday";
+          }
+        </script>
       </footer>
     </div>
   </body>
