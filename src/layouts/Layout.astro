@@ -74,56 +74,56 @@ const { title } = Astro.props;
       <slot />
 
       <footer
-        class="mt-20 border-t-2 border-gray-200 pt-6 flex justify-between"
+        class="mt-20 border-t-2 border-gray-200 pt-6 flex justify-between items-center"
       >
         <p class="text-sm text-gray-400">
-          email: <a
-            href="mailto:benborgers@hey.com"
+          <span class="font-handwriting text-xl mr-1">ben.page</span> — last
+          updated
+          <a
+            href={`https://github.com/benborgers/ben.page/commit/${
+              // @ts-ignore
+              process.env.VERCEL_GIT_COMMIT_SHA
+            }`}
             target="_blank"
-            class="underline">benborgers@hey.com</a
+            class="underline"
           >
-        </p>
+            <time id="last-updated" datetime={Date.now().toString()}>
+              {
+                new Date().toLocaleString("en-US", {
+                  timeZone: "America/New_York",
+                  month: "short",
+                  day: "numeric",
+                })
+              }
+            </time>
+          </a>
 
-        <a
-          href={`https://github.com/benborgers/ben.page/commit/${
-            // @ts-ignore
-            process.env.VERCEL_GIT_COMMIT_SHA
-          }`}
-          target="_blank"
-          class="block text-sm text-gray-400 underline"
-        >
-          last updated <time id="last-updated" datetime={Date.now().toString()}>
-            {
-              new Date().toLocaleString("en-US", {
-                timeZone: "America/New_York",
-                month: "short",
-                day: "numeric",
-              })
-            }
-          </time>
-        </a>
+          <p class="text-sm text-gray-400">
+            email: <a
+              href="mailto:benborgers@hey.com"
+              target="_blank"
+              class="underline"
+            >
+              benborgers@hey.com
+            </a>
+          </p>
+        </p>
 
         <script>
           const time = document.querySelector("#last-updated")!;
           const date = new Date(parseInt(time.getAttribute("datetime")!));
 
-          const isSameDay = (date1: Date, date2: Date) => {
-            return (
-              date1.getFullYear() === date2.getFullYear() &&
-              date1.getMonth() === date2.getMonth() &&
-              date1.getDate() === date2.getDate()
-            );
-          };
+          const diff = Date.now() - date.getTime();
+          const diffInHours = Math.round(diff / 1000 / 60 / 60);
 
-          if (isSameDay(date, new Date())) {
-            time.textContent = "today";
-          } else if (
-            isSameDay(
-              date,
-              new Date(new Date().setDate(new Date().getDate() - 1))
-            )
-          ) {
-            time.textContent = "yesterday";
+          if (diffInHours < 24) {
+            if (diffInHours === 0) {
+              time.textContent = "just now";
+            } else if (diffInHours === 1) {
+              time.textContent = "1 hour ago";
+            } else {
+              time.textContent = `${diffInHours} hours ago`;
+            }
           }
         </script>
       </footer>
