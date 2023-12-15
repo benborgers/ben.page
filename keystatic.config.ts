@@ -25,6 +25,11 @@ export default config({
             kind: "today",
           },
         }),
+        cover_image: fields.image({
+          label: "Cover image",
+          directory: "public/posts",
+          publicPath: "/posts/",
+        }),
         content: fields.document({
           label: "Content",
           formatting: true,
