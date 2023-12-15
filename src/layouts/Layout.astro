@@ -86,7 +86,7 @@ const { title } = Astro.props;
           <a
             href={`https://github.com/benborgers/ben.page/commit/${
               // @ts-ignore
-              process.env.VERCEL_GIT_COMMIT_SHA
+              process.env.GIT_COMMIT
             }`}
             target="_blank"
             class="underline"
