@@ -3,6 +3,11 @@ interface Props {
   title?: string;
 }
 
+// @ts-ignore
+import { execSync } from "child_process";
+
+const gitCommitSha = execSync('git log -n 1 --format="%h"').toString().trim();
+
 const { title } = Astro.props;
 ---
 
@@ -84,10 +89,7 @@ const { title } = Astro.props;
           <span class="font-handwriting text-xl mr-1">ben.page</span> — last
           updated
           <a
-            href={`https://github.com/benborgers/ben.page/commit/${
-              // @ts-ignore
-              process.env.GIT_COMMIT
-            }`}
+            href={`https://github.com/benborgers/ben.page/commit/${gitCommitSha}`}
             target="_blank"
             class="underline"
           >
