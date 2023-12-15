@@ -2,6 +2,11 @@
 import { config, fields, collection } from "@keystatic/core";
 
 export default config({
+  ui: {
+    brand: {
+      name: "ben.page",
+    },
+  },
   storage: {
     kind: "github",
     repo: "benborgers/ben.page",
@@ -14,6 +19,12 @@ export default config({
       format: { contentField: "content" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
+        date: fields.date({
+          label: "Date",
+          defaultValue: {
+            kind: "today",
+          },
+        }),
         content: fields.document({
           label: "Content",
           formatting: true,
