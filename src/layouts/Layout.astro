@@ -120,16 +120,21 @@ const { title } = Astro.props;
           const date = new Date(parseInt(time.getAttribute("datetime")!));
 
           const diff = Date.now() - date.getTime();
-          const diffInHours = Math.round(diff / 1000 / 60 / 60);
+          const diffInMinutes = Math.floor(diff / 1000 / 60);
+          const diffInHours = Math.floor(diff / 1000 / 60 / 60);
+          const diffInDays = Math.floor(diff / 1000 / 60 / 60 / 24);
 
-          if (diffInHours < 24) {
-            if (diffInHours === 0) {
-              time.textContent = "just now";
-            } else if (diffInHours === 1) {
-              time.textContent = "1 hour ago";
-            } else {
-              time.textContent = `${diffInHours} hours ago`;
-            }
+          const pluralize = (num: number, word: string) =>
+            `${num} ${word}${num === 1 ? "" : "s"}`;
+
+          if (diffInMinutes < 1) {
+            time.textContent = "just now";
+          } else if (diffInMinutes < 60) {
+            time.textContent = pluralize(diffInMinutes, "minute") + " ago";
+          } else if (diffInHours < 24) {
+            time.textContent = pluralize(diffInHours, "hour") + " ago";
+          } else {
+            time.textContent = pluralize(diffInDays, "day") + " ago";
           }
         </script>
       </footer>
