@@ -25,6 +25,8 @@ export default config({
             kind: "today",
           },
         }),
+        published: fields.checkbox({ label: "Published" }),
+        unlisted: fields.checkbox({ label: "Unlisted" }),
         cover_image: fields.image({
           label: "Cover image",
           directory: "public/posts",
