@@ -26,7 +26,7 @@ const { post } = Astro.props;
 const content = await post.content();
 ---
 
-<Layout title={`${post.title} - Ben Borgers`}>
+<Layout title={post.title} ogImage={post.cover_image ?? undefined}>
   <div class="mt-12">
     <div class="flex items-end justify-between gap-x-6">
       <h1 class="text-2xl font-serif text-gray-800">
