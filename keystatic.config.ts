@@ -29,7 +29,7 @@ export default config({
         cover_image: fields.image({
           label: "Cover image",
           directory: "public/posts",
-          publicPath: "/posts/cover_image",
+          publicPath: "/posts",
         }),
         content: fields.document({
           label: "Content",
@@ -38,7 +38,7 @@ export default config({
           links: true,
           images: {
             directory: "public/posts",
-            publicPath: "/posts/content",
+            publicPath: "/posts",
           },
         }),
       },
