@@ -1,6 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
+import { getReader } from "../lib/getReader";
+
+const reader = getReader();
+const posts = (await reader.collections.posts.all())
+  .filter(
+    (post) => post.entry.published && !post.entry.unlisted && post.entry.date
+  )
+  .sort(
+    (a, b) =>
+      new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
+  );
 ---
 
 <Layout>
@@ -108,5 +119,38 @@ import Prose from "../components/Prose.astro";
         and teachers (85% of the school).
       </li>
     </ul>
+
+    <h2>Blog</h2>
+    {
+      /* Force h2 to have bottom padding.
+      If it's the last item in .prose it won't have bottom padding. */
+    }
+    <div></div>
   </Prose>
+
+  <div class="space-y-1">
+    {
+      posts.map((post) => {
+        const date = new Date(post.entry.date!);
+        return (
+          <a href={`/${post.slug}`} class="text-sm flex justify-between">
+            <p class="text-gray-800 underline decoration-gray-400">
+              {post.entry.title}
+            </p>
+            <p class="text-gray-400">
+              {new Date(post.entry.date!).toLocaleString("en-US", {
+                timeZone: "UTC",
+                month: "short",
+                day: "numeric",
+                year:
+                  date.getFullYear() === new Date().getFullYear()
+                    ? undefined
+                    : "numeric",
+              })}
+            </p>
+          </a>
+        );
+      })
+    }
+  </div>
 </Layout>
