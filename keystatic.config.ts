@@ -28,7 +28,7 @@ export default config({
         unlisted: fields.checkbox({ label: "Unlisted" }),
         cover_image: fields.image({
           label: "Cover image",
-          directory: "public/posts/cover_image",
+          directory: "public/posts",
           publicPath: "/posts/cover_image",
         }),
         content: fields.document({
@@ -37,7 +37,7 @@ export default config({
           dividers: true,
           links: true,
           images: {
-            directory: "public/posts/content",
+            directory: "public/posts",
             publicPath: "/posts/content",
           },
         }),
