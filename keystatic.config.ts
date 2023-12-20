@@ -28,15 +28,18 @@ export default config({
         unlisted: fields.checkbox({ label: "Unlisted" }),
         cover_image: fields.image({
           label: "Cover image",
-          directory: "public/posts",
-          publicPath: "/posts/",
+          directory: "public/posts/cover_image",
+          publicPath: "/posts/cover_image",
         }),
         content: fields.document({
           label: "Content",
           formatting: true,
           dividers: true,
           links: true,
-          images: true,
+          images: {
+            directory: "public/posts/content",
+            publicPath: "/posts/content",
+          },
         }),
       },
     }),
