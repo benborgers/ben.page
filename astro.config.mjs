@@ -6,6 +6,7 @@ import keystatic from "@keystatic/astro";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://ben.page",
   output: "hybrid",
   adapter: cloudflare(),
   integrations: [tailwind(), react(), keystatic()],
