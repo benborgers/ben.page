@@ -5,7 +5,7 @@ import { getReader } from "../lib/getReader";
 export const GET: APIRoute = async ({ site }) => {
   const reader = getReader();
   const posts = (await reader.collections.posts.all()).filter(
-    (post) => post.entry.published && post.entry.date
+    (post) => post.entry.published && !post.entry.unlisted && post.entry.date
   );
 
   return rss({
