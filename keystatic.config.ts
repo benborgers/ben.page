@@ -18,12 +18,7 @@ export default config({
       format: { contentField: "content" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
-        date: fields.date({
-          label: "Date",
-          defaultValue: {
-            kind: "today",
-          },
-        }),
+        date: fields.date({ label: "Date", defaultValue: { kind: "today" } }),
         published: fields.checkbox({ label: "Published" }),
         unlisted: fields.checkbox({ label: "Unlisted" }),
         cover_image: fields.image({
@@ -40,6 +35,29 @@ export default config({
             directory: "public/posts",
             publicPath: "/posts",
           },
+        }),
+      },
+    }),
+    photos: collection({
+      label: "Photos",
+      slugField: "id",
+      schema: {
+        id: fields.text({ label: "ID" }),
+        date: fields.date({ label: "Date", defaultValue: { kind: "today" } }),
+        photo: fields.image({
+          label: "Photo",
+          directory: "public/photos",
+          publicPath: "/photos",
+        }),
+        caption: fields.document({
+          label: "Caption",
+          formatting: {
+            inlineMarks: {
+              bold: true,
+              italic: true,
+            },
+          },
+          links: true,
         }),
       },
     }),
