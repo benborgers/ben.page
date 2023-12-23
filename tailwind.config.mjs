@@ -11,6 +11,8 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        // Put Georgia before Apple's New York in Safari. I think Georgia looks better.
+        serif: ["Georgia", ...defaultTheme.fontFamily.serif],
         handwriting: ["Caveat"],
       },
     },
