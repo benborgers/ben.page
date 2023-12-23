@@ -15,12 +15,19 @@ const posts = (await reader.collections.posts.all())
 ---
 
 <Layout>
-  <div class="mt-6"></div>
+  <div class="mt-8"></div>
 
-  <div class="flex items-end gap-x-5">
-    <div class="bg-white max-w-max p-2 rounded-lg shadow -rotate-2 shrink-0">
-      <img src="/me.png" alt="" class="bg-gray-200 rounded-md w-24" />
-      <p class="mt-1 font-handwriting text-lg text-center">spring 2023</p>
+  <div class="flex items-start gap-x-5">
+    <div class="shrink-0">
+      <div class="bg-white max-w-max p-2 rounded-lg shadow -rotate-2">
+        <img src="/me.png" alt="" class="bg-gray-200 rounded-md w-24" />
+        <p class="mt-1 font-handwriting text-lg text-center">spring 2023</p>
+      </div>
+      <p class="mt-1 text-xs font-medium text-gray-400 text-right -rotate-2">
+        <a href="/photos" class="underline decoration-gray-300">
+          more photos &rarr;
+        </a>
+      </p>
     </div>
 
     <Prose>
