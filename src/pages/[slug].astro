@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
+import Video from "../components/Video";
 
 import type { GetStaticPaths } from "astro";
 import { getReader } from "../lib/getReader";
@@ -55,7 +56,7 @@ const content = await post.content();
     }
 
     <Prose class="mt-6">
-      <DocumentRenderer document={content} />
+      <DocumentRenderer document={content} componentBlocks={{ video: Video }} />
     </Prose>
   </div>
 </Layout>
