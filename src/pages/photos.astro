@@ -16,44 +16,36 @@ const photos = (await reader.collections.photos.all()).sort(
 
   <div class="mt-4 space-y-6">
     {
-      photos.map(async (photo, index) => {
-        const date = new Date(photo.entry.date!);
-        return (
-          <div>
-            <a
-              href={photo.entry.photo}
-              target="_blank"
-              class="cursor-zoom-in block max-w-max"
-            >
-              <img
-                src={photo.entry.photo}
-                class="max-h-[80vh]"
-                loading={index > 3 ? "lazy" : "eager"}
-              />
-            </a>
-            <div class="mt-1.5 text-sm">
-              <p>
-                <span class="text-gray-400">
-                  {date.toLocaleString("en-US", {
-                    timeZone: "UTC",
-                    month: "short",
-                    day: "numeric",
-                    year:
-                      date.getFullYear() === new Date().getFullYear()
-                        ? undefined
-                        : "numeric",
-                  })}
-                </span>
-                {photo.entry.caption && (
-                  <span class="text-gray-600 ml-1.5">
-                    {photo.entry.caption}
-                  </span>
-                )}
-              </p>
-            </div>
+      photos.map(async (photo, index) => (
+        <div>
+          <a
+            href={photo.entry.photo}
+            target="_blank"
+            class="cursor-zoom-in block max-w-max"
+          >
+            <img
+              src={photo.entry.photo}
+              class="max-h-[80vh]"
+              loading={index > 3 ? "lazy" : "eager"}
+            />
+          </a>
+          <div class="mt-1.5 text-sm">
+            <p>
+              <span class="text-gray-400">
+                {new Date(photo.entry.date!).toLocaleString("en-US", {
+                  timeZone: "UTC",
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
+                })}
+              </span>
+              {photo.entry.caption && (
+                <span class="text-gray-600 ml-1.5">{photo.entry.caption}</span>
+              )}
+            </p>
           </div>
-        );
-      })
+        </div>
+      ))
     }
   </div>
 </Layout>

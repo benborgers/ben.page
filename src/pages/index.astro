@@ -124,30 +124,21 @@ const posts = (await reader.collections.posts.all())
 
   <div class="space-y-2 sm:space-y-1.5">
     {
-      posts.map((post) => {
-        const date = new Date(post.entry.date!);
-        return (
-          <a
-            href={`/${post.slug}`}
-            class="text-sm flex justify-between gap-x-4"
-          >
-            <p class="text-gray-800 underline decoration-gray-400">
-              {post.entry.title}
-            </p>
-            <p class="text-gray-400 shrink-0">
-              {new Date(post.entry.date!).toLocaleString("en-US", {
-                timeZone: "UTC",
-                month: "short",
-                day: "numeric",
-                year:
-                  date.getFullYear() === new Date().getFullYear()
-                    ? undefined
-                    : "numeric",
-              })}
-            </p>
-          </a>
-        );
-      })
+      posts.map((post) => (
+        <a href={`/${post.slug}`} class="text-sm flex justify-between gap-x-4">
+          <p class="text-gray-800 underline decoration-gray-400">
+            {post.entry.title}
+          </p>
+          <p class="text-gray-400 shrink-0">
+            {new Date(post.entry.date!).toLocaleString("en-US", {
+              timeZone: "UTC",
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </p>
+        </a>
+      ))
     }
   </div>
 </Layout>
