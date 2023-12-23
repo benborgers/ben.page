@@ -23,13 +23,26 @@ const { title, ogImage } = Astro.props;
 
     {
       ogImage && (
-        <meta property="og:image" content={`${Astro.site!.origin}${ogImage}`} />
-        <meta name="twitter:image" content={`${Astro.site!.origin}${ogImage}`} />
-        <meta name="twitter:card" content="summary" />
+        <>
+          <meta
+            property="og:image"
+            content={`${Astro.site!.origin}${ogImage}`}
+          />
+          <meta
+            name="twitter:image"
+            content={`${Astro.site!.origin}${ogImage}`}
+          />
+          <meta name="twitter:card" content="summary" />
+        </>
       )
     }
 
-    <link rel="alternate" type="application/rss+xml" title="Ben Borgers" href="/rss" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ben Borgers"
+      href="/rss"
+    />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
@@ -55,10 +68,7 @@ const { title, ogImage } = Astro.props;
 
         <div class="flex items-center gap-x-1.5">
           <div class="block relative group">
-            <a
-              href="mailto:benborgers@hey.com"
-              class="relative z-10"
-            >
+            <a href="mailto:benborgers@hey.com" class="relative z-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 256 256"
@@ -70,7 +80,6 @@ const { title, ogImage } = Astro.props;
                 ></path>
               </svg>
             </a>
-
             <div
               class="absolute top-0 -right-1 hidden group-hover:block pt-[1.3rem]"
             >
@@ -118,10 +127,7 @@ const { title, ogImage } = Astro.props;
           </a>
 
           <p class="text-sm text-gray-400">
-            email: <a
-              href="mailto:benborgers@hey.com"
-              class="underline"
-            >
+            email: <a href="mailto:benborgers@hey.com" class="underline">
               benborgers@hey.com
             </a>
           </p>
