@@ -55,7 +55,7 @@ const content = await post.content();
       )
     }
 
-    <Prose class="mt-6">
+    <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
       <DocumentRenderer document={content} componentBlocks={{ video: Video }} />
     </Prose>
   </div>
