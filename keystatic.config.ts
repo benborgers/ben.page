@@ -49,16 +49,7 @@ export default config({
           directory: "public/photos",
           publicPath: "/photos",
         }),
-        caption: fields.document({
-          label: "Caption",
-          formatting: {
-            inlineMarks: {
-              bold: true,
-              italic: true,
-            },
-          },
-          links: true,
-        }),
+        caption: fields.text({ label: "Caption" }),
       },
     }),
   },
