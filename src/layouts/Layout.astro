@@ -56,7 +56,7 @@ const { title, ogImage } = Astro.props;
   </head>
   <body class="bg-gray-100 text-gray-700 antialiased">
     <div
-      class="max-w-xl mx-auto px-4 pt-20 pb-8 relative min-h-screen grid grid-rows-[max-content,1fr,max-content]"
+      class="max-w-xl mx-auto px-4 pt-8 sm:pt-20 pb-8 relative min-h-screen grid grid-rows-[max-content,1fr,max-content]"
     >
       <div class="flex items-center justify-between">
         <a
@@ -66,7 +66,7 @@ const { title, ogImage } = Astro.props;
           Ben Borgers
         </a>
 
-        <div class="flex items-center gap-x-1.5">
+        <div class="flex items-center gap-x-2.5 sm:gap-x-1.5">
           <div class="block relative group">
             <a href="mailto:benborgers@hey.com" class="relative z-10">
               <svg
@@ -106,7 +106,7 @@ const { title, ogImage } = Astro.props;
       <slot />
 
       <footer
-        class="mt-24 border-t-2 border-gray-200 pt-6 flex justify-between items-center"
+        class="mt-24 border-t-2 border-gray-200 pt-6 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-y-0.5"
       >
         <p class="text-sm text-gray-400">
           <span class="font-handwriting text-xl mr-1">ben.page</span>
