@@ -1,4 +1,5 @@
 import { config, fields, collection } from "@keystatic/core";
+import { video } from "./keystatic/video-block";
 
 export default config({
   ui: {
@@ -34,6 +35,9 @@ export default config({
           images: {
             directory: "public/posts",
             publicPath: "/posts",
+          },
+          componentBlocks: {
+            video,
           },
         }),
       },
