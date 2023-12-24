@@ -49,9 +49,11 @@ const content = await post.content();
 
     {
       post.cover_image && (
-        <div class="mt-6 bg-white p-2 rounded-lg shadow">
-          <img src={post.cover_image} alt="" class="rounded-md" />
-        </div>
+        <img
+          src={post.cover_image}
+          alt=""
+          class="mt-6 rounded-md ring-4 ring-white shadow-md"
+        />
       )
     }
 
