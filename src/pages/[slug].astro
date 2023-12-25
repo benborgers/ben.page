@@ -1,11 +1,12 @@
 ---
+import type { GetStaticPaths } from "astro";
+import { DocumentRenderer } from "@keystatic/core/renderer";
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
 import Video from "../components/Video";
-
-import type { GetStaticPaths } from "astro";
+import PostList from "../components/PostList.astro";
+import Newsletter from "../components/Newsletter.astro";
 import { getReader } from "../lib/getReader";
-import { DocumentRenderer } from "@keystatic/core/renderer";
 
 export const getStaticPaths = (async () => {
   const reader = getReader();
@@ -19,12 +20,25 @@ export const getStaticPaths = (async () => {
     },
     props: {
       post: post.entry,
+      slug: post.slug,
     },
   }));
 }) satisfies GetStaticPaths;
 
-const { post } = Astro.props;
+const { post, slug } = Astro.props;
 const content = await post.content();
+
+const reader = getReader();
+const recentPosts = (await reader.collections.posts.all())
+  .filter(
+    (post) => post.entry.published && !post.entry.unlisted && post.entry.date
+  )
+  .filter((p) => p.slug !== slug)
+  .sort(
+    (a, b) =>
+      new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
+  )
+  .slice(0, 3);
 ---
 
 <Layout title={post.title} ogImage={post.cover_image ?? undefined}>
@@ -60,5 +74,20 @@ const content = await post.content();
     <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
       <DocumentRenderer document={content} componentBlocks={{ video: Video }} />
     </Prose>
+
+    <section
+      class="mt-8 bg-white shadow-sm rounded-lg px-4 py-3 ring-1 ring-gray-200/50 -mx-2"
+    >
+      <Prose>
+        <h2>More blog posts</h2>
+      </Prose>
+      <div class="mt-1.5 space-y-2 sm:space-y-1.5">
+        <PostList posts={recentPosts} />
+      </div>
+
+      <div class="h-px bg-gray-100 mt-6 mb-5"></div>
+
+      <Newsletter />
+    </section>
   </div>
 </Layout>

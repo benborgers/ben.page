@@ -128,17 +128,11 @@ const posts = (await reader.collections.posts.all())
 
   <div class="space-y-2 sm:space-y-1.5">
     <PostList posts={posts.slice(0, 3)} />
-    <div class="py-2 text-sm">
+    <div class="py-2">
       <div
-        class="bg-white shadow-sm rounded-lg px-4 py-3 ring-1 ring-gray-200/50 -mx-2"
+        class="bg-white shadow-sm rounded-lg p-4 pb-3 ring-1 ring-gray-200/50 -mx-2"
       >
-        <p class="text-gray-500">
-          Subscribe to my newsletter for a monthly round-up of new blog posts
-          and projects I’m working on!
-        </p>
-        <div class="mt-2">
-          <Newsletter />
-        </div>
+        <Newsletter />
       </div>
     </div>
     <PostList posts={posts.slice(3)} />
