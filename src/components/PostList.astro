@@ -1,0 +1,34 @@
+---
+interface Props {
+  posts: Post[];
+}
+
+type Post = {
+  slug: string;
+  entry: {
+    title: string;
+    date: string | null;
+    cover_image: string | null;
+  };
+};
+
+const { posts } = Astro.props;
+---
+
+{
+  posts.map((post) => (
+    <a href={`/${post.slug}`} class="text-sm flex justify-between gap-x-4">
+      <p class="text-gray-800 underline decoration-gray-400">
+        {post.entry.title}
+      </p>
+      <p class="text-gray-400 shrink-0">
+        {new Date(post.entry.date!).toLocaleString("en-US", {
+          timeZone: "UTC",
+          month: "short",
+          day: "numeric",
+          year: "numeric",
+        })}
+      </p>
+    </a>
+  ))
+}

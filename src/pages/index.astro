@@ -1,7 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
+import PostList from "../components/PostList.astro";
 import { getReader } from "../lib/getReader";
+import Newsletter from "../components/Newsletter.astro";
 
 const reader = getReader();
 const posts = (await reader.collections.posts.all())
@@ -19,7 +21,9 @@ const posts = (await reader.collections.posts.all())
 
   <div class="flex items-start gap-x-6">
     <div class="shrink-0">
-      <div class="bg-white max-w-max p-2 rounded-lg shadow-sm -rotate-2">
+      <div
+        class="bg-white max-w-max p-2 rounded-lg shadow-sm ring-1 ring-gray-200/50 -rotate-2"
+      >
         <img src="/me.png" alt="" class="bg-gray-200 rounded-md w-20 sm:w-24" />
         <p class="mt-1 font-handwriting text-lg text-center">spring 2023</p>
       </div>
@@ -123,22 +127,20 @@ const posts = (await reader.collections.posts.all())
   </Prose>
 
   <div class="space-y-2 sm:space-y-1.5">
-    {
-      posts.map((post) => (
-        <a href={`/${post.slug}`} class="text-sm flex justify-between gap-x-4">
-          <p class="text-gray-800 underline decoration-gray-400">
-            {post.entry.title}
-          </p>
-          <p class="text-gray-400 shrink-0">
-            {new Date(post.entry.date!).toLocaleString("en-US", {
-              timeZone: "UTC",
-              month: "short",
-              day: "numeric",
-              year: "numeric",
-            })}
-          </p>
-        </a>
-      ))
-    }
+    <PostList posts={posts.slice(0, 3)} />
+    <div class="py-2 text-sm">
+      <div
+        class="bg-white shadow-sm rounded-lg px-4 py-3 ring-1 ring-gray-200/50 -mx-2"
+      >
+        <p class="text-gray-500">
+          Subscribe to my newsletter for a monthly round-up of new blog posts
+          and projects I’m working on!
+        </p>
+        <div class="mt-2">
+          <Newsletter />
+        </div>
+      </div>
+    </div>
+    <PostList posts={posts.slice(3)} />
   </div>
 </Layout>
