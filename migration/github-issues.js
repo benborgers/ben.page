@@ -23,5 +23,20 @@ for (const filename of filenames) {
     }
   );
 
+  contents = contents.replace(
+    /<video src="\/github-issues\/(.+?)">/g,
+    (_, match) => {
+      const filename = match;
+
+      fs.mkdirSync(`../public/posts/${slug}`, { recursive: true });
+      fs.copyFileSync(
+        `./github-issues-images/${filename}`,
+        `../public/posts/${slug}/${filename}`
+      );
+
+      return `{% video content="public/posts/${slug}/${filename}" %}`;
+    }
+  );
+
   fs.writeFileSync(`../posts/${filename}oc`, contents);
 }
