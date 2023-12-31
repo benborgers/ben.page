@@ -8,8 +8,25 @@ for (const filename of filenames) {
 
   contents = contents.replace("technical: ", `published: true\nunlisted: `);
 
+  contents = contents.replace(/date: (.+)/, `date: '$1'`);
+
   contents = contents.replace(
-    /!\[\]\(\/github-issues\/(.+?)\)/g,
+    /!\[.*?\]\(\/github-issues\/(.+?)\)/g,
+    (_, match) => {
+      const filename = match;
+
+      fs.mkdirSync(`../public/posts/${slug}`, { recursive: true });
+      fs.copyFileSync(
+        `./github-issues-images/${filename}`,
+        `../public/posts/${slug}/${filename}`
+      );
+
+      return `![](/posts/${slug}/${filename})`;
+    }
+  );
+
+  contents = contents.replace(
+    /<img.*src="\/github-issues\/(.+?)".*>/g,
     (_, match) => {
       const filename = match;
 
