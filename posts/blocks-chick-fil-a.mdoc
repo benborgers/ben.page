@@ -1,11 +1,10 @@
 ---
-title: 'Giving Out Chick-fil-A on a Schedule App'
+title: Giving Out Chick-fil-A on a Schedule App
 date: '2022-02-28'
 published: true
 unlisted: false
 ---
-
-In November of senior year, I added a Chick-fil-A tab to _Blocks_, the schedule app I [built for my high school](https://benborgers.com/posts/blocks). Here’s how that came to be.
+In November of senior year, I added a Chick-fil-A tab to *Blocks*, the schedule app I [built for my high school](https://benborgers.com/posts/blocks). Here’s how that came to be.
 
 In the year above me at Lexington High School we had Samuel Jefferson Andrews, who had amassed [2 million TikTok followers](https://www.tiktok.com/@samueljeffersonandrews). My understanding is that, during my junior year, the Chick-fil-A in Waltham ran a competition on Instagram where you could win free Chick-fil-A sandwiches for your entire school. You commented your school’s name, and if you got your classmates to give you the most likes, your school would win.
 
@@ -17,17 +16,19 @@ But not much happened, except that my friends and I got in touch with the junior
 
 Then, around Thanksgiving, I realized that I could use Blocks to distribute the cards! I messaged her and asked if I could take 400 cards off her hands, and purchased hundreds of envelopes to package them:
 
+{% video content="public/posts/blocks-chick-fil-a/blocks-chick-fil-a.mp4" /%}
+
 I then built a wheel that you could spin in order to win two Chick-fil-A gift cards (I packaged 200 packs of two cards each), and put it in a secondary tab of the app. You could spin once per hour.
 
 ![](/posts/blocks-chick-fil-a/IMG_8841_Original.jpeg)
 
-Screenshots from Trisha, who was the first winner and won two times. I was too dumb to remember to take screenshots of my own app. 
+Screenshots from Trisha, who was the first winner and won two times. I was too dumb to remember to take screenshots of my own app.
 
 ## The Results
 
 People went crazy over this. People would wake up in the middle of the night, remember that the Chick-fil-A giveaway was happening, and spin the wheel before falling back asleep.
 
-In the end, people spun this wheel _29,000 times_ over the four days it took for these cards all to run out. Of those, only 200 were winning spins. A lot of people got frustrated.
+In the end, people spun this wheel *29,000 times* over the four days it took for these cards all to run out. Of those, only 200 were winning spins. A lot of people got frustrated.
 
 ![](/posts/blocks-chick-fil-a/IMG_8840_Original.jpeg)
 
@@ -45,36 +46,36 @@ Since the giveaway is in the distant past, I can publicly reveal the algorithm f
 
 ![](/posts/blocks-chick-fil-a/image-20.png)
 
-Primary source records from the `blocks-v2` codebase. 
+Primary source records from the `blocks-v2` codebase.
 
 How this code works:
 
-*   First, we check if the user is allowed to spin (whether they’ve used up their spin for this hour).
-*   Then, we find what the latest winning spin by anyone was.
-*   We calculate a “cooldown period” (in minutes). The cooldown period is, on average, less for upperclassmen. This is because I’m a bad person and wanted to favor upperclassmen, being a senior myself.
-*   The user wins if it’s been more than {cooldown} minutes since the last win. If they win, we generate a random place within the red (“winning”) slice of the spinner (-9º to 9º) to stop the spinner at.
-*   Otherwise, they’ve lost. We stop the spinner anywhere between 11º and 349º.
+- First, we check if the user is allowed to spin (whether they’ve used up their spin for this hour).
+- Then, we find what the latest winning spin by anyone was.
+- We calculate a “cooldown period” (in minutes). The cooldown period is, on average, less for upperclassmen. This is because I’m a bad person and wanted to favor upperclassmen, being a senior myself.
+- The user wins if it’s been more than {cooldown} minutes since the last win. If they win, we generate a random place within the red (“winning”) slice of the spinner (-9º to 9º) to stop the spinner at.
+- Otherwise, they’ve lost. We stop the spinner anywhere between 11º and 349º.
 
 You’ll notice that this is a random algorithm, but not random in the way that you’d assume. There are no set odds of winning per spin.
 
 Instead, this algorithm produces a win every 20-45 minutes, and once one winner has been chosen, no one else can win for at least 20 minutes.
 
-I did it this way because I wasn’t sure how many people would play, so I didn’t know how to set the probabilities. So instead, it seemed reasonable to limit the _pace_ of winners to 1-2 per hour.
+I did it this way because I wasn’t sure how many people would play, so I didn’t know how to set the probabilities. So instead, it seemed reasonable to limit the *pace* of winners to 1-2 per hour.
 
-_A side effect of this method is that you have much better chances of winning if you play while everybody else is asleep and not playing. But people didn’t know how the algorithm worked, so they didn’t know that._
+*A side effect of this method is that you have much better chances of winning if you play while everybody else is asleep and not playing. But people didn’t know how the algorithm worked, so they didn’t know that.*
 
 ## Making the Deliveries
 
-You see how the app asked for people’s addresses? That’s not because I shipped them their prizes. I decided to be frugal, and _hand-delivered the envelopes to every winner in Lexington_.
+You see how the app asked for people’s addresses? That’s not because I shipped them their prizes. I decided to be frugal, and *hand-delivered the envelopes to every winner in Lexington*.
 
 For that week, I made 200 deliveries to separate houses. There were days when I woke up at 5am to make deliveries before school, and then after school would package up the winners that had popped up while I was at school and deliver those too.
 
 On the peak day, I drove and delivered to 80 different people’s houses in town.
 
-It was extremely overwhelming (while also trying to keep up with normal school alongside), but it was also _super_ fun.
+It was extremely overwhelming (while also trying to keep up with normal school alongside), but it was also *super* fun.
 
 I got to see parts of Lexington that I’d never seen before. I got into the zone of making deliveries as fast as possible. And I used an app that optimized my route, so the stops were usually just a couple minutes apart.
 
 After the week was over, I had a moment to relax. Nothing major had gone wrong. People had their brief fun, and it ended before things got stale. And best of all, people got their free chicken sandwiches.
 
-_Okay, I understand that Chick-fil-A is a morally questionable organization because they donate to anti-LGBTQ organizations. But by distributing these gift cards, I was taking money_ **_away_** _from Chick-fil-A. I would rather see myself as the Robinhood of chicken sandwiches._
+*Okay, I understand that Chick-fil-A is a morally questionable organization because they donate to anti-LGBTQ organizations. But by distributing these gift cards, I was taking money*  ***away***  *from Chick-fil-A. I would rather see myself as the Robinhood of chicken sandwiches.*
