@@ -127,7 +127,7 @@ const posts = (await reader.collections.posts.all())
   </Prose>
 
   <div class="space-y-2 sm:space-y-1.5">
-    <PostList posts={posts.slice(0, 3)} />
+    <PostList posts={posts.slice(0, 6)} />
     <div class="py-2">
       <div
         class="bg-white shadow-sm rounded-lg p-4 pb-3 ring-1 ring-gray-200/50 -mx-2"
@@ -135,6 +135,6 @@ const posts = (await reader.collections.posts.all())
         <Newsletter />
       </div>
     </div>
-    <PostList posts={posts.slice(3)} />
+    <PostList posts={posts.slice(6)} />
   </div>
 </Layout>
