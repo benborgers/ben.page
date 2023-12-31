@@ -41,7 +41,7 @@ for (const filename of filenames) {
   );
 
   contents = contents.replace(
-    /<video src="\/github-issues\/(.+?)">/g,
+    /<video src="\/github-issues\/(.+?)".*>/g,
     (_, match) => {
       const filename = match;
 
@@ -51,7 +51,7 @@ for (const filename of filenames) {
         `../public/posts/${slug}/${filename}`
       );
 
-      return `{% video content="public/posts/${slug}/${filename}" %}`;
+      return `{% video content="public/posts/${slug}/${filename}" /%}`;
     }
   );
 
