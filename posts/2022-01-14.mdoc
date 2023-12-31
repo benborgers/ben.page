@@ -1,0 +1,58 @@
+---
+title: 'Friday, January 14, 2022'
+date: '2022-01-14'
+published: true
+unlisted: true
+---
+
+👋 I’m trying the idea of _morning pages_, where I write three pages in the morning of whatever’s on my mind. It’s mostly for me, but I’m publishing them too because why not.
+
+Good morning! I’m writing this from a nice little cabin in New Hampshire.
+
+![](/posts/2022-01-14/IMG_7192-1.jpeg)
+
+## Waking up to an opensheet outage
+
+I woke up this morning to several emails about the Google Sheets API that I created, [opensheet](https://opensheet.elk.sh), not working.
+
+I couldn’t figure out why it just wasn’t loading, but I triggered a re-deployment of its servers, and it magically solved itself.
+
+Looking at the monitoring graphs, it looks like the API was down from 1am to shortly before 8am, when I woke up and got it working again.
+
+This is also maybe the second time that I’ve woken up to emails about opensheet having gone down overnight, which isn’t a good look at all. The API gets a substantial amount of traffic at this point (unfortunately my monitoring isn’t good enough at the moment to know exactly how much), so I feel really bad about taking down people’s apps. I want this to be something people can rely on.
+
+## I need to migrate opensheet’s hosting, again
+
+I migrated opensheet’s servers from Vercel to Railway a couple weeks ago, since I was running into Vercel’s free tier limits and didn’t want to pay for a Vercel account when I don’t really have any other projects on there.
+
+So I moved to Railway, where I already had some apps going and I could pay by how many server resources I had.
+
+But I’ve had repeated issues with Railway — some being my fault, and some being inexplicable.
+
+Whenever I write code that causes an error, the entire Node.js server on Railway crashes. This wasn’t an issue on Vercel, since the code is run across tons of tiny servers, so the individual server that crashed is just taken out of commission and rebooted.
+
+But on Railway, there is only one server running, so one error or exception brings down the whole thing. This helped me catch a couple edge cases in my code and fix them, but it also led to me waking up sometimes to the server having crashed and me needing to manually restart it.
+
+I got around this by having my server swallow errors and not crash, but that didn’t feel like a great solution either.
+
+And then there’ve been problems that I can’t figure out. Sometimes the server just goes down, and having Railway re-deploy the same code fixes the same problem. That seems too unstable of a foundation for this API, and for my own sanity.
+
+So I think I’m going to move the hosting of opensheet to Cloudflare Workers. The platform seems super robust, and it’s also super cheap to accept tons of requests.
+
+Plus, since I changed the URL for opensheet to one that I own (`opensheet.elk.sh`), I can switch the servers behind it from Railway to Cloudflare Workers without any disruption.
+
+It’s a little embarrassing to make two hosting switches so quickly, but if it helps the API be more stable, it’s all worth it.
+
+## I wanna close my Apple Watch rings every day this year
+
+Inspired by [Dan Liu](https://twitter.com/danqing_liu/status/1477039806689517573), I have a loose goal of closing the three Apple Watch rings (Move, Exercise, and Stand) for every day of 2022.
+
+It’s a loose goal because I don’t know if I’ll be able to do it, but I’ve noticed in past years that having the streak _really_ works for me. A bit of a year ago, I broke a 91-day streak by missing my Activity goal by 5 calories, and that was _heartbreaking_.
+
+I thought I was already a goner less than 2 weeks into the new year yesterday. I was stopped at an Aldi in New Hampshire on the way to this cabin, and I noticed that my watch was dead. I thought my Stand ring couldn’t be closed anymore for the day.
+
+But when I arrived and charged my watch, I realized that I could comfortably close my stand ring!
+
+That luck being on my side, combined with a half-hour walk an a 20-minute “stair stepper” workout (going up and down the stairs inside the cabin), was enough calories burned to close my Move ring.
+
+All’s well, and I live to see another day on the goal for this year. Catch me doing a lot of frantic jumping jacks or running in place at 11pm for the rest of 2022.
