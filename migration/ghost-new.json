@@ -1,0 +1,1293 @@
+{
+  "db": [
+    {
+      "meta": { "exported_on": 1704055874690, "version": "5.26.2" },
+      "data": {
+        "benefits": [],
+        "custom_theme_settings": [
+          {
+            "id": "63a5301f9a590e1bd100c0c4",
+            "theme": "casper",
+            "key": "navigation_layout",
+            "type": "select",
+            "value": "Logo on cover"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0c5",
+            "theme": "casper",
+            "key": "title_font",
+            "type": "select",
+            "value": "Modern sans-serif"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0c6",
+            "theme": "casper",
+            "key": "body_font",
+            "type": "select",
+            "value": "Elegant serif"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0c7",
+            "theme": "casper",
+            "key": "show_publication_cover",
+            "type": "boolean",
+            "value": "true"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0c8",
+            "theme": "casper",
+            "key": "header_style",
+            "type": "select",
+            "value": "Center aligned"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0c9",
+            "theme": "casper",
+            "key": "feed_layout",
+            "type": "select",
+            "value": "Classic"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0ca",
+            "theme": "casper",
+            "key": "color_scheme",
+            "type": "select",
+            "value": "Light"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0cb",
+            "theme": "casper",
+            "key": "post_image_style",
+            "type": "select",
+            "value": "Wide"
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0cc",
+            "theme": "casper",
+            "key": "email_signup_text",
+            "type": "text",
+            "value": "Sign up for more like this."
+          },
+          {
+            "id": "63a5301f9a590e1bd100c0cd",
+            "theme": "casper",
+            "key": "show_recent_posts_footer",
+            "type": "boolean",
+            "value": "true"
+          }
+        ],
+        "newsletters": [
+          {
+            "id": "63a5301c9a590e1bd100bed6",
+            "uuid": "897a688c-314e-4cf5-890e-fe55eb4d8535",
+            "name": "Ben Borgers",
+            "description": null,
+            "feedback_enabled": 0,
+            "slug": "default-newsletter",
+            "sender_name": null,
+            "sender_email": null,
+            "sender_reply_to": "newsletter",
+            "status": "active",
+            "visibility": "members",
+            "subscribe_on_signup": 1,
+            "sort_order": 0,
+            "header_image": null,
+            "show_header_icon": 1,
+            "show_header_title": 1,
+            "title_font_category": "sans_serif",
+            "title_alignment": "center",
+            "show_feature_image": 1,
+            "body_font_category": "sans_serif",
+            "footer_content": null,
+            "show_badge": 1,
+            "show_header_name": 0,
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T06:02:34.000Z"
+          }
+        ],
+        "offer_redemptions": [],
+        "offers": [],
+        "posts": [
+          {
+            "id": "63a5486e13713c1f0e9e6aea",
+            "uuid": "6bcab12f-510d-4e24-ae3d-b84a5be18403",
+            "title": "Semester 3",
+            "slug": "semester3",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[[\"a\",[\"href\",\"https://benborgers.com/posts/year1\"]],[\"em\"],[\"a\",[\"href\",\"https://markitsocial.net\"]],[\"a\",[\"href\",\"https://buttondown.email\"]],[\"a\",[\"href\",\"https://ask.kiwi\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"At the end of my freshman year at Tufts, I wrote a recap entitled \"],[0,[0],1,\"year 1\"],[0,[],0,\". Although we’re only halfway through \"],[0,[1],1,\"year 2\"],[0,[],0,\", the time feels right for a halfway recap. \"]]],[1,\"p\",[[0,[],0,\"I ended last year with a feeling that I had made less friends than I had expected. \"]]],[1,\"p\",[[0,[],0,\"In semester 3, quite little progress has been made on that. Possible backwards progress has been made. But, I find myself \"],[0,[1],1,\"not caring that much\"],[0,[],0,\" either\"],[0,[1],1,\".\"]]],[1,\"h2\",[[0,[],0,\"Context\"]]],[1,\"p\",[[0,[],0,\"The biggest change this year has been that my girlfriend since high school, Trisha, transferred to Tufts. \"]]],[1,\"p\",[[0,[],0,\"Where we used to be a 45 minute train ride apart (from Tufts to Boston University), now it’s a 10 minute walk up the hill. Walking uphill in the cold is a pain, but a marked improvement nonetheless. \"]]],[1,\"h2\",[[0,[],0,\"Backwards progress\"]]],[1,\"p\",[[0,[],0,\"I have made approximately one new friend this year, and that has been through Trisha. I have lost touch with a few friends from last year, through a sort of natural growing apart. \"]]],[1,\"p\",[[0,[],0,\"Tallied up, that puts the change in friends at a slight negative. \"]]],[1,\"h2\",[[0,[],0,\"Attempts at progress\"]]],[1,\"p\",[[0,[],0,\"I did come into the year with plans of how to correct that deficit in friend-making that I felt last year. Mostly, the plan was to join more clubs and activities on campus — the most generic college advice possible in this situation, but unfortunately it seems right. \"]]],[1,\"p\",[[0,[],0,\"I signed up for a \"],[0,[1],1,\"lot\"],[0,[],0,\" of clubs at the club fair, but of course the list of clubs I actually consistently attended slimmed down quickly. Two were left: Chinese Students Association (CSA) and JumboCode. \"]]],[1,\"p\",[[0,[],0,\"I know people who seem to have built a large part of their friend groups through CSA, so I thought perhaps it was worth joining. \"]]],[1,\"p\",[[0,[],0,\"However, I never felt fully comfortable there — probably because of my limited effort at becoming part of the group. The meetings were Tuesday nights, and for the first part of the semester I was commuting into Boston to work at \"],[0,[2],1,\"Markit\"],[0,[],0,\" on Tuesday afternoons. By the evening I had little motivation to go to the meetings, and my attendance dropped off. \"]]],[1,\"p\",[[0,[],0,\"JumboCode is a club at Tufts that splits into teams which spend the entire school year (October → April) building an app for a non-profit. On a whim, I applied to be a Tech Lead for a team, and was accepted! I work with a Project Manager to lead a team of 10 developers. \"]]],[1,\"p\",[[0,[],0,\"I’m now somewhat unconvinced of JumboCode as vehicle for making friends (there’s limited time that you meet with your team, and almost all of it is spent doing work). I can also confidently say that being a Tech Lead has not helped; making friends with people who’ve been placed “under” me, despite it being completely arbitrary that I’m in this position, feels difficult. \"]]],[1,\"h2\",[[0,[],0,\"Hypothesis i\"]]],[1,\"p\",[[0,[],0,\"Despite this being a pretty depressing recap so far, I \"],[0,[1],1,\"feel\"],[0,[],0,\" pretty great. I think there’s a few reasons to attribute to this, the first being that Trisha now attends Tufts. \"]]],[1,\"p\",[[0,[],0,\"Last year, a lot of the loneliness came while I \"],[0,[1],1,\"was alone\"],[0,[],0,\": having a meal alone, or just doing work by myself at night. \"]]],[1,\"p\",[[0,[],0,\"Now, seeing Trisha fills the gaps where I would otherwise be by myself. It might still just be doing homework, but it feels very different to have someone else in the room. \"]]],[1,\"p\",[[0,[],0,\"I would say that the feeling of loneliness I often had last year has not resurfaced \"],[0,[1],1,\"at all\"],[0,[],0,\" this semester. \"]]],[1,\"h2\",[[0,[],0,\"Hypothesis ii\"]]],[1,\"p\",[[0,[],0,\"This semester I also dove headfirst into work. I continued to freelance for \"],[0,[3],1,\"Buttondown\"],[0,[],0,\", was building out an app for a University of Michigan study (\"],[0,[4],1,\"Kiwi\"],[0,[],0,\"), and worked part-time at \"],[0,[2],1,\"Markit\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"Unfortunately that was a bit too much stress, and I had to leave my work at Markit two months into the semester. \"]]],[1,\"p\",[[0,[],0,\"But still, having work to fill the time that I wasn’t doing homework or doing other things contributed to less time to feel aimless and lonely. \"]]],[1,\"h2\",[[0,[],0,\"Hypothesis iii\"]]],[1,\"p\",[[0,[],0,\"Lastly, while last year I lived with a random roommate (which actually went quite well), this year I was able to choose who I’m living with. I’m living in a small room with two friends, and it’s great despite the slightly cramped quarters. \"]]],[1,\"p\",[[0,[],0,\"The building is beautifully centrally located such that us and friends tend to spend a lot of downtime in the room. Having that sort of central spot where I can come back to and be in the silent presence of people has kept the feelings of loneliness at bay. \"]]],[1,\"h2\",[[0,[],0,\"Conclusion\"]]],[1,\"p\",[[0,[],0,\"The facts are dubious, but the feelings are positive. \"]]],[1,\"p\",[[0,[],0,\"On paper, there’s lots of room for improvement in making friends and feeling more at home at Tufts. I should and will continue to try to improve that. \"]]],[1,\"p\",[[0,[],0,\"But altogether, I find myself feeling that if not much were to change, I’d be happy with that as well. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>At the end of my freshman year at Tufts, I wrote a recap entitled <a href=\"https://benborgers.com/posts/year1\">year 1</a>. Although we’re only halfway through <em>year 2</em>, the time feels right for a halfway recap. </p><p>I ended last year with a feeling that I had made less friends than I had expected. </p><p>In semester 3, quite little progress has been made on that. Possible backwards progress has been made. But, I find myself <em>not caring that much</em> either<em>.</em></p><h2 id=\"context\">Context</h2><p>The biggest change this year has been that my girlfriend since high school, Trisha, transferred to Tufts. </p><p>Where we used to be a 45 minute train ride apart (from Tufts to Boston University), now it’s a 10 minute walk up the hill. Walking uphill in the cold is a pain, but a marked improvement nonetheless. </p><h2 id=\"backwards-progress\">Backwards progress</h2><p>I have made approximately one new friend this year, and that has been through Trisha. I have lost touch with a few friends from last year, through a sort of natural growing apart. </p><p>Tallied up, that puts the change in friends at a slight negative. </p><h2 id=\"attempts-at-progress\">Attempts at progress</h2><p>I did come into the year with plans of how to correct that deficit in friend-making that I felt last year. Mostly, the plan was to join more clubs and activities on campus — the most generic college advice possible in this situation, but unfortunately it seems right. </p><p>I signed up for a <em>lot</em> of clubs at the club fair, but of course the list of clubs I actually consistently attended slimmed down quickly. Two were left: Chinese Students Association (CSA) and JumboCode. </p><p>I know people who seem to have built a large part of their friend groups through CSA, so I thought perhaps it was worth joining. </p><p>However, I never felt fully comfortable there — probably because of my limited effort at becoming part of the group. The meetings were Tuesday nights, and for the first part of the semester I was commuting into Boston to work at <a href=\"https://markitsocial.net\">Markit</a> on Tuesday afternoons. By the evening I had little motivation to go to the meetings, and my attendance dropped off. </p><p>JumboCode is a club at Tufts that splits into teams which spend the entire school year (October → April) building an app for a non-profit. On a whim, I applied to be a Tech Lead for a team, and was accepted! I work with a Project Manager to lead a team of 10 developers. </p><p>I’m now somewhat unconvinced of JumboCode as vehicle for making friends (there’s limited time that you meet with your team, and almost all of it is spent doing work). I can also confidently say that being a Tech Lead has not helped; making friends with people who’ve been placed “under” me, despite it being completely arbitrary that I’m in this position, feels difficult. </p><h2 id=\"hypothesis-i\">Hypothesis i</h2><p>Despite this being a pretty depressing recap so far, I <em>feel</em> pretty great. I think there’s a few reasons to attribute to this, the first being that Trisha now attends Tufts. </p><p>Last year, a lot of the loneliness came while I <em>was alone</em>: having a meal alone, or just doing work by myself at night. </p><p>Now, seeing Trisha fills the gaps where I would otherwise be by myself. It might still just be doing homework, but it feels very different to have someone else in the room. </p><p>I would say that the feeling of loneliness I often had last year has not resurfaced <em>at all</em> this semester. </p><h2 id=\"hypothesis-ii\">Hypothesis ii</h2><p>This semester I also dove headfirst into work. I continued to freelance for <a href=\"https://buttondown.email\">Buttondown</a>, was building out an app for a University of Michigan study (<a href=\"https://ask.kiwi\">Kiwi</a>), and worked part-time at <a href=\"https://markitsocial.net\">Markit</a>. </p><p>Unfortunately that was a bit too much stress, and I had to leave my work at Markit two months into the semester. </p><p>But still, having work to fill the time that I wasn’t doing homework or doing other things contributed to less time to feel aimless and lonely. </p><h2 id=\"hypothesis-iii\">Hypothesis iii</h2><p>Lastly, while last year I lived with a random roommate (which actually went quite well), this year I was able to choose who I’m living with. I’m living in a small room with two friends, and it’s great despite the slightly cramped quarters. </p><p>The building is beautifully centrally located such that us and friends tend to spend a lot of downtime in the room. Having that sort of central spot where I can come back to and be in the silent presence of people has kept the feelings of loneliness at bay. </p><h2 id=\"conclusion\">Conclusion</h2><p>The facts are dubious, but the feelings are positive. </p><p>On paper, there’s lots of room for improvement in making friends and feeling more at home at Tufts. I should and will continue to try to improve that. </p><p>But altogether, I find myself feeling that if not much were to change, I’d be happy with that as well. </p>",
+            "comment_id": "63a5486e13713c1f0e9e6aea",
+            "plaintext": "At the end of my freshman year at Tufts, I wrote a recap entitled year 1. Although we’re only halfway through year 2, the time feels right for a halfway recap.\n\nI ended last year with a feeling that I had made less friends than I had expected.\n\nIn semester 3, quite little progress has been made on that. Possible backwards progress has been made. But, I find myself not caring that much either.\n\n\nContext\n\nThe biggest change this year has been that my girlfriend since high school, Trisha, transferred to Tufts.\n\nWhere we used to be a 45 minute train ride apart (from Tufts to Boston University), now it’s a 10 minute walk up the hill. Walking uphill in the cold is a pain, but a marked improvement nonetheless.\n\n\nBackwards progress\n\nI have made approximately one new friend this year, and that has been through Trisha. I have lost touch with a few friends from last year, through a sort of natural growing apart.\n\nTallied up, that puts the change in friends at a slight negative.\n\n\nAttempts at progress\n\nI did come into the year with plans of how to correct that deficit in friend-making that I felt last year. Mostly, the plan was to join more clubs and activities on campus — the most generic college advice possible in this situation, but unfortunately it seems right.\n\nI signed up for a lot of clubs at the club fair, but of course the list of clubs I actually consistently attended slimmed down quickly. Two were left: Chinese Students Association (CSA) and JumboCode.\n\nI know people who seem to have built a large part of their friend groups through CSA, so I thought perhaps it was worth joining.\n\nHowever, I never felt fully comfortable there — probably because of my limited effort at becoming part of the group. The meetings were Tuesday nights, and for the first part of the semester I was commuting into Boston to work at Markit on Tuesday afternoons. By the evening I had little motivation to go to the meetings, and my attendance dropped off.\n\nJumboCode is a club at Tufts that splits into teams which spend the entire school year (October → April) building an app for a non-profit. On a whim, I applied to be a Tech Lead for a team, and was accepted! I work with a Project Manager to lead a team of 10 developers.\n\nI’m now somewhat unconvinced of JumboCode as vehicle for making friends (there’s limited time that you meet with your team, and almost all of it is spent doing work). I can also confidently say that being a Tech Lead has not helped; making friends with people who’ve been placed “under” me, despite it being completely arbitrary that I’m in this position, feels difficult.\n\n\nHypothesis i\n\nDespite this being a pretty depressing recap so far, I feel pretty great. I think there’s a few reasons to attribute to this, the first being that Trisha now attends Tufts.\n\nLast year, a lot of the loneliness came while I was alone: having a meal alone, or just doing work by myself at night.\n\nNow, seeing Trisha fills the gaps where I would otherwise be by myself. It might still just be doing homework, but it feels very different to have someone else in the room.\n\nI would say that the feeling of loneliness I often had last year has not resurfaced at all this semester.\n\n\nHypothesis ii\n\nThis semester I also dove headfirst into work. I continued to freelance for Buttondown, was building out an app for a University of Michigan study (Kiwi), and worked part-time at Markit.\n\nUnfortunately that was a bit too much stress, and I had to leave my work at Markit two months into the semester.\n\nBut still, having work to fill the time that I wasn’t doing homework or doing other things contributed to less time to feel aimless and lonely.\n\n\nHypothesis iii\n\nLastly, while last year I lived with a random roommate (which actually went quite well), this year I was able to choose who I’m living with. I’m living in a small room with two friends, and it’s great despite the slightly cramped quarters.\n\nThe building is beautifully centrally located such that us and friends tend to spend a lot of downtime in the room. Having that sort of central spot where I can come back to and be in the silent presence of people has kept the feelings of loneliness at bay.\n\n\nConclusion\n\nThe facts are dubious, but the feelings are positive.\n\nOn paper, there’s lots of room for improvement in making friends and feeling more at home at Tufts. I should and will continue to try to improve that.\n\nBut altogether, I find myself feeling that if not much were to change, I’d be happy with that as well.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-23T06:19:26.000Z",
+            "updated_at": "2022-12-31T15:17:31.000Z",
+            "published_at": "2022-12-31T15:17:17.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63a54b4f13713c1f0e9e6b2d",
+            "uuid": "822a6ecc-cdeb-4400-b99e-655660ebcea9",
+            "title": "New in Superadmin: styling, images, rich text",
+            "slug": "superadmin-styled",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image.png\",\"width\":1879,\"height\":1489}],[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-1.png\",\"width\":1879,\"height\":1489}],[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-2.png\",\"width\":1879,\"height\":1489}],[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-3.png\",\"width\":756,\"height\":324}]],\"markups\":[[\"em\"],[\"a\",[\"href\",\"https://editorjs.io\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://tiptap.dev\",\"rel\",\"noopener noreferrer nofollow\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"For the past few days I’ve been churning out new features on Superadmin, a CMS I built for my own projects and websites I make for people.\"]]],[1,\"p\",[[0,[],0,\"It started with styling the entire interface — I built it September, but haven’t had the inspiration to style it nicely until now. Here’s the visual style I landed on:\"]]],[10,0],[1,\"p\",[[0,[],0,\"Then, I added one-off \"],[0,[0],1,\"pages\"],[0,[],0,\" and an \"],[0,[0],1,\"image\"],[0,[],0,\" field.\"]]],[1,\"p\",[[0,[],0,\"Before, I had “collections” of items — like blog posts or portfolio pieces. But I wanted to have the concept of a \"],[0,[0],1,\"page\"],[0,[],0,\", which is a place to update one-off information like “about page bio”.\"]]],[1,\"p\",[[0,[],0,\"Also, I added a field that allows people to upload images.\"]]],[10,1],[1,\"p\",[[0,[],0,\"Lastly, I decided that \"],[0,[1],1,\"Editor.js\"],[0,[],0,\" didn’t feel great and replaced it with \"],[0,[2],1,\"Tiptap\"],[0,[],0,\". Using Tiptap is always a bit of a pain because you have to build the editing UI yourself, but I managed to put together a fairly nice editor:\"]]],[10,2],[10,3]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>For the past few days I’ve been churning out new features on Superadmin, a CMS I built for my own projects and websites I make for people.</p><p>It started with styling the entire interface — I built it September, but haven’t had the inspiration to style it nicely until now. Here’s the visual style I landed on:</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"1879\" height=\"1489\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/image.png 1600w, __GHOST_URL__/content/images/2022/12/image.png 1879w\" sizes=\"(min-width: 720px) 720px\"></figure><p>Then, I added one-off <em>pages</em> and an <em>image</em> field.</p><p>Before, I had “collections” of items — like blog posts or portfolio pieces. But I wanted to have the concept of a <em>page</em>, which is a place to update one-off information like “about page bio”.</p><p>Also, I added a field that allows people to upload images.</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-1.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"1879\" height=\"1489\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-1.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image-1.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/image-1.png 1600w, __GHOST_URL__/content/images/2022/12/image-1.png 1879w\" sizes=\"(min-width: 720px) 720px\"></figure><p>Lastly, I decided that <a href=\"https://editorjs.io\" rel=\"noopener noreferrer nofollow\">Editor.js</a> didn’t feel great and replaced it with <a href=\"https://tiptap.dev\" rel=\"noopener noreferrer nofollow\">Tiptap</a>. Using Tiptap is always a bit of a pain because you have to build the editing UI yourself, but I managed to put together a fairly nice editor:</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-2.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"1879\" height=\"1489\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-2.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image-2.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/image-2.png 1600w, __GHOST_URL__/content/images/2022/12/image-2.png 1879w\" sizes=\"(min-width: 720px) 720px\"></figure><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-3.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"756\" height=\"324\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-3.png 600w, __GHOST_URL__/content/images/2022/12/image-3.png 756w\" sizes=\"(min-width: 720px) 720px\"></figure>",
+            "comment_id": "63a54b4f13713c1f0e9e6b2d",
+            "plaintext": "For the past few days I’ve been churning out new features on Superadmin, a CMS I built for my own projects and websites I make for people.\n\nIt started with styling the entire interface — I built it September, but haven’t had the inspiration to style it nicely until now. Here’s the visual style I landed on:\n\nThen, I added one-off pages and an image field.\n\nBefore, I had “collections” of items — like blog posts or portfolio pieces. But I wanted to have the concept of a page, which is a place to update one-off information like “about page bio”.\n\nAlso, I added a field that allows people to upload images.\n\nLastly, I decided that Editor.js didn’t feel great and replaced it with Tiptap. Using Tiptap is always a bit of a pain because you have to build the editing UI yourself, but I managed to put together a fairly nice editor:",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-23T06:31:43.000Z",
+            "updated_at": "2022-12-23T06:33:55.000Z",
+            "published_at": "2022-11-23T05:00:00.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63a54c2613713c1f0e9e6b4e",
+            "uuid": "ad8a5acb-8564-4265-876c-20781fe6e9f3",
+            "title": "Optimizing Kiwi for scale",
+            "slug": "kiwi-scale",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-4.png\",\"width\":2062,\"height\":1668}],[\"callout\",{\"calloutEmoji\":\"🙏\",\"calloutText\":\"<em>Major</em> thank-you to <a href=\\\"https://jero.zone\\\">Jerome</a> for spending hours debugging this with me and supporting my descent into madness.&nbsp;\",\"backgroundColor\":\"grey\"}]],\"markups\":[[\"strong\"],[\"a\",[\"href\",\"https://vapor.laravel.com\",\"rel\",\"noopener noreferrer nofollow\"]],[\"code\"]],\"sections\":[[1,\"p\",[[0,[],0,\"I’ve spent the past two days trying to gain confidence that Kiwi will perform at scale (and tearing my hair out in the process).\"]]],[1,\"p\",[[0,[],0,\"The largest classes that Kiwi will be used in have around 350 students. At worst, these students will all have the main question-asking page open, polling for new questions from their classmates every 3 seconds. \"]]],[10,0],[1,\"p\",[[0,[],0,\"I hosted Kiwi on a $4/month Hetzner server, loaded up a test class section with 400 questions and 2,000 answers on a certain day,\"],[0,[0],1,\" \"],[0,[],0,\"and ran a small load test of 50 users against it.\"]]],[1,\"p\",[[0,[],0,\"The CPU immediately spiked to 200% and stayed there, refusing to accept further responses.\"]]],[1,\"p\",[[0,[],0,\"All day, it was this same frustrating pattern and \"],[0,[0],1,\"I couldn’t isolate what the problem was\"],[0,[],0,\". With just 50 users, the server became unusable.\"]]],[1,\"p\",[[0,[],0,\"I worked on it all day (Thanksgiving day, no less) and ended the day with no answers. When I paid for an upgraded server with 3 CPU cores instead of 2, the CPU spiked to 250-300% when the same 50 user load test ran.\"]]],[1,\"p\",[[0,[],0,\"Late at night, out of frustration, I moved the hosting to \"],[0,[1],1,\"Laravel Vapor\"],[0,[],0,\", which promises “incredible scale”.\"]]],[1,\"p\",[[0,[],0,\"The next morning, I fired up the project on Laravel Vapor to discover that loading that big test set of questions took \"],[0,[0],1,\"4 seconds\"],[0,[],0,\" — unacceptably long for loading a webpage.\"]]],[1,\"p\",[[0,[],0,\"But throughout the day, I made two optimizations that seemed to really count. I’m not sure why they worked, but they (or some side-effect of doing them) helped tremendously.\"]]],[1,\"p\",[[0,[],0,\"Not loading data into PHP classes (Laravel’s has “models” that represent a row in the database), and instead using the \"],[0,[2],1,\"toBase()\"],[0,[],0,\" function to retrieve data as raw objects and then munching it into the right shape myself with lots of loops.\"]]],[3,\"ul\",[[[0,[],0,\"I read somewhere the “hydrating” the data from the database into lots of classes (~2,500, in my case) can be a resource-intensive process.\"]]]],[3,\"ol\",[[[0,[],0,\"Not using Laravel Collections on large sets of data and instead using PHP’s built-in \"],[0,[2],1,\"foreach\"],[0,[],0,\" improved things a bit.\"]]]],[1,\"p\",[[0,[],0,\"Removing all my authorization checks (\"],[0,[2],1,\"$user->can()\"],[0,[],0,\"). For some reason, these were slowing down my app a lot, and I was running multiple of these checks for every question and every answer to determine whether the user could edit/delete/etc that question.\"]]],[3,\"ul\",[[[0,[],0,\"I bit the bullet and duplicated these backend authorization checks in the frontend using JavaScript instead (for example, in order to determine whether to show an edit button or not).\"]]]],[1,\"p\",[[0,[],0,\"Taken together, these improvements brought that test dataset’s loading time down \"],[0,[0],1,\"from 4 seconds to 350 milliseconds!\"]]],[1,\"p\",[[0,[],0,\"I’m super happy with that ~11x improvement. I ran a load test with 500 users and the app held up fine — now that it’s on Laravel Vapor, scaling isn’t as much of a concern.\"]]],[1,\"p\",[[0,[],0,\"I’m a bit more confident now that this app won’t go down when it starts to be used! But only time will tell what might happen.\"]]],[10,1]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>I’ve spent the past two days trying to gain confidence that Kiwi will perform at scale (and tearing my hair out in the process).</p><p>The largest classes that Kiwi will be used in have around 350 students. At worst, these students will all have the main question-asking page open, polling for new questions from their classmates every 3 seconds. </p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-4.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"2000\" height=\"1618\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-4.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image-4.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/image-4.png 1600w, __GHOST_URL__/content/images/2022/12/image-4.png 2062w\" sizes=\"(min-width: 720px) 720px\"></figure><p>I hosted Kiwi on a $4/month Hetzner server, loaded up a test class section with 400 questions and 2,000 answers on a certain day,<strong> </strong>and ran a small load test of 50 users against it.</p><p>The CPU immediately spiked to 200% and stayed there, refusing to accept further responses.</p><p>All day, it was this same frustrating pattern and <strong>I couldn’t isolate what the problem was</strong>. With just 50 users, the server became unusable.</p><p>I worked on it all day (Thanksgiving day, no less) and ended the day with no answers. When I paid for an upgraded server with 3 CPU cores instead of 2, the CPU spiked to 250-300% when the same 50 user load test ran.</p><p>Late at night, out of frustration, I moved the hosting to <a href=\"https://vapor.laravel.com\" rel=\"noopener noreferrer nofollow\">Laravel Vapor</a>, which promises “incredible scale”.</p><p>The next morning, I fired up the project on Laravel Vapor to discover that loading that big test set of questions took <strong>4 seconds</strong> — unacceptably long for loading a webpage.</p><p>But throughout the day, I made two optimizations that seemed to really count. I’m not sure why they worked, but they (or some side-effect of doing them) helped tremendously.</p><p>Not loading data into PHP classes (Laravel’s has “models” that represent a row in the database), and instead using the <code>toBase()</code> function to retrieve data as raw objects and then munching it into the right shape myself with lots of loops.</p><ul><li>I read somewhere the “hydrating” the data from the database into lots of classes (~2,500, in my case) can be a resource-intensive process.</li></ul><ol><li>Not using Laravel Collections on large sets of data and instead using PHP’s built-in <code>foreach</code> improved things a bit.</li></ol><p>Removing all my authorization checks (<code>$user-&gt;can()</code>). For some reason, these were slowing down my app a lot, and I was running multiple of these checks for every question and every answer to determine whether the user could edit/delete/etc that question.</p><ul><li>I bit the bullet and duplicated these backend authorization checks in the frontend using JavaScript instead (for example, in order to determine whether to show an edit button or not).</li></ul><p>Taken together, these improvements brought that test dataset’s loading time down <strong>from 4 seconds to 350 milliseconds!</strong></p><p>I’m super happy with that ~11x improvement. I ran a load test with 500 users and the app held up fine — now that it’s on Laravel Vapor, scaling isn’t as much of a concern.</p><p>I’m a bit more confident now that this app won’t go down when it starts to be used! But only time will tell what might happen.</p><div class=\"kg-card kg-callout-card kg-callout-card-grey\"><div class=\"kg-callout-emoji\">🙏</div><div class=\"kg-callout-text\"><em>Major</em> thank-you to <a href=\"https://jero.zone\">Jerome</a> for spending hours debugging this with me and supporting my descent into madness.&nbsp;</div></div>",
+            "comment_id": "63a54c2613713c1f0e9e6b4e",
+            "plaintext": "I’ve spent the past two days trying to gain confidence that Kiwi will perform at scale (and tearing my hair out in the process).\n\nThe largest classes that Kiwi will be used in have around 350 students. At worst, these students will all have the main question-asking page open, polling for new questions from their classmates every 3 seconds.\n\nI hosted Kiwi on a $4/month Hetzner server, loaded up a test class section with 400 questions and 2,000 answers on a certain day, and ran a small load test of 50 users against it.\n\nThe CPU immediately spiked to 200% and stayed there, refusing to accept further responses.\n\nAll day, it was this same frustrating pattern and I couldn’t isolate what the problem was. With just 50 users, the server became unusable.\n\nI worked on it all day (Thanksgiving day, no less) and ended the day with no answers. When I paid for an upgraded server with 3 CPU cores instead of 2, the CPU spiked to 250-300% when the same 50 user load test ran.\n\nLate at night, out of frustration, I moved the hosting to Laravel Vapor, which promises “incredible scale”.\n\nThe next morning, I fired up the project on Laravel Vapor to discover that loading that big test set of questions took 4 seconds — unacceptably long for loading a webpage.\n\nBut throughout the day, I made two optimizations that seemed to really count. I’m not sure why they worked, but they (or some side-effect of doing them) helped tremendously.\n\nNot loading data into PHP classes (Laravel’s has “models” that represent a row in the database), and instead using the toBase() function to retrieve data as raw objects and then munching it into the right shape myself with lots of loops.\n\n * I read somewhere the “hydrating” the data from the database into lots of classes (~2,500, in my case) can be a resource-intensive process.\n\n 1. Not using Laravel Collections on large sets of data and instead using PHP’s built-in foreach improved things a bit.\n\nRemoving all my authorization checks ($user->can()). For some reason, these were slowing down my app a lot, and I was running multiple of these checks for every question and every answer to determine whether the user could edit/delete/etc that question.\n\n * I bit the bullet and duplicated these backend authorization checks in the frontend using JavaScript instead (for example, in order to determine whether to show an edit button or not).\n\nTaken together, these improvements brought that test dataset’s loading time down from 4 seconds to 350 milliseconds!\n\nI’m super happy with that ~11x improvement. I ran a load test with 500 users and the app held up fine — now that it’s on Laravel Vapor, scaling isn’t as much of a concern.\n\nI’m a bit more confident now that this app won’t go down when it starts to be used! But only time will tell what might happen.\n\n🙏Major thank-you to Jerome for spending hours debugging this with me and supporting my descent into madness. ",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-23T06:35:18.000Z",
+            "updated_at": "2022-12-25T02:20:20.000Z",
+            "published_at": "2022-11-26T05:00:00.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63a54cb413713c1f0e9e6b6a",
+            "uuid": "4203c944-0efd-4206-b564-6eb6e6845d54",
+            "title": "Building henrynitzberg.com",
+            "slug": "henry",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-5.png\",\"width\":1280,\"height\":836}]],\"markups\":[[\"a\",[\"href\",\"http://henrynitzberg.com\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://benborgers.com/posts/superadmin-styled\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"As the first website that uses Superadmin, I built my roommate a portfolio for his art! It’s live at \"],[0,[0],1,\"henrynitzberg.com\"],[0,[],0,\".\"]]],[10,0],[1,\"p\",[[0,[],0,\"To get it working smoothly, I made \"],[0,[1],1,\"a few changes\"],[0,[],0,\" to Superadmin:\"]]],[1,\"p\",[[0,[],0,\"Being able to do one-off pages, instead of a collection of entries.\"]]],[3,\"ul\",[[[0,[],0,\"I used this for a “Site Basics” page where Henry can update his profile picture, bio, etc.\"]],[[0,[],0,\"An image upload block (for the portfolio images).\"]]]],[1,\"p\",[[0,[],0,\"Being able to drag and drop to reorder items in a collection.\"]]],[3,\"ul\",[[[0,[],0,\"For Henry to be able to rearrange the images in his portfolio.\"]],[[0,[],0,\"Instead of having a “Publish” button, Superadmin waits until you haven’t made any edits for 1 minute and triggers a rebuild of the site automatically.\"]]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>As the first website that uses Superadmin, I built my roommate a portfolio for his art! It’s live at <a href=\"http://henrynitzberg.com\" rel=\"noopener noreferrer nofollow\">henrynitzberg.com</a>.</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-5.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"1280\" height=\"836\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-5.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image-5.png 1000w, __GHOST_URL__/content/images/2022/12/image-5.png 1280w\" sizes=\"(min-width: 720px) 720px\"></figure><p>To get it working smoothly, I made <a href=\"https://benborgers.com/posts/superadmin-styled\">a few changes</a> to Superadmin:</p><p>Being able to do one-off pages, instead of a collection of entries.</p><ul><li>I used this for a “Site Basics” page where Henry can update his profile picture, bio, etc.</li><li>An image upload block (for the portfolio images).</li></ul><p>Being able to drag and drop to reorder items in a collection.</p><ul><li>For Henry to be able to rearrange the images in his portfolio.</li><li>Instead of having a “Publish” button, Superadmin waits until you haven’t made any edits for 1 minute and triggers a rebuild of the site automatically.</li></ul>",
+            "comment_id": "63a54cb413713c1f0e9e6b6a",
+            "plaintext": "As the first website that uses Superadmin, I built my roommate a portfolio for his art! It’s live at henrynitzberg.com.\n\nTo get it working smoothly, I made a few changes to Superadmin:\n\nBeing able to do one-off pages, instead of a collection of entries.\n\n * I used this for a “Site Basics” page where Henry can update his profile picture, bio, etc.\n * An image upload block (for the portfolio images).\n\nBeing able to drag and drop to reorder items in a collection.\n\n * For Henry to be able to rearrange the images in his portfolio.\n * Instead of having a “Publish” button, Superadmin waits until you haven’t made any edits for 1 minute and triggers a rebuild of the site automatically.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-23T06:37:40.000Z",
+            "updated_at": "2022-12-25T02:16:39.000Z",
+            "published_at": "2022-12-01T05:00:00.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63a54d4413713c1f0e9e6b79",
+            "uuid": "2e31062f-3e89-42d4-b743-80235aeabaa4",
+            "title": "Brief: AI-summarized news",
+            "slug": "brief",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-6.png\",\"width\":1944,\"height\":1446}],[\"code\",{\"code\":\"const browser = await puppeteer.launch({\\n  args: [\\\"--no-sandbox\\\", \\\"--disable-setuid-sandbox\\\"],\\n});\",\"language\":\"javascript\"}],[\"hr\",{}]],\"markups\":[[\"a\",[\"href\",\"https://chat.openai.com\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://brief.ben.page\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://developer.nytimes.com/docs/most-popular-product/1/overview\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://astro.build\",\"rel\",\"noopener noreferrer nofollow\"]],[\"em\"],[\"a\",[\"href\",\"https://vercel.com\",\"rel\",\"noopener noreferrer nofollow\"]],[\"a\",[\"href\",\"https://brief.ben.page\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"Like a lot of people, I’ve been going down the rabbit hole of playing with the \"],[0,[0],1,\"ChatGPT\"],[0,[],0,\" AI recently.\"]]],[1,\"p\",[[0,[],0,\"I realized that it’s pretty good at summarizing news articles, so I decided to build a website that shows 10 NYTimes articles and short summaries of them (so that I can read them with my minuscule attention span).\"]]],[1,\"p\",[[0,[],0,\"A day or so later, I finished \"],[0,[1],1,\"Brief\"],[0,[],0,\", a website that does just that!\"]]],[10,0],[1,\"p\",[[0,[],0,\"A few notes:\"]]],[3,\"ul\",[[[0,[],0,\"It uses the \"],[0,[2],1,\"NYTimes Most Popular API\"],[0,[],0,\", which is surprisingly good and free! \"]],[[0,[],0,\"It scrapes the content from the article via HTML, which is not bad but sometimes doesn’t work very well.\"]],[[0,[],0,\"ChatGPT doesn’t have an API yet, so I’m spinning up a virtual browser using Puppeteer and logging into my OpenAI account pretending to be a user using the demo.\"]],[[0,[],0,\"The Puppeteer runs when the \"],[0,[3],1,\"Astro\"],[0,[],0,\" site is \"],[0,[4],1,\"building\"],[0,[],0,\" on \"],[0,[5],1,\"Vercel\"],[0,[],0,\", which only happens once an hour, so it’s not that much ChatGPT usage.\"]],[[0,[],0,\"To get Puppeteer working on the Vercel builders, I had to add a few arguments that are apparently 🚨 \"],[0,[4],1,\"not safe \"],[0,[],0,\"🚨 but oh well:\"]]]],[10,1],[10,2],[1,\"p\",[[0,[4],0,\"Update: OpenAI quickly got smart and put bot detection in front of ChatGPT, so this stopped working. I had it coming for me. \"],[0,[6],1,\"The site\"],[0,[],1,\" is frozen in time to when it stopped working.\"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>Like a lot of people, I’ve been going down the rabbit hole of playing with the <a href=\"https://chat.openai.com\" rel=\"noopener noreferrer nofollow\">ChatGPT</a> AI recently.</p><p>I realized that it’s pretty good at summarizing news articles, so I decided to build a website that shows 10 NYTimes articles and short summaries of them (so that I can read them with my minuscule attention span).</p><p>A day or so later, I finished <a href=\"https://brief.ben.page\" rel=\"noopener noreferrer nofollow\">Brief</a>, a website that does just that!</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-6.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"1944\" height=\"1446\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-6.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/image-6.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/image-6.png 1600w, __GHOST_URL__/content/images/2022/12/image-6.png 1944w\" sizes=\"(min-width: 720px) 720px\"></figure><p>A few notes:</p><ul><li>It uses the <a href=\"https://developer.nytimes.com/docs/most-popular-product/1/overview\" rel=\"noopener noreferrer nofollow\">NYTimes Most Popular API</a>, which is surprisingly good and free! </li><li>It scrapes the content from the article via HTML, which is not bad but sometimes doesn’t work very well.</li><li>ChatGPT doesn’t have an API yet, so I’m spinning up a virtual browser using Puppeteer and logging into my OpenAI account pretending to be a user using the demo.</li><li>The Puppeteer runs when the <a href=\"https://astro.build\" rel=\"noopener noreferrer nofollow\">Astro</a> site is <em>building</em> on <a href=\"https://vercel.com\" rel=\"noopener noreferrer nofollow\">Vercel</a>, which only happens once an hour, so it’s not that much ChatGPT usage.</li><li>To get Puppeteer working on the Vercel builders, I had to add a few arguments that are apparently 🚨 <em>not safe </em>🚨 but oh well:</li></ul><pre><code class=\"language-javascript\">const browser = await puppeteer.launch({\n  args: [\"--no-sandbox\", \"--disable-setuid-sandbox\"],\n});</code></pre><hr><p><em>Update: OpenAI quickly got smart and put bot detection in front of ChatGPT, so this stopped working. I had it coming for me. <a href=\"https://brief.ben.page\">The site</a> is frozen in time to when it stopped working.</em></p>",
+            "comment_id": "63a54d4413713c1f0e9e6b79",
+            "plaintext": "Like a lot of people, I’ve been going down the rabbit hole of playing with the ChatGPT AI recently.\n\nI realized that it’s pretty good at summarizing news articles, so I decided to build a website that shows 10 NYTimes articles and short summaries of them (so that I can read them with my minuscule attention span).\n\nA day or so later, I finished Brief, a website that does just that!\n\nA few notes:\n\n * It uses the NYTimes Most Popular API, which is surprisingly good and free!\n * It scrapes the content from the article via HTML, which is not bad but sometimes doesn’t work very well.\n * ChatGPT doesn’t have an API yet, so I’m spinning up a virtual browser using Puppeteer and logging into my OpenAI account pretending to be a user using the demo.\n * The Puppeteer runs when the Astro site is building on Vercel, which only happens once an hour, so it’s not that much ChatGPT usage.\n * To get Puppeteer working on the Vercel builders, I had to add a few arguments that are apparently 🚨 not safe 🚨 but oh well:\n\nconst browser = await puppeteer.launch({\n  args: [\"--no-sandbox\", \"--disable-setuid-sandbox\"],\n});\n\nUpdate: OpenAI quickly got smart and put bot detection in front of ChatGPT, so this stopped working. I had it coming for me. The site is frozen in time to when it stopped working.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-23T06:40:04.000Z",
+            "updated_at": "2022-12-23T06:42:13.000Z",
+            "published_at": "2022-12-04T05:00:00.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63a7871d13713c1f0e9e6bd0",
+            "uuid": "668c66f5-f884-496b-957f-5efd6ff6548d",
+            "title": "How to password-protect pages on Vercel for free",
+            "slug": "vercel-password",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"hr\",{}],[\"code\",{\"code\":\"<form>\\n\\t<input\\n\\t\\tname=\\\"password\\\"\\n\\t\\ttype=\\\"password\\\"\\n\\t\\ttype=\\\"password\\\"\\n       \\tplaceholder=\\\"Password\\\"\\n\\t\\trequired\\n\\t/>\\n\\t<button>Unlock</button>\\n</form>\\n\\n<script>\\n\\tconst form = document.querySelector(\\\"form\\\");\\n\\tform.addEventListener(\\\"submit\\\", (event) => {\\n\\t\\tevent.preventDefault();\\n\\t\\tconst password = form.querySelector(\\\"input[name=password]\\\").value;\\n\\t\\tdocument.cookie = `site_password=${password}; max-age=${\\n\\t\\t\\t60 * 60 * 24 * 365 // 1 year\\n\\t\\t}`;\\n\\t\\tlocation.reload();\\n\\t});\\n</script>\",\"language\":\"html\"}],[\"code\",{\"code\":\"npm install @vercel/edge\",\"language\":\"bash\"}],[\"code\",{\"code\":\"// middleware.js\\n\\nimport { rewrite } from \\\"@vercel/edge\\\";\\n\\n// This middleware should run on every URL of your site.\\nexport const config = {\\n\\tmatcher: \\\"/(.*)\\\",\\n};\\n\\n// The password that people will need to enter.\\n// You should probably make this an environment variable for better security.\\nconst CORRECT_PASSWORD = \\\"password123\\\";\\n\\nexport default function middleware(request) {\\n\\tconst url = new URL(request.url);\\n\\n\\t// We don't want to block access to every URL, because we still\\n\\t// want CSS or JavaScript files to work on the login page.\\n\\t// Here, I'm only password-protecting the homepage and\\n\\t// pages that begin with \\\"/blog\\\". \\n\\tif (\\n\\t\\t(url.pathname === \\\"/\\\" ||\\n\\t\\t\\turl.pathname.startsWith(\\\"/blog\\\")) &&\\n        // Check cookies for correct password.\\n\\t\\t!request.headers\\n\\t\\t\\t.get(\\\"Cookie\\\")\\n\\t\\t\\t.includes(`site_password=${CORRECT_PASSWORD}`)\\n\\t) {\\n\\t\\t// A rewrite doesn't change the URL, but replaces the HTML\\n\\t\\t// of the original page with the HTML of the login page.\\n\\t\\treturn rewrite(\\\"/login\\\");\\n\\t}\\n}\",\"language\":\"javascript\"}],[\"hr\",{}]],\"markups\":[[\"a\",[\"href\",\"https://vercel.com\"]],[\"a\",[\"href\",\"https://vercel.com/docs/concepts/functions/edge-middleware\"]],[\"strong\"],[\"code\"]],\"sections\":[[1,\"p\",[[0,[0],1,\"Vercel\"],[0,[],0,\" offers the ability to put a website behind a password, but that’s only possible on paid Vercel plans. \"]]],[1,\"p\",[[0,[],0,\"Recently, I figured out a way to do it for free using Vercel’s \"],[0,[1],1,\"Edge Middleware\"],[0,[],0,\" feature, which works in any framework. \"]]],[1,\"p\",[[0,[],0,\"At a high level, we’re going to: \"]]],[3,\"ol\",[[[0,[],0,\"Intercept all requests with \"],[0,[2],1,\"Edge Middleware\"],[0,[],0,\" (code that runs before our website is accessed and can modify how the website responds). \"]],[[0,[],0,\"If a request doesn’t have the correct password in a cookie, show a login page that we create. \"]],[[0,[],0,\"If the request has the correct password in a cookie, don’t do anything (let them see the page). \"]]]],[10,0],[1,\"h2\",[[0,[],0,\"Create a login page\"]]],[1,\"p\",[[0,[],0,\"On your website, create a login page (for example \"],[0,[3],1,\"/login\"],[0,[],0,\"). \"]]],[1,\"p\",[[0,[],0,\"The login page should have a form with a password input, and when the form is submitted it should store that password as a cookie (using \"],[0,[3],1,\"document.cookie = ...\"],[0,[],0,\"). \"]]],[1,\"p\",[[0,[],0,\"Here’s an example using plain HTML and JavaScript (you could also do this using React and Next.js or any other framework): \"]]],[10,1],[1,\"p\",[[0,[],0,\"When the form submits, we set a cookie called \"],[0,[3],1,\"site_password\"],[0,[],0,\" to that password, and the cookie is set to last for 1 year. \"]]],[1,\"p\",[[0,[],0,\"After that the code reloads the page. When the page reloads, the website will try to get past the Edge Middleware that checks the password. If it’s incorrect, we’ll just end up back on this login page. If it’s correct, we’ll be able to see the actual page. \"]]],[1,\"h2\",[[0,[],0,\"Create Edge Middleware\"]]],[1,\"p\",[[0,[],0,\"Now we need an Edge Middleware function to sit in front of our website and check whether incoming requests have the right password to see the website. If not, we’ll show them the login page. \"]]],[1,\"p\",[[0,[],0,\"First, create a file called \"],[0,[3],1,\"middleware.js\"],[0,[],0,\" at the root of your project (not in any folder), and install the \"],[0,[3],1,\"@vercel/edge\"],[0,[],0,\" npm package: \"]]],[10,2],[1,\"p\",[[0,[],0,\"Now, in \"],[0,[3],1,\"middleware.js\"],[0,[],0,\", we write a piece of code that checks incoming requests for the correct password:\"]]],[10,3],[10,4],[1,\"p\",[[0,[],0,\"And that’s it! Now, the Edge Middleware will check every incoming request. If it’s a URL that we want to password-protect, it’ll see if the cookies (sent in the request headers) have the correct password. If not, it’ll show the user our login page. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p><a href=\"https://vercel.com\">Vercel</a> offers the ability to put a website behind a password, but that’s only possible on paid Vercel plans. </p><p>Recently, I figured out a way to do it for free using Vercel’s <a href=\"https://vercel.com/docs/concepts/functions/edge-middleware\">Edge Middleware</a> feature, which works in any framework. </p><p>At a high level, we’re going to: </p><ol><li>Intercept all requests with <strong>Edge Middleware</strong> (code that runs before our website is accessed and can modify how the website responds). </li><li>If a request doesn’t have the correct password in a cookie, show a login page that we create. </li><li>If the request has the correct password in a cookie, don’t do anything (let them see the page). </li></ol><hr><h2 id=\"create-a-login-page\">Create a login page</h2><p>On your website, create a login page (for example <code>/login</code>). </p><p>The login page should have a form with a password input, and when the form is submitted it should store that password as a cookie (using <code>document.cookie = ...</code>). </p><p>Here’s an example using plain HTML and JavaScript (you could also do this using React and Next.js or any other framework): </p><pre><code class=\"language-html\">&lt;form&gt;\n\t&lt;input\n\t\tname=\"password\"\n\t\ttype=\"password\"\n\t\ttype=\"password\"\n       \tplaceholder=\"Password\"\n\t\trequired\n\t/&gt;\n\t&lt;button&gt;Unlock&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\n\tconst form = document.querySelector(\"form\");\n\tform.addEventListener(\"submit\", (event) =&gt; {\n\t\tevent.preventDefault();\n\t\tconst password = form.querySelector(\"input[name=password]\").value;\n\t\tdocument.cookie = `site_password=${password}; max-age=${\n\t\t\t60 * 60 * 24 * 365 // 1 year\n\t\t}`;\n\t\tlocation.reload();\n\t});\n&lt;/script&gt;</code></pre><p>When the form submits, we set a cookie called <code>site_password</code> to that password, and the cookie is set to last for 1 year. </p><p>After that the code reloads the page. When the page reloads, the website will try to get past the Edge Middleware that checks the password. If it’s incorrect, we’ll just end up back on this login page. If it’s correct, we’ll be able to see the actual page. </p><h2 id=\"create-edge-middleware\">Create Edge Middleware</h2><p>Now we need an Edge Middleware function to sit in front of our website and check whether incoming requests have the right password to see the website. If not, we’ll show them the login page. </p><p>First, create a file called <code>middleware.js</code> at the root of your project (not in any folder), and install the <code>@vercel/edge</code> npm package: </p><pre><code class=\"language-bash\">npm install @vercel/edge</code></pre><p>Now, in <code>middleware.js</code>, we write a piece of code that checks incoming requests for the correct password:</p><pre><code class=\"language-javascript\">// middleware.js\n\nimport { rewrite } from \"@vercel/edge\";\n\n// This middleware should run on every URL of your site.\nexport const config = {\n\tmatcher: \"/(.*)\",\n};\n\n// The password that people will need to enter.\n// You should probably make this an environment variable for better security.\nconst CORRECT_PASSWORD = \"password123\";\n\nexport default function middleware(request) {\n\tconst url = new URL(request.url);\n\n\t// We don't want to block access to every URL, because we still\n\t// want CSS or JavaScript files to work on the login page.\n\t// Here, I'm only password-protecting the homepage and\n\t// pages that begin with \"/blog\". \n\tif (\n\t\t(url.pathname === \"/\" ||\n\t\t\turl.pathname.startsWith(\"/blog\")) &amp;&amp;\n        // Check cookies for correct password.\n\t\t!request.headers\n\t\t\t.get(\"Cookie\")\n\t\t\t.includes(`site_password=${CORRECT_PASSWORD}`)\n\t) {\n\t\t// A rewrite doesn't change the URL, but replaces the HTML\n\t\t// of the original page with the HTML of the login page.\n\t\treturn rewrite(\"/login\");\n\t}\n}</code></pre><hr><p>And that’s it! Now, the Edge Middleware will check every incoming request. If it’s a URL that we want to password-protect, it’ll see if the cookies (sent in the request headers) have the correct password. If not, it’ll show the user our login page. </p>",
+            "comment_id": "63a7871d13713c1f0e9e6bd0",
+            "plaintext": "Vercel offers the ability to put a website behind a password, but that’s only possible on paid Vercel plans.\n\nRecently, I figured out a way to do it for free using Vercel’s Edge Middleware feature, which works in any framework.\n\nAt a high level, we’re going to:\n\n 1. Intercept all requests with Edge Middleware (code that runs before our website is accessed and can modify how the website responds).\n 2. If a request doesn’t have the correct password in a cookie, show a login page that we create.\n 3. If the request has the correct password in a cookie, don’t do anything (let them see the page).\n\n\nCreate a login page\n\nOn your website, create a login page (for example /login).\n\nThe login page should have a form with a password input, and when the form is submitted it should store that password as a cookie (using document.cookie = ...).\n\nHere’s an example using plain HTML and JavaScript (you could also do this using React and Next.js or any other framework):\n\n<form>\n\t<input\n\t\tname=\"password\"\n\t\ttype=\"password\"\n\t\ttype=\"password\"\n       \tplaceholder=\"Password\"\n\t\trequired\n\t/>\n\t<button>Unlock</button>\n</form>\n\n<script>\n\tconst form = document.querySelector(\"form\");\n\tform.addEventListener(\"submit\", (event) => {\n\t\tevent.preventDefault();\n\t\tconst password = form.querySelector(\"input[name=password]\").value;\n\t\tdocument.cookie = `site_password=${password}; max-age=${\n\t\t\t60 * 60 * 24 * 365 // 1 year\n\t\t}`;\n\t\tlocation.reload();\n\t});\n</script>\n\nWhen the form submits, we set a cookie called site_password to that password, and the cookie is set to last for 1 year.\n\nAfter that the code reloads the page. When the page reloads, the website will try to get past the Edge Middleware that checks the password. If it’s incorrect, we’ll just end up back on this login page. If it’s correct, we’ll be able to see the actual page.\n\n\nCreate Edge Middleware\n\nNow we need an Edge Middleware function to sit in front of our website and check whether incoming requests have the right password to see the website. If not, we’ll show them the login page.\n\nFirst, create a file called middleware.js at the root of your project (not in any folder), and install the @vercel/edge npm package:\n\nnpm install @vercel/edge\n\nNow, in middleware.js, we write a piece of code that checks incoming requests for the correct password:\n\n// middleware.js\n\nimport { rewrite } from \"@vercel/edge\";\n\n// This middleware should run on every URL of your site.\nexport const config = {\n\tmatcher: \"/(.*)\",\n};\n\n// The password that people will need to enter.\n// You should probably make this an environment variable for better security.\nconst CORRECT_PASSWORD = \"password123\";\n\nexport default function middleware(request) {\n\tconst url = new URL(request.url);\n\n\t// We don't want to block access to every URL, because we still\n\t// want CSS or JavaScript files to work on the login page.\n\t// Here, I'm only password-protecting the homepage and\n\t// pages that begin with \"/blog\". \n\tif (\n\t\t(url.pathname === \"/\" ||\n\t\t\turl.pathname.startsWith(\"/blog\")) &&\n        // Check cookies for correct password.\n\t\t!request.headers\n\t\t\t.get(\"Cookie\")\n\t\t\t.includes(`site_password=${CORRECT_PASSWORD}`)\n\t) {\n\t\t// A rewrite doesn't change the URL, but replaces the HTML\n\t\t// of the original page with the HTML of the login page.\n\t\treturn rewrite(\"/login\");\n\t}\n}\n\nAnd that’s it! Now, the Edge Middleware will check every incoming request. If it’s a URL that we want to password-protect, it’ll see if the cookies (sent in the request headers) have the correct password. If not, it’ll show the user our login page.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-24T23:11:25.000Z",
+            "updated_at": "2022-12-25T23:17:45.000Z",
+            "published_at": "2022-12-24T23:11:54.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63aa5d3413713c1f0e9e6c69",
+            "uuid": "718406da-0d82-472b-94f0-c9834f537a67",
+            "title": "Website redesign, December 2022",
+            "slug": "redesign-december-2022",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/2022-12-27-at-12.46.58@2x.png\",\"width\":2273,\"height\":2105}],[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/2022-12-27-at-12.47.05@2x.png\",\"width\":2273,\"height\":2105}]],\"markups\":[[\"a\",[\"href\",\"https://pittsburgh.ben.page\"]],[\"strong\"],[\"a\",[\"href\",\"https://astro.build\"]],[\"a\",[\"href\",\"https://taiwindcss.com\"]],[\"a\",[\"href\",\"https://ghost.org\"]],[\"em\"],[\"a\",[\"href\",\"https://www.hetzner.com/cloud\"]],[\"a\",[\"href\",\"https://benborgers.com/posts\"]],[\"a\",[\"href\",\"https://benborgers.com/technical-posts\"]],[\"a\",[\"href\",\"https://buttondown.email\"]],[\"a\",[\"href\",\"https://benborgers.com/swipes\"]],[\"a\",[\"href\",\"https://benborgers.com/slowmochristian\"]],[\"a\",[\"href\",\"https://benborgers.com/pittsburgh\"]],[\"a\",[\"href\",\"https://benborgers.com/tufts\"]],[\"a\",[\"href\",\"https://benborgers.com/tufts/cs86\"]],[\"code\"]],\"sections\":[[1,\"h2\",[[0,[],0,\"Why a redesign?\"]]],[1,\"p\",[[0,[],0,\"Last summer I had the idea to move away from writing daily blog posts, and to instead create one-off creative “posts” (like \"],[0,[0],1,\"this one about a trip to Pittsburgh\"],[0,[],0,\"). \"]]],[1,\"p\",[[0,[],0,\"A few months later, I realized that it wasn’t working: I just wasn’t finding the time to code these creative pages, because they required custom styling for everything. \"]]],[1,\"p\",[[0,[],0,\"I spent a few months thinking about what I wanted. In the end, \"],[0,[1],1,\"my goals were just to create a website where I can go back to blogging\"],[0,[],0,\", because I really enjoyed January to July of this year when I was writing a blog post every day. \"]]],[1,\"h2\",[[0,[],0,\"Things that were redesigned\"]]],[1,\"h3\",[[0,[],0,\"Architecture\"]]],[1,\"p\",[[0,[],0,\"The site is built using \"],[0,[2],1,\"Astro\"],[0,[],0,\", and styled with \"],[0,[3],1,\"Tailwind CSS\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"I’m writing in \"],[0,[4],1,\"Ghost\"],[0,[],0,\", which is the blogging software that I used for most of my daily blogging era before I switched away from it. \"]]],[1,\"p\",[[0,[],0,\"Time, unfortunately, goes in circles, and I am back on Ghost. \"]]],[1,\"p\",[[0,[],0,\"I \"],[0,[5],1,\"really\"],[0,[],0,\" like the writing interface of Ghost, and it feels very solid and simple. I’m encouraged to write more, because it feels easy. \"]]],[1,\"p\",[[0,[],0,\"I host my own Ghost server on \"],[0,[6],1,\"Hetzner\"],[0,[],0,\", which isn’t super great, but it’s manageable. This site is using Ghost “headlessly,” meaning that the website you see is separate from Ghost. Only the writing is pulled in from Ghost via their API. \"]]],[1,\"h3\",[[0,[],0,\"Homepage\"]]],[10,0],[1,\"p\",[[0,[],0,\"The homepage is quite standard, with four sections: Introduction, Blog, Work Experience, and Side Projects. \"]]],[1,\"p\",[[0,[],0,\"The main addition here is a Blog section on the homepage which shows my last four blog posts. I thought that it’d be a nice way of drawing attention to the blog, since I think that it’s the interesting part of my website. \"]]],[1,\"h3\",[[0,[],0,\"Blog\"]]],[10,1],[1,\"p\",[[0,[],0,\"I’ve once again split \"],[0,[7],1,\"blog posts\"],[0,[],0,\" from \"],[0,[8],1,\"technical blog posts\"],[0,[],0,\", since I think the technical posts aren’t really interesting to read unless you find them in Google (and were searching for the problem they solve). \"]]],[1,\"p\",[[0,[],0,\"This time I don’t link to the \"],[0,[8],1,\"list of technical blog\"],[0,[],0,\" posts \"],[0,[5],1,\"at all\"],[0,[],0,\", because I really don’t think they’re interesting. Maybe I should link to them somewhere though, just to humble-brag about having written 175+ of these posts. Not sure. \"]]],[1,\"h3\",[[0,[],0,\"Newsletter\"]]],[1,\"p\",[[0,[],0,\"I’ve added a newsletter signup form! It uses \"],[0,[9],1,\"Buttondown\"],[0,[],0,\", an app I’ve been freelancing for over the past year and a half. \"]]],[1,\"p\",[[0,[],0,\"Back when I was writing daily blog posts, people would visit my website every day to check for the new post, which was \"],[0,[5],1,\"very\"],[0,[],0,\" rewarding. But I don’t imagine that I’ll be back to the daily post cadence, so I want a way of telling people about new stuff. \"]]],[1,\"h3\",[[0,[],0,\"RSS\"]]],[1,\"p\",[[0,[],0,\"I’ve also added an RSS feed of new blog posts, if you prefer to keep up with the blog posts that way. \"]]],[1,\"h3\",[[0,[],0,\"Where’d everything else go?\"]]],[1,\"p\",[[0,[],0,\"Previously there were more pages on my website:\"]]],[3,\"ul\",[[[0,[10],1,\"benborgers.com/swipes\"]],[[0,[11],1,\"benborgers.com/slowmochristian\"]],[[0,[12],1,\"benborgers.com/pittsburgh\"]],[[0,[13],1,\"benborgers.com/tufts\"]],[[0,[14],1,\"benborgers.com/tufts/cs86\"],[0,[],0,\" (+ notes for other classes in Fall 2022)\"]]]],[1,\"p\",[[0,[],0,\"These pages came out of the idea that I should add creative pages to my website that weren’t all styled the same. \"]]],[1,\"p\",[[0,[],0,\"However, keeping them all under the same website made it hard to upgrade parts of the website and it felt a bit like a house of cards. \"]]],[1,\"p\",[[0,[],0,\"Therefore I’ve redirected all these pages to a new home under the \"],[0,[15],1,\"ben.page\"],[0,[],0,\" domain, which I bought recently. Each of them is their own (\"],[0,[2],1,\"Astro\"],[0,[],0,\") project and doesn’t interact with anything else. \"]]],[1,\"p\",[[0,[],0,\"That leaves this main website to be pure and simple — just a blog, essentially — while my more creative mini-websites can live happily as isolated projects. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<h2 id=\"why-a-redesign\">Why a redesign?</h2><p>Last summer I had the idea to move away from writing daily blog posts, and to instead create one-off creative “posts” (like <a href=\"https://pittsburgh.ben.page\">this one about a trip to Pittsburgh</a>). </p><p>A few months later, I realized that it wasn’t working: I just wasn’t finding the time to code these creative pages, because they required custom styling for everything. </p><p>I spent a few months thinking about what I wanted. In the end, <strong>my goals were just to create a website where I can go back to blogging</strong>, because I really enjoyed January to July of this year when I was writing a blog post every day. </p><h2 id=\"things-that-were-redesigned\">Things that were redesigned</h2><h3 id=\"architecture\">Architecture</h3><p>The site is built using <a href=\"https://astro.build\">Astro</a>, and styled with <a href=\"https://taiwindcss.com\">Tailwind CSS</a>. </p><p>I’m writing in <a href=\"https://ghost.org\">Ghost</a>, which is the blogging software that I used for most of my daily blogging era before I switched away from it. </p><p>Time, unfortunately, goes in circles, and I am back on Ghost. </p><p>I <em>really</em> like the writing interface of Ghost, and it feels very solid and simple. I’m encouraged to write more, because it feels easy. </p><p>I host my own Ghost server on <a href=\"https://www.hetzner.com/cloud\">Hetzner</a>, which isn’t super great, but it’s manageable. This site is using Ghost “headlessly,” meaning that the website you see is separate from Ghost. Only the writing is pulled in from Ghost via their API. </p><h3 id=\"homepage\">Homepage</h3><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/2022-12-27-at-12.46.58@2x.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"2000\" height=\"1852\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/2022-12-27-at-12.46.58@2x.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/2022-12-27-at-12.46.58@2x.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/2022-12-27-at-12.46.58@2x.png 1600w, __GHOST_URL__/content/images/2022/12/2022-12-27-at-12.46.58@2x.png 2273w\" sizes=\"(min-width: 720px) 720px\"></figure><p>The homepage is quite standard, with four sections: Introduction, Blog, Work Experience, and Side Projects. </p><p>The main addition here is a Blog section on the homepage which shows my last four blog posts. I thought that it’d be a nice way of drawing attention to the blog, since I think that it’s the interesting part of my website. </p><h3 id=\"blog\">Blog</h3><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/2022-12-27-at-12.47.05@2x.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"2000\" height=\"1852\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/2022-12-27-at-12.47.05@2x.png 600w, __GHOST_URL__/content/images/size/w1000/2022/12/2022-12-27-at-12.47.05@2x.png 1000w, __GHOST_URL__/content/images/size/w1600/2022/12/2022-12-27-at-12.47.05@2x.png 1600w, __GHOST_URL__/content/images/2022/12/2022-12-27-at-12.47.05@2x.png 2273w\" sizes=\"(min-width: 720px) 720px\"></figure><p>I’ve once again split <a href=\"https://benborgers.com/posts\">blog posts</a> from <a href=\"https://benborgers.com/technical-posts\">technical blog posts</a>, since I think the technical posts aren’t really interesting to read unless you find them in Google (and were searching for the problem they solve). </p><p>This time I don’t link to the <a href=\"https://benborgers.com/technical-posts\">list of technical blog</a> posts <em>at all</em>, because I really don’t think they’re interesting. Maybe I should link to them somewhere though, just to humble-brag about having written 175+ of these posts. Not sure. </p><h3 id=\"newsletter\">Newsletter</h3><p>I’ve added a newsletter signup form! It uses <a href=\"https://buttondown.email\">Buttondown</a>, an app I’ve been freelancing for over the past year and a half. </p><p>Back when I was writing daily blog posts, people would visit my website every day to check for the new post, which was <em>very</em> rewarding. But I don’t imagine that I’ll be back to the daily post cadence, so I want a way of telling people about new stuff. </p><h3 id=\"rss\">RSS</h3><p>I’ve also added an RSS feed of new blog posts, if you prefer to keep up with the blog posts that way. </p><h3 id=\"where%E2%80%99d-everything-else-go\">Where’d everything else go?</h3><p>Previously there were more pages on my website:</p><ul><li><a href=\"https://benborgers.com/swipes\">benborgers.com/swipes</a></li><li><a href=\"https://benborgers.com/slowmochristian\">benborgers.com/slowmochristian</a></li><li><a href=\"https://benborgers.com/pittsburgh\">benborgers.com/pittsburgh</a></li><li><a href=\"https://benborgers.com/tufts\">benborgers.com/tufts</a></li><li><a href=\"https://benborgers.com/tufts/cs86\">benborgers.com/tufts/cs86</a> (+ notes for other classes in Fall 2022)</li></ul><p>These pages came out of the idea that I should add creative pages to my website that weren’t all styled the same. </p><p>However, keeping them all under the same website made it hard to upgrade parts of the website and it felt a bit like a house of cards. </p><p>Therefore I’ve redirected all these pages to a new home under the <code>ben.page</code> domain, which I bought recently. Each of them is their own (<a href=\"https://astro.build\">Astro</a>) project and doesn’t interact with anything else. </p><p>That leaves this main website to be pure and simple — just a blog, essentially — while my more creative mini-websites can live happily as isolated projects. </p>",
+            "comment_id": "63aa5d3413713c1f0e9e6c69",
+            "plaintext": "Why a redesign?\n\nLast summer I had the idea to move away from writing daily blog posts, and to instead create one-off creative “posts” (like this one about a trip to Pittsburgh).\n\nA few months later, I realized that it wasn’t working: I just wasn’t finding the time to code these creative pages, because they required custom styling for everything.\n\nI spent a few months thinking about what I wanted. In the end, my goals were just to create a website where I can go back to blogging, because I really enjoyed January to July of this year when I was writing a blog post every day.\n\n\nThings that were redesigned\n\n\nArchitecture\n\nThe site is built using Astro, and styled with Tailwind CSS.\n\nI’m writing in Ghost, which is the blogging software that I used for most of my daily blogging era before I switched away from it.\n\nTime, unfortunately, goes in circles, and I am back on Ghost.\n\nI really like the writing interface of Ghost, and it feels very solid and simple. I’m encouraged to write more, because it feels easy.\n\nI host my own Ghost server on Hetzner, which isn’t super great, but it’s manageable. This site is using Ghost “headlessly,” meaning that the website you see is separate from Ghost. Only the writing is pulled in from Ghost via their API.\n\n\nHomepage\n\nThe homepage is quite standard, with four sections: Introduction, Blog, Work Experience, and Side Projects.\n\nThe main addition here is a Blog section on the homepage which shows my last four blog posts. I thought that it’d be a nice way of drawing attention to the blog, since I think that it’s the interesting part of my website.\n\n\nBlog\n\nI’ve once again split blog posts from technical blog posts, since I think the technical posts aren’t really interesting to read unless you find them in Google (and were searching for the problem they solve).\n\nThis time I don’t link to the list of technical blog posts at all, because I really don’t think they’re interesting. Maybe I should link to them somewhere though, just to humble-brag about having written 175+ of these posts. Not sure.\n\n\nNewsletter\n\nI’ve added a newsletter signup form! It uses Buttondown, an app I’ve been freelancing for over the past year and a half.\n\nBack when I was writing daily blog posts, people would visit my website every day to check for the new post, which was very rewarding. But I don’t imagine that I’ll be back to the daily post cadence, so I want a way of telling people about new stuff.\n\n\nRSS\n\nI’ve also added an RSS feed of new blog posts, if you prefer to keep up with the blog posts that way.\n\n\nWhere’d everything else go?\n\nPreviously there were more pages on my website:\n\n * benborgers.com/swipes\n * benborgers.com/slowmochristian\n * benborgers.com/pittsburgh\n * benborgers.com/tufts\n * benborgers.com/tufts/cs86 (+ notes for other classes in Fall 2022)\n\nThese pages came out of the idea that I should add creative pages to my website that weren’t all styled the same.\n\nHowever, keeping them all under the same website made it hard to upgrade parts of the website and it felt a bit like a house of cards.\n\nTherefore I’ve redirected all these pages to a new home under the ben.page domain, which I bought recently. Each of them is their own (Astro) project and doesn’t interact with anything else.\n\nThat leaves this main website to be pure and simple — just a blog, essentially — while my more creative mini-websites can live happily as isolated projects.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-27T02:49:24.000Z",
+            "updated_at": "2022-12-31T15:18:52.000Z",
+            "published_at": "2022-12-27T19:21:08.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63ada5ac13713c1f0e9e6d43",
+            "uuid": "51dbafdb-2026-436c-8460-fa956789460b",
+            "title": "How to use Fathom Analytics with Astro",
+            "slug": "fathom-astro",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"callout\",{\"calloutEmoji\":\"👋\",\"calloutText\":\"I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a <a href=\\\"https://usefathom.com/ref/TUIPJE\\\">referral link</a> that will give you $10 off!\",\"backgroundColor\":\"grey\"}],[\"code\",{\"language\":\"html\",\"code\":\"<script src=\\\"https://cdn.usefathom.com/script.js\\\" data-site=\\\"YOUR_SITE_ID\\\" defer></script> \"}]],\"markups\":[[\"code\"],[\"strong\"]],\"sections\":[[10,0],[1,\"p\",[[0,[],0,\"In your Astro site you’ll usually have a \"],[0,[0],1,\"Layout\"],[0,[],0,\" component, or some component that includes all the \"],[0,[0],1,\"<head>\"],[0,[],0,\" tags so that they can be reused across all your pages. \"]]],[1,\"p\",[[0,[],0,\"In that component, inside the \"],[0,[0],1,\"<head>\"],[0,[],0,\" tag, paste the Fathom tracking script. \"]]],[1,\"p\",[[0,[],0,\"You can find the Fathom tracking script through: \"],[0,[1],1,\"Fathom dashboard > Settings (top right) > click on site > Script settings > Embed code\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"It’ll look something like this: \"]]],[10,1],[1,\"p\",[[0,[],0,\"Paste that script into the \"],[0,[0],1,\"<head>\"],[0,[],0,\" tag in the layout (or multiple layouts) for your Astro site. \"]]],[1,\"p\",[[0,[],0,\"Now, every page that uses that layout component will have Fathom tracking analytics for you! \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<div class=\"kg-card kg-callout-card kg-callout-card-grey\"><div class=\"kg-callout-emoji\">👋</div><div class=\"kg-callout-text\">I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a <a href=\"https://usefathom.com/ref/TUIPJE\">referral link</a> that will give you $10 off!</div></div><p>In your Astro site you’ll usually have a <code>Layout</code> component, or some component that includes all the <code>&lt;head&gt;</code> tags so that they can be reused across all your pages. </p><p>In that component, inside the <code>&lt;head&gt;</code> tag, paste the Fathom tracking script. </p><p>You can find the Fathom tracking script through: <strong>Fathom dashboard &gt; Settings (top right) &gt; click on site &gt; Script settings &gt; Embed code</strong>. </p><p>It’ll look something like this: </p><pre><code class=\"language-html\">&lt;script src=\"https://cdn.usefathom.com/script.js\" data-site=\"YOUR_SITE_ID\" defer&gt;&lt;/script&gt; </code></pre><p>Paste that script into the <code>&lt;head&gt;</code> tag in the layout (or multiple layouts) for your Astro site. </p><p>Now, every page that uses that layout component will have Fathom tracking analytics for you! </p>",
+            "comment_id": "63ada5ac13713c1f0e9e6d43",
+            "plaintext": "👋I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a referral link that will give you $10 off!\n\nIn your Astro site you’ll usually have a Layout component, or some component that includes all the <head> tags so that they can be reused across all your pages.\n\nIn that component, inside the <head> tag, paste the Fathom tracking script.\n\nYou can find the Fathom tracking script through: Fathom dashboard > Settings (top right) > click on site > Script settings > Embed code.\n\nIt’ll look something like this:\n\n<script src=\"https://cdn.usefathom.com/script.js\" data-site=\"YOUR_SITE_ID\" defer></script> \n\nPaste that script into the <head> tag in the layout (or multiple layouts) for your Astro site.\n\nNow, every page that uses that layout component will have Fathom tracking analytics for you!",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-29T14:35:24.000Z",
+            "updated_at": "2022-12-29T14:41:23.000Z",
+            "published_at": "2022-12-29T14:41:23.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63ada72713713c1f0e9e6d6a",
+            "uuid": "a6a804c5-3f65-4b56-8ba9-8da14667ec29",
+            "title": "How to disable Fathom Analytics in development environment",
+            "slug": "fathom-dev",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"callout\",{\"calloutEmoji\":\"👋\",\"calloutText\":\"I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a <a href=\\\"https://usefathom.com/ref/TUIPJE\\\">referral link</a> that will give you $10 off!\",\"backgroundColor\":\"grey\"}],[\"code\",{\"code\":\"<script\\n\\tsrc=\\\"https://cdn.usefathom.com/script.js\\\"\\n\\tdata-site=\\\"YOUR_SITE_ID\\\"\\n\\tdata-included-domains=\\\"example.com,www.example.com\\\"\\n\\tdefer\\n></script>\",\"language\":\"html\"}]],\"markups\":[[\"code\"],[\"em\"]],\"sections\":[[10,0],[1,\"p\",[[0,[],0,\"Often you want to block yourself from being counted in your own page views while you develop your site. \"]]],[1,\"p\",[[0,[],0,\"One way to do this is to paste \"],[0,[0],1,\"fathom.blockTrackingForMe()\"],[0,[],0,\" in your JavaScript console. However, you’ll have to remember to do this for each browser you develop in, and the setting will be removed if you clear your local storage. \"]]],[1,\"p\",[[0,[],0,\"Instead, you can use the \"],[0,[0],1,\"data-included-domains\"],[0,[],0,\" setting that the Fathom tracking script provides. \"]]],[1,\"p\",[[0,[],0,\"If your website is under \"],[0,[0],1,\"example.com\"],[0,[],0,\" and \"],[0,[0],1,\"www.example.com\"],[0,[],0,\", you can modify your Fathom script to look like this: \"]]],[10,1],[1,\"p\",[[0,[1],1,\"Note that you have to add both the “root” domain and the www subdomain if your site uses both. \"]]],[1,\"p\",[[0,[],0,\"Now, the script will only track page views on your production domains, and not in your local development environment. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<div class=\"kg-card kg-callout-card kg-callout-card-grey\"><div class=\"kg-callout-emoji\">👋</div><div class=\"kg-callout-text\">I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a <a href=\"https://usefathom.com/ref/TUIPJE\">referral link</a> that will give you $10 off!</div></div><p>Often you want to block yourself from being counted in your own page views while you develop your site. </p><p>One way to do this is to paste <code>fathom.blockTrackingForMe()</code> in your JavaScript console. However, you’ll have to remember to do this for each browser you develop in, and the setting will be removed if you clear your local storage. </p><p>Instead, you can use the <code>data-included-domains</code> setting that the Fathom tracking script provides. </p><p>If your website is under <code>example.com</code> and <code>www.example.com</code>, you can modify your Fathom script to look like this: </p><pre><code class=\"language-html\">&lt;script\n\tsrc=\"https://cdn.usefathom.com/script.js\"\n\tdata-site=\"YOUR_SITE_ID\"\n\tdata-included-domains=\"example.com,www.example.com\"\n\tdefer\n&gt;&lt;/script&gt;</code></pre><p><em>Note that you have to add both the “root” domain and the www subdomain if your site uses both. </em></p><p>Now, the script will only track page views on your production domains, and not in your local development environment. </p>",
+            "comment_id": "63ada72713713c1f0e9e6d6a",
+            "plaintext": "👋I’ve been using Fathom Analytics for years and I absolutely love it. If you want to sign up, I have a referral link that will give you $10 off!\n\nOften you want to block yourself from being counted in your own page views while you develop your site.\n\nOne way to do this is to paste fathom.blockTrackingForMe() in your JavaScript console. However, you’ll have to remember to do this for each browser you develop in, and the setting will be removed if you clear your local storage.\n\nInstead, you can use the data-included-domains setting that the Fathom tracking script provides.\n\nIf your website is under example.com and www.example.com, you can modify your Fathom script to look like this:\n\n<script\n\tsrc=\"https://cdn.usefathom.com/script.js\"\n\tdata-site=\"YOUR_SITE_ID\"\n\tdata-included-domains=\"example.com,www.example.com\"\n\tdefer\n></script>\n\nNote that you have to add both the “root” domain and the www subdomain if your site uses both.\n\nNow, the script will only track page views on your production domains, and not in your local development environment.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-29T14:41:43.000Z",
+            "updated_at": "2022-12-29T14:49:39.000Z",
+            "published_at": "2022-12-29T14:49:39.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63ada95613713c1f0e9e6d9e",
+            "uuid": "90f7e546-a13a-4752-ade9-c762c15b02ac",
+            "title": "How to build a menu bar app as a gift",
+            "slug": "pocket-ben",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2022/12/image-7.png\",\"width\":986,\"height\":525}],[\"hr\",{}]],\"markups\":[[\"a\",[\"href\",\"https://twitter.com/benborgers/status/1584907665599508481?s=20&t=VxTcX43eXRNTmzpphHhk_whttps://twitter.com/benborgers/status/1584907665599508481\"]],[\"a\",[\"href\",\"https://www.electronjs.org/\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"In October, I built a menu bar app for my girlfriend Trisha’s birthday that came pre-loaded with a message for each day of the next year. \"]]],[1,\"p\",[[0,[],0,\"Since the \"],[0,[0],1,\"tweet\"],[0,[],0,\" about it did quite well, I wanted to write a quick post about how I did it. \"]]],[10,0],[1,\"p\",[[0,[],0,\"It’s an \"],[0,[1],1,\"Electron\"],[0,[],0,\" Mac app\"]]],[10,1],[1,\"p\",[[0,[],0,\"Lastly, feel free to steal this idea for your loved one of choice. This will work well if they don’t follow me on Twitter (and the chances of that are slim). \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>In October, I built a menu bar app for my girlfriend Trisha’s birthday that came pre-loaded with a message for each day of the next year. </p><p>Since the <a href=\"https://twitter.com/benborgers/status/1584907665599508481?s=20&amp;t=VxTcX43eXRNTmzpphHhk_whttps://twitter.com/benborgers/status/1584907665599508481\">tweet</a> about it did quite well, I wanted to write a quick post about how I did it. </p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2022/12/image-7.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"986\" height=\"525\" srcset=\"__GHOST_URL__/content/images/size/w600/2022/12/image-7.png 600w, __GHOST_URL__/content/images/2022/12/image-7.png 986w\" sizes=\"(min-width: 720px) 720px\"></figure><p>It’s an <a href=\"https://www.electronjs.org/\">Electron</a> Mac app</p><hr><p>Lastly, feel free to steal this idea for your loved one of choice. This will work well if they don’t follow me on Twitter (and the chances of that are slim). </p>",
+            "comment_id": "63ada95613713c1f0e9e6d9e",
+            "plaintext": "In October, I built a menu bar app for my girlfriend Trisha’s birthday that came pre-loaded with a message for each day of the next year.\n\nSince the tweet about it did quite well, I wanted to write a quick post about how I did it.\n\nIt’s an Electron Mac app\n\nLastly, feel free to steal this idea for your loved one of choice. This will work well if they don’t follow me on Twitter (and the chances of that are slim).",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "draft",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2022-12-29T14:51:02.000Z",
+            "updated_at": "2022-12-31T04:40:10.000Z",
+            "published_at": null,
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b2e42613713c1f0e9e6e73",
+            "uuid": "7459ef68-d970-4f1a-b00f-ab6f03513f14",
+            "title": "How to build a custom progress bar with SwiftUI",
+            "slug": "swiftui-progress-bar",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"image\",{\"src\":\"__GHOST_URL__/content/images/2023/01/IMG_88EACB3DF4C6-1.jpeg\",\"width\":1042,\"height\":88}],[\"code\",{\"code\":\"Rectangle()\\n\\t.foregroundColor(Color(.systemGray5))\\n\\t.frame(height: 16)\\n\\t.overlay(\\n\\t\\tGeometryReader { metrics in\\n\\t\\t\\tRectangle()\\n\\t\\t\\t\\t.foregroundColor(.yellow)\\n\\t\\t\\t\\t.frame(\\n\\t\\t\\t\\t\\twidth: min(progress/goal, 1) * metrics.size.width,\\n\\t\\t\\t\\t\\theight: 16\\n\\t\\t\\t\\t)\\n\\t\\t}\\n\\t)\\n.clipShape(RoundedRectangle(cornerRadius: 20))\",\"language\":\"swift\"}],[\"markdown\",{\"markdown\":\"- The background is a gray rectangle whose height is 16. \\n- We overlay on top a colored rectangle whose height is also 16, and whose width is a percentage of the way across. \\n    - We use `GeometryReader` to calculate the full screen width available, `metrics.size.width`, and multiply it by a decimal. \\n    - We cap the decimal at `1` at most, so the progress bar isn’t wider than the available space. \\n- Finally, we clip the whole bar into the shape of a rounded rectangle, so the progress bar is more pill-shaped. \\n    - How rounded this shape should be (or whether to clip it at all) is up to you. \"}]],\"markups\":[],\"sections\":[[1,\"p\",[[0,[],0,\"Here’s how to build a progress bar like this using SwiftUI:\"]]],[10,0],[1,\"p\",[[0,[],0,\"I’ll paste the code, and then I’ll explain it a bit below. \"]]],[10,1],[10,2]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>Here’s how to build a progress bar like this using SwiftUI:</p><figure class=\"kg-card kg-image-card\"><img src=\"__GHOST_URL__/content/images/2023/01/IMG_88EACB3DF4C6-1.jpeg\" class=\"kg-image\" alt loading=\"lazy\" width=\"1042\" height=\"88\" srcset=\"__GHOST_URL__/content/images/size/w600/2023/01/IMG_88EACB3DF4C6-1.jpeg 600w, __GHOST_URL__/content/images/size/w1000/2023/01/IMG_88EACB3DF4C6-1.jpeg 1000w, __GHOST_URL__/content/images/2023/01/IMG_88EACB3DF4C6-1.jpeg 1042w\" sizes=\"(min-width: 720px) 720px\"></figure><p>I’ll paste the code, and then I’ll explain it a bit below. </p><pre><code class=\"language-swift\">Rectangle()\n\t.foregroundColor(Color(.systemGray5))\n\t.frame(height: 16)\n\t.overlay(\n\t\tGeometryReader { metrics in\n\t\t\tRectangle()\n\t\t\t\t.foregroundColor(.yellow)\n\t\t\t\t.frame(\n\t\t\t\t\twidth: min(progress/goal, 1) * metrics.size.width,\n\t\t\t\t\theight: 16\n\t\t\t\t)\n\t\t}\n\t)\n.clipShape(RoundedRectangle(cornerRadius: 20))</code></pre><!--kg-card-begin: markdown--><ul>\n<li>The background is a gray rectangle whose height is 16.</li>\n<li>We overlay on top a colored rectangle whose height is also 16, and whose width is a percentage of the way across.\n<ul>\n<li>We use <code>GeometryReader</code> to calculate the full screen width available, <code>metrics.size.width</code>, and multiply it by a decimal.</li>\n<li>We cap the decimal at <code>1</code> at most, so the progress bar isn’t wider than the available space.</li>\n</ul>\n</li>\n<li>Finally, we clip the whole bar into the shape of a rounded rectangle, so the progress bar is more pill-shaped.\n<ul>\n<li>How rounded this shape should be (or whether to clip it at all) is up to you.</li>\n</ul>\n</li>\n</ul>\n<!--kg-card-end: markdown-->",
+            "comment_id": "63b2e42613713c1f0e9e6e73",
+            "plaintext": "Here’s how to build a progress bar like this using SwiftUI:\n\nI’ll paste the code, and then I’ll explain it a bit below.\n\nRectangle()\n\t.foregroundColor(Color(.systemGray5))\n\t.frame(height: 16)\n\t.overlay(\n\t\tGeometryReader { metrics in\n\t\t\tRectangle()\n\t\t\t\t.foregroundColor(.yellow)\n\t\t\t\t.frame(\n\t\t\t\t\twidth: min(progress/goal, 1) * metrics.size.width,\n\t\t\t\t\theight: 16\n\t\t\t\t)\n\t\t}\n\t)\n.clipShape(RoundedRectangle(cornerRadius: 20))\n\n * The background is a gray rectangle whose height is 16.\n * We overlay on top a colored rectangle whose height is also 16, and whose width is a percentage of the way across.\n   \n   * We use GeometryReader to calculate the full screen width available, metrics.size.width, and multiply it by a decimal.\n   * We cap the decimal at 1 at most, so the progress bar isn’t wider than the available space.\n   \n * Finally, we clip the whole bar into the shape of a rounded rectangle, so the progress bar is more pill-shaped.\n   \n   * How rounded this shape should be (or whether to clip it at all) is up to you.\n   \n",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-02T14:03:18.000Z",
+            "updated_at": "2023-01-02T14:21:13.000Z",
+            "published_at": "2023-01-02T14:11:42.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b2e64213713c1f0e9e6eab",
+            "uuid": "c367ad5c-ef80-4d74-bca5-e952e88b5534",
+            "title": "Publishing my Fall 2022 class notes",
+            "slug": "fall22-notes",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"hr\",{}]],\"markups\":[[\"a\",[\"href\",\"https://benborgers.com/posts/publishing-class-notes\"]],[\"a\",[\"href\",\"https://fall22.ben.page\"]],[\"em\"],[\"a\",[\"href\",\"https://benborgers.com/posts/redesign-december-2022\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"For a long time I’ve had the \"],[0,[0],1,\"idea\"],[0,[],0,\" of publishing class notes on my website. \"]]],[1,\"p\",[[0,[],0,\"I wanted to motivate myself to keep good notes (and an audience would motivate me to do that), and I wanted to have something to look back at a few years later (when I had inevitably forgotten most of what I had been taught). \"]]],[1,\"p\",[[0,[],0,\"This fall semester, I finally did it for an entire semester! My class notes are public at \"],[0,[1],1,\"fall22.ben.page\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"I don’t have particularly grand conclusions to draw from this experience; it went pretty much as expected. But that’s to say — it was an enjoyable thing to do, and I’m going to try to do it again next semester!\"]]],[1,\"p\",[[0,[],0,\"The fact that these notes were going to be \"],[0,[2],1,\"published\"],[0,[],0,\" somewhere definitely pushed me to keep up with taking notes, even on days when I didn’t want to, so that the collection would be complete. \"]]],[1,\"p\",[[0,[],0,\"And I think it’ll be interesting to flip through these notes someday and take a quick look at the things I learned this semester. \"]]],[10,0],[1,\"p\",[[0,[],0,\"As a sidenote, I’m also glad that I made this set of notes its own thing instead of trying to create an all-encompassing “class notes system” on my website. From the beginning, even before I \"],[0,[3],1,\"put the site on its own domain\"],[0,[],0,\", it was powered by code that was only meant to house \"],[0,[2],1,\"Fall 2022\"],[0,[],0,\" notes. \"]]],[1,\"p\",[[0,[],0,\"I thought (correctly) that I would change my mind within a semester about how I wanted to take notes and how I wanted to publish them. So keeping this website small in scope will allow me to do things slightly differently next semester. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>For a long time I’ve had the <a href=\"https://benborgers.com/posts/publishing-class-notes\">idea</a> of publishing class notes on my website. </p><p>I wanted to motivate myself to keep good notes (and an audience would motivate me to do that), and I wanted to have something to look back at a few years later (when I had inevitably forgotten most of what I had been taught). </p><p>This fall semester, I finally did it for an entire semester! My class notes are public at <a href=\"https://fall22.ben.page\">fall22.ben.page</a>. </p><p>I don’t have particularly grand conclusions to draw from this experience; it went pretty much as expected. But that’s to say — it was an enjoyable thing to do, and I’m going to try to do it again next semester!</p><p>The fact that these notes were going to be <em>published</em> somewhere definitely pushed me to keep up with taking notes, even on days when I didn’t want to, so that the collection would be complete. </p><p>And I think it’ll be interesting to flip through these notes someday and take a quick look at the things I learned this semester. </p><hr><p>As a sidenote, I’m also glad that I made this set of notes its own thing instead of trying to create an all-encompassing “class notes system” on my website. From the beginning, even before I <a href=\"https://benborgers.com/posts/redesign-december-2022\">put the site on its own domain</a>, it was powered by code that was only meant to house <em>Fall 2022</em> notes. </p><p>I thought (correctly) that I would change my mind within a semester about how I wanted to take notes and how I wanted to publish them. So keeping this website small in scope will allow me to do things slightly differently next semester. </p>",
+            "comment_id": "63b2e64213713c1f0e9e6eab",
+            "plaintext": "For a long time I’ve had the idea of publishing class notes on my website.\n\nI wanted to motivate myself to keep good notes (and an audience would motivate me to do that), and I wanted to have something to look back at a few years later (when I had inevitably forgotten most of what I had been taught).\n\nThis fall semester, I finally did it for an entire semester! My class notes are public at fall22.ben.page.\n\nI don’t have particularly grand conclusions to draw from this experience; it went pretty much as expected. But that’s to say — it was an enjoyable thing to do, and I’m going to try to do it again next semester!\n\nThe fact that these notes were going to be published somewhere definitely pushed me to keep up with taking notes, even on days when I didn’t want to, so that the collection would be complete.\n\nAnd I think it’ll be interesting to flip through these notes someday and take a quick look at the things I learned this semester.\n\nAs a sidenote, I’m also glad that I made this set of notes its own thing instead of trying to create an all-encompassing “class notes system” on my website. From the beginning, even before I put the site on its own domain, it was powered by code that was only meant to house Fall 2022 notes.\n\nI thought (correctly) that I would change my mind within a semester about how I wanted to take notes and how I wanted to publish them. So keeping this website small in scope will allow me to do things slightly differently next semester.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-02T14:12:18.000Z",
+            "updated_at": "2023-01-05T01:10:11.000Z",
+            "published_at": "2023-01-05T01:10:11.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b4466413713c1f0e9e6ec2",
+            "uuid": "58b4ed14-9df1-4767-acb3-6a17e884c552",
+            "title": "How to fix “No matching version found for @remix-run/dev”",
+            "slug": "remix-registry-error",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"code\",{\"code\":\"No matching version found for @remix-run/dev@1.9.0.\"}],[\"code\",{\"code\":\"No versions available for undefined\"}],[\"code\",{\"code\":\"npm config delete @remix-run:registry\",\"language\":\"bash\"}]],\"markups\":[[\"a\",[\"href\",\"https://remix.run\"]],[\"code\"]],\"sections\":[[1,\"p\",[[0,[],0,\"I was trying to create a new \"],[0,[0],1,\"Remix\"],[0,[],0,\" app using \"],[0,[1],1,\"npx create-remix@latest\"],[0,[],0,\", but kept running into this error: \"]]],[10,0],[1,\"p\",[[0,[],0,\"When I tried to install \"],[0,[1],1,\"@remix-run/dev\"],[0,[],0,\" by itself using npm, I got this error: \"]]],[10,1],[1,\"p\",[[0,[],0,\"Turns out the problem was that I still had the private npm repository for Remix configured, from back when they weren’t open source. \"]]],[1,\"p\",[[0,[],0,\"To remove that, I had to run this in the terminal: \"]]],[10,2],[1,\"p\",[[0,[],0,\"After that, \"],[0,[1],1,\"npx create-remix@latest\"],[0,[],0,\" worked perfectly. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>I was trying to create a new <a href=\"https://remix.run\">Remix</a> app using <code>npx create-remix@latest</code>, but kept running into this error: </p><pre><code>No matching version found for @remix-run/dev@1.9.0.</code></pre><p>When I tried to install <code>@remix-run/dev</code> by itself using npm, I got this error: </p><pre><code>No versions available for undefined</code></pre><p>Turns out the problem was that I still had the private npm repository for Remix configured, from back when they weren’t open source. </p><p>To remove that, I had to run this in the terminal: </p><pre><code class=\"language-bash\">npm config delete @remix-run:registry</code></pre><p>After that, <code>npx create-remix@latest</code> worked perfectly. </p>",
+            "comment_id": "63b4466413713c1f0e9e6ec2",
+            "plaintext": "I was trying to create a new Remix app using npx create-remix@latest, but kept running into this error:\n\nNo matching version found for @remix-run/dev@1.9.0.\n\nWhen I tried to install @remix-run/dev by itself using npm, I got this error:\n\nNo versions available for undefined\n\nTurns out the problem was that I still had the private npm repository for Remix configured, from back when they weren’t open source.\n\nTo remove that, I had to run this in the terminal:\n\nnpm config delete @remix-run:registry\n\nAfter that, npx create-remix@latest worked perfectly.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-03T15:14:44.000Z",
+            "updated_at": "2023-01-03T15:17:20.000Z",
+            "published_at": "2023-01-03T15:17:20.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b623c813713c1f0e9e6eff",
+            "uuid": "c969c1b3-c815-4289-8d26-2cf7269327f8",
+            "title": "JumboCode: mid-semester review",
+            "slug": "jumbocode",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[],\"sections\":[[1,\"p\",[]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": null,
+            "comment_id": "63b623c813713c1f0e9e6eff",
+            "plaintext": null,
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "draft",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-05T01:11:36.000Z",
+            "updated_at": "2023-01-12T21:00:58.000Z",
+            "published_at": null,
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b75f3d13713c1f0e9e6f35",
+            "uuid": "9ee96039-cc83-46d2-a5c5-71f2fd707dbf",
+            "title": "Recent experience with therapy",
+            "slug": "therapy",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[[\"strong\"]],\"sections\":[[1,\"p\",[[0,[],0,\"In October, my workload in and out of class, along with the way it was affecting my relationships, came to a head. I went back to the list of therapists I had requested from my insurance company over the summer, and called one.\"]]],[1,\"p\",[[0,[],0,\"I happened to choose Cognitive Behavioral Therapy (\"],[0,[0],1,\"CBT\"],[0,[],0,\"), a particular strain of therapy that aims to correct faulty thinking and distortions in the patient. \"]]],[1,\"p\",[[0,[],0,\"I met with my therapist every week from October until December, when I felt like I wanted to cancel the sessions. I wanted to reflect a bit on what the experience was like. \"]]],[1,\"h2\",[[0,[],0,\"Distortions\"]]],[1,\"h2\",[[0,[],0,\"Mindfulness\"]]],[1,\"h2\",[[0,[],0,\"You-driven\"]]],[1,\"h2\",[[0,[],0,\"Cancelling\"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>In October, my workload in and out of class, along with the way it was affecting my relationships, came to a head. I went back to the list of therapists I had requested from my insurance company over the summer, and called one.</p><p>I happened to choose Cognitive Behavioral Therapy (<strong>CBT</strong>), a particular strain of therapy that aims to correct faulty thinking and distortions in the patient. </p><p>I met with my therapist every week from October until December, when I felt like I wanted to cancel the sessions. I wanted to reflect a bit on what the experience was like. </p><h2 id=\"distortions\">Distortions</h2><h2 id=\"mindfulness\">Mindfulness</h2><h2 id=\"you-driven\">You-driven</h2><h2 id=\"cancelling\">Cancelling</h2>",
+            "comment_id": "63b75f3d13713c1f0e9e6f35",
+            "plaintext": "In October, my workload in and out of class, along with the way it was affecting my relationships, came to a head. I went back to the list of therapists I had requested from my insurance company over the summer, and called one.\n\nI happened to choose Cognitive Behavioral Therapy (CBT), a particular strain of therapy that aims to correct faulty thinking and distortions in the patient.\n\nI met with my therapist every week from October until December, when I felt like I wanted to cancel the sessions. I wanted to reflect a bit on what the experience was like.\n\n\nDistortions\n\n\nMindfulness\n\n\nYou-driven\n\n\nCancelling",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "draft",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-05T23:37:33.000Z",
+            "updated_at": "2023-01-17T03:41:49.000Z",
+            "published_at": null,
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63b7605313713c1f0e9e6f56",
+            "uuid": "0835978f-42eb-48af-b925-0dc21638a7d9",
+            "title": "No Dessert Challenge",
+            "slug": "no-dessert-challenge",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[[\"a\",[\"href\",\"https://docs.google.com/spreadsheets/d/1LhZgB-AMSOBz21-hqI0MY-qPtUj7pWxDbF2lJ1QdfJk\"]],[\"em\"]],\"sections\":[[1,\"p\",[[0,[],0,\"Before this past semester I decided to put myself to a challenge: no dessert from the dining halls for the entire semester. \"]]],[1,\"p\",[[0,[],0,\"I even made \"],[0,[0],1,\"a spreadsheet\"],[0,[],0,\" to track it! \"]]],[1,\"p\",[[0,[],0,\"And I did it! I made it for the entire semester without getting any dessert from dining halls or dining-hall-adjacent establishments at Tufts. \"]]],[1,\"h2\",[[0,[],0,\"Why?\"]]],[1,\"p\",[[0,[],0,\"Last year, I noticed the progression of eating dessert at the dining hall. At first, it would be a nice treat. But eventually I would come to expect dessert, and a meal felt incomplete without it. \"]]],[1,\"p\",[[0,[],0,\"That felt unhealthy. Dessert with every meal probably isn’t a healthy way to be eating. \"]]],[1,\"h2\",[[0,[],0,\"Why cold turkey?\"]]],[1,\"p\",[[0,[],0,\"I find that I’m more able to stick with things when they’re all-or-nothing. This could’ve been “eat dessert only once a week,” but that’s harder for my brain to reason about. \"]]],[1,\"p\",[[0,[1],1,\"Never\"],[0,[],0,\" having dessert at the dining halls is extremely easy to think about. There’s nothing to remember, and no gray area. \"]]],[1,\"h2\",[[0,[],0,\"Did it have noticeable effects?\"]]],[1,\"p\",[[0,[],0,\"Not really?\"]]],[1,\"p\",[[0,[],0,\"Every once in a while there was a dessert that looked quite good, and it was kinda a bummer that I couldn’t have it. But that wasn’t super common. (And to be clear, I still ate unhealthy stuff outside of the dining halls at times.)\"]]],[1,\"p\",[[0,[],0,\"But I didn’t really feel a difference, neither positive or negative really. The vast majority of days I didn’t think about it at all. \"]]],[1,\"h2\",[[0,[],0,\"Did I learn anything?\"]]],[1,\"p\",[[0,[],0,\"Of course, I’d like to say yes, but let’s be reasonable here. \"]]],[1,\"p\",[[0,[],0,\"I’ll probably go back to eating dessert next semester. In smaller amounts? Perhaps. \"]]],[1,\"p\",[[0,[],0,\"At least, if I feel myself sliding back into the feeling of \"],[0,[1],1,\"needing\"],[0,[],0,\" dessert in order to make a meal complete, I’ll be able to think back to this experience and hopefully course-correct a bit. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>Before this past semester I decided to put myself to a challenge: no dessert from the dining halls for the entire semester. </p><p>I even made <a href=\"https://docs.google.com/spreadsheets/d/1LhZgB-AMSOBz21-hqI0MY-qPtUj7pWxDbF2lJ1QdfJk\">a spreadsheet</a> to track it! </p><p>And I did it! I made it for the entire semester without getting any dessert from dining halls or dining-hall-adjacent establishments at Tufts. </p><h2 id=\"why\">Why?</h2><p>Last year, I noticed the progression of eating dessert at the dining hall. At first, it would be a nice treat. But eventually I would come to expect dessert, and a meal felt incomplete without it. </p><p>That felt unhealthy. Dessert with every meal probably isn’t a healthy way to be eating. </p><h2 id=\"why-cold-turkey\">Why cold turkey?</h2><p>I find that I’m more able to stick with things when they’re all-or-nothing. This could’ve been “eat dessert only once a week,” but that’s harder for my brain to reason about. </p><p><em>Never</em> having dessert at the dining halls is extremely easy to think about. There’s nothing to remember, and no gray area. </p><h2 id=\"did-it-have-noticeable-effects\">Did it have noticeable effects?</h2><p>Not really?</p><p>Every once in a while there was a dessert that looked quite good, and it was kinda a bummer that I couldn’t have it. But that wasn’t super common. (And to be clear, I still ate unhealthy stuff outside of the dining halls at times.)</p><p>But I didn’t really feel a difference, neither positive or negative really. The vast majority of days I didn’t think about it at all. </p><h2 id=\"did-i-learn-anything\">Did I learn anything?</h2><p>Of course, I’d like to say yes, but let’s be reasonable here. </p><p>I’ll probably go back to eating dessert next semester. In smaller amounts? Perhaps. </p><p>At least, if I feel myself sliding back into the feeling of <em>needing</em> dessert in order to make a meal complete, I’ll be able to think back to this experience and hopefully course-correct a bit. </p>",
+            "comment_id": "63b7605313713c1f0e9e6f56",
+            "plaintext": "Before this past semester I decided to put myself to a challenge: no dessert from the dining halls for the entire semester.\n\nI even made a spreadsheet to track it!\n\nAnd I did it! I made it for the entire semester without getting any dessert from dining halls or dining-hall-adjacent establishments at Tufts.\n\n\nWhy?\n\nLast year, I noticed the progression of eating dessert at the dining hall. At first, it would be a nice treat. But eventually I would come to expect dessert, and a meal felt incomplete without it.\n\nThat felt unhealthy. Dessert with every meal probably isn’t a healthy way to be eating.\n\n\nWhy cold turkey?\n\nI find that I’m more able to stick with things when they’re all-or-nothing. This could’ve been “eat dessert only once a week,” but that’s harder for my brain to reason about.\n\nNever having dessert at the dining halls is extremely easy to think about. There’s nothing to remember, and no gray area.\n\n\nDid it have noticeable effects?\n\nNot really?\n\nEvery once in a while there was a dessert that looked quite good, and it was kinda a bummer that I couldn’t have it. But that wasn’t super common. (And to be clear, I still ate unhealthy stuff outside of the dining halls at times.)\n\nBut I didn’t really feel a difference, neither positive or negative really. The vast majority of days I didn’t think about it at all.\n\n\nDid I learn anything?\n\nOf course, I’d like to say yes, but let’s be reasonable here.\n\nI’ll probably go back to eating dessert next semester. In smaller amounts? Perhaps.\n\nAt least, if I feel myself sliding back into the feeling of needing dessert in order to make a meal complete, I’ll be able to think back to this experience and hopefully course-correct a bit.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-05T23:42:11.000Z",
+            "updated_at": "2023-01-08T02:02:30.000Z",
+            "published_at": "2023-01-08T02:02:30.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63bb1db513713c1f0e9e6fb2",
+            "uuid": "e9df29b0-df2f-4e94-baa9-91250ac8f1aa",
+            "title": "Majoring in more",
+            "slug": "majors",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[[\"em\"],[\"a\",[\"href\",\"https://benborgers.com/posts/deadlines\"]],[\"a\",[\"href\",\"https://benborgers.com/posts/no-dessert-challenge\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"This past semester at Tufts, I added a second major: Engineering Psychology. So the current plan is to major in Computer Science and Engineering Psychology, with a minor in German. \"]]],[1,\"p\",[[0,[],0,\"Up until this semester, my plan was to major in Computer Science and minor in German. The major was only 9 CS classes and 2 math classes, and I had done 2 CS classes and 2 math classes in the first year, so I had roughly one CS class left \"],[0,[0],1,\"per semester\"],[0,[],0,\". The rest, I reasoned, could be easy filler classes. \"]]],[1,\"p\",[[0,[],0,\"But this semester, Trisha convinced me to pick up another major. And a guest lecturer in my Intro to Psychology class made us aware that Engineering Psychology — applying human behavior to the design of software and hardware — was a thing one could major in. \"]]],[1,\"p\",[[0,[],0,\"A university education would probably be a shame to waste on filler classes. Engineering Psychology sounds interesting, and it’ll give me another thing to work towards. \"]]],[1,\"p\",[[0,[],0,\"Tufts majors are seemingly quite small as well. As mentioned before, Computer Science is 11 courses. A German minor is 6, and Engineering Psychology is 15, but there’s some overlap. \"]]],[1,\"p\",[[0,[],0,\"If my spreadsheet is right, I need to spend the next five semesters taking 5 courses three times, and 4 courses twice. That seems manageable. \"]]],[1,\"p\",[[0,[],0,\"And in the end, my brain likes pushing things, like seeing whether I can \"],[0,[1],1,\"write a blog post every day\"],[0,[],0,\" or \"],[0,[2],1,\"never eat dessert from the dining hall\"],[0,[],0,\". I’m not quite sure why. But I’ll lean into it once again for this. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>This past semester at Tufts, I added a second major: Engineering Psychology. So the current plan is to major in Computer Science and Engineering Psychology, with a minor in German. </p><p>Up until this semester, my plan was to major in Computer Science and minor in German. The major was only 9 CS classes and 2 math classes, and I had done 2 CS classes and 2 math classes in the first year, so I had roughly one CS class left <em>per semester</em>. The rest, I reasoned, could be easy filler classes. </p><p>But this semester, Trisha convinced me to pick up another major. And a guest lecturer in my Intro to Psychology class made us aware that Engineering Psychology — applying human behavior to the design of software and hardware — was a thing one could major in. </p><p>A university education would probably be a shame to waste on filler classes. Engineering Psychology sounds interesting, and it’ll give me another thing to work towards. </p><p>Tufts majors are seemingly quite small as well. As mentioned before, Computer Science is 11 courses. A German minor is 6, and Engineering Psychology is 15, but there’s some overlap. </p><p>If my spreadsheet is right, I need to spend the next five semesters taking 5 courses three times, and 4 courses twice. That seems manageable. </p><p>And in the end, my brain likes pushing things, like seeing whether I can <a href=\"https://benborgers.com/posts/deadlines\">write a blog post every day</a> or <a href=\"https://benborgers.com/posts/no-dessert-challenge\">never eat dessert from the dining hall</a>. I’m not quite sure why. But I’ll lean into it once again for this. </p>",
+            "comment_id": "63bb1db513713c1f0e9e6fb2",
+            "plaintext": "This past semester at Tufts, I added a second major: Engineering Psychology. So the current plan is to major in Computer Science and Engineering Psychology, with a minor in German.\n\nUp until this semester, my plan was to major in Computer Science and minor in German. The major was only 9 CS classes and 2 math classes, and I had done 2 CS classes and 2 math classes in the first year, so I had roughly one CS class left per semester. The rest, I reasoned, could be easy filler classes.\n\nBut this semester, Trisha convinced me to pick up another major. And a guest lecturer in my Intro to Psychology class made us aware that Engineering Psychology — applying human behavior to the design of software and hardware — was a thing one could major in.\n\nA university education would probably be a shame to waste on filler classes. Engineering Psychology sounds interesting, and it’ll give me another thing to work towards.\n\nTufts majors are seemingly quite small as well. As mentioned before, Computer Science is 11 courses. A German minor is 6, and Engineering Psychology is 15, but there’s some overlap.\n\nIf my spreadsheet is right, I need to spend the next five semesters taking 5 courses three times, and 4 courses twice. That seems manageable.\n\nAnd in the end, my brain likes pushing things, like seeing whether I can write a blog post every day or never eat dessert from the dining hall. I’m not quite sure why. But I’ll lean into it once again for this.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-08T19:47:01.000Z",
+            "updated_at": "2023-01-08T19:58:25.000Z",
+            "published_at": "2023-01-08T19:58:25.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63bc704a13713c1f0e9e6ff3",
+            "uuid": "4cfe4214-6b36-4e3e-84c2-b3827d93a802",
+            "title": "How to allow uploading files to Laravel Vapor without User",
+            "slug": "vapor-upload",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"code\",{\"code\":\"// AuthServiceProvider.php\\n\\npublic function boot()\\n{\\n\\t$this->registerPolicies();\\n\\n\\tGate::define('uploadFiles', function ($user = null) {\\n\\t\\treturn true;\\n\\t});\\n}\",\"language\":\"php\"}]],\"markups\":[[\"a\",[\"href\",\"https://docs.vapor.build/1.0/resources/storage.html#authorization\"]],[\"code\"]],\"sections\":[[1,\"p\",[[0,[],0,\"The Laravel Vapor docs \"],[0,[0],1,\"tell you\"],[0,[],0,\" to create a \"],[0,[1],1,\"UserPolicy\"],[0,[],0,\" to authorize file uploads to S3 using the \"],[0,[1],1,\"laravel-vapor\"],[0,[],0,\" npm package. But what if you want logged-out users to be able to upload files too? \"]]],[1,\"p\",[[0,[],0,\"The Vapor package checks against the \"],[0,[1],1,\"uploadFile\"],[0,[],0,\" method in \"],[0,[1],1,\"UserPolicy\"],[0,[],0,\", but you can override that by creating an authorization gate called \"],[0,[1],1,\"uploadFile\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"To do so, add this gate to \"],[0,[1],1,\"AuthServiceProvider.php\"],[0,[],0,\":\"]]],[10,0],[1,\"p\",[[0,[],0,\"The argument \"],[0,[1],1,\"$user\"],[0,[],0,\" defaulting to \"],[0,[1],1,\"null\"],[0,[],0,\" indicates that this gate can be run even when there is no logged-in user. And since it always returns \"],[0,[1],1,\"true\"],[0,[],0,\", anyone can upload files, even without being logged in to your Laravel app. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>The Laravel Vapor docs <a href=\"https://docs.vapor.build/1.0/resources/storage.html#authorization\">tell you</a> to create a <code>UserPolicy</code> to authorize file uploads to S3 using the <code>laravel-vapor</code> npm package. But what if you want logged-out users to be able to upload files too? </p><p>The Vapor package checks against the <code>uploadFile</code> method in <code>UserPolicy</code>, but you can override that by creating an authorization gate called <code>uploadFile</code>. </p><p>To do so, add this gate to <code>AuthServiceProvider.php</code>:</p><pre><code class=\"language-php\">// AuthServiceProvider.php\n\npublic function boot()\n{\n\t$this-&gt;registerPolicies();\n\n\tGate::define('uploadFiles', function ($user = null) {\n\t\treturn true;\n\t});\n}</code></pre><p>The argument <code>$user</code> defaulting to <code>null</code> indicates that this gate can be run even when there is no logged-in user. And since it always returns <code>true</code>, anyone can upload files, even without being logged in to your Laravel app. </p>",
+            "comment_id": "63bc704a13713c1f0e9e6ff3",
+            "plaintext": "The Laravel Vapor docs tell you to create a UserPolicy to authorize file uploads to S3 using the laravel-vapor npm package. But what if you want logged-out users to be able to upload files too?\n\nThe Vapor package checks against the uploadFile method in UserPolicy, but you can override that by creating an authorization gate called uploadFile.\n\nTo do so, add this gate to AuthServiceProvider.php:\n\n// AuthServiceProvider.php\n\npublic function boot()\n{\n\t$this->registerPolicies();\n\n\tGate::define('uploadFiles', function ($user = null) {\n\t\treturn true;\n\t});\n}\n\nThe argument $user defaulting to null indicates that this gate can be run even when there is no logged-in user. And since it always returns true, anyone can upload files, even without being logged in to your Laravel app.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-09T19:51:38.000Z",
+            "updated_at": "2023-01-09T19:58:35.000Z",
+            "published_at": "2023-01-09T19:56:45.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63c18b6b13713c1f0e9e7072",
+            "uuid": "dd451e07-21a6-46d9-9017-8ffdd2b02247",
+            "title": "Planning my week",
+            "slug": "plan",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[[\"em\"],[\"a\",[\"href\",\"https://ask.kiwi\"]],[\"a\",[\"href\",\"https://notion.so\"]],[\"a\",[\"href\",\"https://nota.md\"]],[\"a\",[\"href\",\"https://kinopio.club\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"Last semester, when things were getting stressful with schoolwork and freelance work, my girlfriend Trisha took my computer and made a note for planning out my tasks for the upcoming week. \"]]],[1,\"p\",[[0,[],0,\"It was just seven headings, one for each day of the week, and 2-3 things that I was going to get done on each day. Just the big things. \"]]],[1,\"p\",[[0,[],0,\"Doing that was kinda transformative — I felt less stress, and found guilt-free time for long-term programming projects that weren’t urgent but \"],[0,[0],1,\"were\"],[0,[],0,\" important. \"]]],[1,\"p\",[[0,[],0,\"A couple thoughts: \"]]],[3,\"ol\",[[[0,[],0,\"Laying things out like this gave me space to block out “work on \"],[0,[1],1,\"Kiwi\"],[0,[],0,\",” a project that I had months to work on — but was important. Previously, something like that would get lost on the day-of. \"]],[[0,[],0,\"Having a way of seeing \"],[0,[0],1,\"just the big things\"],[0,[],0,\", instead of my to-do list that includes a lot of little things, gave me a way of declaring myself done with work for the day. This resulted in (shockingly) feelings of having free time after finishing the list for the day. \"]],[[0,[],0,\"I could be intentional about moving tasks around based on how long they would take and how much time I thought I’d have that day. \"]]]],[1,\"p\",[[0,[],0,\"Perhaps you’re reading this and thinking that it’s an obvious idea. You are right — it is embarrassingly obvious. I \"],[0,[0],1,\"knew\"],[0,[],0,\" vaguely that this was a good idea, but for some reason I’d never earnestly tried it. \"]]],[1,\"p\",[[0,[],0,\"Seeing the tasks laid out in front of me quieted the part of my brain that worries about whether there would be enough time to get each thing done. \"]]],[1,\"p\",[[0,[],0,\"I did this type of weekly planning for the rest of the semester — sometimes in \"],[0,[2],1,\"Notion\"],[0,[],0,\", sometimes in \"],[0,[3],1,\"Nota\"],[0,[],0,\", sometimes in \"],[0,[4],1,\"Kinopio\"],[0,[],0,\", but always the same format. It’s stupid simple, but it did seem to work on me. The best of both worlds. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>Last semester, when things were getting stressful with schoolwork and freelance work, my girlfriend Trisha took my computer and made a note for planning out my tasks for the upcoming week. </p><p>It was just seven headings, one for each day of the week, and 2-3 things that I was going to get done on each day. Just the big things. </p><p>Doing that was kinda transformative — I felt less stress, and found guilt-free time for long-term programming projects that weren’t urgent but <em>were</em> important. </p><p>A couple thoughts: </p><ol><li>Laying things out like this gave me space to block out “work on <a href=\"https://ask.kiwi\">Kiwi</a>,” a project that I had months to work on — but was important. Previously, something like that would get lost on the day-of. </li><li>Having a way of seeing <em>just the big things</em>, instead of my to-do list that includes a lot of little things, gave me a way of declaring myself done with work for the day. This resulted in (shockingly) feelings of having free time after finishing the list for the day. </li><li>I could be intentional about moving tasks around based on how long they would take and how much time I thought I’d have that day. </li></ol><p>Perhaps you’re reading this and thinking that it’s an obvious idea. You are right — it is embarrassingly obvious. I <em>knew</em> vaguely that this was a good idea, but for some reason I’d never earnestly tried it. </p><p>Seeing the tasks laid out in front of me quieted the part of my brain that worries about whether there would be enough time to get each thing done. </p><p>I did this type of weekly planning for the rest of the semester — sometimes in <a href=\"https://notion.so\">Notion</a>, sometimes in <a href=\"https://nota.md\">Nota</a>, sometimes in <a href=\"https://kinopio.club\">Kinopio</a>, but always the same format. It’s stupid simple, but it did seem to work on me. The best of both worlds. </p>",
+            "comment_id": "63c18b6b13713c1f0e9e7072",
+            "plaintext": "Last semester, when things were getting stressful with schoolwork and freelance work, my girlfriend Trisha took my computer and made a note for planning out my tasks for the upcoming week.\n\nIt was just seven headings, one for each day of the week, and 2-3 things that I was going to get done on each day. Just the big things.\n\nDoing that was kinda transformative — I felt less stress, and found guilt-free time for long-term programming projects that weren’t urgent but were important.\n\nA couple thoughts:\n\n 1. Laying things out like this gave me space to block out “work on Kiwi,” a project that I had months to work on — but was important. Previously, something like that would get lost on the day-of.\n 2. Having a way of seeing just the big things, instead of my to-do list that includes a lot of little things, gave me a way of declaring myself done with work for the day. This resulted in (shockingly) feelings of having free time after finishing the list for the day.\n 3. I could be intentional about moving tasks around based on how long they would take and how much time I thought I’d have that day.\n\nPerhaps you’re reading this and thinking that it’s an obvious idea. You are right — it is embarrassingly obvious. I knew vaguely that this was a good idea, but for some reason I’d never earnestly tried it.\n\nSeeing the tasks laid out in front of me quieted the part of my brain that worries about whether there would be enough time to get each thing done.\n\nI did this type of weekly planning for the rest of the semester — sometimes in Notion, sometimes in Nota, sometimes in Kinopio, but always the same format. It’s stupid simple, but it did seem to work on me. The best of both worlds.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-01-13T16:48:43.000Z",
+            "updated_at": "2023-01-17T03:49:05.000Z",
+            "published_at": "2023-01-17T03:49:05.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63e9660b13713c1f0e9e70e1",
+            "uuid": "a00878bf-e4b0-4eb7-a4ac-bac70ab9f9c7",
+            "title": "War Room “Bib”",
+            "slug": "war-room-bib",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"video\",{\"loop\":false,\"src\":\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.31.11.mp4\",\"fileName\":\"2023-02-12 at 17.31.11.mp4\",\"width\":1188,\"height\":842,\"duration\":14.572167,\"mimeType\":\"video/mp4\",\"thumbnailSrc\":\"__GHOST_URL__/content/images/2023/02/media-thumbnail-ember213.jpg\",\"thumbnailWidth\":1188,\"thumbnailHeight\":842}],[\"video\",{\"loop\":false,\"src\":\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.27.47.mp4\",\"fileName\":\"2023-02-12 at 17.27.47.mp4\",\"width\":2880,\"height\":1748,\"duration\":11.896167,\"mimeType\":\"video/mp4\",\"thumbnailSrc\":\"__GHOST_URL__/content/images/2023/02/media-thumbnail-ember254.jpg\",\"thumbnailWidth\":2880,\"thumbnailHeight\":1748}],[\"video\",{\"loop\":false,\"src\":\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.28.36.mp4\",\"fileName\":\"2023-02-12 at 17.28.36.mp4\",\"width\":2880,\"height\":1748,\"duration\":9.8,\"mimeType\":\"video/mp4\",\"thumbnailSrc\":\"__GHOST_URL__/content/images/2023/02/media-thumbnail-ember266.jpg\",\"thumbnailWidth\":2880,\"thumbnailHeight\":1748}]],\"markups\":[[\"a\",[\"href\",\"https://war.elk.sh\"]],[\"a\",[\"href\",\"https://jero.zone\"]],[\"strong\"]],\"sections\":[[1,\"p\",[[0,[],0,\"It’s been a long-standing request in \"],[0,[0],1,\"War Room\"],[0,[],0,\" to be able to add a task directly into a “divider,” instead of creating it and then dragging it into the right divider. \"]]],[1,\"p\",[[0,[],0,\"I was thinking of ways to do it without cluttering up the interface and adding buttons around the task input. \"]]],[1,\"p\",[[0,[],0,\"Then, \"],[0,[1],1,\"Jerome\"],[0,[],0,\" gave me the idea of having a menu of options that slides out under the input when you’re typing in it. I built that out and launched it on Friday, and I really like how it came out! \"]]],[1,\"p\",[[0,[],0,\"Here’s a video of it in action: \"]]],[10,0],[1,\"p\",[[0,[],0,\"A few fun facts about its implementation:\"]]],[3,\"ul\",[[[0,[],0,\"I call it the \"],[0,[2],1,\"“bib”\"],[0,[],0,\" internally, because... of course. \"]],[[0,[],0,\"After you create a task, the bib closes. If you open it again, the options you’ve selected are preserved. But after five seconds, they’re cleared out to defaults. \"]],[[0,[],0,\"Clicking any of the toggles would take focus off the text input, but I manually put focus back into the text input to maintain the illusion and allow you to keep typing. \"]],[[0,[],0,\"The cyan ring around the text input isn’t actually a CSS focus style for the text input (since the cursor focus leaves the text input for a moment when a toggle is clicked, for example). Instead, it’s a fake focus style that shows whenever the bib is open.\"]],[[0,[],0,\"I put a transparent layer below the bib when it’s open, and clicking anywhere on that layer closes the bib again. Here’s a visualization with the transparent layer turned opaque: \"]]]],[10,1],[3,\"ul\",[[[0,[],0,\"This also created a perfect opportunity for a little plus button on each divider that opens the task composer pre-filled with the divider: \"]]]],[10,2]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>It’s been a long-standing request in <a href=\"https://war.elk.sh\">War Room</a> to be able to add a task directly into a “divider,” instead of creating it and then dragging it into the right divider. </p><p>I was thinking of ways to do it without cluttering up the interface and adding buttons around the task input. </p><p>Then, <a href=\"https://jero.zone\">Jerome</a> gave me the idea of having a menu of options that slides out under the input when you’re typing in it. I built that out and launched it on Friday, and I really like how it came out! </p><p>Here’s a video of it in action: </p><figure class=\"kg-card kg-video-card\"><div class=\"kg-video-container\"><video src=\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.31.11.mp4\" poster=\"https://img.spacergif.org/v1/1188x842/0a/spacer.png\" width=\"1188\" height=\"842\" playsinline preload=\"metadata\" style=\"background: transparent url('__GHOST_URL__/content/images/2023/02/media-thumbnail-ember213.jpg') 50% 50% / cover no-repeat;\" /></video><div class=\"kg-video-overlay\"><button class=\"kg-video-large-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button></div><div class=\"kg-video-player-container\"><div class=\"kg-video-player\"><button class=\"kg-video-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button><button class=\"kg-video-pause-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/><rect x=\"14\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/></svg></button><span class=\"kg-video-current-time\">0:00</span><div class=\"kg-video-time\">/<span class=\"kg-video-duration\"></span></div><input type=\"range\" class=\"kg-video-seek-slider\" max=\"100\" value=\"0\"><button class=\"kg-video-playback-rate\">1&#215;</button><button class=\"kg-video-unmute-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z\"/></svg></button><button class=\"kg-video-mute-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z\"/></svg></button><input type=\"range\" class=\"kg-video-volume-slider\" max=\"100\" value=\"100\"></div></div></div></figure><p>A few fun facts about its implementation:</p><ul><li>I call it the <strong>“bib”</strong> internally, because... of course. </li><li>After you create a task, the bib closes. If you open it again, the options you’ve selected are preserved. But after five seconds, they’re cleared out to defaults. </li><li>Clicking any of the toggles would take focus off the text input, but I manually put focus back into the text input to maintain the illusion and allow you to keep typing. </li><li>The cyan ring around the text input isn’t actually a CSS focus style for the text input (since the cursor focus leaves the text input for a moment when a toggle is clicked, for example). Instead, it’s a fake focus style that shows whenever the bib is open.</li><li>I put a transparent layer below the bib when it’s open, and clicking anywhere on that layer closes the bib again. Here’s a visualization with the transparent layer turned opaque: </li></ul><figure class=\"kg-card kg-video-card\"><div class=\"kg-video-container\"><video src=\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.27.47.mp4\" poster=\"https://img.spacergif.org/v1/2880x1748/0a/spacer.png\" width=\"2880\" height=\"1748\" playsinline preload=\"metadata\" style=\"background: transparent url('__GHOST_URL__/content/images/2023/02/media-thumbnail-ember254.jpg') 50% 50% / cover no-repeat;\" /></video><div class=\"kg-video-overlay\"><button class=\"kg-video-large-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button></div><div class=\"kg-video-player-container\"><div class=\"kg-video-player\"><button class=\"kg-video-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button><button class=\"kg-video-pause-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/><rect x=\"14\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/></svg></button><span class=\"kg-video-current-time\">0:00</span><div class=\"kg-video-time\">/<span class=\"kg-video-duration\"></span></div><input type=\"range\" class=\"kg-video-seek-slider\" max=\"100\" value=\"0\"><button class=\"kg-video-playback-rate\">1&#215;</button><button class=\"kg-video-unmute-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z\"/></svg></button><button class=\"kg-video-mute-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z\"/></svg></button><input type=\"range\" class=\"kg-video-volume-slider\" max=\"100\" value=\"100\"></div></div></div></figure><ul><li>This also created a perfect opportunity for a little plus button on each divider that opens the task composer pre-filled with the divider: </li></ul><figure class=\"kg-card kg-video-card\"><div class=\"kg-video-container\"><video src=\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.28.36.mp4\" poster=\"https://img.spacergif.org/v1/2880x1748/0a/spacer.png\" width=\"2880\" height=\"1748\" playsinline preload=\"metadata\" style=\"background: transparent url('__GHOST_URL__/content/images/2023/02/media-thumbnail-ember266.jpg') 50% 50% / cover no-repeat;\" /></video><div class=\"kg-video-overlay\"><button class=\"kg-video-large-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button></div><div class=\"kg-video-player-container\"><div class=\"kg-video-player\"><button class=\"kg-video-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button><button class=\"kg-video-pause-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/><rect x=\"14\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/></svg></button><span class=\"kg-video-current-time\">0:00</span><div class=\"kg-video-time\">/<span class=\"kg-video-duration\"></span></div><input type=\"range\" class=\"kg-video-seek-slider\" max=\"100\" value=\"0\"><button class=\"kg-video-playback-rate\">1&#215;</button><button class=\"kg-video-unmute-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z\"/></svg></button><button class=\"kg-video-mute-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z\"/></svg></button><input type=\"range\" class=\"kg-video-volume-slider\" max=\"100\" value=\"100\"></div></div></div></figure>",
+            "comment_id": "63e9660b13713c1f0e9e70e1",
+            "plaintext": "It’s been a long-standing request in War Room to be able to add a task directly into a “divider,” instead of creating it and then dragging it into the right divider.\n\nI was thinking of ways to do it without cluttering up the interface and adding buttons around the task input.\n\nThen, Jerome gave me the idea of having a menu of options that slides out under the input when you’re typing in it. I built that out and launched it on Friday, and I really like how it came out!\n\nHere’s a video of it in action:\n\n0:00/1×\n\nA few fun facts about its implementation:\n\n * I call it the “bib” internally, because... of course.\n * After you create a task, the bib closes. If you open it again, the options you’ve selected are preserved. But after five seconds, they’re cleared out to defaults.\n * Clicking any of the toggles would take focus off the text input, but I manually put focus back into the text input to maintain the illusion and allow you to keep typing.\n * The cyan ring around the text input isn’t actually a CSS focus style for the text input (since the cursor focus leaves the text input for a moment when a toggle is clicked, for example). Instead, it’s a fake focus style that shows whenever the bib is open.\n * I put a transparent layer below the bib when it’s open, and clicking anywhere on that layer closes the bib again. Here’s a visualization with the transparent layer turned opaque:\n\n0:00/1×\n * This also created a perfect opportunity for a little plus button on each divider that opens the task composer pre-filled with the divider:\n\n0:00/1×",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-02-12T22:19:55.000Z",
+            "updated_at": "2023-02-13T04:53:31.000Z",
+            "published_at": "2023-02-13T04:53:31.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63e9661313713c1f0e9e70e5",
+            "uuid": "dfe63207-f087-4d38-b107-1fa99bfad219",
+            "title": "War Room — using the native date picker",
+            "slug": "war-room-due",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"video\",{\"loop\":false,\"src\":\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.17.37.mp4\",\"fileName\":\"2023-02-12 at 17.17.37.mp4\",\"width\":924,\"height\":954,\"duration\":21.269667,\"mimeType\":\"video/mp4\",\"thumbnailSrc\":\"__GHOST_URL__/content/images/2023/02/media-thumbnail-ember532.jpg\",\"thumbnailWidth\":924,\"thumbnailHeight\":954}],[\"video\",{\"loop\":false,\"src\":\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.27.47-1.mp4\",\"fileName\":\"2023-02-12 at 17.27.47.mp4\",\"width\":2880,\"height\":1748,\"duration\":11.896167,\"mimeType\":\"video/mp4\",\"thumbnailSrc\":\"__GHOST_URL__/content/images/2023/02/media-thumbnail-ember549.jpg\",\"thumbnailWidth\":2880,\"thumbnailHeight\":1748}]],\"markups\":[[\"a\",[\"href\",\"https://war.elk.sh\"]],[\"a\",[\"href\",\"https://cbernier.com/\"]],[\"a\",[\"href\",\"https://headlessui.com/react/dialog\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"A couple months ago, I finally added the ability to set due dates for tasks in \"],[0,[0],1,\"War Room\"],[0,[],0,\". \"]]],[1,\"p\",[[0,[],0,\"I built my own modal with a calendar-style date picker when I did that, but recently I decided to replace it with a nicer implementation that felt more lightweight. I decided to rely on the native browser date picker for the new version — why build a date picker when you can use a nice one that’s built-in already? \"]]],[1,\"p\",[[0,[],0,\"I ended up building this tiny pop-up that’s pinned right below the button, which allows you to set a due date for a task:\"]]],[10,0],[1,\"p\",[[0,[],0,\"I asked \"],[0,[1],1,\"Christian\"],[0,[],0,\" to test it out and he usefully bashed it around and pointed out that setting a due date for a task at the bottom of the screen meant that the pop-up was cut off, so I had to flip it if the task is within the bottom 150 pixels of the screen:\"]]],[10,1],[1,\"p\",[[0,[],0,\"In reality the pop-up is implemented as a \"],[0,[2],1,\"Modal\"],[0,[],0,\", so the rest of the screen can’t be scrolled or interacted with while it’s open. When the “due” button is clicked, I measure where the button is on the screen, and position the modal right below (or above) it so that it appears to be “pinned” by the button. \"]]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>A couple months ago, I finally added the ability to set due dates for tasks in <a href=\"https://war.elk.sh\">War Room</a>. </p><p>I built my own modal with a calendar-style date picker when I did that, but recently I decided to replace it with a nicer implementation that felt more lightweight. I decided to rely on the native browser date picker for the new version — why build a date picker when you can use a nice one that’s built-in already? </p><p>I ended up building this tiny pop-up that’s pinned right below the button, which allows you to set a due date for a task:</p><figure class=\"kg-card kg-video-card\"><div class=\"kg-video-container\"><video src=\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.17.37.mp4\" poster=\"https://img.spacergif.org/v1/924x954/0a/spacer.png\" width=\"924\" height=\"954\" playsinline preload=\"metadata\" style=\"background: transparent url('__GHOST_URL__/content/images/2023/02/media-thumbnail-ember532.jpg') 50% 50% / cover no-repeat;\" /></video><div class=\"kg-video-overlay\"><button class=\"kg-video-large-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button></div><div class=\"kg-video-player-container\"><div class=\"kg-video-player\"><button class=\"kg-video-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button><button class=\"kg-video-pause-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/><rect x=\"14\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/></svg></button><span class=\"kg-video-current-time\">0:00</span><div class=\"kg-video-time\">/<span class=\"kg-video-duration\"></span></div><input type=\"range\" class=\"kg-video-seek-slider\" max=\"100\" value=\"0\"><button class=\"kg-video-playback-rate\">1&#215;</button><button class=\"kg-video-unmute-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z\"/></svg></button><button class=\"kg-video-mute-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z\"/></svg></button><input type=\"range\" class=\"kg-video-volume-slider\" max=\"100\" value=\"100\"></div></div></div></figure><p>I asked <a href=\"https://cbernier.com/\">Christian</a> to test it out and he usefully bashed it around and pointed out that setting a due date for a task at the bottom of the screen meant that the pop-up was cut off, so I had to flip it if the task is within the bottom 150 pixels of the screen:</p><figure class=\"kg-card kg-video-card\"><div class=\"kg-video-container\"><video src=\"__GHOST_URL__/content/media/2023/02/2023-02-12-at-17.27.47-1.mp4\" poster=\"https://img.spacergif.org/v1/2880x1748/0a/spacer.png\" width=\"2880\" height=\"1748\" playsinline preload=\"metadata\" style=\"background: transparent url('__GHOST_URL__/content/images/2023/02/media-thumbnail-ember549.jpg') 50% 50% / cover no-repeat;\" /></video><div class=\"kg-video-overlay\"><button class=\"kg-video-large-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button></div><div class=\"kg-video-player-container\"><div class=\"kg-video-player\"><button class=\"kg-video-play-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z\"/></svg></button><button class=\"kg-video-pause-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/><rect x=\"14\" y=\"1\" width=\"7\" height=\"22\" rx=\"1.5\" ry=\"1.5\"/></svg></button><span class=\"kg-video-current-time\">0:00</span><div class=\"kg-video-time\">/<span class=\"kg-video-duration\"></span></div><input type=\"range\" class=\"kg-video-seek-slider\" max=\"100\" value=\"0\"><button class=\"kg-video-playback-rate\">1&#215;</button><button class=\"kg-video-unmute-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z\"/></svg></button><button class=\"kg-video-mute-icon kg-video-hide\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z\"/></svg></button><input type=\"range\" class=\"kg-video-volume-slider\" max=\"100\" value=\"100\"></div></div></div></figure><p>In reality the pop-up is implemented as a <a href=\"https://headlessui.com/react/dialog\">Modal</a>, so the rest of the screen can’t be scrolled or interacted with while it’s open. When the “due” button is clicked, I measure where the button is on the screen, and position the modal right below (or above) it so that it appears to be “pinned” by the button. </p>",
+            "comment_id": "63e9661313713c1f0e9e70e5",
+            "plaintext": "A couple months ago, I finally added the ability to set due dates for tasks in War Room.\n\nI built my own modal with a calendar-style date picker when I did that, but recently I decided to replace it with a nicer implementation that felt more lightweight. I decided to rely on the native browser date picker for the new version — why build a date picker when you can use a nice one that’s built-in already?\n\nI ended up building this tiny pop-up that’s pinned right below the button, which allows you to set a due date for a task:\n\n0:00/1×\n\nI asked Christian to test it out and he usefully bashed it around and pointed out that setting a due date for a task at the bottom of the screen meant that the pop-up was cut off, so I had to flip it if the task is within the bottom 150 pixels of the screen:\n\n0:00/1×\n\nIn reality the pop-up is implemented as a Modal, so the rest of the screen can’t be scrolled or interacted with while it’s open. When the “due” button is clicked, I measure where the button is on the screen, and position the modal right below (or above) it so that it appears to be “pinned” by the button.",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-02-12T22:20:03.000Z",
+            "updated_at": "2023-02-13T05:08:36.000Z",
+            "published_at": "2023-02-13T05:08:36.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          },
+          {
+            "id": "63ed529913713c1f0e9e716f",
+            "uuid": "0e799bdd-ae53-4824-a87f-7c9d2ca30b48",
+            "title": "How to fix Tailwind CSS `ring` not working in iOS Safari",
+            "slug": "tailwind-ring-safari",
+            "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"code\",{\"code\":\"<input class=\\\"appearance-none ring ring-cyan-400\\\" />\",\"language\":\"html\"}]],\"markups\":[[\"a\",[\"href\",\"https://tailwindcss.com/docs/ring-width\"]],[\"code\"]],\"sections\":[[1,\"p\",[[0,[],0,\"I was trying to use the Tailwind CSS \"],[0,[0],1,\"ring\"],[0,[],0,\" classes on an \"],[0,[1],1,\"<input />\"],[0,[],0,\", but they didn’t seem to work in iOS Safari. \"]]],[1,\"p\",[[0,[],0,\"Finally, I figured out that you have to add the \"],[0,[1],1,\"appearance-none\"],[0,[],0,\" class to the input to make the ring work! \"]]],[1,\"p\",[[0,[],0,\"This is because iOS adds a shadow to the input by default, and the Tailwind \"],[0,[1],1,\"ring\"],[0,[],0,\" classes use a shadow under the hood. Adding \"],[0,[1],1,\"appearance-none\"],[0,[],0,\" removes iOS’ default styling for the input. \"]]],[10,0],[1,\"p\",[]]],\"ghostVersion\":\"4.0\"}",
+            "lexical": null,
+            "html": "<p>I was trying to use the Tailwind CSS <a href=\"https://tailwindcss.com/docs/ring-width\">ring</a> classes on an <code>&lt;input /&gt;</code>, but they didn’t seem to work in iOS Safari. </p><p>Finally, I figured out that you have to add the <code>appearance-none</code> class to the input to make the ring work! </p><p>This is because iOS adds a shadow to the input by default, and the Tailwind <code>ring</code> classes use a shadow under the hood. Adding <code>appearance-none</code> removes iOS’ default styling for the input. </p><pre><code class=\"language-html\">&lt;input class=\"appearance-none ring ring-cyan-400\" /&gt;</code></pre>",
+            "comment_id": "63ed529913713c1f0e9e716f",
+            "plaintext": "I was trying to use the Tailwind CSS ring classes on an <input />, but they didn’t seem to work in iOS Safari.\n\nFinally, I figured out that you have to add the appearance-none class to the input to make the ring work!\n\nThis is because iOS adds a shadow to the input by default, and the Tailwind ring classes use a shadow under the hood. Adding appearance-none removes iOS’ default styling for the input.\n\n<input class=\"appearance-none ring ring-cyan-400\" />",
+            "feature_image": null,
+            "featured": 0,
+            "type": "post",
+            "status": "published",
+            "locale": null,
+            "visibility": "public",
+            "email_recipient_filter": "all",
+            "created_at": "2023-02-15T21:46:01.000Z",
+            "updated_at": "2023-02-15T21:49:13.000Z",
+            "published_at": "2023-02-15T21:49:13.000Z",
+            "custom_excerpt": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "custom_template": null,
+            "canonical_url": null,
+            "newsletter_id": null
+          }
+        ],
+        "posts_authors": [
+          {
+            "id": "63a5486e13713c1f0e9e6aeb",
+            "post_id": "63a5486e13713c1f0e9e6aea",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54b4f13713c1f0e9e6b2e",
+            "post_id": "63a54b4f13713c1f0e9e6b2d",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54c2613713c1f0e9e6b4f",
+            "post_id": "63a54c2613713c1f0e9e6b4e",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54cb413713c1f0e9e6b6b",
+            "post_id": "63a54cb413713c1f0e9e6b6a",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54d4413713c1f0e9e6b7a",
+            "post_id": "63a54d4413713c1f0e9e6b79",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63a7871d13713c1f0e9e6bd1",
+            "post_id": "63a7871d13713c1f0e9e6bd0",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63aa5d3413713c1f0e9e6c6a",
+            "post_id": "63aa5d3413713c1f0e9e6c69",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada5ac13713c1f0e9e6d44",
+            "post_id": "63ada5ac13713c1f0e9e6d43",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada72713713c1f0e9e6d6b",
+            "post_id": "63ada72713713c1f0e9e6d6a",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada95613713c1f0e9e6d9f",
+            "post_id": "63ada95613713c1f0e9e6d9e",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b2e42613713c1f0e9e6e74",
+            "post_id": "63b2e42613713c1f0e9e6e73",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b2e64213713c1f0e9e6eac",
+            "post_id": "63b2e64213713c1f0e9e6eab",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b4466413713c1f0e9e6ec3",
+            "post_id": "63b4466413713c1f0e9e6ec2",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b623c813713c1f0e9e6f00",
+            "post_id": "63b623c813713c1f0e9e6eff",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b75f3d13713c1f0e9e6f36",
+            "post_id": "63b75f3d13713c1f0e9e6f35",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63b7605313713c1f0e9e6f57",
+            "post_id": "63b7605313713c1f0e9e6f56",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63bb1db513713c1f0e9e6fb3",
+            "post_id": "63bb1db513713c1f0e9e6fb2",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63bc704a13713c1f0e9e6ff4",
+            "post_id": "63bc704a13713c1f0e9e6ff3",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63c18b6b13713c1f0e9e7073",
+            "post_id": "63c18b6b13713c1f0e9e7072",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63e9660b13713c1f0e9e70e2",
+            "post_id": "63e9660b13713c1f0e9e70e1",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63e9661313713c1f0e9e70e6",
+            "post_id": "63e9661313713c1f0e9e70e5",
+            "author_id": "1",
+            "sort_order": 0
+          },
+          {
+            "id": "63ed529913713c1f0e9e7170",
+            "post_id": "63ed529913713c1f0e9e716f",
+            "author_id": "1",
+            "sort_order": 0
+          }
+        ],
+        "posts_meta": [],
+        "posts_products": [
+          {
+            "id": "63a5487513713c1f0e9e6aee",
+            "post_id": "63a5486e13713c1f0e9e6aea",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a5487513713c1f0e9e6aef",
+            "post_id": "63a5486e13713c1f0e9e6aea",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63a54b7f13713c1f0e9e6b37",
+            "post_id": "63a54b4f13713c1f0e9e6b2d",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54b7f13713c1f0e9e6b38",
+            "post_id": "63a54b4f13713c1f0e9e6b2d",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63a54c2913713c1f0e9e6b52",
+            "post_id": "63a54c2613713c1f0e9e6b4e",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54c2913713c1f0e9e6b53",
+            "post_id": "63a54c2613713c1f0e9e6b4e",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63a54cbb13713c1f0e9e6b6e",
+            "post_id": "63a54cb413713c1f0e9e6b6a",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54cbb13713c1f0e9e6b6f",
+            "post_id": "63a54cb413713c1f0e9e6b6a",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63a54d4d13713c1f0e9e6b7d",
+            "post_id": "63a54d4413713c1f0e9e6b79",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a54d4d13713c1f0e9e6b7e",
+            "post_id": "63a54d4413713c1f0e9e6b79",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63a7872d13713c1f0e9e6bd4",
+            "post_id": "63a7871d13713c1f0e9e6bd0",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63a7872d13713c1f0e9e6bd5",
+            "post_id": "63a7871d13713c1f0e9e6bd0",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63aa5d3613713c1f0e9e6c6d",
+            "post_id": "63aa5d3413713c1f0e9e6c69",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63aa5d3613713c1f0e9e6c6e",
+            "post_id": "63aa5d3413713c1f0e9e6c69",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63ada5b613713c1f0e9e6d48",
+            "post_id": "63ada5ac13713c1f0e9e6d43",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada5b613713c1f0e9e6d49",
+            "post_id": "63ada5ac13713c1f0e9e6d43",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63ada73013713c1f0e9e6d6e",
+            "post_id": "63ada72713713c1f0e9e6d6a",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada73013713c1f0e9e6d6f",
+            "post_id": "63ada72713713c1f0e9e6d6a",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63ada97313713c1f0e9e6da2",
+            "post_id": "63ada95613713c1f0e9e6d9e",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada97313713c1f0e9e6da3",
+            "post_id": "63ada95613713c1f0e9e6d9e",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b2e43213713c1f0e9e6e77",
+            "post_id": "63b2e42613713c1f0e9e6e73",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b2e43213713c1f0e9e6e78",
+            "post_id": "63b2e42613713c1f0e9e6e73",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b2e64813713c1f0e9e6eaf",
+            "post_id": "63b2e64213713c1f0e9e6eab",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b2e64813713c1f0e9e6eb0",
+            "post_id": "63b2e64213713c1f0e9e6eab",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b4467413713c1f0e9e6ec6",
+            "post_id": "63b4466413713c1f0e9e6ec2",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b4467413713c1f0e9e6ec7",
+            "post_id": "63b4466413713c1f0e9e6ec2",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b623d013713c1f0e9e6f03",
+            "post_id": "63b623c813713c1f0e9e6eff",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b623d013713c1f0e9e6f04",
+            "post_id": "63b623c813713c1f0e9e6eff",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b75f4113713c1f0e9e6f39",
+            "post_id": "63b75f3d13713c1f0e9e6f35",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b75f4113713c1f0e9e6f3a",
+            "post_id": "63b75f3d13713c1f0e9e6f35",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63b760a013713c1f0e9e6f5a",
+            "post_id": "63b7605313713c1f0e9e6f56",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63b760a013713c1f0e9e6f5b",
+            "post_id": "63b7605313713c1f0e9e6f56",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63bb1dca13713c1f0e9e6fb6",
+            "post_id": "63bb1db513713c1f0e9e6fb2",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63bb1dca13713c1f0e9e6fb7",
+            "post_id": "63bb1db513713c1f0e9e6fb2",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63bc705013713c1f0e9e6ff7",
+            "post_id": "63bc704a13713c1f0e9e6ff3",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63bc705013713c1f0e9e6ff8",
+            "post_id": "63bc704a13713c1f0e9e6ff3",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63c18b7913713c1f0e9e7076",
+            "post_id": "63c18b6b13713c1f0e9e7072",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63c18b7913713c1f0e9e7077",
+            "post_id": "63c18b6b13713c1f0e9e7072",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63e9661a13713c1f0e9e70e9",
+            "post_id": "63e9661313713c1f0e9e70e5",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63e9661a13713c1f0e9e70ea",
+            "post_id": "63e9661313713c1f0e9e70e5",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63e9696713713c1f0e9e70ec",
+            "post_id": "63e9660b13713c1f0e9e70e1",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63e9696713713c1f0e9e70ed",
+            "post_id": "63e9660b13713c1f0e9e70e1",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          },
+          {
+            "id": "63ed52a113713c1f0e9e7173",
+            "post_id": "63ed529913713c1f0e9e716f",
+            "product_id": "63a5301c9a590e1bd100bed4",
+            "sort_order": 0
+          },
+          {
+            "id": "63ed52a113713c1f0e9e7174",
+            "post_id": "63ed529913713c1f0e9e716f",
+            "product_id": "63a5301c9a590e1bd100bed5",
+            "sort_order": 1
+          }
+        ],
+        "posts_tags": [
+          {
+            "id": "63a7873a13713c1f0e9e6bda",
+            "post_id": "63a7871d13713c1f0e9e6bd0",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63ada5b613713c1f0e9e6d47",
+            "post_id": "63ada5ac13713c1f0e9e6d43",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63adca7a13713c1f0e9e6db2",
+            "post_id": "63ada72713713c1f0e9e6d6a",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63b2e7c113713c1f0e9e6ebc",
+            "post_id": "63b2e42613713c1f0e9e6e73",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63b446e813713c1f0e9e6ed5",
+            "post_id": "63b4466413713c1f0e9e6ec2",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63bc708013713c1f0e9e6ffa",
+            "post_id": "63bc704a13713c1f0e9e6ff3",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          },
+          {
+            "id": "63ed530213713c1f0e9e7182",
+            "post_id": "63ed529913713c1f0e9e716f",
+            "tag_id": "63a7873a13713c1f0e9e6bd9",
+            "sort_order": 0
+          }
+        ],
+        "products": [
+          {
+            "id": "63a5301c9a590e1bd100bed4",
+            "name": "Free",
+            "slug": "free",
+            "active": 1,
+            "welcome_page_url": null,
+            "visibility": "public",
+            "trial_days": 0,
+            "description": null,
+            "type": "free",
+            "currency": null,
+            "monthly_price": null,
+            "yearly_price": null,
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z",
+            "monthly_price_id": null,
+            "yearly_price_id": null
+          },
+          {
+            "id": "63a5301c9a590e1bd100bed5",
+            "name": "Ben Borgers",
+            "slug": "default-product",
+            "active": 1,
+            "welcome_page_url": null,
+            "visibility": "public",
+            "trial_days": 0,
+            "description": null,
+            "type": "paid",
+            "currency": "USD",
+            "monthly_price": 500,
+            "yearly_price": 5000,
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T06:02:34.000Z",
+            "monthly_price_id": null,
+            "yearly_price_id": null
+          }
+        ],
+        "products_benefits": [],
+        "roles": [
+          {
+            "id": "63a5301c9a590e1bd100beca",
+            "name": "Administrator",
+            "description": "Administrators",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100becb",
+            "name": "Editor",
+            "description": "Editors",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100becc",
+            "name": "Author",
+            "description": "Authors",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100becd",
+            "name": "Contributor",
+            "description": "Contributors",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100bece",
+            "name": "Owner",
+            "description": "Blog Owner",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100becf",
+            "name": "Admin Integration",
+            "description": "External Apps",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100bed0",
+            "name": "Ghost Explore Integration",
+            "description": "Internal Integration for the Ghost Explore directory",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100bed1",
+            "name": "DB Backup Integration",
+            "description": "Internal DB Backup Client",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          },
+          {
+            "id": "63a5301c9a590e1bd100bed2",
+            "name": "Scheduler Integration",
+            "description": "Internal Scheduler Client",
+            "created_at": "2022-12-23T04:35:40.000Z",
+            "updated_at": "2022-12-23T04:35:40.000Z"
+          }
+        ],
+        "roles_users": [
+          {
+            "id": "63a5301c9a590e1bd100bed3",
+            "role_id": "63a5301c9a590e1bd100bece",
+            "user_id": "1"
+          }
+        ],
+        "snippets": [],
+        "stripe_prices": [],
+        "stripe_products": [],
+        "tags": [
+          {
+            "id": "63a7873a13713c1f0e9e6bd9",
+            "name": "#technical",
+            "slug": "hash-technical",
+            "description": null,
+            "feature_image": null,
+            "parent_id": null,
+            "visibility": "internal",
+            "og_image": null,
+            "og_title": null,
+            "og_description": null,
+            "twitter_image": null,
+            "twitter_title": null,
+            "twitter_description": null,
+            "meta_title": null,
+            "meta_description": null,
+            "codeinjection_head": null,
+            "codeinjection_foot": null,
+            "canonical_url": null,
+            "accent_color": null,
+            "created_at": "2022-12-24T23:11:54.000Z",
+            "updated_at": "2022-12-24T23:11:54.000Z"
+          }
+        ]
+      }
+    }
+  ]
+}
