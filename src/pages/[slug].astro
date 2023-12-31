@@ -1,9 +1,9 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { DocumentRenderer } from "@keystatic/core/renderer";
+import shiki from "shiki";
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
-import Video from "../components/Video";
+import Document from "../components/Document";
 import PostList from "../components/PostList.astro";
 import Newsletter from "../components/Newsletter.astro";
 import { getReader } from "../lib/getReader";
@@ -39,6 +39,8 @@ const recentPosts = (await reader.collections.posts.all())
       new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
   )
   .slice(0, 3);
+
+const highlighter = await shiki.getHighlighter({ theme: "dracula" });
 ---
 
 <Layout title={post.title} ogImage={post.cover_image ?? undefined}>
@@ -74,7 +76,7 @@ const recentPosts = (await reader.collections.posts.all())
     }
 
     <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
-      <DocumentRenderer document={content} componentBlocks={{ video: Video }} />
+      <Document document={content} highlighter={highlighter} />
     </Prose>
 
     <section

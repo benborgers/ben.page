@@ -1,3 +1,3 @@
-export default ({ content }: { content: string }) => {
+export default function Video({ content }: { content: string }) {
   return <video src={content.replace("public", "")} controls />;
-};
+}
