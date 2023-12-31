@@ -63,10 +63,12 @@ const recentPosts = (await reader.collections.posts.all())
 
     {
       post.cover_image && (
+        // The dimensions of this image are more or less the default "21x9" aspect ratio from
+        // Visual Electric. I hardcoded the aspect ratio to avoid a layout shift as it's loading.
         <img
           src={post.cover_image}
           alt=""
-          class="mt-6 rounded-md ring-4 ring-white shadow-md"
+          class="mt-6 rounded-md ring-4 ring-white shadow-md aspect-[544/225] object-cover w-full"
         />
       )
     }
