@@ -11,4 +11,7 @@ export default defineConfig({
   output: "hybrid",
   adapter: cloudflare(),
   integrations: [tailwind(), react(), keystatic(), sitemap()],
+  build: {
+    format: "file",
+  },
 });

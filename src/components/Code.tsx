@@ -13,8 +13,5 @@ export default function Code({
     lang: language,
   });
 
-  return (
-    // prose-base sets reasonable defaults for padding given we're scaling up the font in Prose.astro.
-    <div dangerouslySetInnerHTML={{ __html: html }} className="prose-base" />
-  );
+  return <div dangerouslySetInnerHTML={{ __html: html }} />;
 }
