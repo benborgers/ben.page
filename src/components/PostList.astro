@@ -21,7 +21,7 @@ const { posts } = Astro.props;
       <p class="text-gray-800 underline decoration-gray-400">
         {post.entry.title}
       </p>
-      <p class="text-gray-400 shrink-0">
+      <p class="text-gray-400 shrink-0 tabular-nums">
         {new Date(post.entry.date!).toLocaleString("en-US", {
           timeZone: "UTC",
           month: "short",
