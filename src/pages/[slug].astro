@@ -81,7 +81,7 @@ if (content.find((block) => block.type === "code")) {
     }
 
     <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
-      <Document document={content} highlighter={highlighter} />
+      <Document document={content} highlighter={highlighter!} />
     </Prose>
 
     <section
