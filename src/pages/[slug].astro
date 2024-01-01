@@ -7,6 +7,7 @@ import Document from "../components/Document";
 import PostList from "../components/PostList.astro";
 import Newsletter from "../components/Newsletter.astro";
 import { getReader } from "../lib/getReader";
+import { isClassStaticBlockDeclaration } from "typescript";
 
 export const getStaticPaths = (async () => {
   const reader = getReader();
@@ -40,7 +41,11 @@ const recentPosts = (await reader.collections.posts.all())
   )
   .slice(0, 3);
 
-const highlighter = await shiki.getHighlighter({ theme: "dracula" });
+// Don't load highlighter on every page to improve build efficiency.
+let highlighter = null;
+if (content.find((block) => block.type === "code")) {
+  highlighter = await shiki.getHighlighter({ theme: "dracula" });
+}
 ---
 
 <Layout title={post.title} ogImage={post.cover_image ?? undefined}>
