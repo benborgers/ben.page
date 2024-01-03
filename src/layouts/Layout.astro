@@ -67,9 +67,7 @@ const { title, ogImage } = Astro.props;
       data-included-domains="ben.page"></script>
   </head>
   <body class="bg-gray-100 text-gray-700 antialiased selection:bg-amber-300/30">
-    <div
-      class="max-w-xl mx-auto px-4 pt-8 sm:pt-20 pb-8 relative min-h-screen grid grid-rows-[max-content,1fr,max-content]"
-    >
+    <div class="max-w-xl mx-auto px-4 pt-8 sm:pt-20 pb-8 relative min-h-screen">
       <div class="flex items-baseline justify-between">
         <a
           href="/"
@@ -125,8 +123,7 @@ const { title, ogImage } = Astro.props;
         class="mt-24 border-t-2 border-gray-200 pt-6 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-y-0.5"
       >
         <p class="text-sm text-gray-400">
-          <span class="font-handwriting text-xl mr-1">ben.page</span>
-           — last updated
+          <span class="font-handwriting text-xl mr-1">ben.page</span> — last updated
           <a
             href={`https://github.com/benborgers/ben.page/commit/${gitCommitSha}`}
             class="underline"
