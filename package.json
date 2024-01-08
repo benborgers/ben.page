@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "^3.0.3",
     "@astrojs/tailwind": "^5.0.3",
     "@keystatic/astro": "^2.0.3",
-    "@keystatic/core": "^0.2.9",
+    "@keystatic/core": "^0.2.10",
     "@phosphor-icons/react": "^2.0.15",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
