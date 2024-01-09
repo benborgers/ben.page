@@ -1,10 +1,10 @@
-export default function Tweet({ id }: { id: string }) {
+import { EmbeddedTweet } from "react-tweet";
+import type { Tweet } from "react-tweet/api";
+
+export default function Tweet({ tweet }: { tweet: Tweet }) {
   return (
-    <div>
-      <blockquote className="twitter-tweet">
-        <a href={`https://twitter.com/benborgers/status/${id}`}></a>
-      </blockquote>
-      <script src="https://platform.twitter.com/widgets.js" async></script>
+    <div className="not-prose">
+      <EmbeddedTweet tweet={tweet} />
     </div>
   );
 }

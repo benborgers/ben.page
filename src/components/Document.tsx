@@ -1,6 +1,7 @@
 import { DocumentRenderer } from "@keystatic/core/renderer";
 import type { DocumentRendererProps } from "@keystatic/core/renderer";
 import type { Highlighter } from "shiki";
+import type { Tweet as TweetType } from "react-tweet/api";
 import Code from "./Code";
 import Video from "./Video";
 import Tweet from "./Tweet";
@@ -8,9 +9,11 @@ import Tweet from "./Tweet";
 export default function Document({
   document,
   highlighter,
+  tweets,
 }: {
   document: DocumentRendererProps["document"];
   highlighter: Highlighter;
+  tweets: Record<string, TweetType>;
 }) {
   return (
     <DocumentRenderer
@@ -26,7 +29,10 @@ export default function Document({
           ),
         },
       }}
-      componentBlocks={{ video: Video, tweet: Tweet }}
+      componentBlocks={{
+        video: Video,
+        tweet: ({ id }) => <Tweet tweet={tweets[id]} />,
+      }}
     />
   );
 }

@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import shiki from "shiki";
+import { getTweet, type Tweet } from "react-tweet/api";
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
 import Document from "../components/Document";
@@ -45,6 +46,17 @@ let highlighter = null;
 if (content.find((block) => block.type === "code")) {
   highlighter = await shiki.getHighlighter({ theme: "dracula" });
 }
+
+const tweets: Record<string, Tweet> = {};
+for (const block of content.filter((block) => block.component === "tweet")) {
+  const id = (block.props as { id: string }).id;
+  const tweet = await getTweet(id);
+  if (tweet) {
+    tweets[id] = tweet;
+  } else {
+    throw new Error(`Invalid Tweet ID: ${id}`);
+  }
+}
 ---
 
 <Layout title={post.title} ogImage={post.cover_image ?? undefined}>
@@ -80,7 +92,7 @@ if (content.find((block) => block.type === "code")) {
     }
 
     <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
-      <Document document={content} highlighter={highlighter!} />
+      <Document document={content} highlighter={highlighter!} tweets={tweets} />
     </Prose>
 
     <section
