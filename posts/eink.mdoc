@@ -86,7 +86,7 @@ $url = $urls->random(); // Pick a random photo from the album.
 
 From this, I just inserted the image into a very simple HTML page, using the [wsrv.nl](https://wsrv.nl) API to crop the photo to the exact dimensions of the Nook (600x800 pixels):
 
-```
+```html
 <img src="{{ route('image', ['url' => "https://wsrv.nl/?url={$encodedUrl}&w=600&h=800&fit=cover&mod=1.2"], false) }}" />
 ```
 
