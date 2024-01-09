@@ -1,5 +1,6 @@
 import { config, fields, collection } from "@keystatic/core";
 import { video } from "./keystatic/video-block";
+import { tweet } from "./keystatic/tweet-block";
 
 export default config({
   ui: {
@@ -38,6 +39,7 @@ export default config({
           },
           componentBlocks: {
             video,
+            tweet,
           },
         }),
       },

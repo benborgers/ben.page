@@ -7,7 +7,7 @@ import Document from "../components/Document";
 import PostList from "../components/PostList.astro";
 import Newsletter from "../components/Newsletter.astro";
 import { getReader } from "../lib/getReader";
-import { isClassStaticBlockDeclaration } from "typescript";
+import { Tweet as ReactTweet } from "react-tweet";
 
 export const getStaticPaths = (async () => {
   const reader = getReader();

@@ -1,11 +1,11 @@
-import shiki from "shiki";
+import type { Highlighter } from "shiki";
 
 export default function Code({
   highlighter,
   language,
   children,
 }: {
-  highlighter: shiki.Highlighter;
+  highlighter: Highlighter;
   language: string | undefined;
   children: React.ReactNode;
 }) {

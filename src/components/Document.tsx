@@ -3,6 +3,7 @@ import type { DocumentRendererProps } from "@keystatic/core/renderer";
 import type { Highlighter } from "shiki";
 import Code from "./Code";
 import Video from "./Video";
+import Tweet from "./Tweet";
 
 export default function Document({
   document,
@@ -25,7 +26,7 @@ export default function Document({
           ),
         },
       }}
-      componentBlocks={{ video: Video }}
+      componentBlocks={{ video: Video, tweet: Tweet }}
     />
   );
 }
