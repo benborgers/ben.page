@@ -1,7 +1,7 @@
 ---
-title: Building an e-ink picture frame
-date: '2024-01-07'
-published: false
+title: Building an e-ink picture frame to show an iCloud photo album
+date: '2024-01-09'
+published: true
 unlisted: false
 ---
 For Christmas, I gave my parents this e-ink picture frame (built from an old e-reader) that cycles through photos from a shared iCloud photo album:
@@ -26,9 +26,9 @@ The reason to go with a Nook instead of a Kindle or another e-reader is that Noo
 
 For that part, I followed [this wonderful post by Terence Eden](https://shkspr.mobi/blog/2020/02/turn-an-old-ereader-into-an-information-screen-nook-str/). The process was quite straightforward; the only thing to note is that you'll need a Micro SD card.
 
-After you get it running Android, as the post describes, you can run an ancient Android app called Electric Sign. This app allows you to put any website on the Nook's screen and have it refresh at a given interval, with a catch: the Nook doesn't support SSL. Therefore I had to set up a website that uses `http://` instead of `https://`, which is remarkably difficult in this day and age.
+After you get it running Android, as the post describes, you can run an ancient Android app called Electric Sign. This app allows you to put any website on the Nook's screen and have it refresh at a given interval, with a catch: the Nook doesn't support SSL. Therefore I had to set up a website that uses `http://` instead of `https://`, which is remarkably difficult in this day and age. (I had to set up a custom Nginx server, because you can't use something like Vercel.)
 
-But once that part was done, I just had to put the website URL into the Electric Sign app and I was all set!
+But once that part was done, I just had to put the website URL into the Electric Sign app on the Nook and I was all set!
 
 ## The frame
 
@@ -40,9 +40,9 @@ If you look closely, the black bezels at the top and bottom of the Nook would sh
 
 ## iCloud photo album
 
-After setting up a website that didn't use SSL, I needed to actually pull photos from a shared iCloud photo album. That way, I could share the album with my parents, and they could contribute new photos that would show up on the frame right from their Photos app.
+I wanted to source the images from a shared iCloud photo album. That way, I could share the album with my parents, and they could add new photos that would show up on the frame right from their Photos app.
 
-If you share an iCloud photo album to a public link, you can use the Developer Tools to inspect the API requests Apple is making to get the photos. If you replicate those requests, you too can load the photos from the shared iCloud album (as long as it stays publicly shared).
+iCloud photo albums have no API. However, if you share an iCloud photo album to a public link, you can use the Developer Tools to inspect the API requests Apple is making to get the photos. If you replicate those requests, you too can load the photos from the shared iCloud album (as long as the album stays publicly shared).
 
 Here's my [Laravel](https://laravel.com) code that I used, for reference:
 
@@ -90,8 +90,8 @@ From this, I just inserted the image into a very simple HTML page, using the [ws
 <img src="{{ route('image', ['url' => "https://wsrv.nl/?url={$encodedUrl}&w=600&h=800&fit=cover&mod=1.2"], false) }}" />
 ```
 
-I did brighten the images a little (using `mod=1.2`) so they'd look better on the e-ink screen, and also you'll notice that I'm going through an `image` route — that's a route that proxies Apple's images because those images would normally use `https` and I need it going through my `http`-only server so the Nook can load it.
+I did brighten the images a little (using `mod=1.2`) so they'd look better on the e-ink screen, and also you'll notice that I'm going through an `image` route — that's a route that proxies Apple's images because those images would normally use `https` and I need them going through my `http`-only server so the Nook can load the image.
 
 ## Putting it all together
 
-I mounted the Nook in the frame, set the website with the photo from the shared album, and closed it all up with a charging cable so it can stay charging. And there you have it!
+I mounted the Nook in the frame, set the website with the photo from the shared album, and closed it all up with a charging cable so it can stay plugged in all the time. It's been working beautifully so far!
