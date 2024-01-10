@@ -59,13 +59,13 @@ const posts = (await reader.collections.posts.all())
     <h2>Work experience</h2>
     <ul>
       <li>
-        <a href="https://locketcamera.com" target="blank">Locket</a> (summer
-        2023 – present): Working on Android version of social media app; scoping
-        and shipping features to millions of users regularly.
+        <a href="https://locketcamera.com" target="blank">Locket</a> (summer 2023
+        – present): Working on Android version of social media app; scoping and shipping
+        features to millions of users regularly.
       </li>
       <li>
         <a href="https://buttondown.email">Buttondown</a>
-         (summer 2021 – present): Support engineer & product engineer.
+        (summer 2021 – present): Support engineer & product engineer.
       </li>
       <li>
         <a href="https://lu.ma">Luma</a> and <a href="https://glow.app">
@@ -114,6 +114,14 @@ const posts = (await reader.collections.posts.all())
       </li>
     </ul>
 
+    <div class="pt-2">
+      <div
+        class="not-prose bg-white shadow-sm rounded-lg p-4 pb-3 ring-1 ring-gray-200/50 -mx-1 sm:-mx-2"
+      >
+        <Newsletter />
+      </div>
+    </div>
+
     <h2>Blog</h2>
     {
       /* Force h2 to have bottom padding.
@@ -123,14 +131,6 @@ const posts = (await reader.collections.posts.all())
   </Prose>
 
   <div class="space-y-2">
-    <PostList posts={posts.slice(0, 6)} />
-    <div class="py-2">
-      <div
-        class="bg-white shadow-sm rounded-lg p-4 pb-3 ring-1 ring-gray-200/50 -mx-2"
-      >
-        <Newsletter />
-      </div>
-    </div>
-    <PostList posts={posts.slice(6)} />
+    <PostList posts={posts} />
   </div>
 </Layout>
