@@ -1,20 +1,12 @@
 ---
-import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import { getReader } from "../lib/getReader";
 
 const reader = getReader();
-const photos = (await reader.collections.photos.all())
-  .sort(
-    (a, b) =>
-      new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
-  )
-  .map((photo) => {
-    return {
-      ...photo,
-      image: import("../../../public" + photo.entry.photo),
-    };
-  });
+const photos = (await reader.collections.photos.all()).sort(
+  (a, b) =>
+    new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
+);
 ---
 
 <Layout title="Photo of the Day" ogImage={photos[0].entry.photo!}>
@@ -25,35 +17,34 @@ const photos = (await reader.collections.photos.all())
   <div class="mt-4 space-y-6">
     {
       photos.map(async (photo, index) => (
-        <figure>
+        <div>
           <a
             href={photo.entry.photo}
             target="_blank"
             class="cursor-zoom-in block max-w-max"
           >
-            <Image
-              src={photo.image}
-              widths={[600, 900]}
-              quality="mid"
-              alt={photo.entry.caption}
+            <img
+              src={photo.entry.photo}
+              class="max-h-[85vh]"
               loading={index > 3 ? "lazy" : "eager"}
-              class="max-h-[85vh] w-full"
             />
           </a>
-          <figcaption class="mt-1.5 text-sm">
-            <span class="text-gray-400">
-              {new Date(photo.entry.date!).toLocaleString("en-US", {
-                timeZone: "UTC",
-                month: "short",
-                day: "numeric",
-                year: "numeric",
-              })}
-            </span>
-            {photo.entry.caption && (
-              <span class="text-gray-600 ml-1.5">{photo.entry.caption}</span>
-            )}
-          </figcaption>
-        </figure>
+          <div class="mt-1.5 text-sm">
+            <p>
+              <span class="text-gray-400">
+                {new Date(photo.entry.date!).toLocaleString("en-US", {
+                  timeZone: "UTC",
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
+                })}
+              </span>
+              {photo.entry.caption && (
+                <span class="text-gray-600 ml-1.5">{photo.entry.caption}</span>
+              )}
+            </p>
+          </div>
+        </div>
       ))
     }
   </div>
