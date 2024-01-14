@@ -10,10 +10,6 @@ import {
   LinkedinLogo,
   TwitterLogo,
 } from "@phosphor-icons/react";
-// @ts-ignore
-import { execSync } from "child_process";
-
-const gitCommitSha = execSync('git log -n 1 --format="%h"').toString().trim();
 
 const { title, ogImage } = Astro.props;
 ---
@@ -125,7 +121,7 @@ const { title, ogImage } = Astro.props;
         <p class="text-sm text-gray-400">
           <span class="font-handwriting text-xl mr-1">ben.page</span> — last updated
           <a
-            href={`https://github.com/benborgers/ben.page/commit/${gitCommitSha}`}
+            href={`https://github.com/benborgers/ben.page/commit`}
             class="underline"
           >
             <time id="last-updated" datetime={Date.now().toString()}>
