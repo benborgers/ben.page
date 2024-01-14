@@ -7,6 +7,13 @@ const photos = (await reader.collections.photos.all()).sort(
   (a, b) =>
     new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
 );
+
+const optimizedImageUrl = (path: string, width: number) => {
+  const fullUrl = new URL(path, Astro.site!.origin);
+  return `https://wsrv.nl/?url=${encodeURIComponent(
+    fullUrl.toString()
+  )}&output=webp&width=${width}`;
+};
 ---
 
 <Layout title="Photo of the Day" ogImage={photos[0].entry.photo!}>
@@ -24,7 +31,7 @@ const photos = (await reader.collections.photos.all()).sort(
             class="cursor-zoom-in block max-w-max"
           >
             <img
-              src={photo.entry.photo}
+              src={optimizedImageUrl(photo.entry.photo!, 1200)}
               class="max-h-[85vh]"
               loading={index > 3 ? "lazy" : "eager"}
             />
