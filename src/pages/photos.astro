@@ -12,7 +12,7 @@ const photos = (await reader.collections.photos.all())
   .map((photo) => {
     return {
       ...photo,
-      image: import("../../public" + photo.entry.photo),
+      image: import("../../../public" + photo.entry.photo),
     };
   });
 ---
