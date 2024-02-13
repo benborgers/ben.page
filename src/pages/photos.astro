@@ -12,7 +12,7 @@ const optimizedImageUrl = (path: string, width: number) => {
   const fullUrl = new URL(path, Astro.site!.origin);
   return `https://wsrv.nl/?url=${encodeURIComponent(
     fullUrl.toString()
-  )}&output=webp&width=${width}`;
+  )}&output=webp&width=${width}&v=1`;
 };
 ---
 
