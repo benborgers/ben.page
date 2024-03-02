@@ -13,7 +13,7 @@ Here's an example of the personalized "wrapped" that we ended up with:
 {% gallery
    photos=[{photo: "/posts/wrapped/Screenshot 2024-02-18 at 4.20.18 PM.jpeg", caption: "The dithered elephant was a stroke of design genius by Jerome."}, {photo: "/posts/wrapped/Screenshot 2024-02-18 at 4.20.25 PM.jpeg", caption: "Almost everybody would be better off paying \"JumboCash\" for meals instead of buying a meal plan."}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped.jpeg"}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped 2.jpeg"}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped 3.jpeg"}] /%}
 
-To generate these slides, we pulled all transactions from students' meal plans this semester and last semester, by reverse-engineering Tufts' meal plan portal.
+To generate these slides, we would pull all transactions from this semester and last semester for a student, by **reverse-engineering Tufts' meal plan portal**.
 
 ## Day 1
 
@@ -37,10 +37,22 @@ So we moved to our second idea: Friend/Relative Access. The system allows you to
 
 ![](/posts/wrapped/2024-03-02%20at%2015.23.40@2x.png)
 
-For the rest of Day 1, we spent 6-7 *hours* reverse-engineering how the login system works. It's a mess of requests bounced back and forth that are required to provision a session key and activate it. We locked ourselves out of our test accounts many, many times.
+For the rest of Day 1, we spent 6-7 *hours* reverse-engineering how the login system works. (Mostly Jerome did this, while I frantically worked in parallel to create a [Puppeteer](https://pptr.dev)-based version of the project.)
+
+It's a mess of requests bounced back and forth that are required to provision a session key and activate it. We locked ourselves out of our test accounts many, many times.
 
 But by midnight, we had figured out which sequence of requests were necessary to create and activate a session key, and we reused my code from earlier in the day to scrape transactions so we could analyze them.
 
 ## Day 2
+
+On Day 2 we really put on the jets, since projects were due by 4:30pm.
+
+We began by finalizing the logic for receiving a guest access email (thank you [Postmark](https://postmarkapp.com)), taking the password in that email, logging into the student's account, and scraping their list of transactions.
+
+From there, Jerome and I split the work of building out the visualizations that you saw in the screenshot gallery above. One for the amount of money you could have saved if Tufts didn't force you to have a meal plan and allowed you to pay cash for the *exact same amount of food* instead; one for your favorite places on campus; one for your earliest and latest meals; and one for the distribution of meal swipes you use per day of the week.
+
+We also built out a homepage in the same wacky Spotify-inspired design style:
+
+![](/posts/wrapped/2024-03-02%20at%2015.31.46@2x.png)
 
 ## By the numbers
