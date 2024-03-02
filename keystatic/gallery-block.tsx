@@ -15,12 +15,16 @@ export const gallery = component({
       fields.object({
         photo: fields.image({
           label: "Photo",
+          publicPath: "public/posts",
         }),
-        caption: fields.text({ label: "Text" }),
+        caption: fields.text({ label: "Caption" }),
       }),
       {
         label: "Photos",
-        itemLabel: (props) => props.fields.photo.value?.filename ?? "",
+        itemLabel: (props) =>
+          props.fields.caption.value ||
+          props.fields.photo.value?.filename ||
+          "",
       }
     ),
   },

@@ -5,6 +5,7 @@ import type { Tweet as TweetType } from "react-tweet/api";
 import Code from "./Code";
 import Video from "./Video";
 import Tweet from "./Tweet";
+import Gallery from "./Gallery";
 
 export default function Document({
   document,
@@ -32,6 +33,7 @@ export default function Document({
       componentBlocks={{
         video: Video,
         tweet: ({ id }) => <Tweet tweet={tweets[id]} />,
+        gallery: Gallery,
       }}
     />
   );
