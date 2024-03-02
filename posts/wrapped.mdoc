@@ -17,6 +17,30 @@ To generate these slides, we pulled all transactions from students' meal plans t
 
 ## Day 1
 
+We came into JumboHack with this idea, so we hit the ground running.
+
+The initial plan was to take advantage of the fact that Tufts' meal plan management website seems to store session keys *in query parameters in the URL*. Once you log in, all subsequent URLs look something like this:
+
+```
+https://www.jumbocash.net/index.php?skey=20613b5ef40f04e15ecc5d5f56513b92&cid=233&
+```
+
+The `cid` was the ID for Tufts, and the `skey` was a session key — texting this link to someone else would allow them to get into your account. (What a wonderful system.)
+
+Our plan was to have students paste this link into our website, so we could scrape the transaction data and then build our reports. We determined that the session key itself only lasts for 15 minutes, so we wouldn't really have long-term keys to users' accounts.
+
+We started building a prototype around this, until I tried to send Jerome a session key for testing on his own laptop. **Then it didn't work.**
+
+It turns out that, despite the poor security practices of storing session keys in the URL, this system *does* lock session keys to the current IP address. Jerome was on Tufts' guest network, and I was on the student network. This meant that, unless our server was hosted in the same building as a student, it wouldn't work.
+
+So we moved to our second idea: Friend/Relative Access. The system allows you to invite up to 10 guests to your account — probably intended for parents to watch your balance and top it up when it gets low. We could have students invite an email address that we control, parse the "you've been invited!" email, and scrape their account's transactions from there.
+
+![](/posts/wrapped/2024-03-02%20at%2015.23.40@2x.png)
+
+For the rest of Day 1, we spent 6-7 *hours* reverse-engineering how the login system works. It's a mess of requests bounced back and forth that are required to provision a session key and activate it. We locked ourselves out of our test accounts many, many times.
+
+But by midnight, we had figured out which sequence of requests were necessary to create and activate a session key, and we reused my code from earlier in the day to scrape transactions so we could analyze them.
+
 ## Day 2
 
 ## By the numbers
