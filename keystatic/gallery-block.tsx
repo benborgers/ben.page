@@ -15,7 +15,7 @@ export const gallery = component({
       fields.object({
         photo: fields.image({
           label: "Photo",
-          publicPath: "public/posts",
+          directory: "public/posts",
         }),
         caption: fields.text({ label: "Caption" }),
       }),
