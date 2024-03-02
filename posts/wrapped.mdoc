@@ -27,31 +27,36 @@ The initial plan was to take advantage of the fact that Tufts' meal plan managem
 https://www.jumbocash.net/index.php?skey=20613b5ef40f04e15ecc5d5f56513b92&cid=233&
 ```
 
-The `cid` was the ID for Tufts, and the `skey` was a session key — texting this link to someone else would allow them to get into your account. (What a wonderful system.)
+The `cid` was the ID for Tufts, and the `skey` was a session key — sending this link to someone else would allow them to get into your account. (What a wonderful system.)
 
 Our plan was to have students paste this link into our website, so we could scrape the transaction data and then build our reports. We determined that the session key itself only lasts for 15 minutes, so we wouldn't really have long-term keys to users' accounts.
 
-We started building a prototype around this, until I tried to send Jerome a session key for testing on his own laptop. **Then it didn't work.**
+We started building a prototype around this, until I tried to send Jerome a session key for testing on his own laptop. **It didn't work.**
 
-It turns out that, despite the poor security practices of storing session keys in the URL, this system *does* lock session keys to the current IP address. Jerome was on Tufts' guest network, and I was on the student network. This meant that, unless our server was hosted in the same building as a student, it wouldn't work.
+It turns out that, despite the poor security practice of storing session keys in the URL, this system *does* lock session keys to the current IP address. Jerome was on Tufts' guest network, and I was on the student network. This meant that, unless our server was hosted in the same building as every user, it wouldn't work.
 
-So we moved to our second idea: Friend/Relative Access. The system allows you to invite up to 10 guests to your account — probably intended for parents to watch your balance and top it up when it gets low. We could have students invite an email address that we control, parse the "you've been invited!" email, and scrape their account's transactions from there.
+So we moved to our second idea: "Friend/Relative Access". The meal plan system allows you to invite up to 10 guests to your account — a feature probably intended for parents to watch their children's balance and top it up when it gets low. We could have students invite an email address that we control, parse the "you've been invited!" email, and scrape their transactions from there.
 
 ![](/posts/wrapped/2024-03-02%20at%2015.23.40@2x.png)
 
-For the rest of Day 1, we spent 6-7 *hours* reverse-engineering how the login system works. (Mostly Jerome did this, while I frantically worked in parallel to create a [Puppeteer](https://pptr.dev)-based version of the project.)
+For the rest of Day 1, we spent 6-7 *hours* reverse-engineering how the login system works. (Jerome did most of this, while I frantically worked in parallel to create a [Puppeteer](https://pptr.dev)-based version of the project in case it didn't work.)
 
 It's a mess of requests bounced back and forth that are required to provision a session key and activate it. We locked ourselves out of our test accounts many, many times.
 
-But by midnight, we had figured out which sequence of requests were necessary to create and activate a session key, and we reused my code from earlier in the day to scrape transactions so we could analyze them.
+But by midnight, we had figured out which sequence of requests were necessary to create and activate a session key! We reused my code from earlier in the day to scrape transactions for analysis.
 
 ## Day 2
 
 On Day 2 we really put on the jets, since projects were due by 4:30pm.
 
-We began by finalizing the logic for receiving a guest access email (thank you [Postmark](https://postmarkapp.com)), taking the password in that email, logging into the student's account, and scraping their list of transactions.
+We began by finalizing the logic for receiving a guest access email (thank you [Postmark](https://postmarkapp.com)), parsing the password in that email, logging into the student's account, and scraping their list of transactions.
 
-From there, Jerome and I split the work of building out the visualizations that you saw in the screenshot gallery above. One for the amount of money you could have saved if Tufts didn't force you to have a meal plan and allowed you to pay cash for the *exact same amount of food* instead; one for your favorite places on campus; one for your earliest and latest meals; and one for the distribution of meal swipes you use per day of the week.
+From there, Jerome and I split the work of building out the visualizations that you saw in the screenshot gallery above.
+
+- One slide with the amount of money you could have saved if Tufts didn't force you to have a meal plan and allowed you to pay cash for the *exact same food* instead
+- One slide for your favorite places on campus
+- One slide for your earliest and latest meals
+- One slide for the average number of meal swipes you use per day of the week
 
 We also built out a homepage in the same wacky Spotify-inspired design style, and hosted the project on the excellent domain [jumbo.cash](https://jumbo.cash) (Tufts' official portal is `jumbocash.net`):
 
@@ -63,14 +68,14 @@ We also built out a homepage in the same wacky Spotify-inspired design style, an
 
 We put those posters up, recorded a video for our submission, and submitted to the hackathon right before the 4:30pm deadline.
 
-*However*, the most important marketing effort were two anonymous posts I made on [Sidechat](https://sidechat.lol), an anonymous social media platform at Tufts. I made two posts pretending to be a student, without any hint of self-promotion, but tastefully leaving the Safari toolbar in the screenshot. This was by far and away the most successful way we got students to use the project — each post got hundreds of upvotes and half a dozen other anonymous posts (not made by us!) popped up about the project.
+*However*, the most important marketing effort was two anonymous posts I made on [Sidechat](https://sidechat.lol), an anonymous social media platform at Tufts. I made two posts pretending to be a student, without any hint of self-promotion, but tastefully leaving the Safari toolbar in the screenshot.
+
+This was by far and away the most successful way we got students to use the project — each post got hundreds of upvotes and spawned half a dozen other anonymous posts (not made by us!) about people's own results.
 
 {% gallery
    photos=[{photo: "/posts/wrapped/IMG_5328.jpg", caption: "My anonymous Sidechat post masquerading as a happy customer."}, {photo: "/posts/wrapped/IMG_5329.jpg", caption: "We totally doctored the numbers in this screenshot to make it more interesting."}] /%}
 
-We presented our projects to the judges, and in the end won: General Track Winner, Most Complete, and tied for Overall Winner. And won a pair of AirPods each!
-
-But to be honest, the most exciting part for me was to see actual students use the app over the next weeks...
+At the end of the day we presented our projects to the judges, and in ended up winning: General Track Winner, Most Complete, and tied for Overall Winner. And won a pair of AirPods each!
 
 ## By the numbers
 
@@ -80,11 +85,11 @@ The site itself got 1,300 unique visitors:
 
 ![](/posts/wrapped/image.png)
 
-The discrepancy there is likely due to:
+The discrepancy in those numbers is likely due to:
 
 - A difficult process for getting your Meal Plan Wrapped (inviting our email address as a guest isn't super easy)
-- Not everybody going to the site has a meal plan (and if you try to use it without a meal plan, we unfortunately send you an email saying we couldn't generate one for you)
+- Not everybody checking out the site has a meal plan (and if you try to use it without a meal plan, we unfortunately send you an email saying we couldn't handle your account)
 
 But altogether, quite a fun way to spend the weekend.
 
-*Thanks to*                [*Jerome*](https://jero.zone)                *for making the trip up from Brown, and to the*                [*JumboHack*](https://jumbohack.vercel.app)                *organizers for putting on a great hackathon!*
+*Thanks to* [*Jerome*](https://jero.zone) *for making the trip up from Brown, and to the* [*JumboHack*](https://jumbohack.vercel.app) *organizers for putting on a great hackathon!*
