@@ -1,6 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro";
-import shiki from "shiki";
+import { getHighlighter, type LanguageInput } from "shiki";
 import { getTweet, type Tweet } from "react-tweet/api";
 import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
@@ -43,8 +43,15 @@ const recentPosts = (await reader.collections.posts.all())
 
 // Don't load highlighter on every page to improve build efficiency.
 let highlighter = null;
-if (content.find((block) => block.type === "code")) {
-  highlighter = await shiki.getHighlighter({ theme: "dracula" });
+const codeBlocks = content.filter((block) => block.type === "code");
+if (codeBlocks.length > 0) {
+  highlighter = await getHighlighter({
+    themes: ["dracula"],
+    langs: [
+      ...(codeBlocks.map((block) => block.language) as LanguageInput[]),
+      "plaintext",
+    ],
+  });
 }
 
 const tweets: Record<string, Tweet> = {};

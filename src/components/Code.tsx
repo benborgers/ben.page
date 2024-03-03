@@ -10,7 +10,8 @@ export default function Code({
   children: React.ReactNode;
 }) {
   const html = highlighter.codeToHtml(children?.toString() ?? "", {
-    lang: language,
+    lang: language ?? "plaintext",
+    theme: "dracula",
   });
 
   return <div dangerouslySetInnerHTML={{ __html: html }} />;
