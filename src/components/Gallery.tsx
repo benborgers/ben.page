@@ -24,7 +24,7 @@ export default function Gallery({
               <div className="mx-auto grid grid-cols-[1fr,max-content,1fr] items-center gap-x-6 text-gray-400 text-sm">
                 <button
                   data-prev
-                  className="w-max justify-self-end flex items-center gap-x-1.5 italic"
+                  className="w-max justify-self-end flex items-center gap-x-1.5 italic cursor-w-resize"
                 >
                   <ArrowLeft weight="bold" /> <div>Prev</div>
                 </button>
@@ -33,7 +33,7 @@ export default function Gallery({
                 </div>
                 <button
                   data-next
-                  className="ml-1 w-max flex items-center gap-x-1.5 italic"
+                  className="ml-1 w-max flex items-center gap-x-1.5 italic cursor-e-resize"
                 >
                   <div>Next</div>
                   <ArrowRight weight="bold" />
@@ -47,33 +47,35 @@ export default function Gallery({
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            const parent = document.querySelector('[data-gallery="${id}"]');
-            const slides = parent.querySelectorAll('& > div');
-            const imgs = parent.querySelectorAll('img');
+            (() => {
+              const parent = document.querySelector('[data-gallery="${id}"]');
+              const slides = parent.querySelectorAll('& > div');
+              const imgs = parent.querySelectorAll('img');
 
-            const next = () => {
-              const current = Array.from(slides).findIndex((img) => !img.hidden);
-              slides[current].hidden = true;
-              if (current + 1 < slides.length) {
-                slides[current + 1].hidden = false;
-              } else {
-                slides[0].hidden = false;
+              const next = () => {
+                const current = Array.from(slides).findIndex((img) => !img.hidden);
+                slides[current].hidden = true;
+                if (current + 1 < slides.length) {
+                  slides[current + 1].hidden = false;
+                } else {
+                  slides[0].hidden = false;
+                }
               }
-            }
 
-            const prev = () => {
-              const current = Array.from(slides).findIndex((img) => !img.hidden);
-              slides[current].hidden = true;
-              if (current - 1 >= 0) {
-                slides[current - 1].hidden = false;
-              } else {
-                slides[slides.length - 1].hidden = false;
+              const prev = () => {
+                const current = Array.from(slides).findIndex((img) => !img.hidden);
+                slides[current].hidden = true;
+                if (current - 1 >= 0) {
+                  slides[current - 1].hidden = false;
+                } else {
+                  slides[slides.length - 1].hidden = false;
+                }
               }
-            }
 
-            imgs.forEach(img => img.addEventListener('click', next));
-            parent.querySelectorAll('[data-next]').forEach(btn => btn.addEventListener('click', next));
-            parent.querySelectorAll('[data-prev]').forEach(btn => btn.addEventListener('click', prev));
+              imgs.forEach(img => img.addEventListener('click', next));
+              parent.querySelectorAll('[data-next]').forEach(btn => btn.addEventListener('click', next));
+              parent.querySelectorAll('[data-prev]').forEach(btn => btn.addEventListener('click', prev));
+            })()
           `,
         }}
       />
