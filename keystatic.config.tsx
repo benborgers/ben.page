@@ -7,6 +7,15 @@ export default config({
   ui: {
     brand: {
       name: "ben.page",
+      mark: () => (
+        <img
+          src="https://emojicdn.elk.sh/🐙"
+          style={{
+            height: 20,
+            transform: "translateY(-1.5px)",
+          }}
+        />
+      ),
     },
   },
   storage: {
@@ -19,6 +28,7 @@ export default config({
       slugField: "title",
       path: "posts/*",
       format: { contentField: "content" },
+      entryLayout: "content",
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
         date: fields.date({ label: "Date", defaultValue: { kind: "today" } }),
