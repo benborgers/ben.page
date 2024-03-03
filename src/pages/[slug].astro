@@ -47,10 +47,12 @@ const codeBlocks = content.filter((block) => block.type === "code");
 if (codeBlocks.length > 0) {
   highlighter = await getHighlighter({
     themes: ["dracula"],
-    langs: [
-      ...(codeBlocks.map((block) => block.language) as LanguageInput[]),
-      "plaintext",
-    ],
+    langs: Array.from(
+      new Set([
+        ...(codeBlocks.map((block) => block.language) as LanguageInput[]),
+        "plaintext",
+      ])
+    ),
   });
 }
 
