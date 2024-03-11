@@ -2,6 +2,7 @@
 interface Props {
   title?: string;
   ogImage?: string;
+  noIndex?: boolean;
 }
 
 import {
@@ -11,7 +12,7 @@ import {
   TwitterLogo,
 } from "@phosphor-icons/react";
 
-const { title, ogImage } = Astro.props;
+const { title, ogImage, noIndex } = Astro.props;
 ---
 
 <html lang="en">
@@ -23,6 +24,8 @@ const { title, ogImage } = Astro.props;
     <title>{title}</title>
     <meta property="og:title" content={title} />
     <meta property="og:site_name" content="Ben Borgers" />
+
+    {noIndex && <meta name="robots" content="noindex" />}
 
     {
       ogImage && (

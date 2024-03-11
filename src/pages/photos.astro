@@ -16,7 +16,7 @@ const optimizedImageUrl = (path: string, width: number) => {
 };
 ---
 
-<Layout title="Photo of the Day" ogImage={photos[0].entry.photo!}>
+<Layout title="Photo of the Day" ogImage={photos[0].entry.photo!} noIndex>
   <div class="mt-12">
     <h1 class="text-2xl font-serif text-gray-800">Photo of the Day</h1>
   </div>
