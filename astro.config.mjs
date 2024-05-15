@@ -19,4 +19,7 @@ export default defineConfig({
       noExternal: ["react-tweet"],
     },
   },
+  redirects: {
+    "/photos": "https://photos.ben.page",
+  },
 });
