@@ -56,19 +56,5 @@ export default config({
         }),
       },
     }),
-    photos: collection({
-      label: "Photos",
-      slugField: "id",
-      schema: {
-        id: fields.text({ label: "ID" }),
-        date: fields.date({ label: "Date", defaultValue: { kind: "today" } }),
-        photo: fields.image({
-          label: "Photo",
-          directory: "public/photos",
-          publicPath: "/photos",
-        }),
-        caption: fields.text({ label: "Caption" }),
-      },
-    }),
   },
 });
