@@ -1,122 +1,48 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getHighlighter, type LanguageInput } from "shiki";
-import { getTweet, type Tweet } from "react-tweet/api";
-import Layout from "../layouts/Layout.astro";
-import Prose from "../components/Prose.astro";
-import Document from "../components/Document";
-import PostList from "../components/PostList.astro";
-import Newsletter from "../components/Newsletter.astro";
-import { getReader } from "../lib/getReader";
+import { getCollection } from "astro:content";
+import Layout from "../components/layout.astro";
+import Polaroid from "../components/polaroid.astro";
 
 export const getStaticPaths = (async () => {
-  const reader = getReader();
-  const posts = (await reader.collections.posts.all()).filter(
-    (post) => post.entry.published && post.entry.date
-  );
-
+  const posts = await getCollection("posts");
   return posts.map((post) => ({
-    params: {
-      slug: post.slug,
-    },
-    props: {
-      post: post.entry,
-      slug: post.slug,
-    },
+    params: { slug: post.slug },
+    props: { post },
   }));
 }) satisfies GetStaticPaths;
 
-const { post, slug } = Astro.props;
-const content = await post.content();
-
-const reader = getReader();
-const recentPosts = (await reader.collections.posts.all())
-  .filter(
-    (post) => post.entry.published && !post.entry.unlisted && post.entry.date
-  )
-  .filter((p) => p.slug !== slug)
-  .sort(
-    (a, b) =>
-      new Date(b.entry.date!).getTime() - new Date(a.entry.date!).getTime()
-  )
-  .slice(0, 3);
-
-// Don't load highlighter on every page to improve build efficiency.
-let highlighter = null;
-const codeBlocks = content.filter((block) => block.type === "code");
-if (codeBlocks.length > 0) {
-  highlighter = await getHighlighter({
-    themes: ["dracula"],
-    langs: Array.from(
-      new Set([
-        ...(codeBlocks.map((block) => block.language) as LanguageInput[]),
-        "plaintext",
-      ])
-    ),
-  });
-}
-
-const tweets: Record<string, Tweet> = {};
-for (const block of content.filter((block) => block.component === "tweet")) {
-  const id = (block.props as { id: string }).id;
-  const tweet = await getTweet(id);
-  if (tweet) {
-    tweets[id] = tweet;
-  } else {
-    throw new Error(`Invalid Tweet ID: ${id}`);
-  }
-}
+const { post } = Astro.props;
+const { Content } = await post.render();
 ---
 
-<Layout title={post.title} ogImage={post.cover_image ?? undefined}>
-  <div class="mt-12">
-    <div
-      class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-x-6"
-    >
-      <h1 class="text-2xl font-serif text-gray-800">
-        {post.title}
-      </h1>
-      <p class="mt-0.5 text-gray-400 sm:text-right shrink-0 text-sm italic">
-        {
-          new Date(post.date!).toLocaleString("en-US", {
-            timeZone: "UTC",
-            month: "long",
-            day: "numeric",
-            year: "numeric",
-          })
-        }
-      </p>
-    </div>
-
-    {
-      post.cover_image && (
-        // The dimensions of this image are more or less the default "21x9" aspect ratio from
-        // Visual Electric. I hardcoded the aspect ratio to avoid a layout shift as it's loading.
-        <img
-          src={post.cover_image}
-          alt=""
-          class="mt-6 rounded-md ring-4 ring-white shadow-md aspect-[544/225] object-cover w-full"
-        />
-      )
-    }
-
-    <Prose class={post.cover_image ? "mt-6" : "mt-8"}>
-      <Document document={content} highlighter={highlighter!} tweets={tweets} />
-    </Prose>
-
-    <section
-      class="mt-8 bg-white shadow-sm rounded-lg px-4 py-3 ring-1 ring-gray-200/50 -mx-2"
-    >
-      <Prose>
-        <h2>More blog posts</h2>
-      </Prose>
-      <div class="mt-2 space-y-2 sm:space-y-1.5">
-        <PostList posts={recentPosts} />
+<Layout title="Ben Borgers">
+  <div
+    class="mt-16 mb-32 grid grid-cols-[max-content,36rem] w-max mx-auto gap-x-20"
+  >
+    <div>
+      <Polaroid />
+      <div class="mt-6 text-right">
+        <a href="/" class="block">Home</a>
+        <a href="/" class="block">Blog</a>
+        <a href="/" class="block">Work</a>
+        <a href="/" class="block">Projects</a>
       </div>
+      <div class="mt-4 text-right text-gray-500">
+        <a href="/" class="block">Contact</a>
+        <a href="/" class="block">Twitter</a>
+        <a href="/" class="block">GitHub</a>
+        <a href="/" class="block">LinkedIn</a>
+      </div>
+    </div>
+    <div>
+      <h1 class="text-4xl font-extrabold tracking-tight">{post.data.title}</h1>
 
-      <div class="h-px bg-gray-100 mt-6 mb-5"></div>
-
-      <Newsletter />
-    </section>
+      <div
+        class="mt-10 prose prose-stone prose-xl text-gray-950 max-w-none prose-p:font-serif prose-p:leading-[1.55] prose-headings:text-black"
+      >
+        <Content />
+      </div>
+    </div>
   </div>
 </Layout>

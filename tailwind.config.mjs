@@ -6,16 +6,15 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
+        serif: ["valkyrie-text", ...defaultTheme.fontFamily.serif],
+        handwriting: ["Shantell Sans", ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         gray: colors.stone,
       },
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        // Put Georgia before Apple's New York in Safari. I think Georgia looks better.
-        serif: ["Georgia", ...defaultTheme.fontFamily.serif],
-        handwriting: ["Caveat"],
-      },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/typography")],
 };

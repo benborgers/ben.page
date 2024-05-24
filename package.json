@@ -3,32 +3,18 @@
   "type": "module",
   "version": "1.0",
   "scripts": {
-    "dev": "astro dev --host 127.0.0.1",
+    "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.6",
-    "@astrojs/cloudflare": "^9.0.2",
-    "@astrojs/react": "^3.0.10",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/sitemap": "^3.1.1",
+    "@astrojs/check": "^0.7.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@keystatic/astro": "^5.0.0",
-    "@keystatic/core": "^0.5.0",
-    "@phosphor-icons/react": "^2.0.15",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "astro": "^4.4.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-tweet": "^3.2.0",
-    "shiki": "^1.1.7",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "@tailwindcss/typography": "^0.5.13",
+    "astro": "^4.8.6",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }
