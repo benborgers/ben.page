@@ -1,0 +1,60 @@
+---
+interface Props {
+  post: CollectionEntry<"posts">;
+  index?: boolean;
+}
+
+import type { CollectionEntry } from "astro:content";
+import Layout from "./layout.astro";
+import Polaroid from "./polaroid.astro";
+
+const { post, index = false } = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout title="Ben Borgers">
+  <div
+    class="mt-16 mb-36 grid grid-cols-[max-content,36rem] w-max mx-auto gap-x-20"
+  >
+    <div>
+      <Polaroid />
+      <div class="mt-6 text-right text-gray-800">
+        <p><a href="/">Home</a></p>
+        <p><a href="/">Blog</a></p>
+        <p><a href="/">Work</a></p>
+        <p><a href="/">Projects</a></p>
+      </div>
+      <div class="mt-4 text-right text-gray-500">
+        <p><a href="/">Contact</a></p>
+        <p><a href="/">Twitter</a></p>
+        <p><a href="/">GitHub</a></p>
+        <p><a href="/">LinkedIn</a></p>
+      </div>
+    </div>
+    <div>
+      {
+        !index && (
+          <h1 class="text-4xl font-extrabold tracking-tight">
+            {post.data.title}
+          </h1>
+        )
+      }
+
+      <div
+        class:list={[
+          !index && "mt-10",
+          "prose prose-stone prose-xl max-w-none",
+          "text-gray-900",
+          "prose-p:font-serif prose-p:leading-[1.55]",
+          "prose-li:font-serif prose-li:my-1.5",
+          "prose-a:font-normal prose-a:text-blue-800",
+          "prose-headings:text-gray-900",
+          "prose-h2:text-3xl prose-h2:tracking-tight",
+          "prose-h3:text-2xl prose-h3:tracking-tight",
+        ]}
+      >
+        <Content />
+      </div>
+    </div>
+  </div>
+</Layout>

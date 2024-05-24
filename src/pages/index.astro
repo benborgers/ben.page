@@ -1,0 +1,8 @@
+---
+import { getEntry } from "astro:content";
+import Page from "../components/page.astro";
+
+const index = await getEntry("posts", "index");
+---
+
+<Page post={index} index />

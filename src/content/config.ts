@@ -7,7 +7,6 @@ export const collections = {
       title: z.string(),
       unlisted: z.boolean(),
       date: z.date(),
-      cover_image: z.string().optional(),
     }),
   }),
 };
