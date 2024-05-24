@@ -22,7 +22,7 @@ const { Content } = await post.render();
   >
     <div>
       <Polaroid />
-      <div class="mt-6 text-right">
+      <div class="mt-6 text-right text-gray-900">
         <a href="/" class="block">Home</a>
         <a href="/" class="block">Blog</a>
         <a href="/" class="block">Work</a>
@@ -36,10 +36,17 @@ const { Content } = await post.render();
       </div>
     </div>
     <div>
-      <h1 class="text-4xl font-extrabold tracking-tight">{post.data.title}</h1>
+      <h1 class="text-4xl font-extrabold tracking-tight">
+        {post.data.title}
+      </h1>
 
       <div
-        class="mt-10 prose prose-stone prose-xl text-gray-950 max-w-none prose-p:font-serif prose-p:leading-[1.55] prose-headings:text-black"
+        class:list={[
+          "mt-10",
+          "prose prose-stone prose-xl max-w-none",
+          "prose-p:font-serif prose-p:leading-[1.55]",
+          "prose-headings:text-black",
+        ]}
       >
         <Content />
       </div>
