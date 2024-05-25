@@ -1,0 +1,16 @@
+---
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+---
+
+<p>
+  <a
+    href={href}
+    class:list={Astro.url.pathname === href && "underline decoration-gray-300"}
+  >
+    <slot />
+  </a>
+</p>

@@ -7,6 +7,7 @@ interface Props {
 import type { CollectionEntry } from "astro:content";
 import Layout from "./layout.astro";
 import Polaroid from "./polaroid.astro";
+import NavLink from "./nav-link.astro";
 
 const { post, index = false } = Astro.props;
 const { Content } = await post.render();
@@ -19,16 +20,16 @@ const { Content } = await post.render();
     <div>
       <Polaroid />
       <div class="mt-6 text-right text-gray-800">
-        <p><a href="/">Home</a></p>
-        <p><a href="/">Blog</a></p>
-        <p><a href="/">Work</a></p>
-        <p><a href="/">Projects</a></p>
+        <NavLink href="/">Home</NavLink>
+        <NavLink href="/blog">Blog</NavLink>
+        <NavLink href="/work">Work</NavLink>
+        <NavLink href="/projects">Projects</NavLink>
       </div>
       <div class="mt-4 text-right text-gray-500">
-        <p><a href="/">Contact</a></p>
-        <p><a href="/">Twitter</a></p>
-        <p><a href="/">GitHub</a></p>
-        <p><a href="/">LinkedIn</a></p>
+        <NavLink href="/contact">Contact</NavLink>
+        <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
+        <NavLink href="https://github.com/benborgers">GitHub</NavLink>
+        <NavLink href="https://linkedin.com/in/ben-borgers">LinkedIn</NavLink>
       </div>
     </div>
     <div>
