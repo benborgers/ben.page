@@ -1,15 +1,21 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../components/layout.astro";
+import type { CollectionEntry } from "astro:content";
+import { Code } from "astro:components";
+
+const getPostDate = (post: CollectionEntry<"posts">) => {
+  if ("noDate" in post.data) {
+    throw new Error("Post displayed on /blog has no date");
+  }
+
+  return post.data.date;
+};
 
 const posts = (await getCollection("posts"))
   .filter((post) => !post.data.unlisted)
   .sort((a, b) => {
-    if ("noDate" in a.data || "noDate" in b.data) {
-      throw new Error("Post displayed on /blog has no date");
-    }
-
-    return b.data.date.getTime() - a.data.date.getTime();
+    return getPostDate(b).getTime() - getPostDate(a).getTime();
   });
 ---
 
@@ -27,26 +33,37 @@ const posts = (await getCollection("posts"))
     >.
   </p>
 
-  <div class="mt-4 space-y-3">
+  <div>
     {
-      posts.map((post) => {
-        if ("noDate" in post.data) {
-          throw new Error("Post displayed on /blog has no date");
-        }
+      posts.map((post, i) => {
+        const yearMonth = (date: Date) => {
+          return date.toLocaleString("en-US", {
+            timeZone: "UTC",
+            month: "numeric",
+            year: "numeric",
+          });
+        };
+
+        const differentDateFromPrevious =
+          i === 0 ||
+          yearMonth(getPostDate(post)) !== yearMonth(getPostDate(posts[i - 1]));
+
         return (
-          <div class="flex items-baseline justify-between gap-x-8">
-            <p class="text-xl underline decoration-gray-300">
+          <>
+            {differentDateFromPrevious && (
+              <p class="-mb-1 mt-6 font-handwriting text-gray-400 font-medium">
+                {getPostDate(post).toLocaleString("en-US", {
+                  timeZone: "UTC",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </p>
+            )}
+
+            <p class="mt-2 font-serif text-xl underline decoration-gray-300">
               <a href={`/${post.slug}`}>{post.data.title}</a>
             </p>
-            <p class="flex-shrink-0 mt-0.5 font-handwriting text-gray-400 font-medium text-sm">
-              {post.data.date.toLocaleString("en-US", {
-                timeZone: "UTC",
-                month: "short",
-                day: "numeric",
-                year: "numeric",
-              })}
-            </p>
-          </div>
+          </>
         );
       })
     }
