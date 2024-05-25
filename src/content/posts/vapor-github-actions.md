@@ -1,7 +1,6 @@
 ---
 title: How to deploy to Laravel Vapor using GitHub Actions
 date: 2021-08-14
-published: true
 unlisted: true
 ---
 

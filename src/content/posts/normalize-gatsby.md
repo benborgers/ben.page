@@ -1,7 +1,6 @@
 ---
 title: "How to add normalize.css to Gatsby"
 date: 2019-10-15
-published: true
 unlisted: true
 ---
 

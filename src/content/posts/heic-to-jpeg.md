@@ -1,7 +1,6 @@
 ---
 title: How to convert HEIC to JPEG on macOS
 date: 2022-01-15
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to customize font in Tailwind CSS
 date: 2021-03-30
-published: true
 unlisted: true
 ---
 

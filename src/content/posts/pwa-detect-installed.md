@@ -1,7 +1,6 @@
 ---
 title: "How to detect if your PWA is installed"
 date: 2020-11-14
-published: true
 unlisted: true
 ---
 

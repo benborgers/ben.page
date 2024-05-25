@@ -1,7 +1,6 @@
 ---
 title: "Brief: AI-summarized news"
 date: 2022-12-04
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to create custom CSS Grids with Tailwind JIT mode
 date: 2021-07-07
-published: true
 unlisted: true
 ---
 

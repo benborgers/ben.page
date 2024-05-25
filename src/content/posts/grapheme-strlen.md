@@ -1,6 +1,5 @@
 ---
 title: How to count emojis only as one character with PHP strlen
-published: true
 unlisted: true
 date: 2022-05-07
 ---

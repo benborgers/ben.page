@@ -1,7 +1,6 @@
 ---
 title: "Handling Trix file attachments on Laravel Vapor"
 date: 2020-06-28
-published: true
 unlisted: true
 ---
 

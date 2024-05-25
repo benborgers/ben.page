@@ -1,7 +1,6 @@
 ---
 title: "Stickies: Spatial note-taking"
 date: 2023-04-02
-published: true
 unlisted: false
 ---
 

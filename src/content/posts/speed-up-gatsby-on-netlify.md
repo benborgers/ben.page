@@ -1,7 +1,6 @@
 ---
 title: "How to speed up Gatsby builds on Netlify"
 date: 2020-11-17
-published: true
 unlisted: true
 ---
 

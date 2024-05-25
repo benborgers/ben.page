@@ -1,7 +1,6 @@
 ---
 title: "Trash Bags in the Laundry Room"
 date: 2022-04-08
-published: true
 unlisted: false
 ---
 

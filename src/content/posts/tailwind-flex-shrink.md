@@ -1,7 +1,6 @@
 ---
 title: How to prevent a flex item from shrinking with Tailwind CSS
 date: 2021-09-30
-published: true
 unlisted: true
 ---
 

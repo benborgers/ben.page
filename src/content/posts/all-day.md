@@ -1,6 +1,5 @@
 ---
 title: "Girl Talk: All Day"
-published: true
 unlisted: false
 date: 2022-05-28
 ---

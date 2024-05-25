@@ -1,7 +1,6 @@
 ---
 title: "Semester 3"
 date: 2022-12-31
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to use confirm() with Remix’s Form component
 date: 2022-01-20
-published: true
 unlisted: true
 ---
 

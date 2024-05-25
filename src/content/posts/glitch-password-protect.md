@@ -1,7 +1,6 @@
 ---
 title: "How to password protect your Glitch site"
 date: 2020-09-30
-published: true
 unlisted: true
 ---
 

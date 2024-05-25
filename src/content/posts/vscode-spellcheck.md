@@ -1,7 +1,6 @@
 ---
 title: "How to get spellcheck in VS Code"
 date: 2020-11-21
-published: true
 unlisted: true
 ---
 

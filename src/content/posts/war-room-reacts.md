@@ -1,7 +1,6 @@
 ---
 title: "An emoji picker epiphany"
 date: 2022-01-17
-published: true
 unlisted: false
 ---
 

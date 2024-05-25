@@ -1,7 +1,6 @@
 ---
 title: "How to refresh one Livewire component from another component"
 date: 2020-12-20
-published: true
 unlisted: true
 ---
 

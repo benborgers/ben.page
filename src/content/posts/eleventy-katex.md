@@ -1,7 +1,6 @@
 ---
 title: "How to use KaTeX with Eleventy"
 date: 2020-12-30
-published: true
 unlisted: true
 ---
 

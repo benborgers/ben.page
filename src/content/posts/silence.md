@@ -1,7 +1,6 @@
 ---
 title: "Gimme Back My Headphones"
 date: 2022-02-09
-published: true
 unlisted: false
 ---
 

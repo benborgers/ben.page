@@ -1,7 +1,6 @@
 ---
 title: "Website Rewrite"
 date: 2022-02-13
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to read and change URL hash with JavaScript"
 date: 2020-04-02
-published: true
 unlisted: true
 ---
 

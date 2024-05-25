@@ -1,7 +1,6 @@
 ---
 title: "How to allow CORS on Netlify Functions"
 date: 2020-04-29
-published: true
 unlisted: true
 ---
 

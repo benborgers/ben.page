@@ -1,6 +1,5 @@
 ---
 title: HEY’s Fun Names
-published: true
 unlisted: false
 date: 2022-05-25
 ---

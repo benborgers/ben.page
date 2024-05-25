@@ -1,7 +1,6 @@
 ---
 title: "My Guilt for Useless Things"
 date: 2022-02-19
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to make textarea auto-resize with Alpine.js"
 date: 2020-12-30
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to fix Tailwind CSS `ring` not working in iOS Safari"
 date: 2023-02-15
-published: true
 unlisted: true
 ---
 

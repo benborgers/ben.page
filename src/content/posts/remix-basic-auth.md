@@ -1,7 +1,6 @@
 ---
 title: How to do HTTP Basic authentication with Remix
 date: 2021-12-29
-published: true
 unlisted: true
 ---
 

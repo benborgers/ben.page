@@ -1,7 +1,6 @@
 ---
 title: "The Land of Endless Socialization"
 date: 2022-03-13
-published: true
 unlisted: false
 ---
 

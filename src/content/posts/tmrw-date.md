@@ -1,7 +1,6 @@
 ---
 title: "Date Picker Details"
 date: 2022-04-11
-published: true
 unlisted: false
 ---
 

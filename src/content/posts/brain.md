@@ -1,7 +1,6 @@
 ---
 title: "The Brain Can Observe Itself"
 date: 2022-02-03
-published: true
 unlisted: false
 ---
 

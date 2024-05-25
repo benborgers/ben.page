@@ -1,7 +1,6 @@
 ---
 title: 5% of things go wrong
 date: 2023-12-23
-published: true
 unlisted: false
 cover_image: /posts/wrong/cover_image.jpeg
 ---

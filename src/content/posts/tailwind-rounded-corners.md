@@ -1,6 +1,5 @@
 ---
 title: How to do rounded corners with Tailwind CSS
-published: true
 unlisted: true
 date: 2022-06-09
 ---

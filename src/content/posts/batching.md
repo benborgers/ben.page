@@ -1,7 +1,6 @@
 ---
 title: "Batching"
 date: 2022-04-18
-published: true
 unlisted: false
 ---
 

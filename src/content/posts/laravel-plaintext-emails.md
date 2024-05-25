@@ -1,7 +1,6 @@
 ---
 title: "Sending plaintext emails in Laravel without a Mailable"
 date: 2021-02-02
-published: true
 unlisted: true
 ---
 

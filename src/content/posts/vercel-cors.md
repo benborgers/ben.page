@@ -1,7 +1,6 @@
 ---
 title: "How to allows CORS on Vercel"
 date: 2020-04-29
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "You Might Be Right, But Shut Up"
 date: 2022-03-17
-published: true
 unlisted: false
 ---
 

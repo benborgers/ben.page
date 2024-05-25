@@ -1,7 +1,6 @@
 ---
 title: "How to customize the Tailwind CSS 2.0 color palette"
 date: 2020-11-29
-published: true
 unlisted: true
 ---
 

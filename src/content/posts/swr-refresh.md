@@ -1,7 +1,6 @@
 ---
 title: "How to refresh data with SWR"
 date: 2020-03-25
-published: true
 unlisted: true
 ---
 

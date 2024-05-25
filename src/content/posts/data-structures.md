@@ -1,7 +1,6 @@
 ---
 title: "CS 15: Data Structures"
 date: 2022-03-30
-published: true
 unlisted: false
 ---
 

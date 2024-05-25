@@ -1,7 +1,6 @@
 ---
 title: "How to change the underline color with Tailwind CSS"
 date: 2022-02-14
-published: true
 unlisted: true
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: How to fix unique() for editing in Laravel Filament
-published: true
 unlisted: true
 date: 2022-05-18
 ---

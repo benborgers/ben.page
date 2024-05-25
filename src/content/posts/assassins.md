@@ -1,7 +1,6 @@
 ---
 title: "How I Sent Texts for Assassins"
 date: 2022-04-06
-published: true
 unlisted: false
 ---
 

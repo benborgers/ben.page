@@ -1,7 +1,6 @@
 ---
 title: 'How to disable the "x-powered-by" header in Express'
 date: 2020-03-24
-published: true
 unlisted: true
 ---
 

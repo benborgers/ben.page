@@ -1,7 +1,6 @@
 ---
 title: "How to change transition duration with Alpine.js"
 date: 2022-04-10
-published: true
 unlisted: true
 ---
 

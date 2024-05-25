@@ -1,7 +1,6 @@
 ---
 title: How to re-build Vercel site on a schedule
 date: 2021-07-21
-published: true
 unlisted: true
 ---
 

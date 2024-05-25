@@ -1,7 +1,6 @@
 ---
 title: "How to get the current app version in Expo"
 date: 2020-04-26
-published: true
 unlisted: true
 ---
 

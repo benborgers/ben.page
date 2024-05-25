@@ -1,7 +1,6 @@
 ---
 title: "How to use Notion as your blog's CMS"
 date: 2020-02-17
-published: true
 unlisted: true
 ---
 

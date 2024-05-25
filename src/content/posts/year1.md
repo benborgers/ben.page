@@ -1,7 +1,6 @@
 ---
 title: "year 1"
 date: 2022-04-15
-published: true
 unlisted: false
 ---
 

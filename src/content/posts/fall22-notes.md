@@ -1,7 +1,6 @@
 ---
 title: "Publishing my Fall 2022 class notes"
 date: 2023-01-05
-published: true
 unlisted: false
 ---
 

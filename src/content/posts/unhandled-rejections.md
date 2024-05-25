@@ -1,7 +1,6 @@
 ---
 title: How to get --unhandled-rejections=strict working (Node.js)
 date: 2021-08-22
-published: true
 unlisted: true
 ---
 

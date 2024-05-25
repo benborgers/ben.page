@@ -1,7 +1,6 @@
 ---
 title: How to redirect www subdomain with Caddy
 date: 2021-10-17
-published: true
 unlisted: true
 ---
 

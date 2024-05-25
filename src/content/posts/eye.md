@@ -1,6 +1,5 @@
 ---
 title: An Eye for Design
-published: true
 unlisted: false
 date: 2022-06-06
 ---

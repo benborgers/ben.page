@@ -1,7 +1,6 @@
 ---
 title: "Un-figure-out-able Software"
 date: 2022-03-26
-published: true
 unlisted: false
 ---
 

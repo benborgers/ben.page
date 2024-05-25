@@ -1,7 +1,6 @@
 ---
 title: "The Day Should End at 3am"
 date: 2022-04-14
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to run migrations automatically on Laravel Vapor"
 date: 2020-07-01
-published: true
 unlisted: true
 ---
 

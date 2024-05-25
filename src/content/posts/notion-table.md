@@ -1,7 +1,6 @@
 ---
 title: "Reading a Notion table with an API"
 date: 2020-04-19
-published: true
 unlisted: true
 ---
 

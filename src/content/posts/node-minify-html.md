@@ -1,7 +1,6 @@
 ---
 title: "How to minify HTML with Node.js"
 date: 2020-11-27
-published: true
 unlisted: true
 ---
 

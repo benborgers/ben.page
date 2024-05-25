@@ -1,7 +1,6 @@
 ---
 title: "How to right-align an element in React Native"
 date: 2020-02-21
-published: true
 unlisted: true
 ---
 

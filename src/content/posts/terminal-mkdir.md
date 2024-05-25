@@ -1,7 +1,6 @@
 ---
 title: "Terminal create directory if it doesn't exist"
 date: 2020-12-17
-published: true
 unlisted: true
 ---
 

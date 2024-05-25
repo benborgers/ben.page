@@ -1,7 +1,6 @@
 ---
 title: How to style a checkbox with Tailwind CSS
 date: 2021-12-30
-published: true
 unlisted: true
 ---
 

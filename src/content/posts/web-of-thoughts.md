@@ -1,7 +1,6 @@
 ---
 title: "Web of Thoughts"
 date: 2022-03-21
-published: true
 unlisted: false
 ---
 

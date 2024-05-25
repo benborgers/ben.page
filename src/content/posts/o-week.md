@@ -1,7 +1,6 @@
 ---
 title: "The Beginning of College Sucks"
 date: 2022-01-27
-published: true
 unlisted: false
 ---
 

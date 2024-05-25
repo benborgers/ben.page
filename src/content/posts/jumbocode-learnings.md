@@ -1,7 +1,6 @@
 ---
 title: Learnings from JumboCode
 date: 2023-03-09
-published: true
 unlisted: false
 ---
 

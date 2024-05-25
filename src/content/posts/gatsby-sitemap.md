@@ -1,7 +1,6 @@
 ---
 title: "How to create a sitemap for a Gatsby site"
 date: 2020-04-19
-published: true
 unlisted: true
 ---
 

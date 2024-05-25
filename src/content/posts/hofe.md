@@ -1,7 +1,6 @@
 ---
 title: JumboCode plans for Head of Engineering
 date: 2023-03-23
-published: true
 unlisted: false
 ---
 

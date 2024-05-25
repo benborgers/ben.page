@@ -1,7 +1,6 @@
 ---
 title: "How to fix CORS errors on Glitch"
 date: 2020-03-23
-published: true
 unlisted: true
 ---
 

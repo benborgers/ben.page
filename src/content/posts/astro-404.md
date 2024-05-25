@@ -1,7 +1,6 @@
 ---
 title: How to add 404 page in Astro
 date: 2021-06-15
-published: true
 unlisted: true
 ---
 

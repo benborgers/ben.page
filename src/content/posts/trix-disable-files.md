@@ -1,7 +1,6 @@
 ---
 title: "Disabling file uploads with the Trix editor"
 date: 2020-05-03
-published: true
 unlisted: true
 ---
 

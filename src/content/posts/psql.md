@@ -1,7 +1,6 @@
 ---
 title: How to install "psql" command for PostgreSQL on macOS
 date: 2021-04-23
-published: true
 unlisted: true
 ---
 

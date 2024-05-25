@@ -1,7 +1,6 @@
 ---
 title: "The Cost of Building an Idea"
 date: 2022-04-04
-published: true
 unlisted: false
 ---
 

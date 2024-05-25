@@ -1,7 +1,6 @@
 ---
 title: How to build a custom progress bar with SwiftUI
 date: 2023-01-02
-published: true
 unlisted: true
 ---
 

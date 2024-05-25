@@ -1,7 +1,6 @@
 ---
 title: "How to password-protect pages on Vercel for free"
 date: 2022-12-24
-published: true
 unlisted: true
 ---
 

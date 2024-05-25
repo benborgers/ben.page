@@ -1,7 +1,6 @@
 ---
 title: "Do You Subvocalize?"
 date: 2022-03-23
-published: true
 unlisted: false
 ---
 

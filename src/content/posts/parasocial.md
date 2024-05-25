@@ -1,6 +1,5 @@
 ---
 title: Doubly Parasocial Relationships
-published: true
 unlisted: false
 date: 2022-05-09
 ---

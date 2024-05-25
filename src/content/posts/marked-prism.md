@@ -1,7 +1,6 @@
 ---
 title: "How to use Marked and Prism.js together"
 date: 2020-10-01
-published: true
 unlisted: true
 ---
 

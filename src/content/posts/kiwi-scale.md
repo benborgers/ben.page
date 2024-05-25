@@ -1,7 +1,6 @@
 ---
 title: Optimizing Kiwi for scale
 date: 2022-11-26
-published: true
 unlisted: false
 ---
 

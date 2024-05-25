@@ -1,6 +1,5 @@
 ---
 title: “you have a lack of deadlines”
-published: true
 unlisted: false
 date: 2022-07-11
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Planning my week"
 date: 2023-01-17
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to execute a shell script with Node.js"
 date: 2020-07-01
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to deploy to multiple regions with Vercel"
 date: 2020-03-18
-published: true
 unlisted: true
 ---
 

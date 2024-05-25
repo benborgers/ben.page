@@ -1,7 +1,6 @@
 ---
 title: "How to list DNS records using the Route53 Node.js API"
 date: 2020-12-30
-published: true
 unlisted: true
 ---
 

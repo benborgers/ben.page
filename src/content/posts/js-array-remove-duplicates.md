@@ -1,7 +1,6 @@
 ---
 title: "How to remove duplicates in an array in JavaScript"
 date: 2020-05-08
-published: true
 unlisted: true
 ---
 

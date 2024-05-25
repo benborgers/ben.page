@@ -1,7 +1,6 @@
 ---
 title: "How to kill a localhost process on macOS"
 date: 2019-12-12
-published: true
 unlisted: true
 ---
 

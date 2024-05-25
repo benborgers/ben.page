@@ -1,7 +1,6 @@
 ---
 title: Blocks recap
 date: 2021-05-31
-published: true
 unlisted: false
 ---
 *Blocks* is a school schedule app that I created in the summer before junior year of high school, and ran for my junior and senior years.

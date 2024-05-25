@@ -1,7 +1,6 @@
 ---
 title: "Publishing Class Notes"
 date: 2022-04-02
-published: true
 unlisted: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Are My Technical Posts Worth It?
-published: true
 unlisted: false
 date: 2022-06-12
 ---

@@ -1,7 +1,6 @@
 ---
 title: How to get current text selection with Tiptap
 date: 2021-07-08
-published: true
 unlisted: true
 ---
 

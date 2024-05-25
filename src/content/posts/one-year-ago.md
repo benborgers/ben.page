@@ -1,6 +1,5 @@
 ---
 title: One Year Ago Email
-published: true
 unlisted: false
 date: 2022-07-03
 ---

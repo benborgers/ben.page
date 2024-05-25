@@ -1,7 +1,6 @@
 ---
 title: "What meta tags you need for a Gatsby site"
 date: 2020-01-01
-published: true
 unlisted: true
 ---
 

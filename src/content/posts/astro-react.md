@@ -1,7 +1,6 @@
 ---
 title: How to use React components in Astro
 date: 2022-08-21
-published: true
 unlisted: true
 ---
 

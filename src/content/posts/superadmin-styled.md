@@ -1,7 +1,6 @@
 ---
 title: "New in Superadmin: styling, images, rich text"
 date: 2022-11-23
-published: true
 unlisted: false
 ---
 

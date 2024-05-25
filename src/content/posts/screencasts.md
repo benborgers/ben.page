@@ -1,6 +1,5 @@
 ---
 title: Recording Screencasts
-published: true
 unlisted: false
 date: 2022-06-01
 ---

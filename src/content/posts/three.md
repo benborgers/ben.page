@@ -1,6 +1,5 @@
 ---
 title: Three People Talking
-published: true
 unlisted: false
 date: 2022-06-29
 ---

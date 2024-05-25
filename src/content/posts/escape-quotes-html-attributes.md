@@ -1,7 +1,6 @@
 ---
 title: How to escape quotes in HTML attributes
 date: 2021-07-25
-published: true
 unlisted: true
 ---
 

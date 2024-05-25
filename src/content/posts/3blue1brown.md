@@ -1,6 +1,5 @@
 ---
 title: 3blue1brown.elk.sh
-published: true
 unlisted: false
 date: 2022-05-01
 ---

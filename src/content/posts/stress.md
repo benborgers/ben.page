@@ -1,6 +1,5 @@
 ---
 title: My Stress is an Inside Job
-published: true
 unlisted: false
 date: 2022-05-27
 ---

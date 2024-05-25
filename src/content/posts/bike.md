@@ -1,6 +1,5 @@
 ---
 title: Not Developer Enough
-published: true
 unlisted: false
 date: 2022-05-17
 ---

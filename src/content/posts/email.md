@@ -1,7 +1,6 @@
 ---
 title: "I Love Email"
 date: 2022-01-24
-published: true
 unlisted: false
 ---
 

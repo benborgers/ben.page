@@ -1,7 +1,6 @@
 ---
 title: Building henrynitzberg.com
 date: 2022-12-01
-published: true
 unlisted: false
 ---
 

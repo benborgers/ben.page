@@ -1,7 +1,6 @@
 ---
 title: "Logging the output of Node.js shell exec"
 date: 2020-07-01
-published: true
 unlisted: true
 ---
 

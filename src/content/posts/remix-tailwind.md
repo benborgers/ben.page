@@ -1,7 +1,6 @@
 ---
 title: How to use Tailwind CSS with Remix
 date: 2022-01-16
-published: true
 unlisted: true
 ---
 

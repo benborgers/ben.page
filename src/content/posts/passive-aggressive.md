@@ -1,7 +1,6 @@
 ---
 title: "Is It Worth It to Be Passive Aggressive?"
 date: 2022-01-29
-published: true
 unlisted: false
 ---
 

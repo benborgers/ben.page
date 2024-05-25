@@ -1,7 +1,6 @@
 ---
 title: The real reason for my multiple majors
 date: 2023-03-13
-published: true
 unlisted: false
 ---
 

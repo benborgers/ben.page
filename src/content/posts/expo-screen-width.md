@@ -1,7 +1,6 @@
 ---
 title: "How to get screen width in Expo"
 date: 2020-04-23
-published: true
 unlisted: true
 ---
 

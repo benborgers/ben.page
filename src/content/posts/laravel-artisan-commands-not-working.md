@@ -1,7 +1,6 @@
 ---
 title: "Artisan commands not working in fresh Laravel installation"
 date: 2020-12-11
-published: true
 unlisted: true
 ---
 

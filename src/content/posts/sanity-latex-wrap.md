@@ -1,7 +1,6 @@
 ---
 title: How to fix LaTeX inputs wrapping in Sanity’s Portable Text editor
 date: 2021-12-23
-published: true
 unlisted: true
 ---
 

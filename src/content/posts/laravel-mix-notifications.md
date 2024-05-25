@@ -1,7 +1,6 @@
 ---
 title: "How to disable Laravel Mix notifications"
 date: 2020-12-13
-published: true
 unlisted: true
 ---
 

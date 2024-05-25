@@ -1,6 +1,5 @@
 ---
 title: How to center text using Tailwind CSS
-published: true
 unlisted: true
 date: 2022-06-10
 ---

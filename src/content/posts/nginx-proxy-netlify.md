@@ -1,6 +1,5 @@
 ---
 title: How to proxy a Netlify site with Nginx
-published: true
 unlisted: true
 date: 2022-05-02
 ---

@@ -1,7 +1,6 @@
 ---
 title: "How to add Tailwind classes only when the user can hover"
 date: 2022-02-07
-published: true
 unlisted: true
 ---
 

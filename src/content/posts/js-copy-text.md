@@ -1,7 +1,6 @@
 ---
 title: "How to copy text with JavaScript"
 date: 2020-04-18
-published: true
 unlisted: true
 ---
 

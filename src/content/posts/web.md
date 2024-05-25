@@ -1,6 +1,5 @@
 ---
 title: The Web is a Superpower
-published: true
 unlisted: false
 date: 2022-06-07
 ---

@@ -1,6 +1,5 @@
 ---
 title: Teaching Enthusiasm
-published: true
 unlisted: false
 date: 2022-05-26
 ---

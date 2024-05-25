@@ -1,7 +1,6 @@
 ---
 title: "Personal Software"
 date: 2022-03-24
-published: true
 unlisted: false
 ---
 

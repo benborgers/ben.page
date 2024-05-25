@@ -1,7 +1,6 @@
 ---
 title: "Reflection on Shutting Down Blocks"
 date: 2022-04-28
-published: true
 unlisted: false
 ---
 

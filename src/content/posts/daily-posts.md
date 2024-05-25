@@ -1,7 +1,6 @@
 ---
 title: "Pictures as Memories"
 date: 2022-04-26
-published: true
 unlisted: false
 ---
 

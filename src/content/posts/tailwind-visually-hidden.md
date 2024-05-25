@@ -1,6 +1,5 @@
 ---
 title: How to make something visually hidden with Tailwind CSS
-published: true
 unlisted: true
 date: 2022-05-14
 ---

@@ -1,6 +1,5 @@
 ---
 title: Gerald R. Gill Papers
-published: true
 unlisted: false
 date: 2022-06-09
 ---

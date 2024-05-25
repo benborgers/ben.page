@@ -1,7 +1,6 @@
 ---
 title: "How to use JSON-LD to improve SEO on a developer blog"
 date: 2020-01-06
-published: true
 unlisted: true
 ---
 

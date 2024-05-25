@@ -1,7 +1,6 @@
 ---
 title: "How to set up netlify.toml for Gatsby"
 date: 2019-12-18
-published: true
 unlisted: true
 ---
 

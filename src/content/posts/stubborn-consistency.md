@@ -1,7 +1,6 @@
 ---
 title: "Stubborn Consistency [100 daily blog posts]"
 date: 2022-04-22
-published: true
 unlisted: false
 ---
 

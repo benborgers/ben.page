@@ -1,7 +1,6 @@
 ---
 title: "How to prevent a Laravel schedule from running at certain times"
 date: 2021-01-29
-published: true
 unlisted: true
 ---
 

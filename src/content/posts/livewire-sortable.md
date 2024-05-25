@@ -1,7 +1,6 @@
 ---
 title: How to use Shopify’s Sortable library with Livewire
 date: 2021-09-16
-published: true
 unlisted: true
 ---
 

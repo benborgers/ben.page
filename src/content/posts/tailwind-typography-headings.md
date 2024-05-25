@@ -1,6 +1,5 @@
 ---
 title: How to style Tailwind CSS Typography headings
-published: true
 unlisted: true
 date: 2022-05-11
 ---

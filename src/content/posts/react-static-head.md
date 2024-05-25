@@ -1,7 +1,6 @@
 ---
 title: How to add things to the HTML head with React Static
 date: 2021-04-07
-published: true
 unlisted: true
 ---
 

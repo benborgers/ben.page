@@ -1,6 +1,5 @@
 ---
 title: Strong Hobbies
-published: true
 unlisted: false
 date: 2022-05-08
 ---

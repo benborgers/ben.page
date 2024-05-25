@@ -1,6 +1,5 @@
 ---
 title: Shortcut for creating a daily Apple Note
-published: true
 unlisted: true
 date: 2022-06-07
 ---

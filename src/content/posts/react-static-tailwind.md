@@ -1,7 +1,6 @@
 ---
 title: How to use Tailwind CSS with React Static
 date: 2021-04-09
-published: true
 unlisted: true
 ---
 

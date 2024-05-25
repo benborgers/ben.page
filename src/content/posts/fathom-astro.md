@@ -1,7 +1,6 @@
 ---
 title: "How to use Fathom Analytics with Astro"
 date: 2022-12-29
-published: true
 unlisted: true
 ---
 

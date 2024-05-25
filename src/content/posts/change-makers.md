@@ -1,7 +1,6 @@
 ---
 title: "Tufts & Change Makers"
 date: 2022-04-13
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to refetch Remix data when the tab is focused
 date: 2022-01-04
-published: true
 unlisted: true
 ---
 

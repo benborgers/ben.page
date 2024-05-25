@@ -1,6 +1,5 @@
 ---
 title: How to build a tooltip with Tailwind CSS
-published: true
 unlisted: true
 date: 2022-06-06
 ---

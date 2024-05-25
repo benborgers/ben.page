@@ -1,6 +1,5 @@
 ---
 title: First Name Usernames
-published: true
 unlisted: false
 date: 2022-07-02
 ---

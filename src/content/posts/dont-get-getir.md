@@ -1,6 +1,5 @@
 ---
 title: I Don’t Get Getir
-published: true
 unlisted: false
 date: 2022-05-07
 ---

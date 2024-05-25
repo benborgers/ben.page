@@ -1,7 +1,6 @@
 ---
 title: "There’s No Personal Space in College"
 date: 2022-01-30
-published: true
 unlisted: false
 ---
 

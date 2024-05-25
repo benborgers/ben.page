@@ -1,7 +1,6 @@
 ---
 title: "Majoring in more"
 date: 2023-01-08
-published: true
 unlisted: false
 ---
 

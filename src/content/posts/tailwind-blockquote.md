@@ -1,7 +1,6 @@
 ---
 title: Remove quotes around blockquote with Tailwind Typography
 date: 2024-01-02
-published: true
 unlisted: true
 ---
 

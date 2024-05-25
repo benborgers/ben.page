@@ -1,7 +1,6 @@
 ---
 title: "How to attach a database to a Laravel Vapor deployment"
 date: 2020-09-30
-published: true
 unlisted: true
 ---
 

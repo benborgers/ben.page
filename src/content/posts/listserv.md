@@ -1,6 +1,5 @@
 ---
 title: Listserv
-published: true
 unlisted: false
 date: 2022-05-15
 ---

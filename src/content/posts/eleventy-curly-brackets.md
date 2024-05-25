@@ -1,7 +1,6 @@
 ---
 title: How to fix curly bracket ({{ }}) parse errors in Eleventy markdown
 date: 2021-10-13
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to reset scroll on route change with React Static
 date: 2021-04-08
-published: true
 unlisted: true
 ---
 

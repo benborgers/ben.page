@@ -1,7 +1,6 @@
 ---
 title: How to digitize an SVG for embroidery
 date: 2021-03-29
-published: true
 unlisted: true
 ---
 

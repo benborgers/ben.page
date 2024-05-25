@@ -1,6 +1,5 @@
 ---
 title: Website Rewrite 2
-published: true
 unlisted: false
 date: 2022-05-19
 ---

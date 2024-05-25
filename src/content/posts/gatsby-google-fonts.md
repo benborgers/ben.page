@@ -1,7 +1,6 @@
 ---
 title: "How to use Google Fonts with Gatsby"
 date: 2020-03-29
-published: true
 unlisted: true
 ---
 

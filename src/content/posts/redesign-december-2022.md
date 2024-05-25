@@ -1,7 +1,6 @@
 ---
 title: Website redesign, December 2022
 date: 2022-12-27
-published: true
 unlisted: false
 ---
 

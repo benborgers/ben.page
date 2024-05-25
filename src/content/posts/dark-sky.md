@@ -1,6 +1,5 @@
 ---
 title: Dark Sky
-published: true
 unlisted: false
 date: 2022-06-13
 ---

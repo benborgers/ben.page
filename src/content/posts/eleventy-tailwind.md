@@ -1,7 +1,6 @@
 ---
 title: "How to use Tailwind with Eleventy"
 date: 2020-12-28
-published: true
 unlisted: true
 ---
 

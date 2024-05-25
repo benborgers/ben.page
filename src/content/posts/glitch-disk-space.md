@@ -1,7 +1,6 @@
 ---
 title: "How to avoid running out of disk space with a database on Glitch"
 date: 2020-02-19
-published: true
 unlisted: true
 ---
 

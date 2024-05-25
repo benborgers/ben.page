@@ -1,7 +1,6 @@
 ---
 title: "How to go back one page and refresh with JavaScript"
 date: 2020-09-30
-published: true
 unlisted: true
 ---
 

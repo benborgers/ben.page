@@ -1,7 +1,6 @@
 ---
 title: How to poll for fresh data on an interval with Remix
 date: 2021-12-30
-published: true
 unlisted: true
 ---
 

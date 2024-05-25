@@ -1,7 +1,6 @@
 ---
 title: How to get absolute URLs in a React Static sitemap
 date: 2021-04-07
-published: true
 unlisted: true
 ---
 

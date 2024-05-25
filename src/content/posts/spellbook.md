@@ -1,7 +1,6 @@
 ---
 title: Prototyping an AI-powered note-taking app
 date: 2023-05-18
-published: true
 unlisted: false
 ---
 

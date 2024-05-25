@@ -1,7 +1,6 @@
 ---
 title: "Good Software Has a Clear Geography"
 date: 2022-02-01
-published: true
 unlisted: false
 ---
 

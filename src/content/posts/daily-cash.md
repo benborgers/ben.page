@@ -1,6 +1,5 @@
 ---
 title: Apple Credit Card Rewards
-published: true
 unlisted: false
 date: 2022-07-10
 ---

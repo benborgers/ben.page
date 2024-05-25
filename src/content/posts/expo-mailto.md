@@ -1,7 +1,6 @@
 ---
 title: "How to open up the email composer with Expo"
 date: 2020-05-03
-published: true
 unlisted: true
 ---
 

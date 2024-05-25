@@ -1,7 +1,6 @@
 ---
 title: "How to disable CSS hover styles on phones"
 date: 2020-03-18
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Bin System"
 date: 2022-04-23
-published: true
 unlisted: false
 ---
 

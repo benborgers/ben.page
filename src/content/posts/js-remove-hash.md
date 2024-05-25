@@ -1,7 +1,6 @@
 ---
 title: "How to remove hash from URL with JavaScript"
 date: 2020-04-02
-published: true
 unlisted: true
 ---
 

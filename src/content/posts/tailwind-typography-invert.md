@@ -1,6 +1,5 @@
 ---
 title: How to invert Tailwind Typography custom gray theme
-published: true
 unlisted: true
 date: 2022-05-07
 ---

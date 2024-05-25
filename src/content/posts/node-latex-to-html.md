@@ -1,7 +1,6 @@
 ---
 title: "How to render LaTeX to HTML with Node.js"
 date: 2020-12-05
-published: true
 unlisted: true
 ---
 

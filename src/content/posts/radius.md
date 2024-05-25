@@ -1,7 +1,6 @@
 ---
 title: "A Small Life Radius"
 date: 2022-02-05
-published: true
 unlisted: false
 ---
 

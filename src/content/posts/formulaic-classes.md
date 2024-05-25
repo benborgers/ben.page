@@ -1,7 +1,6 @@
 ---
 title: "Formulaic Classes"
 date: 2022-03-29
-published: true
 unlisted: false
 ---
 

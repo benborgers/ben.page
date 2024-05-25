@@ -1,7 +1,6 @@
 ---
 title: "How to password protect a route with Express"
 date: 2020-09-30
-published: true
 unlisted: true
 ---
 

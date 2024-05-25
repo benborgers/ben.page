@@ -1,7 +1,6 @@
 ---
 title: How to fix Tailwind CSS’s h-screen on iOS Safari
 date: 2021-12-24
-published: true
 unlisted: true
 ---
 

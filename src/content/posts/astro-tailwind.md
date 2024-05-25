@@ -1,7 +1,6 @@
 ---
 title: How to use Tailwind CSS with Astro
 date: 2022-08-24
-published: true
 unlisted: true
 ---
 

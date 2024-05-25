@@ -1,7 +1,6 @@
 ---
 title: "My Office Makes Me Feel Stupid"
 date: 2022-01-26
-published: true
 unlisted: false
 ---
 

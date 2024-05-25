@@ -1,7 +1,6 @@
 ---
 title: "How to keep your Glitch project from sleeping"
 date: 2020-03-18
-published: true
 unlisted: true
 ---
 

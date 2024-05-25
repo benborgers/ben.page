@@ -1,7 +1,6 @@
 ---
 title: Gamelan Music
 date: 2022-02-17
-published: true
 unlisted: false
 ---
 

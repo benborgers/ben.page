@@ -1,7 +1,6 @@
 ---
 title: "On “Incrementally Correct Personal Websites”"
 date: 2022-04-29
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to migrate Google Drive from Workspace to personal
 date: 2022-01-18
-published: true
 unlisted: true
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: tmrw
-published: true
 unlisted: false
 date: 2022-05-14
 ---

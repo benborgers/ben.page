@@ -1,7 +1,6 @@
 ---
 title: "Why Do We Still Use Snapchat?"
 date: 2022-01-22
-published: true
 unlisted: false
 ---
 

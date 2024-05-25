@@ -1,7 +1,6 @@
 ---
 title: 'How to fix Expo "the app name you entered is already being used"'
 date: 2020-03-22
-published: true
 unlisted: true
 ---
 

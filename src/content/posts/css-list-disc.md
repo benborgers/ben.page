@@ -1,7 +1,6 @@
 ---
 title: "How to make indented bullet points discs in CSS"
 date: 2020-11-23
-published: true
 unlisted: true
 ---
 

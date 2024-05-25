@@ -1,7 +1,6 @@
 ---
 title: "How to minify CSS with Node.js"
 date: 2020-12-07
-published: true
 unlisted: true
 ---
 

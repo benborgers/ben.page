@@ -1,7 +1,6 @@
 ---
 title: "Tufts Meal Plans Are a Scam"
 date: 2022-03-09
-published: true
 unlisted: false
 ---
 

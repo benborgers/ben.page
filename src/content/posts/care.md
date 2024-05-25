@@ -1,7 +1,6 @@
 ---
 title: "It's Fun to Do Things with Care"
 date: 2022-03-04
-published: true
 unlisted: false
 ---
 

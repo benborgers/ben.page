@@ -1,7 +1,6 @@
 ---
 title: How to convert HTML into Markdown with JavaScript
 date: 2021-08-03
-published: true
 unlisted: true
 ---
 

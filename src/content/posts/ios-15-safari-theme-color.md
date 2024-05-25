@@ -1,7 +1,6 @@
 ---
 title: How to change iOS 15 Safari status bar color
 date: 2021-06-14
-published: true
 unlisted: true
 ---
 

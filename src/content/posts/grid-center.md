@@ -1,7 +1,6 @@
 ---
 title: "Center vertically and horizontally on the page with CSS Grid"
 date: 2020-10-01
-published: true
 unlisted: true
 ---
 

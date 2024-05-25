@@ -1,7 +1,6 @@
 ---
 title: "How to use an emoji as a favicon"
 date: 2020-03-18
-published: true
 unlisted: true
 ---
 

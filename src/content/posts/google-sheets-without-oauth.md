@@ -1,7 +1,6 @@
 ---
 title: "How to read a Google Sheet without oauth"
 date: 2022-03-17
-published: true
 unlisted: true
 ---
 

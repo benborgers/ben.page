@@ -1,7 +1,6 @@
 ---
 title: "How to style the currently active link in Gatsby"
 date: 2020-02-06
-published: true
 unlisted: true
 ---
 

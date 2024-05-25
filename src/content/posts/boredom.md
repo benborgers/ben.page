@@ -1,7 +1,6 @@
 ---
 title: "Thinking in Silence"
 date: 2022-03-16
-published: true
 unlisted: false
 ---
 

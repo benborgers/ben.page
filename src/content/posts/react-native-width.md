@@ -1,7 +1,6 @@
 ---
 title: "How to set Text to max-width: max-content in React Native"
 date: 2020-02-21
-published: true
 unlisted: true
 ---
 

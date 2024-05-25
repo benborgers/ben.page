@@ -1,7 +1,6 @@
 ---
 title: Using the Netlify API to create a site from a GitHub repo
 date: 2021-11-17
-published: true
 unlisted: true
 ---
 

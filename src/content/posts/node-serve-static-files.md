@@ -1,7 +1,6 @@
 ---
 title: "How to serve static files with Node.js"
 date: 2020-12-03
-published: true
 unlisted: true
 ---
 

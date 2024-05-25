@@ -1,7 +1,6 @@
 ---
 title: "I Keep Rewriting My Personal Website"
 date: 2022-02-06
-published: true
 unlisted: false
 ---
 

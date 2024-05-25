@@ -1,6 +1,5 @@
 ---
 title: Hands Occupied
-published: true
 unlisted: false
 date: 2022-05-18
 ---

@@ -1,6 +1,5 @@
 ---
 title: Music at 20%
-published: true
 unlisted: false
 date: 2022-05-21
 ---

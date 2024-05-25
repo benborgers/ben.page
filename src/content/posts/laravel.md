@@ -1,6 +1,5 @@
 ---
 title: Why I Love Laravel
-published: true
 unlisted: false
 date: 2022-07-08
 ---

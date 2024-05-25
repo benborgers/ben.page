@@ -1,7 +1,6 @@
 ---
 title: 'How to fix "PostCSS plugin tailwindcss requires PostCSS 8"'
 date: 2020-11-19
-published: true
 unlisted: true
 ---
 

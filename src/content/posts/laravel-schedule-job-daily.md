@@ -1,7 +1,6 @@
 ---
 title: "How to schedule a Laravel job to run daily"
 date: 2021-01-29
-published: true
 unlisted: true
 ---
 

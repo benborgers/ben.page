@@ -1,7 +1,6 @@
 ---
 title: "How and why to use navigator.sendBeacon"
 date: 2019-12-26
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to add Fathom Analytics to Gatsby"
 date: 2019-10-21
-published: true
 unlisted: true
 ---
 

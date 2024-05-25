@@ -1,7 +1,6 @@
 ---
 title: "How to dispatch a job locally from Laravel Tinker"
 date: 2021-01-27
-published: true
 unlisted: true
 ---
 

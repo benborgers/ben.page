@@ -1,7 +1,6 @@
 ---
 title: "How to add falling snow to a website with JavaScript"
 date: 2021-02-01
-published: true
 unlisted: true
 ---
 

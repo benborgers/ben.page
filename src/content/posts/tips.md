@@ -1,7 +1,6 @@
 ---
 title: "Everyone’s Asking for Tips Now"
 date: 2022-01-31
-published: true
 unlisted: false
 ---
 

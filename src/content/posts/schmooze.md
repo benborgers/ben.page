@@ -1,6 +1,5 @@
 ---
 title: Schmooze
-published: true
 unlisted: false
 date: 2022-06-21
 ---

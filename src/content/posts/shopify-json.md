@@ -1,6 +1,5 @@
 ---
 title: How to get Shopify storefront data without authentication
-published: true
 unlisted: true
 date: 2022-05-09
 ---

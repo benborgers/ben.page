@@ -1,7 +1,6 @@
 ---
 title: "Pi"
 date: 2022-03-14
-published: true
 unlisted: false
 ---
 

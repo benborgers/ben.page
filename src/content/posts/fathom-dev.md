@@ -1,7 +1,6 @@
 ---
 title: "How to disable Fathom Analytics in development environment"
 date: 2022-12-29
-published: true
 unlisted: true
 ---
 

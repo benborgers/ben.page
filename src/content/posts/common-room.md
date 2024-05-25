@@ -1,7 +1,6 @@
 ---
 title: "The Magic of the Common Room"
 date: 2022-01-23
-published: true
 unlisted: false
 ---
 

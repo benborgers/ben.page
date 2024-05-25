@@ -1,7 +1,6 @@
 ---
 title: "How to remove gray box when tapping a link on iOS with CSS"
 date: 2020-11-26
-published: true
 unlisted: true
 ---
 

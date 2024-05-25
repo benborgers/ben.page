@@ -1,6 +1,5 @@
 ---
 title: Late Night Sprints
-published: true
 unlisted: false
 date: 2022-06-18
 ---

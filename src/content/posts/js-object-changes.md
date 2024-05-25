@@ -1,7 +1,6 @@
 ---
 title: "How to detect when an object changes in JavaScript"
 date: 2020-04-02
-published: true
 unlisted: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to add global CSS to Gatsby with Emotion"
 date: 2020-04-02
-published: true
 unlisted: true
 ---
 

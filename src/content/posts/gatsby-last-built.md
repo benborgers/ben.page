@@ -1,7 +1,6 @@
 ---
 title: "How to get the last time a Gatsby site was built"
 date: 2019-12-21
-published: true
 unlisted: true
 ---
 

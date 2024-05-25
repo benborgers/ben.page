@@ -1,6 +1,5 @@
 ---
 title: How to create a frosted glass effect with Tailwind CSS
-published: true
 unlisted: true
 date: 2022-06-08
 ---

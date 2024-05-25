@@ -1,7 +1,6 @@
 ---
 title: "How to add a favicon with Gatsby"
 date: 2020-05-06
-published: true
 unlisted: true
 ---
 

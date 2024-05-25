@@ -1,6 +1,5 @@
 ---
 title: How to cache-bust assets on Laravel Forge
-published: true
 unlisted: true
 date: 2022-05-08
 ---

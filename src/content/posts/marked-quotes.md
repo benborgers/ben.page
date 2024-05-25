@@ -1,7 +1,6 @@
 ---
 title: "How to get curly quotes with Marked.js"
 date: 2020-11-30
-published: true
 unlisted: true
 ---
 

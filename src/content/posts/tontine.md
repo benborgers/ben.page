@@ -1,7 +1,6 @@
 ---
 title: "The Code That Keeps Me Alive"
 date: 2022-03-19
-published: true
 unlisted: false
 ---
 

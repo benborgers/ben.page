@@ -1,7 +1,6 @@
 ---
 title: How to download an image with node-fetch
 date: 2021-03-28
-published: true
 unlisted: true
 ---
 

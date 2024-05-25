@@ -1,7 +1,6 @@
 ---
 title: "How to make gradient text with Tailwind CSS"
 date: 2021-01-22
-published: true
 unlisted: true
 ---
 

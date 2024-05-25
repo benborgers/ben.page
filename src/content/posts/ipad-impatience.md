@@ -1,7 +1,6 @@
 ---
 title: "iPad Impatience"
 date: 2022-03-18
-published: true
 unlisted: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "How to make an arrow with pure Tailwind CSS"
 date: 2022-03-23
-published: true
 unlisted: true
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Current Self and Going to Libraries
-published: true
 unlisted: false
 date: 2022-05-31
 ---

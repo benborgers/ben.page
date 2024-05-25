@@ -1,7 +1,6 @@
 ---
 title: "elk.sh"
 date: 2022-04-05
-published: true
 unlisted: false
 ---
 

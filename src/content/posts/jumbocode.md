@@ -1,7 +1,6 @@
 ---
 title: What is JumboCode?
 date: 2023-05-03
-published: true
 unlisted: false
 ---
 

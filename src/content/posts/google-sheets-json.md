@@ -1,7 +1,6 @@
 ---
 title: "How to get a Google Sheet as JSON"
 date: 2021-10-14
-published: true
 unlisted: true
 ---
 

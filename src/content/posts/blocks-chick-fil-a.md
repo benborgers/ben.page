@@ -1,7 +1,6 @@
 ---
 title: Giving Out Chick-fil-A on a Schedule App
 date: 2022-02-28
-published: true
 unlisted: false
 ---
 

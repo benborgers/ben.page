@@ -1,7 +1,6 @@
 ---
 title: "How to turn a Notion doc into a website"
 date: 2020-04-18
-published: true
 unlisted: true
 ---
 

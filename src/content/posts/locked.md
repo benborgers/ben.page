@@ -1,7 +1,6 @@
 ---
 title: "Locked Posts on Ghost"
 date: 2022-02-02
-published: true
 unlisted: false
 ---
 

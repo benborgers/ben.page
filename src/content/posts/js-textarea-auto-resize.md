@@ -1,7 +1,6 @@
 ---
 title: "How to make auto-resizing textarea with JavaScript"
 date: 2020-12-30
-published: true
 unlisted: true
 ---
 

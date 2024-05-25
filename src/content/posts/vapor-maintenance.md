@@ -1,7 +1,6 @@
 ---
 title: "How to customize the Laravel Vapor maintenance view"
 date: 2020-12-30
-published: true
 unlisted: true
 ---
 
