@@ -10,8 +10,16 @@ Two weeks ago, [Jerome](https://jero.zone) and I won [Tufts' first hackathon in 
 
 First, here's an example of the personalized reports we built:
 
-{% gallery
-   photos=[{photo: "/posts/wrapped/Screenshot 2024-02-18 at 4.20.18 PM.jpeg", caption: "The dithered elephant was a stroke of design genius by Jerome."}, {photo: "/posts/wrapped/IMG_806CF0DA9B6E-1.jpeg", caption: "Almost everybody would be better off paying \"JumboCash\" for meals instead of buying a meal plan."}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped.jpeg"}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped 2.jpeg"}, {photo: "/posts/wrapped/Tufts Meal Plan Wrapped 3.jpeg"}] /%}
+| | |
+| --- | --- |
+| ![](/posts/wrapped/1.jpeg) | ![](/posts/wrapped/IMG_806CF0DA9B6E-1.jpeg) |
+
+
+_Almost everybody would be better off paying "JumboCash" for meals instead of buying a meal plan. The dithered elephant was a stroke of design genius by Jerome._
+
+| | | |
+| --- | --- | --- |
+| ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped.jpeg) | ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped%202.jpeg) | ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped%203.jpeg) |
 
 (Live demo: [jumbo.cash/share/y5uybwdf3aac](https://jumbo.cash/share/y5uybwdf3aac))
 
@@ -72,8 +80,11 @@ We put those posters up, recorded a video for our hackathon submission, and subm
 
 This was by far and away the most successful way we got students to use the project — each post got hundreds of upvotes and spawned half a dozen other anonymous posts (not made by us!) with people's own results.
 
-{% gallery
-   photos=[{photo: "/posts/wrapped/IMG_5328.jpg", caption: "My anonymous Sidechat post masquerading as a happy customer."}, {photo: "/posts/wrapped/IMG_5329.jpg", caption: "We totally doctored the numbers in this screenshot to make it more interesting."}] /%}
+| | |
+| --- | --- |
+| ![](/posts/wrapped/IMG_5328.jpg) | ![](/posts/wrapped/IMG_5329.jpg) |
+
+_My anonymous Sidechat posts masquerading as happy customers. We totally doctored the numbers in the second screenshot to make it more interesting._
 
 At the end of the day we presented our projects to the judges, and ended up winning General Track Winner, Most Complete, and tied for Overall Winner. And we won a pair of AirPods each!
 
