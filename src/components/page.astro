@@ -40,9 +40,22 @@ const { Content } = await post.render();
         )
       }
 
+      {
+        "date" in post.data && (
+          <p class="mt-2 text-gray-400 font-medium font-handwriting">
+            {post.data.date.toLocaleString("en-US", {
+              timeZone: "UTC",
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </p>
+        )
+      }
+
       <div
         class:list={[
-          !index && "mt-10",
+          !index && "mt-8",
           "prose prose-stone prose-xl max-w-none",
           "text-gray-900",
           "prose-p:font-serif prose-p:leading-[1.55]",
