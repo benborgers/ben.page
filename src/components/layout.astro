@@ -5,6 +5,9 @@ interface Props {
 
 import "../css/valkyrie.css";
 
+import Polaroid from "./polaroid.astro";
+import NavLink from "./nav-link.astro";
+
 const { title } = Astro.props;
 ---
 
@@ -23,6 +26,27 @@ const { title } = Astro.props;
     />
   </head>
   <body class="antialiased bg-gray-50 text-gray-950">
-    <slot />
+    <div
+      class="mt-16 mb-36 grid grid-cols-[max-content,36rem] w-max mx-auto gap-x-20"
+    >
+      <div>
+        <Polaroid />
+        <div class="mt-6 text-right text-gray-800">
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/blog">Blog</NavLink>
+          <NavLink href="/work">Work</NavLink>
+          <NavLink href="/projects">Projects</NavLink>
+        </div>
+        <div class="mt-4 text-right text-gray-500">
+          <NavLink href="/contact">Contact</NavLink>
+          <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
+          <NavLink href="https://github.com/benborgers">GitHub</NavLink>
+          <NavLink href="https://linkedin.com/in/ben-borgers">LinkedIn</NavLink>
+        </div>
+      </div>
+      <div>
+        <slot />
+      </div>
+    </div>
   </body>
 </html>

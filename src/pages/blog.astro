@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../components/layout.astro";
+
+const posts = (await getCollection("posts"))
+  .filter((post) => !post.data.unlisted)
+  .sort((a, b) => {
+    if ("noDate" in a.data || "noDate" in b.data) {
+      throw new Error("Post displayed on /blog has no date");
+    }
+
+    return b.data.date.getTime() - a.data.date.getTime();
+  });
+---
+
+<Layout title="Blog — Ben Borgers">
+  <p class="text-right text-gray-400">
+    Subscribe via
+    <a
+      href="https://buttondown.email/benborgers"
+      target="_blank"
+      class="underline decoration-gray-300">monthly newsletter</a
+    >
+    or
+    <a href="/rss" target="_blank" class="underline decoration-gray-300"
+      >RSS feed</a
+    >.
+  </p>
+
+  <div class="mt-4 space-y-3">
+    {
+      posts.map((post) => {
+        if ("noDate" in post.data) {
+          throw new Error("Post displayed on /blog has no date");
+        }
+        return (
+          <div class="flex items-baseline justify-between gap-x-8">
+            <p class="text-xl underline decoration-gray-300">
+              <a href={`/${post.slug}`}>{post.data.title}</a>
+            </p>
+            <p class="flex-shrink-0 mt-0.5 font-handwriting text-gray-400 font-medium text-sm">
+              {post.data.date.toLocaleString("en-US", {
+                timeZone: "UTC",
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </p>
+          </div>
+        );
+      })
+    }
+  </div>
+</Layout>

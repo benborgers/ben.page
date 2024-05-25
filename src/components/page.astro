@@ -6,70 +6,45 @@ interface Props {
 
 import type { CollectionEntry } from "astro:content";
 import Layout from "./layout.astro";
-import Polaroid from "./polaroid.astro";
-import NavLink from "./nav-link.astro";
 
 const { post, index = false } = Astro.props;
 const { Content } = await post.render();
 ---
 
-<Layout title="Ben Borgers">
+<Layout title={post.data.title}>
+  {
+    !index && (
+      <h1 class="text-4xl font-extrabold tracking-tight">{post.data.title}</h1>
+    )
+  }
+
+  {
+    "date" in post.data && (
+      <p class="mt-2 text-gray-400 font-medium font-handwriting">
+        {post.data.date.toLocaleString("en-US", {
+          timeZone: "UTC",
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+        })}
+      </p>
+    )
+  }
+
   <div
-    class="mt-16 mb-36 grid grid-cols-[max-content,36rem] w-max mx-auto gap-x-20"
+    class:list={[
+      !index && "mt-8",
+      "prose prose-stone prose-xl max-w-none",
+      "text-gray-900",
+      "prose-p:font-serif prose-p:leading-[1.55]",
+      "prose-li:font-serif prose-li:my-1.5",
+      "prose-a:font-normal prose-a:text-blue-800",
+      "prose-li:marker:text-gray-900",
+      "prose-headings:text-gray-900",
+      "prose-h2:text-3xl prose-h2:tracking-tight",
+      "prose-h3:text-2xl prose-h3:tracking-tight",
+    ]}
   >
-    <div>
-      <Polaroid />
-      <div class="mt-6 text-right text-gray-800">
-        <NavLink href="/">Home</NavLink>
-        <NavLink href="/blog">Blog</NavLink>
-        <NavLink href="/work">Work</NavLink>
-        <NavLink href="/projects">Projects</NavLink>
-      </div>
-      <div class="mt-4 text-right text-gray-500">
-        <NavLink href="/contact">Contact</NavLink>
-        <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
-        <NavLink href="https://github.com/benborgers">GitHub</NavLink>
-        <NavLink href="https://linkedin.com/in/ben-borgers">LinkedIn</NavLink>
-      </div>
-    </div>
-    <div>
-      {
-        !index && (
-          <h1 class="text-4xl font-extrabold tracking-tight">
-            {post.data.title}
-          </h1>
-        )
-      }
-
-      {
-        "date" in post.data && (
-          <p class="mt-2 text-gray-400 font-medium font-handwriting">
-            {post.data.date.toLocaleString("en-US", {
-              timeZone: "UTC",
-              month: "long",
-              day: "numeric",
-              year: "numeric",
-            })}
-          </p>
-        )
-      }
-
-      <div
-        class:list={[
-          !index && "mt-8",
-          "prose prose-stone prose-xl max-w-none",
-          "text-gray-900",
-          "prose-p:font-serif prose-p:leading-[1.55]",
-          "prose-li:font-serif prose-li:my-1.5",
-          "prose-a:font-normal prose-a:text-blue-800",
-          "prose-li:marker:text-gray-900",
-          "prose-headings:text-gray-900",
-          "prose-h2:text-3xl prose-h2:tracking-tight",
-          "prose-h3:text-2xl prose-h3:tracking-tight",
-        ]}
-      >
-        <Content />
-      </div>
-    </div>
+    <Content />
   </div>
 </Layout>
