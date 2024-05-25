@@ -15,9 +15,18 @@ const { title } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+
     <title>{title}</title>
     <link rel="icon" href="https://emojicdn.elk.sh/🐙" />
+    <meta property="og:title" content={title} />
+    <meta property="og:site_name" content="Ben Borgers" />
 
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ben Borgers"
+      href="/rss"
+    />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
