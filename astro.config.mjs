@@ -7,9 +7,7 @@ export default defineConfig({
   integrations: [tailwind()],
   output: "static",
   adapter: vercel(),
-  build: {
-    format: "file",
-  },
+  trailingSlash: "never",
   markdown: {
     shikiConfig: {
       theme: "light-plus",
