@@ -14,7 +14,7 @@ At the end of last summer, I added a _dividers_ feature, which allows you to put
 
 Now, the limit to the number of tasks you can have is _much_ higher. I hover around 100 tasks, but most of them are ideas for improvements to projects (like War Room!) that are tucked away into dividers that are almost never shown.
 
-{% video content="public/posts/war-room-public/war_room_dividers.mp4" /%}
+<video src="public/posts/war-room-public/war_room_dividers.mp4" controls playsinline></video>
 
 ## Plan
 
@@ -26,7 +26,7 @@ Also, I was “limited” in the number of tasks I could mark as “today” —
 
 [Earlier this month](/plan), I built a feature in War Room called _Plan_, which allows you to plan when you’ll do tasks up to a week in advance. It’s a way of expanding the idea of “today” into the next week’s worth of days.
 
-{% video content="public/posts/war-room-public/war_room_plan_early.mp4" /%}
+<video src="public/posts/war-room-public/war_room_plan_early.mp4" controls playsinline></video>
 
 That means I can queue up more tasks, by distributing them across the next few days onto the days that I’ll actually do them!
 

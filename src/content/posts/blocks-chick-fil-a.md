@@ -16,7 +16,7 @@ But not much happened, except that my friends and I got in touch with the junior
 
 Then, around Thanksgiving, I realized that I could use Blocks to distribute the cards! I messaged her and asked if I could take 400 cards off her hands, and purchased hundreds of envelopes to package them:
 
-{% video content="public/posts/blocks-chick-fil-a/blocks-chick-fil-a.mp4" /%}
+<video src="public/posts/blocks-chick-fil-a/blocks-chick-fil-a.mp4" controls playsinline></video>
 
 I then built a wheel that you could spin in order to win two Chick-fil-A gift cards (I packaged 200 packs of two cards each), and put it in a secondary tab of the app. You could spin once per hour.
 

@@ -22,7 +22,7 @@ But then today, when I was assigned to hit a large gong every 0nce in a while an
 
 This blog post comes with additional engaging material! Here’s what we sounded like:
 
-{% video content="public/posts/gamelan/gamelan.mp4" /%}
+<video src="public/posts/gamelan/gamelan.mp4" controls playsinline></video>
 
 I have a theory that our brains prefer having an idea of what comes next in a piece of music. With the Western music that I’ve grown up with, it’s not too hard to usually guess what’s coming next — there’s this sense of familiarity, even when there are surprises every once in a while. My brain knows the general patterns.
 

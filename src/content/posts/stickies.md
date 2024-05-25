@@ -6,7 +6,7 @@ unlisted: false
 
 For the past few days, I’ve been building an app for myself called [Stickies](https://stickies.ben.page).
 
-{% video content="public/posts/stickies/stickies.mp4" /%}
+<video src="/public/posts/stickies/stickies.mp4" controls playsinline></video>
 
 It’s _highly_ inspired by macOS’ own Stickies app, which allows you to place sticky notes physically around your desktop.
 
@@ -18,6 +18,6 @@ The end of the video above shows that feature: hiding a note, then searching to 
 
 Another thing that I added for fun is a theme switcher, which randomizes the theme background around a core color:
 
-{% video content="public/posts/stickies/stickies_theme.mp4" /%}
+<video src="public/posts/stickies/stickies_theme.mp4" controls playsinline></video>
 
 It’s highly inspired by [Arc](https://arc.net)’s theming system. It feels like a nice way to switch up how the workspace feels, even from one day to the next.

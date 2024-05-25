@@ -12,7 +12,7 @@ I’m on vacation here with my parents. But in the airport, in the car, and in t
 
 The idea was for a note-taking app where you can ask an AI assistant questions based on your notes:
 
-{% video content="public/posts/spellbook/spellbook.mp4" /%}
+<video src="public/posts/spellbook/spellbook.mp4" controls playsinline></video>
 
 ## How I built it
 

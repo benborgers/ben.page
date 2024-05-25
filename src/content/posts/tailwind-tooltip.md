@@ -6,7 +6,7 @@ date: 2022-06-06
 
 In this post, we’re going to create a basic tooltip using [Tailwind CSS](https://tailwindcss.com) that looks like this:
 
-{% video content="public/posts/tailwind-tooltip/172287179-a7f1d46b-2f40-4215-9706-ebd7676bc03a.mp4" /%}
+<video src="public/posts/tailwind-tooltip/172287179-a7f1d46b-2f40-4215-9706-ebd7676bc03a.mp4" controls playsinline></video>
 
 This method requires no external libraries or packages.
 

@@ -6,7 +6,7 @@ unlisted: false
 
 I wanted to build an ask-for-help form into an app that my [**JumboCode**](/f0548db316404315b2f8cbfa3b375732) team built, in case the client had questions after we handed it off:
 
-{% video content="public/posts/forms/demo.mp4" /%}
+<video src="public/posts/forms/demo.mp4" controls playsinline></video>
 
 But in true fashion, I decided to over engineer it. I thought, _What if I had a little site that I could use to generate forms for anything?_, and [forms.ben.page](https://forms.ben.page) was born.
 

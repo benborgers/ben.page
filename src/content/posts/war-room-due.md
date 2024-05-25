@@ -10,10 +10,10 @@ I built my own modal with a calendar-style date picker when I did that, but rece
 
 I ended up building this tiny pop-up that’s pinned right below the button, which allows you to set a due date for a task:
 
-{% video content="public/posts/war-room-due/due_1.mp4" /%}
+<video src="public/posts/war-room-due/due_1.mp4" controls playsinline></video>
 
 I asked [Christian](https://cbernier.com/) to test it out and he usefully bashed it around and pointed out that setting a due date for a task at the bottom of the screen meant that the pop-up was cut off, so I had to flip it if the task is within the bottom 150 pixels of the screen:
 
-{% video content="public/posts/war-room-due/due_2.mp4" /%}
+<video src="public/posts/war-room-due/due_2.mp4" controls playsinline></video>
 
 In reality the pop-up is implemented as a [Modal](https://headlessui.com/react/dialog), so the rest of the screen can’t be scrolled or interacted with while it’s open. When the “due”&nbsp;button is clicked, I measure where the button is on the screen, and position the modal right below (or above) it so that it appears to be “pinned”&nbsp;by the button.
