@@ -41,33 +41,32 @@ const { title } = Astro.props;
     <div
       class="px-4 pt-4 sm:pt-16 pb-36 sm:grid sm:grid-cols-[max-content,36rem] sm:gap-x-20 sm:w-max sm:mx-auto"
     >
-      <div class="max-sm:bg-gray-200 -m-4 p-4">
-        <a
-          href="/"
-          class="block sm:hidden w-max text-lg font-handwriting font-medium text-gray-800"
-        >
-          Ben Borgers
-        </a>
-        <div class="max-sm:hidden">
-          <Polaroid />
-        </div>
-        <div
-          class="mt-0.5 sm:mt-6 max-sm:inline-flex max-sm:gap-x-3 sm:text-right text-gray-800"
-        >
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/blog">Blog</NavLink>
-          <NavLink href="/work">Work</NavLink>
-          <NavLink href="/projects">Projects</NavLink>
-        </div>
-        <div
-          class="mt-0.5 sm:mt-4 max-sm:inline-flex max-sm:gap-x-3 sm:text-right text-gray-500"
-        >
-          <NavLink href="/contact">Contact</NavLink>
-          <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
-          <NavLink href="https://github.com/benborgers">GitHub</NavLink>
-          <NavLink href="https://linkedin.com/in/ben-borgers">
-            LinkedIn
-          </NavLink>
+      <div
+        class:list={[
+          "max-sm:bg-gray-100 max-sm:border-b max-sm:border-b-gray-200 max-sm:-m-4 max-sm:p-4",
+          "max-sm:flex max-sm:items-end max-sm:gap-x-4",
+        ]}
+      >
+        <Polaroid />
+        <div class="mt-0.5 sm:mt-6 space-y-0.5 sm:space-y-4">
+          <div
+            class="max-sm:inline-flex max-sm:gap-x-2.5 sm:text-right text-gray-800"
+          >
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/blog">Blog</NavLink>
+            <NavLink href="/work">Work</NavLink>
+            <NavLink href="/projects">Projects</NavLink>
+          </div>
+          <div
+            class="max-sm:inline-flex max-sm:gap-x-2.5 sm:text-right text-gray-500"
+          >
+            <NavLink href="/contact">Contact</NavLink>
+            <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
+            <NavLink href="https://github.com/benborgers">GitHub</NavLink>
+            <NavLink href="https://linkedin.com/in/ben-borgers">
+              LinkedIn
+            </NavLink>
+          </div>
         </div>
       </div>
       <div class="max-sm:mt-12">
