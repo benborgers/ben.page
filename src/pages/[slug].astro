@@ -4,7 +4,9 @@ import { getCollection } from "astro:content";
 import Page from "../components/page.astro";
 
 export const getStaticPaths = (async () => {
-  const posts = await getCollection("posts");
+  const posts = (await getCollection("posts")).filter(
+    (post) => post.slug !== "index",
+  );
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
