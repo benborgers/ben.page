@@ -42,4 +42,32 @@ Together, we did a walking tour of Cologne, with a tour guide who was comically 
 
 ## May 14th
 
-Today we walked up the 533 steps to the top of the Cologne Cathedral.
+Today we climbed the 533 steps to the top of the Cologne Cathedral.
+
+[photo]
+
+Then, back at the bottom fo the cathedral, we payed €2 each for a _real_ €0 bill with the cathedral printed on it — one of the cleanest ways I've seen to completely evaporate money.
+
+[photo]
+
+In the afternoon, we walked to the newly constructed Cologne Central Mosque, which my parents toured but I wasn't allowed to because I was wearing shorts.
+
+## May 15th
+
+Today we drove to Aachen, Germany. We did a walking tour with a tour guide who usually does the Spanish language tours, but was substituting today for an English one. He was good, and it redeemed the walking tour concept.
+
+We bought packages of [_Printen_](https://en.wikipedia.org/wiki/Aachener_Printen), a type of gingerbread cookie that is Aachen's pride and joy.
+
+## May 16th
+
+Today we drove back to Amsterdam in advance of our flight out of Amsterdam tomorrow. We returned the rental car, then dragged our luggage along the canals for 45 minutes to our hotel.
+
+We had dinner at an Indonesian restaurant, and during our dinner the PIN machines in all of Amsterdam went down, so we couldn't pay with a credit card.
+
+We walked to an ATM, and along the way we saw bars and grocery stores advertising that they were only accepting cash.
+
+Then we learned that the ATMs weren't working either, and in the end slightly underpaid with the cash that we did have.
+
+## May 17th
+
+We explored Amsterdam on foot, visiting a market and the central train station, and then took a tram to the airport for our flight.
