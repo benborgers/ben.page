@@ -19,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        RedirectIfAuthenticated::redirectUsing(fn () => route('dashboard');
+        RedirectIfAuthenticated::redirectUsing(fn () => route('dashboard'));
     }
 }
 ```
