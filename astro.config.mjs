@@ -13,7 +13,7 @@ export default defineConfig({
   trailingSlash: "never",
   markdown: {
     shikiConfig: {
-      theme: "light-plus",
+      theme: "one-light",
     },
   },
 });
