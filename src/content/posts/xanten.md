@@ -6,11 +6,11 @@ date: 2024-05-26
 
 My parents and I travelled to Germany and the Netherlands from May 10th, 2024 to May 17th, 2024.
 
-The primary purpose of our trip was to go to a family reunion, which had been organized by one of my aunts and uncles.
+The primary purpose of our trip was to go to a family reunion, which had been organized by one of my aunts and uncles, but we made a longer trip out of it.
 
 ## May 11th
 
-We flew in to Amsterdam, picked up a Hertz rental car (a stick shift, which only my dad could drive), and drove two hours from Amsterdam to Xanten, Germany. I napped in the car.
+We flew in to Amsterdam, picked up a rental car (a stick shift, which only my dad could drive), and drove two hours from Amsterdam to Xanten, Germany. I napped in the car.
 
 We stayed at an apartment in Xanten, which happened to be next to a Renaissance fair. Parking was difficult.
 
@@ -20,7 +20,7 @@ The dinner tonight was organized by my great-aunt, at the Hotel Zur Linde in Rep
 | --- | --- |
 | ![](/posts/xanten/dinner1.jpg) | ![](/posts/xanten/dinner2.jpg) |
 
-The dinner options almost all contained white asparagus, of which I chose the asparagus ravioli.
+The dinner options almost all contained asparagus, of which I chose the asparagus ravioli.
 
 ![](/posts/xanten/ravioli.jpg)
 
@@ -38,17 +38,19 @@ We parted ways from the uncles and my parents and I visited the Roman ruins in X
 | --- | --- |
 | ![](/posts/xanten/arena.jpg) | ![](/posts/xanten/columns.jpg) |
 
-The dinner tonight was at the Neumaier Hotel, which took two hours to produce food which we _did_ select from a menu months ago. My schnitzel was mediocre, but my crème brûlée was fantastic.
+The dinner tonight was at the Neumaier Hotel, which took two hours to produce food which we had chosen from a menu months ago. My schnitzel was mediocre, but my crème brûlée was fantastic.
 
 After dinner, we went with one uncle's family and my aunt's family to get drinks at a café/bar in Xanten, and then went home.
 
 ## May 13th
 
-Today we drove to Cologne to meet a friend of mine who's been working at CERN!
+Today we drove to Cologne to meet a friend of mine who's been working at CERN in Switzerland!
 
 ![](/posts/xanten/pizza.jpg)
 
-Together, we did a walking tour of Cologne, with a tour guide who was comically unhinged and vulgar. I don't think many of the things he told us on the tour were correct, either. He did tell us many times how much he loves the legal weed in Cologne (and California — his original home).
+Together, we did a walking tour of Cologne, with a tour guide who was comically unhinged and vulgar. I don't think many of the things he told us on the tour were correct, either.
+
+He did tell us many times how much he loves the legal weed in Cologne (and California — his original home).
 
 ## May 14th
 
@@ -56,7 +58,7 @@ Today we climbed the 533 steps to the top of the Cologne Cathedral.
 
 ![](/posts/xanten/cathedral-view.jpg)
 
-Then, back at the bottom fo the cathedral, we payed €2 each for a _real_ €0 bill with the cathedral printed on it — one of the cleanest ways I've seen to completely evaporate money.
+Then, back at the bottom fo the cathedral, we payed €2 each for an _official_ €0 bill with the cathedral printed on it — one of the cleanest ways I've seen to completely evaporate money.
 
 ![](/posts/xanten/zero.jpg)
 
@@ -64,7 +66,7 @@ In the afternoon, we walked to the newly constructed Cologne Central Mosque, whi
 
 ## May 15th
 
-Today we drove to Aachen, Germany. We did a walking tour with a tour guide who usually does the Spanish language tours, but was substituting today for an English one. He was good, and it redeemed the walking tour concept.
+Today we drove to Aachen, Germany. We did a walking tour with a tour guide who usually does the Spanish language tours, but who was substituting today for an English one. He was good, and it redeemed the walking tour concept.
 
 We bought packages of [_Printen_](https://en.wikipedia.org/wiki/Aachener_Printen), a type of gingerbread cookie that is Aachen's pride and joy.
 
@@ -82,7 +84,7 @@ We had dinner at an Indonesian restaurant, and during our dinner the PIN machine
 
 We walked to an ATM, and along the way we saw bars and grocery stores advertising that they were only accepting cash.
 
-Then we learned that the ATMs weren't working either, and in the end slightly underpaid with the cash that we did have.
+Then we learned that the ATMs weren't working either, and in the end slightly underpaid the restaurant with the cash that we had with us.
 
 ## May 17th
 
