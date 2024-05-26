@@ -1,12 +1,15 @@
 ---
 interface Props {
   href: string;
+  block?: boolean;
 }
 
-const { href } = Astro.props;
+const { href, block = false } = Astro.props;
+
+const Element = block ? "p" : Fragment;
 ---
 
-<p>
+<Element>
   <a
     href={href}
     class:list={[
@@ -15,4 +18,4 @@ const { href } = Astro.props;
   >
     <slot />
   </a>
-</p>
+</Element>

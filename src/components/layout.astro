@@ -44,16 +44,18 @@ const { title } = Astro.props;
       <div>
         <Polaroid />
         <div class="mt-6 text-right text-gray-800">
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/blog">Blog</NavLink>
-          <NavLink href="/work">Work</NavLink>
-          <NavLink href="/projects">Projects</NavLink>
+          <NavLink href="/" block>Home</NavLink>
+          <NavLink href="/blog" block>Blog</NavLink>
+          <NavLink href="/work" block>Work</NavLink>
+          <NavLink href="/projects" block>Projects</NavLink>
         </div>
         <div class="mt-4 text-right text-gray-500">
-          <NavLink href="/contact">Contact</NavLink>
-          <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
-          <NavLink href="https://github.com/benborgers">GitHub</NavLink>
-          <NavLink href="https://linkedin.com/in/ben-borgers">LinkedIn</NavLink>
+          <NavLink href="/contact" block>Contact</NavLink>
+          <NavLink href="https://twitter.com/benborgers" block>Twitter</NavLink>
+          <NavLink href="https://github.com/benborgers" block>GitHub</NavLink>
+          <NavLink href="https://linkedin.com/in/ben-borgers" block>
+            LinkedIn
+          </NavLink>
         </div>
       </div>
       <div>
