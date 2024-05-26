@@ -50,7 +50,7 @@ const { title } = Astro.props;
         <Polaroid />
         <div class="mt-0.5 sm:mt-6 space-y-0.5 sm:space-y-4">
           <div
-            class="max-sm:inline-flex max-sm:gap-x-2.5 sm:text-right text-gray-800"
+            class="max-sm:flex max-sm:flex-wrap max-sm:gap-x-2.5 sm:text-right text-gray-800"
           >
             <NavLink href="/">Home</NavLink>
             <NavLink href="/blog">Blog</NavLink>
@@ -58,14 +58,16 @@ const { title } = Astro.props;
             <NavLink href="/projects">Projects</NavLink>
           </div>
           <div
-            class="max-sm:inline-flex max-sm:gap-x-2.5 sm:text-right text-gray-500"
+            class="max-sm:flex max-sm:flex-wrap max-sm:gap-x-2.5 sm:text-right text-gray-500"
           >
             <NavLink href="/contact">Contact</NavLink>
             <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
             <NavLink href="https://github.com/benborgers">GitHub</NavLink>
-            <NavLink href="https://linkedin.com/in/ben-borgers">
-              LinkedIn
-            </NavLink>
+            <div class="max-sm:hidden">
+              <NavLink href="https://linkedin.com/in/ben-borgers">
+                LinkedIn
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
