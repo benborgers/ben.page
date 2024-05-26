@@ -10,7 +10,8 @@ const { href } = Astro.props;
   <a
     href={href}
     class:list={[
-      Astro.url.pathname === href && "underline decoration-gray-300",
+      Astro.url.pathname === href &&
+        "underline decoration-gray-400 sm:decoration-gray-300",
     ]}
   >
     <slot />
