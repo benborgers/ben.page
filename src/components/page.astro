@@ -12,11 +12,7 @@ const { Content } = await post.render();
 ---
 
 <Layout title={post.data.title}>
-  {
-    !index && (
-      <h1 class="text-4xl font-extrabold tracking-tight">{post.data.title}</h1>
-    )
-  }
+  {!index && <h1 class="text-4xl font-extrabold">{post.data.title}</h1>}
 
   {
     "date" in post.data && (
