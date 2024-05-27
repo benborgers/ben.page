@@ -7,6 +7,7 @@ noDate: true
 - [Speakology](https://speakology.ai): AI speaking partner for language learning.
 - [Govcentives](https://govcentives.com): Search engines for clean energy incentives, licensed to power authorities.
 - [Tufts Meal Plan Wrapped](/wrapped): Spotify Wrapped style report for Tufts’ meal plans that 500+ students used.
+- [Photo of the Day](https://photos.ben.page): Ongoing project where I take one photo for every day.
 - [diffeqgrapher.com](https://diffeqgrapher.com): Simpler and friendlier differential equations grapher for my dad’s classes.
 - [Kiwi](https://ask.kiwi): Live Q&A platform for university classes; built for University of Michigan research study and currently used by 2,000+ students.
 - [War Room](https://war.elk.sh): Social to-do list app for my friends and I, that is used by a couple hundred university students.
