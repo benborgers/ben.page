@@ -25,4 +25,4 @@ But it’s funny how we think about these things as generally going in one direc
 
 Maybe things are getting better as well, and you don’t realize that because it’s hard to realize without being _in it_. Or perhaps this summer camp’s magic is fading away but there are other camps that capture a similar spirit.
 
-I’m drawn to seeing the negatives. Maybe I’m a natural pessimist. So I have to remind myself that, if lots of things seem to be going downhill after I’m through them, it might be more of a blindspot for me than a general fact of the world. It’s easier to imagine things getter worse than to imagine things getting better.
+I’m drawn to seeing the negatives. Maybe I’m a natural pessimist. So I have to remind myself that, if lots of things seem to be going downhill after I’m through them, it might be more of a blind spot for me than a general fact of the world. It’s easier to imagine things getter worse than to imagine things getting better.

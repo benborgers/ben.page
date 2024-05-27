@@ -6,7 +6,7 @@ unlisted: false
 
 A couple years ago, Brian Lovin [wrote](https://brianlovin.com/writing/incrementally-correct-personal-websites) about “incrementally correct personal websites.”
 
-It’s the idea that we put dates on blog posts and feel pressure that each blog post will be the final word on a topic, but that instead things should be iterative. You write something and publish it, but the expectation is that it’ll change. You’ll keep updating it to make it incrementally more correct or more comlete.
+It’s the idea that we put dates on blog posts and feel pressure that each blog post will be the final word on a topic, but that instead things should be iterative. You write something and publish it, but the expectation is that it’ll change. You’ll keep updating it to make it incrementally more correct or more complete.
 
 I like the idea a lot. It encourages just publishing something instead of being fearful of pressing publish, which makes a lot of sense. But in practice, recently, I’ve found the opposite to be more helpful for me.
 

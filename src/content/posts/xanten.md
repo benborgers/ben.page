@@ -4,7 +4,7 @@ unlisted: true
 date: 2024-05-26
 ---
 
-My parents and I travelled to Germany and the Netherlands from May 10th, 2024 to May 17th, 2024.
+My parents and I traveled to Germany and the Netherlands from May 10th, 2024 to May 17th, 2024.
 
 The primary purpose of our trip was to go to a family reunion, which had been organized by one of my aunts and uncles, but we made a longer trip out of it.
 

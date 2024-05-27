@@ -30,7 +30,7 @@ I copied that public key and went to Laravel Forge’s **Account Settings > SSH 
 
 What this allows you to do is to run `ssh forge@<your_server_ip>` from your computer’s terminal, and to be authorized to log into your server. This also enables you to connect to the database that’s _on_ your server.
 
-To see your Forge-created database in TablePlus, open your server in Forge’s appp and click Database in the sidebar. Then, copy the **Database Connection URL** they provide, and paste it in a new tab.
+To see your Forge-created database in TablePlus, open your server in Forge’s app and click Database in the sidebar. Then, copy the **Database Connection URL** they provide, and paste it in a new tab.
 
 ![](/posts/forge-tableplus/image-17.png)
 

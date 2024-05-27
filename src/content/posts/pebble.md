@@ -22,4 +22,4 @@ It’s a nice idea, but I’m not sure whether it actually came true. I’d bet 
 
 But I find one thing interested about this story: I knew what angle to pitch this so that my parents would have the best chance of agreeing. In a way, I knew my audience.
 
-Perhaps it demonstrates that I had sleezy salesman tendencies starting in middle school. In which case this isn’t a very flattering story. Oops.
+Perhaps it demonstrates that I had sleazy salesman tendencies starting in middle school. In which case this isn’t a very flattering story. Oops.

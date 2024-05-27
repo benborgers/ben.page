@@ -22,7 +22,7 @@ If we just flip the gray colors for dark mode, this is what we end up with:
 
 ![](/posts/dark-mode/178114739-fe950dae-4c2b-4d35-8b58-9852c327fe17.png)
 
-The hierarchy feels weird. The main card is completely black (since it used to be white) and feels like it’s sinking into the background, trying not to be seen. Tthe secondary card underneath is the lightest element, and your eye is immediately drawn to it even though it’s the least important part of the interface.
+The hierarchy feels weird. The main card is completely black (since it used to be white) and feels like it’s sinking into the background, trying not to be seen. The secondary card underneath is the lightest element, and your eye is immediately drawn to it even though it’s the least important part of the interface.
 
 Unfortunately, I think the solution is to hand-assign each element’s color separately for light and dark mode.
 
