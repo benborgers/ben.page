@@ -12,7 +12,7 @@ Then, [Jerome](https://jero.zone) gave me the idea of having a menu of options t
 
 Here’s a video of it in action:
 
-<video src="public/posts/war-room-bib/bib_1.mp4" controls playsinline></video>
+<video src="/posts/war-room-bib/bib_1.mp4" controls playsinline></video>
 
 A few fun facts about its implementation:
 
@@ -23,4 +23,4 @@ A few fun facts about its implementation:
 - I put a transparent layer below the bib when it’s open, and clicking anywhere on that layer closes the bib again.
 - This also created a perfect opportunity for a little plus button on each divider that opens the task composer pre-filled with the divider:
 
-<video src="public/posts/war-room-bib/bib_2.mp4" controls playsinline></video>
+<video src="/posts/war-room-bib/bib_2.mp4" controls playsinline></video>

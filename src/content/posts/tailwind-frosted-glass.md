@@ -6,7 +6,7 @@ date: 2022-06-08
 
 Here’s an example of the “frosted glass” effect we’ll be creating using [Tailwind CSS](https://tailwindcss.com):
 
-<video src="public/posts/tailwind-frosted-glass/172743847-d3163b2b-0b1e-4c08-9032-f6aefb2a8a1b.mp4" controls playsinline></video>
+<video src="/posts/tailwind-frosted-glass/172743847-d3163b2b-0b1e-4c08-9032-f6aefb2a8a1b.mp4" controls playsinline></video>
 
 To achieve this effect, add the following Tailwind classes to a `div`:
 
