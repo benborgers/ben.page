@@ -19,7 +19,7 @@ As soon as bugs start cropping up, or they notice features that are missing, it 
 
 ## My idea for JumboCode+
 
-My “JumboCode+” idea is that we \***\*create an organization to do the maintenance**, hiring already-skilled developers, but we charge the clients for our work.
+My “JumboCode+” idea is that we **create an organization to do the maintenance**, hiring already-skilled developers, but we charge the clients for our work.
 
 These developers will be experienced in web development; most JumboCode developers are learning web development for the semi-first time (which is fantastic!), but these developers will need to be more experienced since:
 
