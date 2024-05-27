@@ -10,7 +10,7 @@ Finally, I decided to do something about it: I bought 180 forks.
 
 ![](/posts/forks/confirmation.png)
 
-But I had to make sure that my altriusm would be commemorated. So I bought metal letter stamps on Amazon, and my roommate and I stamped our initials onto the back of every fork: a "B" for Ben, or an "H" for Henry.
+But I had to make sure that my altruism would be commemorated. So I bought metal letter stamps on Amazon, and my roommate and I stamped our initials onto the back of every fork: a "B" for Ben, or an "H" for Henry.
 
 |                             |                            |
 | --------------------------- | -------------------------- |
