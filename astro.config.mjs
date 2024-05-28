@@ -9,7 +9,7 @@ export default defineConfig({
   site: "https://ben.page",
   integrations: [tailwind(), sitemap()],
   output: "static",
-  adapter: vercel(),
+  // adapter: vercel(),
   trailingSlash: "never",
   markdown: {
     shikiConfig: {
