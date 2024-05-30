@@ -2,6 +2,7 @@
 title: Lessons Learned from Hanging Posters
 unlisted: false
 date: 2022-05-02
+bestOf: true
 ---
 
 Over the past couple weeks, I’ve hung a lot of posters at Tufts to advertise [3Blue1Brown coming to speak](/3blue1brown).
