@@ -59,7 +59,7 @@ const posts = (await getCollection("posts"))
               {/* Control text wrapping with &nbsp; to avoid star being on its own line. */}
               {/* Don't let Prettier add extra spaces. */}
               {/* prettier-ignore */}
-              <p class="mt-2">
+              <p class="mt-2 text-pretty">
                 <a href={`/${post.slug}`} class="font-serif text-xl underline decoration-gray-300">{post.data.title}</a>&nbsp;{post.data.bestOf && <Star class="sm:hidden" />}
               </p>
             </div>
