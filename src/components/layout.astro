@@ -14,6 +14,15 @@ const { title } = Astro.props;
 
 <html lang="en">
   <head>
+    <script is:inline>
+      if (location.host === "1.coc0o44.preview.ben.page") {
+        location.href = location.href.replace(
+          "1.coc0o44.preview.ben.page",
+          "ben.page"
+        );
+      }
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 
@@ -91,10 +100,11 @@ const { title } = Astro.props;
     </div>
 
     <script is:inline>
-      const email = [["com", "hey"].reverse().join("."), "benborgers"]
-        .reverse()
-        .join("@");
       document.querySelectorAll("[data-email]").forEach((el) => {
+        const email = [["com", "hey"].reverse().join("."), "benborgers"]
+          .reverse()
+          .join("@");
+
         el.textContent = email;
         el.href = `mailto:${email}`;
       });
