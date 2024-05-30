@@ -1,7 +1,7 @@
 ---
 title: Projects
 unlisted: true
-noDate: true
+date: null
 ---
 
 - [Speakology](https://speakology.ai): AI speaking partner for language learning.

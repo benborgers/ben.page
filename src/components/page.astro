@@ -15,7 +15,7 @@ const { Content } = await post.render();
   {!index && <h1 class="text-4xl font-extrabold">{post.data.title}</h1>}
 
   {
-    "date" in post.data && (
+    post.data.date !== null && (
       <p class="mt-2 text-gray-400 font-medium font-handwriting">
         {post.data.date.toLocaleString("en-US", {
           timeZone: "UTC",

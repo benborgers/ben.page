@@ -1,7 +1,7 @@
 import { type CollectionEntry } from "astro:content";
 
 const getPostDate = (post: CollectionEntry<"posts">) => {
-  if ("noDate" in post.data) {
+  if (post.data.date === null) {
     throw new Error("Post displayed on /blog has no date");
   }
 

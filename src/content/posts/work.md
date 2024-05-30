@@ -1,7 +1,7 @@
 ---
 title: Work experience
 unlisted: true
-noDate: true
+date: null
 ---
 
 - [Notion](https://notion.so/product) (summer 2024)
