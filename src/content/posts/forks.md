@@ -2,6 +2,7 @@
 title: Donating hundreds of forks to the dining hall
 unlisted: false
 date: 2024-05-29
+bestOf: true
 ---
 
 A year and a half ago, the dining hall would run out of forks every evening. My roommates and I would inevitably have to eat with spoons.

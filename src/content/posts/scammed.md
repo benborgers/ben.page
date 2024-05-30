@@ -3,6 +3,7 @@ title: How I got scammed on Facebook Marketplace
 date: 2023-07-10
 unlisted: false
 cover_image: /posts/scammed/cover_image.jpeg
+bestOf: true
 ---
 
 A few weeks ago, I got scammed buying a camera on Facebook Marketplace.

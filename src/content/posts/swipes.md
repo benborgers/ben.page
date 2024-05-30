@@ -2,6 +2,7 @@
 title: "I want to use all of my ridiculously many meal swipes"
 date: 2022-01-16
 unlisted: false
+bestOf: true
 ---
 
 Tufts University requires all freshmen to be on its ✨Premium✨ meal plan, which includes 400 meal swipes per semester.

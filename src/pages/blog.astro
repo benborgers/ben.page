@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../components/layout.astro";
+import Star from "../components/star.astro";
 import getPostDate from "../lib/get-post-date";
 
 const posts = (await getCollection("posts"))
@@ -51,9 +52,17 @@ const posts = (await getCollection("posts"))
               </p>
             )}
 
-            <p class="mt-2 font-serif text-xl underline decoration-gray-300">
-              <a href={`/${post.slug}`}>{post.data.title}</a>
-            </p>
+            <div class="relative">
+              {post.data.bestOf && (
+                <Star class="max-sm:hidden absolute -left-7" />
+              )}
+              {/* Control text wrapping with &nbsp; to avoid star being on its own line. */}
+              {/* Don't let Prettier add extra spaces. */}
+              {/* prettier-ignore */}
+              <p class="mt-2">
+                <a href={`/${post.slug}`} class="font-serif text-xl underline decoration-gray-300">{post.data.title}</a>&nbsp;{post.data.bestOf && <Star class="sm:hidden" />}
+              </p>
+            </div>
           </>
         );
       })

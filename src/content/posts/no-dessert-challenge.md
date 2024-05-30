@@ -2,6 +2,7 @@
 title: "No Dessert Challenge"
 date: 2023-01-08
 unlisted: false
+bestOf: true
 ---
 
 Before this past semester I decided to put myself to a challenge: no dessert from the dining halls for the entire semester.

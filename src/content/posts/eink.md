@@ -2,6 +2,7 @@
 title: Building an e-ink picture frame that displays an iCloud photo album
 date: 2024-01-09
 unlisted: false
+bestOf: true
 ---
 
 For Christmas, I gave my parents this e-ink picture frame (built from an old e-reader) that cycles through photos from a shared iCloud photo album:
