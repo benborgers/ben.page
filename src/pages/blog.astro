@@ -12,10 +12,10 @@ const posts = (await getCollection("posts"))
 ---
 
 <Layout title="Ben Borgers’ Blog">
-  <p class="text-right text-gray-400">
+  <p class="sm:hidden text-right text-gray-400">
     Subscribe via
     <a
-      href="https://buttondown.email/benborgers?as_embed=1"
+      href="https://buttondown.email/benborgers?as_embed"
       target="_blank"
       class="underline decoration-gray-300">monthly newsletter</a
     >
@@ -43,7 +43,7 @@ const posts = (await getCollection("posts"))
         return (
           <>
             {differentDateFromPrevious && (
-              <p class="-mb-1 mt-6 font-handwriting text-gray-400 font-medium">
+              <p class="-mb-1 mt-6 first-of-type:mt-2 font-handwriting text-gray-400 font-medium">
                 {getPostDate(post).toLocaleString("en-US", {
                   timeZone: "UTC",
                   month: "long",
