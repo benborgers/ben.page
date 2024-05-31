@@ -43,7 +43,7 @@ const posts = (await getCollection("posts"))
         return (
           <>
             {differentDateFromPrevious && (
-              <p class="-mb-1 mt-6 first-of-type:mt-2 font-handwriting text-gray-400 font-medium">
+              <p class="-mb-1 mt-6 sm:first-of-type:mt-2 font-handwriting text-gray-400 font-medium">
                 {getPostDate(post).toLocaleString("en-US", {
                   timeZone: "UTC",
                   month: "long",
