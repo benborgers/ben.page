@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
-        serif: ["valkyrie-text", ...defaultTheme.fontFamily.serif],
+        serif: ["Valkyrie", ...defaultTheme.fontFamily.serif],
         handwriting: ["Shantell Sans", ...defaultTheme.fontFamily.sans],
       },
       colors: {
