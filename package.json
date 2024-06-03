@@ -8,8 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "spellcheck": "cspell \"src/content/posts/**/*.md\"",
-    "purge-cdn": "curl -i -X POST https://api.bunny.net/pullzone/2235201/purgeCache -H \"AccessKey: ${BUNNY_API_KEY}\""
+    "spellcheck": "cspell \"src/content/posts/**/*.md\""
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
