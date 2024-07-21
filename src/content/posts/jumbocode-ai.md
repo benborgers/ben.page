@@ -1,12 +1,12 @@
 ---
-title: JumboCode + AI
+title: AI is an impediment to learning web development
 date: 2024-07-21
 unlisted: false
 ---
 
 Some thoughts on AI and LLMs, based on being Head of Engineering for [JumboCode](/jumbocode), a club of 180 students at Tufts University that builds software for non-profits.
 
-For context, almost all of our developers are learning web development (TypeScript, React, etc) for the first time.
+For context, almost all of our developers are learning web development (TypeScript, React, etc) from scratch, and have little prior experience with programming.
 
 ## Use of LLMs in JumboCode is ubiquitous
 
@@ -32,7 +32,7 @@ LLMs don’t require you to form a mental model and allow you to skip to the end
 
 LLMs are useful if you already have a good mental model and understanding of a subject. However, I believe that they are destructive when learning something from 0 to 1.
 
-**You should probably just ask a person.**
+## You should probably just ask a person.
 
 You’ll learn a lot more by asking a real human, like your tech lead or a member of JumboCode’s board.
 
