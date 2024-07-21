@@ -20,7 +20,11 @@ The starkest example I came across was a Next.js project that had:
 
 - A page written in HTML and vanilla JavaScript, loaded from the `public/` directory, completely outside of the Next.js + React system.
 - Vanilla JavaScript loaded in via filesystem APIs and executed via `dangerouslySetInnerHTML`.
-- API calls from one server-side API endpoint to another public API endpoint (instead of just importing a function and calling it directly).
+- API calls from one server-side API endpoint to another public API endpoint on `localhost:3000` (instead of just importing a function and calling it directly).
+
+These don’t seem to me like classic beginner mistakes — these are _fundamental misunderstandings_ of the tools and the web platform.
+
+LLMs will obediently provide the solutions you ask for. If you’re missing fundamental understanding, you won’t be able to spot when your questions have gone off the rails.
 
 ## Use of LLMs hinders learning of web development.
 
