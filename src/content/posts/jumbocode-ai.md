@@ -4,49 +4,51 @@ date: 2024-07-21
 unlisted: false
 ---
 
-Some thoughts on AI and large language models based on being Head of Engineering for [JumboCode](/jumbocode) last year:
+Some thoughts on AI and LLMs, based on being Head of Engineering for [JumboCode](/jumbocode), a club of 180 students at Tufts University that builds software for non-profits.
 
-1. **Use of LLMs in JumboCode is ubiquitous.**
+For context, almost all of our developers are learning web development (TypeScript, React, etc) for the first time.
 
-   LLMs excel at writing code for web development — you can describe a frontend component that you want and get a decent React component back.
+## Use of LLMs in JumboCode is ubiquitous
 
-   I didn’t spend the year hawk-eyeing the teams’ repositories, but when I did poke my head in, I found substantial portions that _looked_ LLM-written — that is to say, overly-commented, dissonant, and, at times, horrifying.
+LLMs excel at writing code for web development — you can describe a frontend component that you want and get a decent React component back.
 
-   - _horrifying?_
+I didn’t spend the year hawk-eyeing the teams’ repositories, but when I did poke my head in, I found substantial portions that _looked_ LLM-written — that is to say, overly-commented, dissonant, and, at times, horrifying.
 
-     The starkest example I came across was a Next.js project that had:
+### _“horrifying?”_
 
-     - A page written in HTML and vanilla JavaScript, loaded from the `public/` directory, completely outside of the Next.js + React system.
-     - Vanilla JavaScript loaded in via filesystem APIs and executed via `dangerouslySetInnerHTML`.
-     - API calls from one server-side API endpoint to another public API endpoint (instead of just importing a function and calling it directly).
+The starkest example I came across was a Next.js project that had:
 
-2. **Use of LLMs hinders learning of web development.**
+- A page written in HTML and vanilla JavaScript, loaded from the `public/` directory, completely outside of the Next.js + React system.
+- Vanilla JavaScript loaded in via filesystem APIs and executed via `dangerouslySetInnerHTML`.
+- API calls from one server-side API endpoint to another public API endpoint (instead of just importing a function and calling it directly).
 
-   LLMs are a shortcut to get assignments done. In the process, however, you learn close to nothing.
+## Use of LLMs hinders learning of web development.
 
-   It’s cliche, but struggling _is_ learning. The way you learn is that you try different paths, piece bits of information together, and eventually create a mental model.
+LLMs are a shortcut to get assignments done. In the process, however, you learn close to nothing.
 
-   LLMs don’t require you to form a mental model and allow you to skip to the end result, but in turn you won’t _have_ a mental model when you actually need one (for example, when you need to verify that your LLM has architected the code in a reasonable way).
+It’s cliche, but struggling _is_ learning. The way you learn is that you try different paths, piece bits of information together, and eventually create a mental model.
 
-   LLMs are useful if you already have a good mental model and understanding of a subject. However, I believe that they are destructive when learning something from 0 to 1.
+LLMs don’t require you to form a mental model and allow you to skip to the end result, but in turn you won’t _have_ a mental model when you actually need one (for example, when you need to verify that your LLM has architected the code in a reasonable way).
 
-3. **You should probably just ask a person.**
+LLMs are useful if you already have a good mental model and understanding of a subject. However, I believe that they are destructive when learning something from 0 to 1.
 
-   You’ll learn a lot more by asking a real human, like your tech lead or a member of JumboCode’s board.
+**You should probably just ask a person.**
 
-   They can explain something in the exact context that you need it. And, in my experience at least, humans are still better than LLMs at providing concise, proper-level explanations.
+You’ll learn a lot more by asking a real human, like your tech lead or a member of JumboCode’s board.
 
-4. **You’ll probably still use LLMs instead of asking a person.**
+They can explain something in the exact context that you need it. And, in my experience at least, humans are still better than LLMs at providing concise, proper-level explanations.
 
-   Asking people is hard work and requires asking questions (scary). Many folks will still ask LLMs to write large swaths of code.
+## You’ll probably still use LLMs instead of asking a person.
 
-   This is likely worse for your learning, but I can’t stop you (and I might be wrong).
+Asking people is hard work and requires asking questions (scary). Many folks will still ask LLMs to write large swaths of code.
 
-   But in my opinion, if you don’t have the time to do JumboCode without deferring whole tasks to LLMs, you’re probably better off not doing JumboCode. (And no hard feelings! I just don’t think that going through the motions via LLM-generated deliverables is worth the time.)
+This is likely worse for your learning, but I can’t stop you (and I might be wrong).
+
+But in my opinion, if you don’t have the time to do JumboCode without deferring whole tasks to LLMs, you’re probably better off not doing JumboCode. (And no hard feelings! I just don’t think that going through the motions via LLM-generated deliverables is worth the time.)
 
 ---
 
-**Appedix: Ben, do _you_ use LLMs?**
+## Appedix: Ben, do _you_ use LLMs?
 
 Yes, I do! For example, I write code in [Cursor](https://cursor.so), the self-proclaimed “AI Code Editor.”
 
