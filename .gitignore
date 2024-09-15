@@ -1,3 +1,5 @@
+public/pagefind/
+
 # build output
 dist/
 # generated types
