@@ -52,7 +52,7 @@ But in my opinion, if you don’t have the time to do JumboCode without deferrin
 
 ---
 
-## Appedix: Ben, do _you_ use LLMs?
+## Appendix: Ben, do _you_ use LLMs?
 
 Yes, I do! For example, I write code in [Cursor](https://cursor.so), the self-proclaimed “AI Code Editor.”
 

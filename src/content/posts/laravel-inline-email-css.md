@@ -6,7 +6,7 @@ date: 2024-06-16
 
 There's a hack for inlining CSS in Laravel emails _without_ installing any packages: overriding the markdown theme.
 
-(Inlining means turning a stylesheet into `style=""` attributes on every HTML element, which is better for compatability with some email clients.)
+(Inlining means turning a stylesheet into `style=""` attributes on every HTML element, which is better for compatibility with some email clients.)
 
 Laravel has built-in inlining for CSS that's written as a theme for markdown emails. Since HTML is valid markdown, you can write HTML emails and call them markdown.
 
