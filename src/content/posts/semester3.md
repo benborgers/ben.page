@@ -8,7 +8,7 @@ At the end of my freshman year at Tufts, I wrote a recap entitled [year 1](https
 
 I ended last year with a feeling that I had made less friends than I had expected.
 
-In semester 3, quite little progress has been made on that. Possible backwards progress has been made. But, I find myself _not caring that much_ either*.*
+In semester 3, quite little progress has been made on that. Possible backwards progress has been made. But, I find myself _not caring that much_ either.
 
 ## Context
 
