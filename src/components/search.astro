@@ -1,6 +1,60 @@
-<div>
+<div
+  x-data="{
+    open: true,
+    query: 'tufts',
+    results: [],
+    pagefind: null
+  }"
+  x-init="(async () => {
+    pagefind = await import('/pagefind/pagefind.js')
+    pagefind.init()
+  })()"
+  x-effect="results = pagefind ? (await pagefind.search(query))?.results : []"
+  class="relative"
+>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <script src="/pagefind/pagefind-ui.js" is:inline></script>
 
-  <button>Search</button>
+  <button @click="open = true">Search</button>
+
+  <div
+    class="fixed inset-0 bg-black/15"
+    x-show="open"
+    x-cloak
+    x-transition.opacity.duration.200ms
+  >
+  </div>
+
+  <div
+    class:list={[
+      "w-96 h-[32rem] bg-white ring-1 ring-gray-400/20 rounded-2xl absolute -top-44 left-24",
+      "text-left overflow-hidden",
+      "grid grid-rows-[1fr,auto]",
+      "isolate z-[1000]",
+    ]}
+    x-show="open"
+    x-cloak
+    @click.away="open = false"
+    @keydown.escape.window="open = false"
+    x-transition.scale.origin.left.opacity.duration.150ms
+  >
+    <input
+      type="text"
+      placeholder="Search..."
+      class="border-0 focus:ring-0 bg-gray-100 border-b border-gray-200 focus:border-gray-200 w-full py-3 px-4 text-gray-900 placeholder:text-gray-400"
+      x-model.debounce.100ms="query"
+    />
+
+    <div class="p-4 pb-2 overflow-scroll">
+      <template
+        x-for="result in (await Promise.all(results.slice(0, 5).map(async (r) => r.data())))"
+      >
+        <div class="mb-6">
+          <p x-text="result.meta.title" class="text-lg text-gray-800 font-bold">
+          </p>
+          <p x-html="result.excerpt"></p>
+        </div>
+      </template>
+    </div>
+  </div>
 </div>

@@ -45,17 +45,24 @@ const { title } = Astro.props;
       defer
       data-included-domains="ben.page"
       is:inline></script>
+
+    <style is:inline>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
   </head>
   <body class="antialiased bg-gray-50 text-gray-950">
     <div
       class="px-4 pt-4 sm:pt-16 pb-24 sm:pb-36 sm:grid sm:grid-cols-[max-content,minmax(0,36rem)] sm:justify-center sm:gap-x-20"
     >
-      <div
+      <nav
         class:list={[
           "sm:h-max sm:sticky sm:top-16",
           "max-sm:bg-gray-100 max-sm:border-b max-sm:border-b-gray-200 max-sm:-m-4 max-sm:p-4",
           "max-sm:flex max-sm:items-end max-sm:gap-x-4",
         ]}
+        data-pagefind-ignore
       >
         <Polaroid />
         <div class="sm:mt-6 space-y-0.5 sm:space-y-4">
@@ -94,7 +101,7 @@ const { title } = Astro.props;
             </div>
           </div>
         </div>
-      </div>
+      </nav>
       <div class="max-sm:mt-12">
         <slot />
       </div>
