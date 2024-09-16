@@ -10,7 +10,7 @@
     pagefind.init()
   })()"
   x-effect.results="results = pagefind ? (await pagefind.search(query))?.results : []"
-  x-effect.focus="open && setTimeout(() => $refs.input.focus())"
+  x-effect.focus="open && setTimeout(() => $refs.input.select())"
   @keydown.meta.k.window="open = !open"
   class="relative"
 >
