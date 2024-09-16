@@ -46,6 +46,11 @@ const { title } = Astro.props;
       data-included-domains="ben.page"
       is:inline></script>
 
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"
+    ></script>
+
     <style is:inline>
       [x-cloak] {
         display: none !important;
@@ -62,7 +67,6 @@ const { title } = Astro.props;
           "max-sm:bg-gray-100 max-sm:border-b max-sm:border-b-gray-200 max-sm:-m-4 max-sm:p-4",
           "max-sm:flex max-sm:items-end max-sm:gap-x-4",
         ]}
-        data-pagefind-ignore
       >
         <Polaroid />
         <div class="sm:mt-6 space-y-0.5 sm:space-y-4">

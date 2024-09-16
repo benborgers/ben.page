@@ -8,7 +8,7 @@
     "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "pagefind:dev": "pagefind --site dist && cp -r dist/pagefind public/",
+    "pagefind:dev": "npm run build && pagefind --site dist && cp -r dist/pagefind public/",
     "spellcheck": "cspell \"src/content/posts/**/*.md\""
   },
   "dependencies": {
