@@ -14,8 +14,11 @@ I found some ways to do this online that involved extending the markdown rendere
 
 First, go to the layout for your blog posts, and pipe the page's contents through a `latex` filter that we'll create in a moment:
 
-```html
-{# before: #} {​{ content | safe }} {# after: #} {​{ content | latex | safe }}
+```text
+{# before: #}
+{​{ content | safe }}
+{# after: #}
+{​{ content | latex | safe }}
 ```
 
 Now, we have to create that `latex` filter. First, install the KaTeX package to render math equations:
