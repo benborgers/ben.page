@@ -60,7 +60,7 @@ If a PR deploy fails, the GitHub Action will fail as well, so you can tell from 
 
 To debug a commit that’s not building properly, the developer can check the Vercel build logs linked in the GitHub Action’s output, or just run `npm run build` (or similar) locally.
 
-These actions do require you to add three environment variables in your GitHub repository’s Settings > Actions > ????:
+These actions do require you to add three environment variables in your GitHub repository’s Settings > Secrets and variables > Actions:
 
 - `VERCEL_ORG_ID`
 - `VERCEL_PROJECT_ID`
