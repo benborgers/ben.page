@@ -64,6 +64,7 @@ These actions do require you to add three environment variables in your GitHub r
 
 - `VERCEL_ORG_ID`
 - `VERCEL_PROJECT_ID`
+  - Note that to get a project ID, you need a project on Vercel. To get that project created, you can install the [`vercel` CLI](https://vercel.com/docs/cli) on your own computer, and then `vercel deploy` locally _once_ so that the project gets created.
 - `VERCEL_TOKEN`
 
 You can find these values in your Vercel dashboard.
