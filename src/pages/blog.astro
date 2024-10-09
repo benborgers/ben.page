@@ -12,19 +12,6 @@ const posts = (await getCollection("posts"))
 ---
 
 <Layout title="Ben Borgers’ Blog">
-  <p class="sm:hidden text-right text-gray-400">
-    Subscribe via
-    <a
-      href="https://buttondown.com/benborgers?as_embed"
-      target="_blank"
-      class="underline decoration-gray-300">newsletter</a
-    >
-    or
-    <a href="/rss" target="_blank" class="underline decoration-gray-300"
-      >RSS feed</a
-    >.
-  </p>
-
   <div>
     {
       posts.map((post, i) => {
