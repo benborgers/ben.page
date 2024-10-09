@@ -1,13 +1,13 @@
 {
+  "redirects": [
+    { "source": "/work", "destination": "/" },
+    { "source": "/projects", "destination": "/" },
+    { "source": "/contact", "destination": "/" }
+  ],
   "headers": [
     {
       "source": "/rss",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/rss+xml"
-        }
-      ]
+      "headers": [{ "key": "Content-Type", "value": "application/rss+xml" }]
     }
   ]
 }

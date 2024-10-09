@@ -1,7 +1,7 @@
 thead:has(th:empty) {
-    display: none;
+  display: none;
 }
 
 td img:only-child {
-    @apply !my-0;
+  @apply !my-0;
 }

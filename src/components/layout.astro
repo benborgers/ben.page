@@ -8,7 +8,6 @@ import "../css/fonts.css";
 
 import Polaroid from "./polaroid.astro";
 import NavLink from "./nav-link.astro";
-import Search from "./search.astro";
 
 const { title } = Astro.props;
 ---
@@ -70,7 +69,7 @@ const { title } = Astro.props;
         ]}
       >
         <Polaroid />
-        <div class="sm:mt-6 space-y-0.5 sm:space-y-4">
+        <div class="sm:mt-6 space-y-0.5 sm:space-y-3">
           <p
             class="sm:hidden font-handwriting font-medium text-lg text-gray-900"
           >
@@ -81,29 +80,20 @@ const { title } = Astro.props;
           >
             <NavLink href="/">Home</NavLink>
             <NavLink href="/blog">Blog</NavLink>
-            <NavLink href="/work">Work</NavLink>
-            <NavLink href="/projects">Projects</NavLink>
           </div>
 
           <div class="max-sm:hidden text-right text-gray-500">
             <NavLink href="https://buttondown.com/benborgers?as_embed" newTab>
               Newsletter
             </NavLink>
-            <NavLink href="/rss" newTab>RSS feed</NavLink>
-            <Search />
+            <NavLink href="/rss" newTab>RSS</NavLink>
           </div>
 
           <div
             class="max-sm:flex max-sm:flex-wrap max-sm:gap-x-2.5 sm:text-right text-gray-500"
           >
-            <NavLink href="/contact">Contact</NavLink>
             <NavLink href="https://twitter.com/benborgers">Twitter</NavLink>
             <NavLink href="https://github.com/benborgers">GitHub</NavLink>
-            <div class="max-sm:hidden">
-              <NavLink href="https://linkedin.com/in/ben-borgers">
-                LinkedIn
-              </NavLink>
-            </div>
           </div>
         </div>
       </nav>
