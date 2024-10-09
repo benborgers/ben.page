@@ -75,21 +75,26 @@ const { title } = Astro.props;
           >
             <a href="/">Ben Borgers</a>
           </p>
-          <div
-            class="max-sm:flex max-sm:flex-wrap max-sm:gap-x-2.5 sm:text-right text-gray-800"
-          >
+
+          <div class="max-sm:hidden text-right text-gray-800">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/blog">Blog</NavLink>
           </div>
 
-          <div
-            class="max-sm:flex max-sm:flex-wrap max-sm:gap-x-2.5 sm:text-right text-gray-500"
-          >
+          <div class="max-sm:hidden text-right text-gray-500">
             <NavLink href="https://twitter.com/benborgers" newTab>
               Twitter
             </NavLink>
             <NavLink href="https://github.com/benborgers" newTab>
               GitHub
+            </NavLink>
+          </div>
+
+          <div class="sm:hidden flex flex-wrap gap-x-3.5 text-gray-500">
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/blog">Blog</NavLink>
+            <NavLink href="https://twitter.com/benborgers" newTab>
+              Twitter
             </NavLink>
           </div>
         </div>

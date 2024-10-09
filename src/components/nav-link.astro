@@ -12,8 +12,7 @@ const { href, newTab = false } = Astro.props;
     href={href}
     target={newTab ? "_blank" : null}
     class:list={[
-      Astro.url.pathname === href &&
-        "underline decoration-gray-400 sm:decoration-gray-300",
+      Astro.url.pathname === href && "underline decoration-gray-300",
     ]}
   >
     <slot />
