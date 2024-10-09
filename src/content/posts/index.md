@@ -12,7 +12,7 @@ I'm an engineer at [Buttondown](https://buttondown.email). Previously, I interne
 
 At Tufts, I'm the president of [JumboCode](https://jumbocode.org), a club of 170 students that builds software for non-profits. I also TA for [CS 40](https://www.cs.tufts.edu/cs/40): _Machine Structure and Assembly Language Programming_.
 
-## Work experience
+### Work experience
 
 - [Notion](https://notion.so/product) (summer 2024): Built and shipped a new callout block to the editor and public API.
 - [Buttondown](https://buttondown.email) (summer 2021 – present): Support engineer & product engineer.
@@ -20,7 +20,7 @@ At Tufts, I'm the president of [JumboCode](https://jumbocode.org), a club of 170
 - [Luma](https://lu.ma) and [Glow](https://glow.app) (summer 2022): Full-stack engineering intern.
 - [IBM Security](https://www.ibm.com/products/guardium-insights) (summer 2019 + 2020): Software engineering intern.
 
-## Projects
+### Projects
 
 - [Speakology](https://speakology.ai): AI speaking partner for language learning.
 - [Govcentives](https://govcentives.com): Search engines for clean energy incentives, licensed to power authorities.
