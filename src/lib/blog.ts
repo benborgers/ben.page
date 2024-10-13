@@ -2,7 +2,7 @@ import { type CollectionEntry } from "astro:content";
 import smartquotes from "smartquotes";
 
 export type Post = CollectionEntry<"posts"> & {
-  html: string | null;
+  html?: string;
 };
 
 export async function getPosts(
@@ -26,7 +26,7 @@ export async function getPosts(
           (_match: string, tag: string, content: string) =>
             `<${tag}>${smartquotes.string(content)}</${tag}>`
         )
-      : null,
+      : undefined,
     data: {
       title: post.title,
       date: new Date(post.published_at),
