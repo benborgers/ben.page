@@ -35,7 +35,5 @@ export async function getPosts(
     },
   }));
 
-  console.log(ghostPosts);
-
   return [...localPosts, ...ghostPosts];
 }
