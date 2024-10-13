@@ -2,9 +2,10 @@
 import { getCollection } from "astro:content";
 import Layout from "../components/layout.astro";
 import Star from "../components/star.astro";
+import { getPosts } from "../lib/blog";
 import getPostDate from "../lib/get-post-date";
 
-const posts = (await getCollection("posts"))
+const posts = (await getPosts(await getCollection("posts")))
   .filter((post) => !post.data.unlisted)
   .sort((a, b) => {
     return getPostDate(b).getTime() - getPostDate(a).getTime();

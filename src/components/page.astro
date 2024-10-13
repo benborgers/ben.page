@@ -1,14 +1,16 @@
 ---
 interface Props {
-  post: CollectionEntry<"posts">;
+  post: Post;
   index?: boolean;
 }
 
-import type { CollectionEntry } from "astro:content";
 import Layout from "./layout.astro";
+import type { Post } from "../lib/blog";
 
 const { post, index = false } = Astro.props;
-const { Content } = await post.render();
+
+const html = post.html;
+const { Content } = html ? { Content: null } : await post.render();
 ---
 
 <Layout title={post.data.title}>
@@ -52,8 +54,9 @@ const { Content } = await post.render();
       "before:prose-p:content-none after:prose-p:content-none",
       "prose-hr:h-auto prose-hr:border-none before:prose-hr:content-['⁂'] before:prose-hr:block before:prose-hr:text-center before:prose-hr:font-serif before:prose-hr:text-gray-900",
     ]}
+    set:html={html}
   >
-    <Content />
+    {Content && <Content />}
   </div>
 
   {
