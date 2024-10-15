@@ -23,7 +23,7 @@ At Tufts, I'm the president of [JumboCode](https://jumbocode.org), a club of 170
 ### Projects
 
 - [Speakology](https://speakology.ai): AI speaking partner for language learning.
-- [Govcentives](https://govcentives.com): Search engines for clean energy incentives, licensed to power authorities.
+- [Govcentives](https://govcentives.com): Search engines for clean energy incentives, licensed to power authorities in California.
 - [Tufts Meal Plan Wrapped](/wrapped): Spotify Wrapped style report for Tufts’ meal plans that 500+ students used.
 - [Photo of the Day](https://photos.ben.page): Ongoing project where I take one photo for every day.
 - [diffeqgrapher.com](https://diffeqgrapher.com): Simpler and friendlier differential equations grapher for my dad’s classes.
