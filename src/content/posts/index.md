@@ -30,5 +30,5 @@ At Tufts, I'm the president of [JumboCode](https://jumbocode.org), a club of 170
 - [Kiwi](https://ask.kiwi): Live Q&A platform for university classes; built for University of Michigan research study and currently used by 2,000+ students.
 - [War Room](https://war.elk.sh): Social to-do list app for my friends and I, that is used by a couple hundred university students.
 - [Bagel Institute](https://bagel.institute): Teaching tools for university classes; built for my dad to use in his classes.
-- [opensheet](https://opensheet.elk.sh): Open-source Google Sheets API that receives over 130 million requests/month. People mostly discover it from [this blog post](/google-sheets-json).
+- [opensheet](https://opensheet.elk.sh): Open-source Google Sheets API that receives over 200 million requests/month. People mostly discover it from [this blog post](/google-sheets-json).
 - [Blocks](/blocks): A schedule app I built for my high school over Covid that was used by 2,100 students and teachers (87% of the school).
