@@ -2,10 +2,9 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import Page from "../components/page.astro";
-import { getPosts } from "../lib/blog";
 
 export const getStaticPaths = (async () => {
-  const posts = (await getPosts(await getCollection("posts"))).filter(
+  const posts = (await getCollection("posts")).filter(
     (post) => post.slug !== "index"
   );
   return posts.map((post) => ({
