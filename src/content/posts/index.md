@@ -6,7 +6,7 @@ date: null
 
 Hello! I’m <span class="font-handwriting font-medium">Ben Borgers</span>, a senior at Tufts University studying computer science.
 
-I’d love to hear from you — [benborgers@hey.com](mailto:benborgers@hey.com).
+I’d love to hear from you — <a data-email></a>.
 
 I'm currently an engineer at [Buttondown](https://buttondown.email). Previously, I interned at [Notion](https://notion.so/product), [Locket](https://locket.camera), and [Luma](https://lu.ma).
 

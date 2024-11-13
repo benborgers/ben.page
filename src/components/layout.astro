@@ -104,8 +104,12 @@ const { title } = Astro.props;
       </div>
     </div>
 
-    <script is:inline>
-      document.querySelectorAll("[data-email]").forEach((el) => {
+    <script>
+      const els = document.querySelectorAll(
+        "[data-email]"
+      ) as NodeListOf<HTMLAnchorElement>;
+
+      els.forEach((el) => {
         const email = [["com", "hey"].reverse().join("."), "benborgers"]
           .reverse()
           .join("@");
