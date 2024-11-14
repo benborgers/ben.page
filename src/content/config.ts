@@ -6,7 +6,7 @@ export const collections = {
     schema: z.object({
       title: z.string(),
       unlisted: z.boolean(),
-      date: z.date().nullable(),
+      date: z.date(),
       bestOf: z.boolean().default(false),
     }),
   }),

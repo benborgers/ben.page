@@ -1,12 +1,11 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
-import Page from "../components/page.astro";
+import Layout from "../components/layout.astro";
+import Prose from "../components/prose.astro";
 
 export const getStaticPaths = (async () => {
-  const posts = (await getCollection("posts")).filter(
-    (post) => post.slug !== "index"
-  );
+  const posts = await getCollection("posts");
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
@@ -14,6 +13,55 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const { post } = Astro.props;
+
+const { Content } = await post.render();
 ---
 
-<Page post={post} />
+<Layout title={post.data.title}>
+  <h1 class="text-4xl font-extrabold text-pretty">{post.data.title}</h1>
+
+  <p class="mt-2 text-gray-400 font-medium font-handwriting">
+    {
+      post.data.date.toLocaleString("en-US", {
+        timeZone: "UTC",
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      })
+    }
+  </p>
+
+  <div class="mt-6 sm:mt-8">
+    <Prose>
+      <Content />
+    </Prose>
+  </div>
+
+  <div class="mt-12 bg-white shadow-sm p-3 ring-1 ring-gray-200/50">
+    <div class="grid md:grid-cols-[auto_1fr] md:items-center gap-x-4 gap-y-2">
+      <p
+        class="font-medium text-gray-800 [&_a]:underline [&_a]:decoration-gray-300"
+      >
+        Get new posts by email (or
+        {/* prettier-ignore */}
+        <a href="/rss" target="_blank">RSS</a>)!
+      </p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/benborgers"
+        method="post"
+        target="_blank"
+        class="grid grid-cols-[1fr_auto] gap-x-2"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          class="w-full bg-gray-50 border-gray-200 placeholder:text-gray-300 font-medium text-gray-800 px-2 py-1 focus:border-blue-800 focus:ring-blue-800"
+        />
+        <button class="bg-blue-800 text-white font-medium px-2 py-1">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+</Layout>

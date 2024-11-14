@@ -1,8 +1,107 @@
 ---
-import { getEntry } from "astro:content";
-import Page from "../components/page.astro";
-
-const index = await getEntry("posts", "index");
+import Layout from "../components/layout.astro";
+import Prose from "../components/prose.astro";
 ---
 
-<Page post={index} index />
+<Layout title="Ben Borgers">
+  <Prose>
+    <p>
+      Hello! I’m <span class="font-handwriting font-medium">Ben Borgers</span>,
+      a senior at Tufts University studying computer science.
+    </p>
+
+    <p>
+      I’d love to hear from you — <a data-email></a>.
+    </p>
+
+    <p>
+      I’m currently an engineer at <a href="https://buttondown.email"
+        >Buttondown</a
+      >. Previously, I interned at <a href="https://notion.so/product">Notion</a
+      >,
+      <a href="https://locket.camera">Locket</a>, and <a href="https://lu.ma"
+        >Luma</a
+      >.
+    </p>
+
+    <p>
+      At Tufts, I’m the president of <a href="https://jumbocode.org"
+        >JumboCode</a
+      >, a club of 170 students that builds software for non-profits.
+    </p>
+
+    <h3>Work experience</h3>
+
+    <ul>
+      <li>
+        <a href="https://notion.so/product">Notion</a> (summer 2024): Built and shipped
+        a new callout block to the editor and public API.
+      </li>
+      <li>
+        <a href="https://buttondown.email">Buttondown</a> (summer 2021 – present):
+        Support engineer & product engineer.
+      </li>
+      <li>
+        <a href="https://locket.camera">Locket</a> (summer 2023 – spring 2024): Working
+        on Android version of social media app; shipped features to millions of users
+        regularly.
+      </li>
+      <li>
+        <a href="https://lu.ma">Luma</a> and <a href="https://glow.app">Glow</a>
+        (summer 2022): Full-stack engineering intern.
+      </li>
+      <li>
+        <a href="https://www.ibm.com/products/guardium-insights">IBM Security</a
+        > (summer 2019 + 2020): Software engineering intern.
+      </li>
+    </ul>
+
+    <h3>Projects</h3>
+
+    <ul>
+      <li>
+        <a href="https://speakology.ai">Speakology</a>: AI speaking partner for
+        language learning.
+      </li>
+      <li>
+        <a href="https://govcentives.com">Govcentives</a>: Search engines for
+        clean energy incentives, licensed to power authorities in California.
+      </li>
+      <li>
+        <a href="/wrapped">Tufts Meal Plan Wrapped</a>: Spotify Wrapped style
+        report for Tufts’ meal plans that 500+ students used.
+      </li>
+      <li>
+        <a href="https://photos.ben.page">Photo of the Day</a>: Ongoing project
+        where I take one photo for every day.
+      </li>
+      <li>
+        <a href="https://diffeqgrapher.com">diffeqgrapher.com</a>: Simpler and
+        friendlier differential equations grapher for my dad’s classes.
+      </li>
+      <li>
+        <a href="https://ask.kiwi">Kiwi</a>: Live Q&A platform for university
+        classes; built for University of Michigan research study and currently
+        used by 2,000+ students.
+      </li>
+      <li>
+        <a href="https://war.elk.sh">War Room</a>: Social to-do list app for my
+        friends and I, that is used by a couple hundred university students.
+      </li>
+      <li>
+        <a href="https://bagel.institute">Bagel Institute</a>: Teaching tools
+        for university classes; built for my dad to use in his classes.
+      </li>
+      <li>
+        <a href="https://opensheet.elk.sh">opensheet</a>: Open-source Google
+        Sheets API that receives over 200 million requests/month. People mostly
+        discover it from <a href="/google-sheets-json">this blog post</a>.
+      </li>
+      <li>
+        <a href="/blocks">Blocks</a>: A schedule app I built for my high school
+        over Covid that was used by 2,100 students and teachers (87% of the
+        school).
+      </li>
+    </ul>
+  </Prose>
+</Layout>
