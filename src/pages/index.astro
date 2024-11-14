@@ -1,6 +1,11 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../components/layout.astro";
 import Prose from "../components/prose.astro";
+
+const latestBlogPost = (
+  await getCollection("posts", ({ data }) => !data.unlisted)
+).sort((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 ---
 
 <Layout title="Ben Borgers">
@@ -29,6 +34,24 @@ import Prose from "../components/prose.astro";
         >JumboCode</a
       >, a club of 170 students that builds software for non-profits.
     </p>
+
+    <div class="pt-4 not-prose">
+      <a
+        href={`/${latestBlogPost.slug}`}
+        class="block bg-white shadow-sm pl-4 pr-5 pt-5 pb-3 ring-1 ring-gray-200/50 relative w-max"
+      >
+        <div
+          class="bg-white shadow-sm px-2 py-1 ring-1 ring-gray-200/50 w-max absolute -top-3 -left-3"
+        >
+          <p class="text-sm font-handwriting font-medium italic">
+            latest from the blog:
+          </p>
+        </div>
+        <p class="font-serif text-xl underline decoration-gray-300">
+          {latestBlogPost.data.title}
+        </p>
+      </a>
+    </div>
 
     <h3>Work experience</h3>
 
