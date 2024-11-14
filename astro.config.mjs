@@ -6,9 +6,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://ben.page",
   integrations: [tailwind(), sitemap()],
-  build: {
-    format: "file",
-  },
+  trailingSlash: "never",
   markdown: {
     shikiConfig: {
       theme: "one-light",
