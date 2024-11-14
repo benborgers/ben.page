@@ -2,6 +2,7 @@
 title: AI is an impediment to learning web development
 date: 2024-07-21
 unlisted: false
+bestOf: true
 ---
 
 Some thoughts on AI and LLMs, based on being Head of Engineering for [JumboCode](/jumbocode), a club of 180 students at Tufts University that builds software for non-profits.
