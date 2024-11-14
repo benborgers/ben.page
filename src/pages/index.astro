@@ -38,10 +38,10 @@ const latestBlogPost = (
     <div class="pt-4 not-prose">
       <a
         href={`/${latestBlogPost.slug}`}
-        class="block bg-white shadow-sm pl-4 pr-5 pt-5 pb-3 ring-1 ring-gray-200/50 relative w-max"
+        class="block bg-white shadow-sm pl-4 pr-5 pt-6 pb-3 ring-1 ring-gray-200/50 relative w-max"
       >
         <div
-          class="bg-white shadow-sm px-2 py-1 ring-1 ring-gray-200/50 w-max absolute -top-3 -left-3"
+          class="bg-white shadow-sm px-2 py-1 ring-1 ring-gray-200/50 w-max absolute -top-3 -left-3 -rotate-1"
         >
           <p class="text-sm font-handwriting font-medium italic">
             latest from the blog:
@@ -49,6 +49,16 @@ const latestBlogPost = (
         </div>
         <p class="font-serif text-xl underline decoration-gray-300">
           {latestBlogPost.data.title}
+        </p>
+        <p class="mt-0.5 text-base font-medium text-gray-400">
+          {
+            latestBlogPost.data.date.toLocaleString("en-US", {
+              timeZone: "UTC",
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })
+          }
         </p>
       </a>
     </div>
