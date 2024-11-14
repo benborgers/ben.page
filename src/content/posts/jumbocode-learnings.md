@@ -1,7 +1,6 @@
 ---
 title: Learnings from JumboCode
 date: 2023-03-09
-unlisted: false
 ---
 
 This year, I’m involved in a club called [JumboCode](https://jumbocode.org) at Tufts. It’s a club that spends the year building a web or mobile app for a non-profit for free, and at the end hands it off to them.

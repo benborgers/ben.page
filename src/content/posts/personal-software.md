@@ -1,7 +1,6 @@
 ---
 title: "Personal Software"
 date: 2022-03-24
-unlisted: false
 ---
 
 Since I know how to make web apps, the urge to create personal software for myself and the people around me is huge.

@@ -1,7 +1,6 @@
 ---
 title: Building henrynitzberg.com
 date: 2022-12-01
-unlisted: false
 ---
 
 As the first website that uses Superadmin, I built my roommate a portfolio for his art! It’s live at [henrynitzberg.com](http://henrynitzberg.com).

@@ -1,7 +1,6 @@
 ---
 title: "Covid Test Instructions"
 date: 2022-03-25
-unlisted: false
 ---
 
 I’ve taken a couple rapid Covid tests over the past couple days, and (although this is weird) I really loved the instructions that came with the BinaxNOW tests.

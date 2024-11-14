@@ -1,7 +1,6 @@
 ---
 title: "Locked Posts on Ghost"
 date: 2022-02-02
-unlisted: false
 ---
 
 Last night I built a feature on [Ian’s blog](https://tunnington.com) so that he can lock certain posts behind a passphrase, so more private posts aren’t publicly accessible on the internet.

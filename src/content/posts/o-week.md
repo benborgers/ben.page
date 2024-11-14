@@ -1,7 +1,6 @@
 ---
 title: "The Beginning of College Sucks"
 date: 2022-01-27
-unlisted: false
 ---
 
 _To start: this post is written for an imaginary audience of high school seniors. You’re probably not one of those. If you are, I hope this is somewhat comforting. If you are not, I’d be interested to hear whether it resonates in some way._

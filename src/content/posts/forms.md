@@ -1,7 +1,6 @@
 ---
 title: Ben Forms
 date: 2023-05-31
-unlisted: false
 ---
 
 I wanted to build an ask-for-help form into an app that my [**JumboCode**](/f0548db316404315b2f8cbfa3b375732) team built, in case the client had questions after we handed it off:

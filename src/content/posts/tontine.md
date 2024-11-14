@@ -1,7 +1,6 @@
 ---
 title: "The Code That Keeps Me Alive"
 date: 2022-03-19
-unlisted: false
 ---
 
 In December, [MSCHF](https://mschf.xyz) released a project called [Tontine](https://tontine.cash). It’s a game where everybody pays $10 to play, and then you have to come back each day and indicate that you’re still alive.

@@ -5,7 +5,7 @@ export const collections = {
     type: "content",
     schema: z.object({
       title: z.string(),
-      unlisted: z.boolean(),
+      unlisted: z.boolean().default(false),
       date: z.date(),
       bestOf: z.boolean().default(false),
     }),

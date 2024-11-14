@@ -1,7 +1,6 @@
 ---
 title: "5 Weeks Left"
 date: 2022-03-28
-unlisted: false
 ---
 
 I’m back at Tufts after spring break today, and realized that there are only 5 weeks left of school. Only 25 days remain — so few that I wrote out 25 numbers on a sheet of paper and hung it up, so my roommate and I can cross them out day by day.

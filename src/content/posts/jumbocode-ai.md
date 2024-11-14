@@ -1,7 +1,6 @@
 ---
 title: AI is an impediment to learning web development
 date: 2024-07-21
-unlisted: false
 bestOf: true
 ---
 

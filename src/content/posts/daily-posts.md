@@ -1,7 +1,6 @@
 ---
 title: "Pictures as Memories"
 date: 2022-04-26
-unlisted: false
 ---
 
 I used to roll my eyes when people took tons of pictures on trips. Precious moments ruined by trying to make it look good for later, I thought. But last summer, I became the person I used to roll my eyes at.

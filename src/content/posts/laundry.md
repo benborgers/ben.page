@@ -1,7 +1,6 @@
 ---
 title: "Trash Bags in the Laundry Room"
 date: 2022-04-08
-unlisted: false
 ---
 
 This one isn’t deep, but it’s just a thought I had: there should be trash bags in the laundry room.

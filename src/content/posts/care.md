@@ -1,7 +1,6 @@
 ---
 title: "It's Fun to Do Things with Care"
 date: 2022-03-04
-unlisted: false
 ---
 
 In CS 15 (_Data Structures_), we’re currently doing the second of two back-to-back projects. This one is “[CalcYouLater](https://benborgers.com/posts/calcyoulater)”, whereas the previous one was “MetroSim”.

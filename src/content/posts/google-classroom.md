@@ -1,7 +1,6 @@
 ---
 title: "I Miss Google Classroom"
 date: 2022-04-30
-unlisted: false
 ---
 
 Now that I’m in college and we use Canvas, I deeply miss Google Classroom from middle and high school. Google Classroom was _so_ good and I didn’t realize it until it was gone.

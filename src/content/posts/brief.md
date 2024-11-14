@@ -1,7 +1,6 @@
 ---
 title: "Brief: AI-summarized news"
 date: 2022-12-04
-unlisted: false
 ---
 
 Like a lot of people, I’ve been going down the rabbit hole of playing with the [ChatGPT](https://chat.openai.com) AI recently.

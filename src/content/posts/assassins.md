@@ -1,7 +1,6 @@
 ---
 title: "How I Sent Texts for Assassins"
 date: 2022-04-06
-unlisted: false
 ---
 
 At the end of senior year of high school, some friends and I ran the yearly senior tradition of _Assassins._ It’s a game where everybody pays $10 to play and is assigned a secret target, with the goal of eliminating their target with a water gun. The last person alive wins the pot of money.

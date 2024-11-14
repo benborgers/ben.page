@@ -1,7 +1,6 @@
 ---
 title: "Streaks Are Extremely Powerful"
 date: 2022-02-16
-unlisted: false
 ---
 
 When I moved these blog posts over to my personal website, I added something new: a small counter that reports, for the whole world to see, how many days in a row I’ve been writing these blog posts for. This one will be the 35th day in a row.

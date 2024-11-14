@@ -1,6 +1,5 @@
 ---
 title: Lessons Learned from Hanging Posters
-unlisted: false
 date: 2022-05-02
 bestOf: true
 ---

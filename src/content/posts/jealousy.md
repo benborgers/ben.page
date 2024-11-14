@@ -1,7 +1,6 @@
 ---
 title: "Social Jealousy"
 date: 2022-02-26
-unlisted: false
 ---
 
 Isn't it surprising how little it takes to trigger social jealousy? Someone’s snapchat story. A passing comment. Seeing people’s shared location. Just a tiny spark can get your brain sprinting ahead, jumping to conclusions.

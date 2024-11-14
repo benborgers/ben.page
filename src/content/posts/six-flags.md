@@ -1,6 +1,5 @@
 ---
 title: Thumbs up for Six Flags
-unlisted: false
 date: 2022-07-04
 ---
 

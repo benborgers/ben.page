@@ -1,7 +1,6 @@
 ---
 title: "r/AskReddit"
 date: 2022-03-03
-unlisted: false
 ---
 
 I read a lot of r/AskReddit as a middle schooler. It’s a subreddit (forum) where people ask random questions, and then other people answer. The questions on the front page of the subreddit are generally quite interesting, because thousands of other people have voted that they’re interesting.

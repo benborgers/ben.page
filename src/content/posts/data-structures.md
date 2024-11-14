@@ -1,7 +1,6 @@
 ---
 title: "CS 15: Data Structures"
 date: 2022-03-30
-unlisted: false
 ---
 
 One thing I enjoy about my current Tufts CS class, CS 15: _Data Structures_, is that I’m learning the things I’ve felt like I should know but didn’t.

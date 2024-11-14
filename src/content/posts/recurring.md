@@ -1,7 +1,6 @@
 ---
 title: "How Recurring Tasks in War Room Work"
 date: 2022-01-25
-unlisted: false
 ---
 
 I just built a feature into [War Room](https://benborgers.com/posts/war-room) that allows people to define recurring tasks, which are re-added to their to-do list every day. For example, a task could be automatically added to your to-do list at midnight on weekdays.

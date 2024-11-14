@@ -1,6 +1,5 @@
 ---
 title: Bubble Tea Snobbery
-unlisted: false
 date: 2022-06-27
 ---
 

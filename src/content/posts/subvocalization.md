@@ -1,7 +1,6 @@
 ---
 title: "Do You Subvocalize?"
 date: 2022-03-23
-unlisted: false
 ---
 
 Years ago, I heard about the concept of _subvocalization_ on the [Hello Internet](https://hellointernet.fm) podcast.

@@ -1,7 +1,6 @@
 ---
 title: JumboCode plans for Head of Engineering
 date: 2023-03-23
-unlisted: false
 ---
 
 JumboCode is a club at Tufts that I’ve [written about before](/jumbocode-learnings). They form about a dozen teams of 10ish developers, and spend the year building an app for a non-profit.

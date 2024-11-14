@@ -1,7 +1,6 @@
 ---
 title: War Room “Bib”
 date: 2023-02-13
-unlisted: false
 ---
 
 It’s been a long-standing request in [War Room](https://war.elk.sh) to be able to add a task directly into a “divider,” instead of creating it and then dragging it into the right divider.

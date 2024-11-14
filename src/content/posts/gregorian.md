@@ -1,7 +1,6 @@
 ---
 title: "October 5th, 1582"
 date: 2022-03-05
-unlisted: false
 ---
 
 A cool fact that I came across on Twitter this morning: October 5th, 1582, never existed. In fact, the Gregorian calendar (the one we use today) skips from October 4th, 1582 directly to October 15th, 1582.

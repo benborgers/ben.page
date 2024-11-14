@@ -1,7 +1,6 @@
 ---
 title: "The Redemption Arc Is Coming"
 date: 2022-03-08
-unlisted: false
 ---
 
 When humans tell stories, they like to tell them with a redemption arc. A happy ending.

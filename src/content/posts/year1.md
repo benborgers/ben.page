@@ -1,7 +1,6 @@
 ---
 title: "year 1"
 date: 2022-04-15
-unlisted: false
 ---
 
 It’s beginning to set in that the end of freshman year at Tufts is in sight. About eight months ago, on the day I moved into my dorm, I wrote this in my journal entry:

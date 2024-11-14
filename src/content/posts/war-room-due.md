@@ -1,7 +1,6 @@
 ---
 title: "War Room —\_using the native date picker"
 date: 2023-02-13
-unlisted: false
 ---
 
 A couple months ago, I finally added the ability to set due dates for tasks in [War Room](https://war.elk.sh).

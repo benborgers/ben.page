@@ -1,7 +1,6 @@
 ---
 title: "The Magic of the Common Room"
 date: 2022-01-23
-unlisted: false
 ---
 
 I’m currently sitting in the otherwise empty common room of my dorm on a Saturday night. I love this place.

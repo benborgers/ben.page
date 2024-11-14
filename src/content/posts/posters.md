@@ -1,7 +1,6 @@
 ---
 title: "Designing Posters for Humans"
 date: 2022-03-31
-unlisted: false
 ---
 
 There’s a lot of posters up on campus, trying to get you to come to things or apply for things or do things. And sometimes I see them, and wish that I had an opportunity to design a poster too, to see whether I could make one that successfully attracts a lot of people to come/apply/do.

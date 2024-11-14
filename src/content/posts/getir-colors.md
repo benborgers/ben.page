@@ -1,6 +1,5 @@
 ---
 title: Getir Colors
-unlisted: false
 date: 2022-05-04
 ---
 

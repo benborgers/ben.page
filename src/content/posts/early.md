@@ -1,7 +1,6 @@
 ---
 title: "Waking up Early"
 date: 2022-04-07
-unlisted: false
 ---
 
 I had a thought this morning, as I was getting ready at 7:30am for a morning class:

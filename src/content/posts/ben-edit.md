@@ -1,7 +1,6 @@
 ---
 title: "Ben-Edit"
 date: 2022-02-15
-unlisted: false
 ---
 
 Last September, I built a project of mine that I called “ben-edit”. It’s a simple way of enabling people I’ve built websites for to edit content on their website.

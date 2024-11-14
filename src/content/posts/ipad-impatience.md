@@ -1,7 +1,6 @@
 ---
 title: "iPad Impatience"
 date: 2022-03-18
-unlisted: false
 ---
 
 My new iPad was supposed to arrive today, but instead UPS pushed the delivery date back until next week.

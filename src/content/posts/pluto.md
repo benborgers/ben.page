@@ -1,7 +1,6 @@
 ---
 title: "Pluto was 2006??"
 date: 2022-04-10
-unlisted: false
 ---
 
 ![Pluto as seen from the New Horizons spacecraft in 2015 at a distance of 476,000 miles](https://images.unsplash.com/photo-1614314107768-6018061b5b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHBsdXRvfGVufDB8fHx8MTY0OTU5NjczMw&ixlib=rb-1.2.1&q=80&w=2000)

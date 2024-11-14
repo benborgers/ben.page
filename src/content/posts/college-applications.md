@@ -1,6 +1,5 @@
 ---
 title: Stories for College Applications
-unlisted: false
 date: 2022-06-15
 ---
 

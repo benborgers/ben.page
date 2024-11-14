@@ -1,7 +1,6 @@
 ---
 title: "Meaningful Conversation"
 date: 2022-02-11
-unlisted: false
 ---
 
 I think that meaningful conversation almost exclusively happens one-on-one.

@@ -1,7 +1,6 @@
 ---
 title: "It Does Have to Be Every Day"
 date: 2022-03-10
-unlisted: false
 ---
 
 I wrote a couple weeks ago about how _[It Doesn’t Have to Be Every Day](https://benborgers.com/posts/every-day)._

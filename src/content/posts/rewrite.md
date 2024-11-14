@@ -1,7 +1,6 @@
 ---
 title: "Website Rewrite"
 date: 2022-02-13
-unlisted: false
 ---
 
 I’ve rewritten my personal website! That’s something I tend to do [a lot](https://benborgers.com/posts/rewriting/), but this time I wanted to do a quick rundown of the new site.

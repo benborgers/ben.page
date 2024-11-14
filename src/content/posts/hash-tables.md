@@ -1,7 +1,6 @@
 ---
 title: "Hash Tables [explained for anyone]"
 date: 2022-04-16
-unlisted: false
 ---
 
 In [CS 15](https://benborgers.com/posts/data-structures), we recently learned about a way of storing data called _hash tables_. We’re now working on an assignment that uses them — a search tool for finding a word across thousands of books. I wanted to make an attempt at explaining how hash tables work, without assuming computer science knowledge.

@@ -1,6 +1,5 @@
 ---
 title: Writing Tasks Down
-unlisted: false
 date: 2022-06-03
 ---
 

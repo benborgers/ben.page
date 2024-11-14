@@ -1,7 +1,6 @@
 ---
 title: "Good Software Has a Clear Geography"
 date: 2022-02-01
-unlisted: false
 ---
 
 I think that one of the most important things when building good software is that **the user always knows where they are, relative to the app’s geography**.

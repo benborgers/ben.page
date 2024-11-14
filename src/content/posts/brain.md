@@ -1,7 +1,6 @@
 ---
 title: "The Brain Can Observe Itself"
 date: 2022-02-03
-unlisted: false
 ---
 
 I’ve been using a spaced repetition app to practice Chinese vocabulary for class almost every day since September. (For those curious, the app is [Mochi](https://mochi.cards), recommended by [Benedict](https://twitter.com/benedictfritz/status/1439646101175472128). Thanks Benedict!)

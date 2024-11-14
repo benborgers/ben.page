@@ -1,7 +1,6 @@
 ---
 title: "Half a Slice of Apple Pie"
 date: 2022-03-27
-unlisted: false
 ---
 
 Three weeks ago, I went to get dessert in the dining hall. Three weeks ago, I saw one slice of apple pie left. Three weeks ago, there was one guy in front of me in line. I had just missed it.

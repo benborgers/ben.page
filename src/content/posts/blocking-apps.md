@@ -1,7 +1,6 @@
 ---
 title: "Twitter Not Found"
 date: 2022-04-19
-unlisted: false
 ---
 
 Two weeks ago, I downloaded [an app](https://one-sec.app/) on my phone that makes me to do a slow deep breath every time I want to open specific apps. I set it up on Twitter, TikTok, and my email.

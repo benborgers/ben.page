@@ -1,7 +1,6 @@
 ---
 title: "elk.sh"
 date: 2022-04-05
-unlisted: false
 ---
 
 A lot of my projects are under the domain `elk.sh`. When I don’t want to buy a new domain for a project, I stick it as a subdomain under `elk.sh` — you can even [see all the projects](https://elk.sh/) under that domain.

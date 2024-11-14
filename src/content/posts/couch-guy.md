@@ -1,7 +1,6 @@
 ---
 title: "Couch Guy"
 date: 2022-03-07
-unlisted: false
 ---
 
 Do you remember Couch Guy?

@@ -1,7 +1,6 @@
 ---
 title: "Tufts & Change Makers"
 date: 2022-04-13
-unlisted: false
 ---
 
 My roommate brought up the idea last night that Tufts often says they want you to become a change maker in the world, but that they don’t _really_ want you to be a change maker if that change creates an existential threat to the university.

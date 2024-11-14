@@ -1,7 +1,6 @@
 ---
 title: "On “Incrementally Correct Personal Websites”"
 date: 2022-04-29
-unlisted: false
 ---
 
 A couple years ago, Brian Lovin [wrote](https://brianlovin.com/writing/incrementally-correct-personal-websites) about “incrementally correct personal websites.”

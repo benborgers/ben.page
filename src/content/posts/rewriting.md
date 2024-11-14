@@ -1,7 +1,6 @@
 ---
 title: "I Keep Rewriting My Personal Website"
 date: 2022-02-06
-unlisted: false
 ---
 
 I just got the urge yesterday to re-write my personal website, [benborgers.com](https://benborgers.com/). Yet again.

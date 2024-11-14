@@ -1,7 +1,6 @@
 ---
 title: "You Might Be Right, But Shut Up"
 date: 2022-03-17
-unlisted: false
 ---
 
 In yesterday’s blog post, I linked to [an op-ed](https://www.nytimes.com/2019/02/02/opinion/sunday/children-bored.html) about how kids should be allowed to be bored more often. The article raises an interesting point that I think I agree with, but it also had some bits that made my blood boil:

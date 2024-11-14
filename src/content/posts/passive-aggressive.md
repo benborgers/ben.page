@@ -1,7 +1,6 @@
 ---
 title: "Is It Worth It to Be Passive Aggressive?"
 date: 2022-01-29
-unlisted: false
 ---
 
 We use Piazza for Computer Science classes. It’s a kind of forum for classes, where students can ask questions and other students or instructors can answer.

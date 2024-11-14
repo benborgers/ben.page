@@ -1,6 +1,5 @@
 ---
 title: Bronze, Silver, Gold
-unlisted: false
 date: 2022-06-24
 ---
 

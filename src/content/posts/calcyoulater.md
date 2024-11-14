@@ -1,7 +1,6 @@
 ---
 title: "Understanding CalcYouLater Subconsciously"
 date: 2022-02-24
-unlisted: false
 ---
 
 We got our next Computer Science project yesterday, named CalcYouLater (get it? _Calculator?_). I opened the instructions PDF last night, and saw that it was 29 pages long. I decided to go to bed instead.

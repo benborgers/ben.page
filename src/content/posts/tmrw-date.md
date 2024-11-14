@@ -1,7 +1,6 @@
 ---
 title: "Date Picker Details"
 date: 2022-04-11
-unlisted: false
 ---
 
 I was building a date picker last night, and I decided to structure it as three select boxes:

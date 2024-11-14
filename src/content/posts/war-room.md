@@ -1,7 +1,6 @@
 ---
 title: "War Room"
 date: 2021-10-22
-unlisted: false
 ---
 
 I’ve started gathering in study rooms in the library at Tufts and doing work at night with friends.

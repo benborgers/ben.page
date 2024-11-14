@@ -1,7 +1,6 @@
 ---
 title: "Best Type of Bathroom Lock"
 date: 2022-03-12
-unlisted: false
 ---
 
 Traits of a good bathroom lock:

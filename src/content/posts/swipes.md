@@ -1,7 +1,6 @@
 ---
 title: "I want to use all of my ridiculously many meal swipes"
 date: 2022-01-16
-unlisted: false
 bestOf: true
 ---
 

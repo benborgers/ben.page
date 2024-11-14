@@ -1,7 +1,6 @@
 ---
 title: "Cornflakes"
 date: 2022-02-18
-unlisted: false
 ---
 
 I think that one of the first web apps I ever created was an app for sending email newsletters. I stitched together Google Sheets and [Google Apps Script](https://developers.google.com/apps-script) to create an “app”, which would allow people to send email newsletters to subscribers.

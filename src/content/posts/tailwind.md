@@ -1,6 +1,5 @@
 ---
 title: Why I Love Tailwind CSS
-unlisted: false
 date: 2022-07-07
 ---
 

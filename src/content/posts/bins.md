@@ -1,7 +1,6 @@
 ---
 title: "Bin System"
 date: 2022-04-23
-unlisted: false
 ---
 
 Last summer, I devised the _Bin System_ that I would use to store things in my dorm. I’ve mostly forgotten that it existed as the year has gone on, but I recently realized that I really like the system.

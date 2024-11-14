@@ -1,7 +1,6 @@
 ---
 title: "War Room: Expansion features"
 date: 2023-03-05
-unlisted: false
 ---
 
 My favorite features that I’ve added to [War Room](https://war.elk.sh/home) over the past year are _expansion features_, features that’ve allowed people (and me) to use War Room _more_.

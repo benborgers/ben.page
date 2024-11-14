@@ -1,7 +1,6 @@
 ---
 title: "I Run My Life on Reminders"
 date: 2022-01-28
-unlisted: false
 ---
 
 I recently passed a weighty milestone: 2,000 tasks in Apple’s default Reminders app checked off! It goes back about 2½ years, which comes out to a little over two reminders each day.

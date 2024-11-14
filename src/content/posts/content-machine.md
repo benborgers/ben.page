@@ -1,7 +1,6 @@
 ---
 title: "The Content Machine"
 date: 2022-04-12
-unlisted: false
 ---
 
 I’ve been thinking lately about what I want the _Ben Content Machine_ to be like.

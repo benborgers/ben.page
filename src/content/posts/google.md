@@ -1,7 +1,6 @@
 ---
 title: "Google Won the Kids"
 date: 2022-04-24
-unlisted: false
 ---
 
 The last time I had to use Microsoft Word was elementary school. We’d type up our “essays” in Word, then save them onto a flash drive to keep working at home. Those were the days when “8GB flash drive” was included on my school supplies list at the beginning of the year.

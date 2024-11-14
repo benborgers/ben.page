@@ -1,7 +1,6 @@
 ---
 title: "Batching"
 date: 2022-04-18
-unlisted: false
 ---
 
 I listened to [a podcast today](https://syntax.fm/show/447/how-to-be-consistent) where the hosts were talking about how they batch creating podcasts and videos. They sit down every Monday morning and record at least two episodes of the podcast for the week, and over the summers they record enough in advance to be over a month ahead.

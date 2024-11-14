@@ -1,7 +1,6 @@
 ---
 title: Winter break project list
 date: 2023-12-19
-unlisted: false
 cover_image: /posts/winter23/cover_image.jpeg
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: The real reason for my multiple majors
 date: 2023-03-13
-unlisted: false
 ---
 
 A few months ago, I wrote [a blog post](https://benborgers.com/posts/majors) about my recent decision to:

@@ -1,7 +1,6 @@
 ---
 title: "It Doesn’t Have to Be Every Day"
 date: 2022-02-20
-unlisted: false
 ---
 
 You might have noticed that I have an affinity for doing things _every day_.

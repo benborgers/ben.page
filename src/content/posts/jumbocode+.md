@@ -1,7 +1,6 @@
 ---
 title: JumboCode+
 date: 2023-05-17
-unlisted: false
 slug: jumbocode+
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Publishing Class Notes"
 date: 2022-04-02
-unlisted: false
 ---
 
 Last summer, the summer before freshman year of college, I had this idea that I’d keep really detailed notes on my classes and then publish them somehow on a website I’d make.

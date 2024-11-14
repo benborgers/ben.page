@@ -1,7 +1,6 @@
 ---
 title: Optimizing Kiwi for scale
 date: 2022-11-26
-unlisted: false
 ---
 
 I’ve spent the past two days trying to gain confidence that Kiwi will perform at scale (and tearing my hair out in the process).

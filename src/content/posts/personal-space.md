@@ -1,7 +1,6 @@
 ---
 title: "There’s No Personal Space in College"
 date: 2022-01-30
-unlisted: false
 ---
 
 One thing I didn’t realize before going to college was how quickly you lose your access to personal space, and along with it your alone time.

@@ -1,7 +1,6 @@
 ---
 title: "Information Distribution"
 date: 2022-02-21
-unlisted: false
 ---
 
 College is full of people who have information that they think is very important to you. And usually, it comes in the form of an email.

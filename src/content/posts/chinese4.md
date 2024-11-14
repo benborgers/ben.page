@@ -1,7 +1,6 @@
 ---
 title: "I Misjudged My Chinese Professor"
 date: 2022-02-25
-unlisted: false
 ---
 
 A month ago, I wrote a [scathing account](https://benborgers.com/posts/2022-01-21#a-painful-first-class) of my first Chinese class. Which is true — that first class went quite poorly. So poorly, in fact, that of the nine students only six remained for the following class, which was mercifully in-person.

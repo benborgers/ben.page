@@ -1,7 +1,6 @@
 ---
 title: "Read the Dang Thing Out Loud"
 date: 2022-03-22
-unlisted: false
 ---
 
 There are people who enjoy the process of editing their writing. I am not one of those people.

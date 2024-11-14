@@ -1,7 +1,6 @@
 ---
 title: "Web of Thoughts"
 date: 2022-03-21
-unlisted: false
 ---
 
 The new thing for note-taking apps is that you can link your notes together with “bi-directional links” — if you link from one note to another note, the other note also indicates that it was linked _to_ by the first note.

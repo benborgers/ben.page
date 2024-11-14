@@ -1,7 +1,6 @@
 ---
 title: "Semester 3"
 date: 2022-12-31
-unlisted: false
 ---
 
 At the end of my freshman year at Tufts, I wrote a recap entitled [year 1](https://benborgers.com/posts/year1). Although we’re only halfway through _year 2_, the time feels right for a halfway recap.

@@ -1,7 +1,6 @@
 ---
 title: "Stubborn Consistency [100 daily blog posts]"
 date: 2022-04-22
-unlisted: false
 ---
 
 This is my 100th day writing a blog post every day. I started on January 13th, when I was on winter break from college, and now the semester has almost passed.

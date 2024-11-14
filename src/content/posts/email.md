@@ -1,7 +1,6 @@
 ---
 title: "I Love Email"
 date: 2022-01-24
-unlisted: false
 ---
 
 I love email. You should send me one! (Whether I know you or not! [benborgers@hey.com](mailto:benborgers@hey.com))

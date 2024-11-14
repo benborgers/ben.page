@@ -1,7 +1,6 @@
 ---
 title: "Am I a Gym Bro Now?"
 date: 2022-03-02
-unlisted: false
 ---
 
 Before last August, I would have recoiled at the idea of going to the gym. And then in August, my friend Kyuho and I decided late one night that we’d get our acts together and start going.

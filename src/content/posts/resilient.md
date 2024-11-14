@@ -1,6 +1,5 @@
 ---
 title: Software Seems Resilient
-unlisted: false
 date: 2022-06-14
 ---
 

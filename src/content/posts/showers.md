@@ -1,7 +1,6 @@
 ---
 title: "A Design Improvement for Our Communal Showers"
 date: 2022-02-22
-unlisted: false
 ---
 
 My dorm’s communal showers are already quite good. They’ve got this two-curtain design, which allows you to go into the first “airlock” compartment, get undressed and leave your clothes/towel/other prized possessions hanging, and then go into the second inner compartment that has the shower in it.

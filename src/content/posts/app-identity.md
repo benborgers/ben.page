@@ -1,7 +1,6 @@
 ---
 title: "App Identity"
 date: 2022-03-01
-unlisted: false
 ---
 
 I bounce around productivity apps, and I don’t like that.

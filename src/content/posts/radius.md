@@ -1,7 +1,6 @@
 ---
 title: "A Small Life Radius"
 date: 2022-02-05
-unlisted: false
 ---
 
 My first house was in Arlington, Massachusetts. Two years later, my family moved one town over to Lexington. The schools were better. And plus, I’d learned to walk, much to the chagrin of our grumpy downstairs neighbor.

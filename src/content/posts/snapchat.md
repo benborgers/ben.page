@@ -1,7 +1,6 @@
 ---
 title: "Why Do We Still Use Snapchat?"
 date: 2022-01-22
-unlisted: false
 ---
 
 Every morning I fire up Snapchat and reply to a built-up pile of everybody’s snaps from the past 24 hours or so.

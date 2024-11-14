@@ -1,6 +1,5 @@
 ---
 title: "Class Council: “Brutally Honest”"
-unlisted: false
 date: 2022-05-29
 ---
 

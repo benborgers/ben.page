@@ -1,7 +1,6 @@
 ---
 title: "Publishing my Fall 2022 class notes"
 date: 2023-01-05
-unlisted: false
 ---
 
 For a long time I’ve had the [idea](https://benborgers.com/posts/publishing-class-notes) of publishing class notes on my website.

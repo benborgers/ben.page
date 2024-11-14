@@ -1,6 +1,5 @@
 ---
 title: How You Perceive the World
-unlisted: false
 date: 2022-06-05
 ---
 

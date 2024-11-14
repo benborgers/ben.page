@@ -1,7 +1,6 @@
 ---
 title: "My Office Makes Me Feel Stupid"
 date: 2022-01-26
-unlisted: false
 ---
 
 As you may know, I rented [an office](https://benborgers.com/posts/2022-01-17/#office-what-office) near Tufts as an experiment. It’s a place for me to do work quietly and without distractions, and the half-hour walk to and from the office could also serve as nice exercise and putting myself in the right frame of mind.

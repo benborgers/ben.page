@@ -1,7 +1,6 @@
 ---
 title: "We’re All Powered by Electric Meat"
 date: 2022-02-08
-unlisted: false
 ---
 
 Here’s something I try to remind myself when I get stressed over school.

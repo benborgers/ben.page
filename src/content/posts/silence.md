@@ -1,7 +1,6 @@
 ---
 title: "Gimme Back My Headphones"
 date: 2022-02-09
-unlisted: false
 ---
 
 I sent my AirPods to Apple for repair on Friday, so I’ve been going for the past week with no headphones. (In my infinite technological optimism and refusal to pack bloat, I didn’t bring any other pairs of headphones to college.)

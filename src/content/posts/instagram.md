@@ -1,7 +1,6 @@
 ---
 title: "Instagram’s Lifespan"
 date: 2022-04-20
-unlisted: false
 ---
 
 Me and the people around me got Instagram in middle or high school. The custom is to follow and be followed by almost everybody in your grade and even other grades, so most of us seemed to have amassed 400-700 followers through middle school and high school.

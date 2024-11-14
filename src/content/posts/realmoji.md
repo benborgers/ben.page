@@ -1,7 +1,6 @@
 ---
 title: "RealMoji"
 date: 2022-04-17
-unlisted: false
 ---
 
 I started using [BeReal](https://bere.al) recently. It’s an app where everybody gets a push notification once a day, and then you have two minutes to post a picture of what you’re doing in that moment.

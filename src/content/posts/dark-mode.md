@@ -1,6 +1,5 @@
 ---
 title: Automatic Dark Mode Colors Don’t Work
-unlisted: false
 date: 2022-07-09
 ---
 

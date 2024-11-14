@@ -1,7 +1,6 @@
 ---
 title: "Pi"
 date: 2022-03-14
-unlisted: false
 ---
 
 In elementary school, I learned 60 digits of pi by memory. I’m not sure why — I think I was just the type of kid who would do that kind of thing (perhaps I still am the type of kid who would do that kind of thing), so I decided to do it.

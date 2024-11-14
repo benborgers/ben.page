@@ -1,7 +1,6 @@
 ---
 title: How ChatGPT spoiled my semester
 date: 2024-10-13
-unlisted: false
 bestOf: false
 ---
 

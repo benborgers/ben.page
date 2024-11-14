@@ -1,7 +1,6 @@
 ---
 title: "My Guilt for Useless Things"
 date: 2022-02-19
-unlisted: false
 ---
 
 For some reason, I find it super difficult to keep things around when they’re useless.

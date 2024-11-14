@@ -1,7 +1,6 @@
 ---
 title: "Thinking in Silence"
 date: 2022-03-16
-unlisted: false
 ---
 
 At home, I listen to a podcast or music while showering. But in college, in a communal shower, I’ve decided that I’d rather not treat everybody in the bathroom to the wonderful voices of [CGP Grey and Myke Hurley](https://www.relay.fm/cortex/).

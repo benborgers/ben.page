@@ -1,7 +1,6 @@
 ---
 title: "New in Superadmin: styling, images, rich text"
 date: 2022-11-23
-unlisted: false
 ---
 
 For the past few days I’ve been churning out new features on Superadmin, a CMS I built for my own projects and websites I make for people.

@@ -1,7 +1,6 @@
 ---
 title: "A Sixth Sense for Errors"
 date: 2022-02-23
-unlisted: false
 ---
 
 I’ve been seeing at a lot of errors lately in my code for _CS 15: Data Structures_. My errors, my friends’ errors, error error error. There’s always lots of cryptic errors. C++ is not a forgiving language, and would rather not tell you why it’s soiled itself yet again.

@@ -1,7 +1,6 @@
 ---
 title: "gerp"
 date: 2022-04-27
-unlisted: false
 ---
 
 We just wrapped up our final project for [](https://benborgers.com/posts/data-structures)[CS 15](https://benborgers.com/posts/data-structures): Data Structures, which was called _gerp_. It’s based on the Linux tool `grep`, and allows searching for a specific word in a folder of text files.

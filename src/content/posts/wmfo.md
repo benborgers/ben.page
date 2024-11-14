@@ -1,7 +1,6 @@
 ---
 title: "3:00 a.m. Radio"
 date: 2022-02-10
-unlisted: false
 ---
 
 Tufts has a radio station called [WMFO](https://www.wmfo.org/), and my impression is that they have a ton of one-hour broadcasting slots to fill each week, so they have a ton of students coming into to each fill an hour of airtime. 24 hours a day, 7 hours a week.

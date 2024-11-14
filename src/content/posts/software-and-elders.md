@@ -1,7 +1,6 @@
 ---
 title: "Un-figure-out-able Software"
 date: 2022-03-26
-unlisted: false
 ---
 
 I don’t really remember a time before smartphones and the internet. I grew up completely inside that world, and it’s completely intuitive to me. How to quickly scan and navigate buttons; when to refresh a website or restart an app; how to bounce between different open tabs in a browser.

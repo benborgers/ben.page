@@ -1,7 +1,6 @@
 ---
 title: "The Day Should End at 3am"
 date: 2022-04-14
-unlisted: false
 ---
 
 I’ve always found it strange that it’s so easy to stay up until the next day. Like staying up until midnight isn’t that crazy, so it’s quite easy to find yourself in “haha it’s now the next day!” territory.

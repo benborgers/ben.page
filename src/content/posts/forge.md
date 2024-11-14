@@ -1,7 +1,6 @@
 ---
 title: "The Cost of Building an Idea"
 date: 2022-04-04
-unlisted: false
 ---
 
 I usually use a framework called [Laravel](https://laravel.com/) to build web apps for my side projects.

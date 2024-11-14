@@ -1,7 +1,6 @@
 ---
 title: "An emoji picker epiphany"
 date: 2022-01-17
-unlisted: false
 ---
 
 I created this app called [War Room](https://benborgers.com/posts/war-room) where my friends and I can see each other’s to-do lists, and completed tasks go on a public feed for all your friends to see. You can react to people’s completed tasks with emojis, but for a while I’ve been frustrated with how slow the emoji picker is.

@@ -1,7 +1,6 @@
 ---
 title: "No Dessert Challenge"
 date: 2023-01-08
-unlisted: false
 bestOf: true
 ---
 

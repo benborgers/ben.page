@@ -1,7 +1,6 @@
 ---
 title: "Welcome to TikTok"
 date: 2022-04-25
-unlisted: false
 ---
 
 Last summer I kept deleting and re-downloading TikTok. I’d go in phases of realizing how much time I was wasting on it, and then want some entertainment again so I’d re-download it. But every time I opened TikTok for the first time, I noticed the same pattern.

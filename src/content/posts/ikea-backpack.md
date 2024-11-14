@@ -1,6 +1,5 @@
 ---
 title: IKEA Backpack
-unlisted: false
 date: 2022-07-05
 ---
 

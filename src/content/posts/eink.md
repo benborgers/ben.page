@@ -1,7 +1,6 @@
 ---
 title: Building an e-ink picture frame that displays an iCloud photo album
 date: 2024-01-09
-unlisted: false
 bestOf: true
 ---
 

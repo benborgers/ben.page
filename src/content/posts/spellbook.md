@@ -1,7 +1,6 @@
 ---
 title: Prototyping an AI-powered note-taking app
 date: 2023-05-18
-unlisted: false
 ---
 
 Greetings from Croatia!

@@ -1,6 +1,5 @@
 ---
 title: Kid Money
-unlisted: false
 date: 2022-05-23
 ---
 

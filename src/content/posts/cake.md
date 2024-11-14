@@ -1,7 +1,6 @@
 ---
 title: "Have Your Cake and Eat It Too"
 date: 2022-04-21
-unlisted: false
 ---
 
 I realized this morning that the English idiom,

@@ -1,7 +1,6 @@
 ---
 title: "Preschooler > AI"
 date: 2022-03-20
-unlisted: false
 ---
 
 My dad told me an interesting idea about AI that I haven’t been able to shake since.

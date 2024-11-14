@@ -1,7 +1,6 @@
 ---
 title: Gamelan Music
 date: 2022-02-17
-unlisted: false
 ---
 
 My dad’s always described the experience of listening to the music of Arnold Schoenberg, a Austrian-American 20th century composer who composed famously dissonant sounding “twelve-tone” music, like this:

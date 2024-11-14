@@ -1,6 +1,5 @@
 ---
 title: Bagel Institute
-unlisted: false
 date: 2022-07-06
 ---
 

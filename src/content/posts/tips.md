@@ -1,7 +1,6 @@
 ---
 title: "Everyone’s Asking for Tips Now"
 date: 2022-01-31
-unlisted: false
 ---
 
 You’ve definitely noticed it too: every single one of those fancy tablets that you use to check out in cafes and bubble tea shops seems to have started demanding a tip. They’re called a Point of Sale terminal, or POS terminal, which could be a fitting initialism depending on how you feel about them.

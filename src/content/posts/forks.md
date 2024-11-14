@@ -1,6 +1,5 @@
 ---
 title: Donating forks to the dining hall
-unlisted: false
 date: 2024-05-29
 bestOf: true
 ---

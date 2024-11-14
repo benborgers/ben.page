@@ -1,7 +1,6 @@
 ---
 title: "Formulaic Classes"
 date: 2022-03-29
-unlisted: false
 ---
 
 I’ve got to say, my [enthusiasm for Chinese class](https://benborgers.com/posts/chinese4) is waning again.

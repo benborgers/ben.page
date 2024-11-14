@@ -1,7 +1,6 @@
 ---
 title: Blocks recap
 date: 2021-05-31
-unlisted: false
 bestOf: true
 ---
 

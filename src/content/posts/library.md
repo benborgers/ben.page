@@ -1,7 +1,6 @@
 ---
 title: "Website Like a Library"
 date: 2022-04-03
-unlisted: false
 ---
 
 I want my website to be more like a library.

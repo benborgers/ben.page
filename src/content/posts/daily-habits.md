@@ -1,6 +1,5 @@
 ---
 title: Daily Habits
-unlisted: false
 date: 2022-06-08
 ---
 

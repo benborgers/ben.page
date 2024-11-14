@@ -1,7 +1,6 @@
 ---
 title: "Planning my week"
 date: 2023-01-17
-unlisted: false
 ---
 
 Last semester, when things were getting stressful with schoolwork and freelance work, my girlfriend Trisha took my computer and made a note for planning out my tasks for the upcoming week.

@@ -1,7 +1,6 @@
 ---
 title: "Majoring in more"
 date: 2023-01-08
-unlisted: false
 ---
 
 This past semester at Tufts, I added a second major: Engineering Psychology. So the current plan is to major in Computer Science and Engineering Psychology, with a minor in German.

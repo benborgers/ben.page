@@ -1,7 +1,6 @@
 ---
 title: "How /swipes Works"
 date: 2022-04-01
-unlisted: false
 ---
 
 I have a page of my website at [benborgers.com/swipes](https://benborgers.com/swipes/) that tracks my progress towards [using all 400 of my meal swipes this semester](https://benborgers.com/posts/swipes).

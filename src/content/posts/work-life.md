@@ -1,7 +1,6 @@
 ---
 title: "Work-Life Separation in College"
 date: 2022-02-14
-unlisted: false
 ---
 
 Over the summer, with infinite ignorance and optimism, I laid out a guideline for myself: I’d try to stick to doing work outside of my dorm room, like at the library, to maintain work-life balance. That way, my dorm room would be for fun things and sleeping (the “life” part), not work.

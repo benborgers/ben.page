@@ -1,7 +1,6 @@
 ---
 title: "The Land of Endless Socialization"
 date: 2022-03-13
-unlisted: false
 ---
 
 College feels a bit like the land of endless socialization. A place where, if you don’t hang out with people for a day, your life feel like it’s going wrong. A place where every meal feels like it should be shared with a friend, and every piece of homework should be done surrounded by companions.
