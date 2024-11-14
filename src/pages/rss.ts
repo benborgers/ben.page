@@ -5,7 +5,7 @@ import getPostDate from "../lib/get-post-date";
 
 export const GET: APIRoute = async ({ site }) => {
   const posts = (await getCollection("posts")).filter(
-    (post) => !post.data.unlisted,
+    (post) => !post.data.unlisted
   );
 
   return rss({
@@ -17,5 +17,6 @@ export const GET: APIRoute = async ({ site }) => {
       pubDate: getPostDate(post),
       link: `/${post.slug}`,
     })),
+    trailingSlash: false,
   });
 };
