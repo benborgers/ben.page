@@ -14,7 +14,6 @@ const { href, newTab = false } = Astro.props;
     class:list={[
       Astro.url.pathname === href && "underline decoration-gray-300",
     ]}
-    data-pathname={Astro.url.pathname}
   >
     <slot />
   </a>
