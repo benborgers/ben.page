@@ -1,6 +1,7 @@
 ---
 title: I Used All of My Meal Swipes!
 date: 2022-05-13
+bestOf: true
 ---
 
 At the beginning of the semester four months ago, I [set a goal](/swipes) to use all 400 of my meal swipes by the end of the semester. Tufts forces freshmen to be on its most expensive and overkill meal plan for their first year, so I figured I would put that meal plan to good use.
