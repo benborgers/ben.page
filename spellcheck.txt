@@ -187,3 +187,5 @@ Dewick
 groupmate
 groupmates
 bullshitable
+NASTYSOCKET
+NASTYFILE
