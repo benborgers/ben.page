@@ -21,7 +21,7 @@ _Almost everybody would be better off paying "JumboCash" for meals instead of bu
 | ------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped.jpeg) | ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped%202.jpeg) | ![](/posts/wrapped/Tufts%20Meal%20Plan%20Wrapped%203.jpeg) |
 
-(Live demo: [jumbo.cash/share/y5uybwdf3aac](https://jumbo.cash/share/y5uybwdf3aac))
+(Live demo: [jumbo.cash/share/svtlehz8pmp9](https://jumbo.cash/share/svtlehz8pmp9))
 
 To generate these slides, we would pull all transactions from a student's account, by reverse-engineering Tufts' meal plan portal.
 
