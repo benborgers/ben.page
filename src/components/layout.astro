@@ -98,20 +98,5 @@ const { title } = Astro.props;
         <slot />
       </div>
     </div>
-
-    <script>
-      const els = document.querySelectorAll(
-        "[data-email]"
-      ) as NodeListOf<HTMLAnchorElement>;
-
-      els.forEach((el) => {
-        const email = [["com", "hey"].reverse().join("."), "benborgers"]
-          .reverse()
-          .join("@");
-
-        el.textContent = email;
-        el.href = `mailto:${email}`;
-      });
-    </script>
   </body>
 </html>

@@ -20,6 +20,17 @@ const latestBlogPost = (
       I’d love to hear from you — <a data-email></a>.
     </p>
 
+    <script>
+      const el = document.querySelector("[data-email]") as HTMLAnchorElement;
+
+      const email = [["hey", "com"].join("."), "benborgers"]
+        .reverse()
+        .join("@");
+
+      el.textContent = email;
+      el.href = `mailto:${email}`;
+    </script>
+
     <p>
       I’m currently an engineer at <a href="https://buttondown.email"
         >Buttondown</a
