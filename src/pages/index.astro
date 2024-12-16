@@ -21,11 +21,9 @@ const latestBlogPost = (
     </p>
 
     <script>
-      const el = document.querySelector("[data-email]") as HTMLAnchorElement;
+      const email = atob("YmVuYm9yZ2Vyc0BoZXkuY29t");
 
-      const email = [["hey", "com"].join("."), "benborgers"]
-        .reverse()
-        .join("@");
+      const el = document.querySelector("[data-email]") as HTMLAnchorElement;
 
       el.textContent = email;
       el.href = `mailto:${email}`;
