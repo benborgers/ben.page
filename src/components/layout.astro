@@ -58,7 +58,7 @@ const { title } = Astro.props;
         ]}
       >
         <Polaroid />
-        <div class="sm:mt-6 space-y-0.5 sm:space-y-3">
+        <div class="sm:mt-6 space-y-0.5 sm:space-y-4">
           <p
             class="sm:hidden font-handwriting font-medium text-lg text-gray-900"
           >
@@ -80,6 +80,13 @@ const { title } = Astro.props;
             <NavLink href="https://github.com/benborgers" newTab>
               GitHub
             </NavLink>
+          </div>
+
+          <div class="max-sm:hidden text-right text-gray-400">
+            <NavLink href="https://buttondown.com/benborgers" newTab>
+              Newsletter
+            </NavLink>
+            <NavLink href="/rss" newTab>RSS feed</NavLink>
           </div>
 
           <div class="sm:hidden flex flex-wrap gap-x-3.5 text-gray-500">
